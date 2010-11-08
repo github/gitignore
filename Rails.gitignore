@@ -8,3 +8,5 @@ public/system/*
 coverage/
 *.sassc
 .sass-cache
+capybara-*.html
+.rspec
