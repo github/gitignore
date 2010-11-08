@@ -8,3 +8,4 @@ xcuserdata
 # osx
 .DS_Store
 profile
+*.moved-aside
