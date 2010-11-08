@@ -1,0 +1,11 @@
+# Visual Studio per-user files
+*.suo
+*.user
+
+# ReSharper meta directory
+_ReSharper*
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
