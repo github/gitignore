@@ -3,6 +3,8 @@ build/*
 *.pbxuser
 *.mode1v3
 *.perspectivev3
+*.xcworkspace
+xcuserdata
 # osx
 .DS_Store
 profile
