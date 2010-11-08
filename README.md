@@ -3,7 +3,11 @@
 That's what we're trying to build. Please contribute
 by [forking][fk] and sending a [pull request][pr].
 
-Here's a good **global** gitignore: <http://help.github.com/git-ignore/>
+Also **please** only modify **one file** per commit. This'll
+make merging easier for everyone.
+
+Global gitignores (OS-specific, editor-specific) should go into the
+`Global/` directory.
 
 For more information on gitignore: [gitignore(5)][g5]
 
