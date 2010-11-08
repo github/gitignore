@@ -3,3 +3,5 @@ log/*
 tmp/*
 db/*.sqlite3
 public/system/*
+.rvmrc
+coverage/
