@@ -1,5 +1,6 @@
 *.rbc
 .bundle
+vendor/bundle
 log/*
 tmp/*
 db/*.sqlite3
