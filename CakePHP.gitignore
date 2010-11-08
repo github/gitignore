@@ -1,0 +1,10 @@
+.DS_Store
+
+*~
+*.swp
+*.bak
+
+*/tmp/cache/*
+*/tmp/logs/*
+*/tmp/sessions/*
+*/tmp/tests/*
