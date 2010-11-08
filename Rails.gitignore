@@ -5,3 +5,4 @@ db/*.sqlite3
 public/system/*
 .rvmrc
 coverage/
+.DS_Store
