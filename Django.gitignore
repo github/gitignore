@@ -6,6 +6,5 @@
 static/uploaded/**/*
 *.mo
 *.pot
-*.po
 *.pyc
 
