@@ -1,0 +1,15 @@
+bin
+Bin
+obj
+Obj
+sql
+*.suo
+*.user
+TestResults
+*.Cache
+_ReSharper.*
+ClientBin
+stylecop.*
+.builds
+~$*
+*.dbmdl
