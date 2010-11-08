@@ -4,6 +4,7 @@
 *.egg
 *.egg-info
 dist
+build
 
 # Installer logs
 pip-log.txt
