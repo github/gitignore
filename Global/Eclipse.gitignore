@@ -8,3 +8,8 @@ tmp/**/*
 *.swp
 *~.nib
 local.properties
+.classpath
+.settings/
+
+# CDT-specific
+.cproject
