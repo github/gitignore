@@ -10,6 +10,7 @@ tmp/**/*
 local.properties
 .classpath
 .settings/
+.loadpath
 
 # CDT-specific
 .cproject
