@@ -6,3 +6,5 @@ tmp/*
 db/*.sqlite3
 public/system/*
 coverage/
+*.swp
+.DS_Store
