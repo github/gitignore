@@ -1,11 +1,8 @@
 .DS_Store
 *.tmproj
 tmtags
-*~
 \#*
 .\#*
-*.swp
-.*.swp
 coverage
 rdoc
 pkg
