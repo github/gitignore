@@ -1,0 +1,6 @@
+.project
+.classpath
+.settings/
+
+# CDT-specific
+.cproject
