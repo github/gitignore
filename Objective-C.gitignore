@@ -11,7 +11,5 @@ build/*
 *.xcworkspace
 !default.xcworkspace
 xcuserdata
-# osx
-.DS_Store
 profile
 *.moved-aside
