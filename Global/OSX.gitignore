@@ -1,3 +1,8 @@
 .DS_Store
+
+# Thumbnails
+._*
+
+# ack & vim swap files
 .ackrc
 *.swp
