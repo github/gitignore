@@ -1,9 +1,4 @@
 .DS_Store
-*~
-\#*
-.\#*
-*.swp
-.*.swp
 coverage
 rdoc
 pkg
