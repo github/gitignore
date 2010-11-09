@@ -1,3 +1,10 @@
 *.pydevproject
 .project
-
+.metadata
+tmp/**
+*.tmp
+*.bak
+tmp/**/*
+*.swp
+*~.nib
+local.properties
