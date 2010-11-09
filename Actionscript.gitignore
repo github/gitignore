@@ -5,5 +5,5 @@ bin-release/
 # Project property files
 .actionScriptProperties
 .flexProperties
-.settings
+.settings/
 .project
