@@ -1,3 +1,6 @@
 *~
 *.swp
 *.swo
+
+#KDE
+.directory
