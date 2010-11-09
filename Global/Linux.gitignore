@@ -1,6 +1,5 @@
 *~
-*.swp
-*.swo
+*.sw[a-p]
 
 #KDE
 .directory
