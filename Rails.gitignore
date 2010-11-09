@@ -7,5 +7,4 @@ db/*.sqlite3
 public/system/*
 coverage/
 **.orig
-.rvmrc
 spec/tmp
