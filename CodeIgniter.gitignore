@@ -1,4 +1,4 @@
-config/database.php
-system/logs/log-*.php
-system/cache/*
-systen/cache/!index.html
+*/config/database.php
+*/system/logs/log-*.php
+*/system/cache/*
+*/systen/cache/!index.html
