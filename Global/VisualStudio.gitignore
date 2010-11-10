@@ -16,6 +16,19 @@ Release/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish
+
 # Others
 bin
 Bin
