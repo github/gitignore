@@ -5,6 +5,11 @@
 *.egg-info
 dist
 build
+eggs
+parts
+bin
+develop-eggs
+.installed.cfg
 
 # Installer logs
 pip-log.txt
