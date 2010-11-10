@@ -1,7 +1,3 @@
-#for python/django
 *.log
-static/uploaded/**/*
-*.mo
 *.pot
-*.pyc
-
+local_settings.py
