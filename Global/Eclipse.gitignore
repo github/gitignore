@@ -1,10 +1,11 @@
 *.pydevproject
 .project
 .metadata
+bin/**
 tmp/**
+tmp/**/*
 *.tmp
 *.bak
-tmp/**/*
 *.swp
 *~.nib
 local.properties
