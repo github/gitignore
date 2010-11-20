@@ -5,3 +5,8 @@ _ReSharper*
 bin
 obj
 
+# user preference files (remembering open files, etc.)
+*.user
+*.suo
+*.cache
+
