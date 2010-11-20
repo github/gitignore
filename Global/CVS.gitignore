@@ -1,0 +1,4 @@
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
