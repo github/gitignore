@@ -2,4 +2,15 @@ sites/default/files
 sites/default/private
 sites/default/settings.php
 cache/
-.gitignore
+files/
+settings.php
+/README.txt
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/INSTALL*.txt
+/LICENSE.txt
+/MAINTAINERS.txt
+/UPGRADE.txt
+sites/all/README.txt
+sites/all/modules/README.txt
+sites/all/themes/README.txt
