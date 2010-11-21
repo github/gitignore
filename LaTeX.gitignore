@@ -14,4 +14,6 @@
 *.fdb_latexmk
 *.pdfsync
 *.synctex.gz
-
+*.nav
+*.snm
+*.vrb
