@@ -6,12 +6,27 @@
 *.user
 
 # Build results
-Debug/
-Release/
+[Dd]ebug/
+[Rr]elease/
 *.ncb
 *.aps
 *.obj
 .builds
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
 
 # ReSharper is a .NET coding add-in
 _ReSharper*
@@ -30,10 +45,8 @@ DocProject/Help/html
 publish
 
 # Others
-bin
-Bin
-obj
-Obj
+[Bb]in
+[Oo]bj
 sql
 TestResults
 *.Cache
