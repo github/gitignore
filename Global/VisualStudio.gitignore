@@ -18,6 +18,10 @@ ipch/
 *.opensdf
 *.sdf
 
+# Visual Studio profiler
+*.psess
+*.vsp
+
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
