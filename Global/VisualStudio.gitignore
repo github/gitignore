@@ -8,10 +8,19 @@
 # Build results
 Debug/
 Release/
-*.ncb
-*.aps
 *.obj
 .builds
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+
+# Visual Studio profiler
+*.psess
+*.vsp
 
 # ReSharper is a .NET coding add-in
 _ReSharper*

@@ -1,0 +1,3 @@
+# Ignore tags created by etags and ctags
+TAGS
+tags
