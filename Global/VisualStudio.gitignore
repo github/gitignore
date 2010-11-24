@@ -6,8 +6,10 @@
 *.user
 
 # Build results
-Debug/
-Release/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
 *.obj
 .builds
 
@@ -36,17 +38,21 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 # Click-Once directory
-publish
+publish/
+
+# Team Foundation Server and Source Safe project bindings
+*.vspscc
+*.vssscc
+*.vsmdi
+*.vs*
 
 # Others
-bin
-Bin
-obj
-Obj
-sql
-TestResults
+sql/
+TestResults/
+*.testsettings
 *.Cache
-ClientBin
+ClientBin/
 stylecop.*
 ~$*
 *.dbmdl
+*.schemaview
