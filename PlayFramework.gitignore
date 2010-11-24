@@ -9,3 +9,5 @@ tmp
 log
 test-result
 eclipse
+nbproject
+precompiled
