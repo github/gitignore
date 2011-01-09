@@ -1,6 +1,7 @@
 *.aux
 *.bbl
 *.blg
+*.dvi
 *.glg
 *.glo
 *.gls
