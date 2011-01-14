@@ -4,8 +4,11 @@
 # except for .gitignore
 !.gitignore
 
-# Ignore Play! working directory
-tmp
-log
-test-result
+# Ignore Play! working directory #
+db
 eclipse
+log
+logs
+server.pid
+test-result
+tmp
