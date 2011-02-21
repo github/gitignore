@@ -7,5 +7,7 @@
 # Ignore Play! working directory
 tmp
 log
+logs
 test-result
 eclipse
+server.pid
