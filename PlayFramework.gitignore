@@ -9,6 +9,7 @@ db
 eclipse
 log
 logs
-server.pid
-test-result
 tmp
+test-result
+eclipse
+server.pid
