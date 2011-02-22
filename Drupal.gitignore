@@ -3,7 +3,6 @@ sites/default/private
 sites/default/settings.php
 cache/
 files/
-settings.php
 /README.txt
 /CHANGELOG.txt
 /COPYRIGHT.txt
