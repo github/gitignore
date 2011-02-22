@@ -1,6 +1,7 @@
 *.aux
 *.bbl
 *.blg
+*.dvi
 *.glg
 *.glo
 *.gls
@@ -8,7 +9,10 @@
 *.ilg
 *.ind
 *.ist
+*.lof
 *.log
+*.lot
+*.nlo
 *.out
 *.toc
 *.fdb_latexmk
