@@ -27,7 +27,7 @@
 *.v
 
 # ignore Quartus II generated files
-*sopc[_i]*
+*sopc_*
 *.jdi
 *.ptf.*
 *.sof
