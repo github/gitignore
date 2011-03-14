@@ -55,6 +55,7 @@
 *.tcl
 *.pin
 *.mif
+*.hex
 
 # ignore Quartus II generated folders
 db/
@@ -63,4 +64,3 @@ simulation/
 timing/
 testbench/
 *_sim/
-
