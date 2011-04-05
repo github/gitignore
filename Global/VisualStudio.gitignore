@@ -6,9 +6,24 @@
 *.user
 
 # Build results
-Debug/
-Release/
+[Dd]ebug/
+[Rr]elease/
+*_i.c
+*_p.c
+*.ilk
+*.meta
 *.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
 .builds
 
 # Visual C++ cache files
@@ -39,10 +54,8 @@ DocProject/Help/html
 publish
 
 # Others
-bin
-Bin
-obj
-Obj
+[Bb]in
+[Oo]bj
 sql
 TestResults
 *.Cache
@@ -50,3 +63,4 @@ ClientBin
 stylecop.*
 ~$*
 *.dbmdl
+Generated_Code #added for RIA/Silverlight projects

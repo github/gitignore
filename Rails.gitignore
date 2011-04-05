@@ -14,3 +14,4 @@ capybara-*.html
 **.orig
 config/*.yml
 rerun.txt
+pickle-email-*.html
