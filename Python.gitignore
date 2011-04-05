@@ -8,6 +8,8 @@ build
 eggs
 parts
 bin
+var
+sdist
 develop-eggs
 .installed.cfg
 
@@ -17,3 +19,6 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
+
+#Mr Developer
+.mr.developer.cfg
