@@ -1,0 +1,3 @@
+assets/
+protected/runtime/
+themes/classic/views/
