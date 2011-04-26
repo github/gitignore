@@ -1,3 +1,8 @@
+# OS Cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+
 # built application files
 *.apk
 *.ap_
@@ -8,5 +13,9 @@
 # Java class files
 *.class
 
-# generated GUI files
-*R.java
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
