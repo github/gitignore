@@ -9,4 +9,4 @@
 *.class
 
 # generated GUI files
-*R.java
+/gen
