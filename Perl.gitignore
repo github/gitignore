@@ -1,4 +1,5 @@
 blib/
+.build/
 _build/
 cover_db/
 inc/
