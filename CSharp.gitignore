@@ -5,12 +5,5 @@ _ReSharper*
 bin
 obj
 
-# user settings
-*.user
-*.suo
-
-# if you have pictures, windows will likely create those annoying index files
-Thumbs.db
-
 # mstest test results
 TestResults
