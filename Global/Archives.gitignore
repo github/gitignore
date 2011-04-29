@@ -1,12 +1,22 @@
 # It's better to unpack these files and commit the raw source because
 # git has its own built in compression methods.
 *.7z
-*.dmg
-*.gz
-*.iso
 *.jar
 *.rar
-*.tar
-*.tar.gz
 *.zip
+*.gz
 *.bzip
+*.xz
+*.lzma
+
+#packing-only formats
+*.iso
+*.tar
+
+#package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
