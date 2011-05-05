@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+*~.nib
+
+build/
+Build/
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+*.mode1v3
+*.mode2v3
+
+xcuserdata
