@@ -1,4 +1,5 @@
-*/config/database.php
-*/system/logs/log-*.php
-*/system/cache/*
-*/system/cache/!index.html
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
