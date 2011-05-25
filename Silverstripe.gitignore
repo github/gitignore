@@ -1,0 +1,8 @@
+/assets
+_ss_environment.php
+install.php
+
+
+# os noise
+.DS_Store
+Thumbs.db
