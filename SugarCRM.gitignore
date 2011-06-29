@@ -1,0 +1,24 @@
+## SugarCRM
+# Ignore custom .htaccess stuff.
+.htaccess
+# Ignore large parts of the annoying cache directory without breaking things.
+cache/csv/*
+cache/dashlets/*
+cache/diagnostic/*
+cache/dynamic_fields/*
+cache/feeds/*
+cache/import/*
+cache/jsLanguage/*
+cache/modules/*
+!cache/modules/emails
+cache/pdf/*
+cache/smarty/cache/*
+cache/smarty/templates_c/*
+cache/xml/*
+# Custom configuration should also be ignored.
+config.php
+config_override.php
+# The silent upgrade scripts aren't needed.
+silentUpgrade*.php
+# Logs files can safely be ignored.
+*.log
