@@ -15,6 +15,10 @@ cache/pdf/*
 cache/smarty/cache/*
 cache/smarty/templates_c/*
 cache/xml/*
+# Ignore some files and directories from the custom directory.
+custom/history/*
+custom/modulebuilder/*
+custom/working/*
 # Custom configuration should also be ignored.
 /config.php
 /config_override.php
