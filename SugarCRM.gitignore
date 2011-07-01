@@ -22,15 +22,6 @@ custom/working/*
 # Custom configuration should also be ignored.
 /config.php
 /config_override.php
-# Ignore some javascript which will be regenerated.
-include/javascript/sugar_grp1.js
-include/javascript/sugar_grp1_yui.js
-include/javascript/sugar_grp_yui_widgets.js
-include/javascript/sugar_grp_yui_widgets.css
-include/javascript/sugar_grp_yui2.js
-include/javascript/sugar_grp_overlib.js
-include/javascript/sugar_grp_emails.js
-include/javascript/sugar_grp_quickcomp.js
 # The silent upgrade scripts aren't needed.
 silentUpgrade*.php
 # Logs files can safely be ignored.
