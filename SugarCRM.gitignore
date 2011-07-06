@@ -14,6 +14,7 @@ cache/modules/*
 cache/pdf/*
 cache/smarty/cache/*
 cache/smarty/templates_c/*
+cache/themes/*
 cache/xml/*
 # Ignore some files and directories from the custom directory.
 custom/history/*
