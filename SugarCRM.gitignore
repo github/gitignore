@@ -8,6 +8,7 @@ cache/diagnostic/*
 cache/dynamic_fields/*
 cache/feeds/*
 cache/import/*
+cache/include/*
 cache/jsLanguage/*
 cache/modules/*
 !cache/modules/emails
