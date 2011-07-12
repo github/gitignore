@@ -1,0 +1,9 @@
+# Ignore list for Target 3001!, a PCB layout tool
+
+# mutex file
+*.[Tt]3001OPEN
+
+# Drill output
+*.DRL
+*.BHR
+BOHRPICT.3001
