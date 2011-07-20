@@ -1,7 +1,7 @@
 # Ignore list for Target 3001!, a PCB layout tool
 
 # mutex file
-*.T3001OPEN
+*.T300[01]OPEN
 
 # Drill output
 *.DRL
@@ -12,12 +12,12 @@ BOHRPICT.3001
 # (see http://server.ibfriedrich.com/wiki/ibfwikide/index.php?title=Backup)
 BackupFiles
 *.BK?
-*_w?.T3001
-*_m?.T3001
-*_m??.T3001
+*_w?.T300[01]
+*_m?.T300[01]
+*_m??.T300[01]
 
 # Autosave files
-*.T3001?
+*.T300[01]?
 
 # Gerber output
 *.Apr
