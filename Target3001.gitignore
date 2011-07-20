@@ -46,3 +46,32 @@ BackupFiles
 *.ValuesBot
 *.ValuesTop
 *.Whl
+
+# production formats
+*.cnc
+*.fab
+*.cad
+*.GDS
+*.exc
+excellon.txt
+*.stk
+
+# exchange formats
+*.DXF
+*.PS
+*.TIF
+*.NET
+*.PLT
+*.HPGL
+*.emn
+*.stp
+*.tgr
+*.dif
+*.emp
+
+# cable loom
+*.dsi
+*.pnm
+*.wrl
+*.ADPT
+*.AZO
