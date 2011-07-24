@@ -1,4 +1,17 @@
-*/logs/*
-*/cache/*
+.DS_Store
+*~
+
+# Symfony directories
+vendor/*
+app/logs/*
+app/cache/*
 web/uploads/*
 web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+
+# Eclipse thingy
+.buildpath
+.project
+.settings
