@@ -55,6 +55,11 @@ BackupFiles
 *.exc
 excellon.txt
 *.stk
+*.ncp
+*.pcb
+*.cbt
+*.vhf
+*.iso
 
 # exchange formats
 *.DXF
