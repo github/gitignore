@@ -1,6 +1,3 @@
-.DS_Store
-*~
-
 # Symfony directories
 vendor/*
 app/logs/*
@@ -10,8 +7,3 @@ web/bundles/*
 
 # Configuration files
 app/config/parameters.ini
-
-# Eclipse thingy
-.buildpath
-.project
-.settings
