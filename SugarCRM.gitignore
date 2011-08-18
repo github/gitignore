@@ -12,6 +12,7 @@ cache/include/*
 cache/jsLanguage/*
 cache/modules/*
 !cache/modules/emails
+!cache/modules/Emails
 cache/pdf/*
 cache/smarty/cache/*
 cache/smarty/templates_c/*
