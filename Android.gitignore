@@ -14,3 +14,15 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
+
+#eclipse
+.project
+.classpath
+.settings
+bin/
+
+#intelliJ
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/vcs.xml
