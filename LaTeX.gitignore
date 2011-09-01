@@ -22,3 +22,6 @@
 *.synctex.gz
 *.toc
 *.vrb
+*.maf
+*.mtc
+*.mtc0
