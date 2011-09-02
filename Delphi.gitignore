@@ -1,0 +1,24 @@
+#Delphi Studio keeps a code change history, this isn't useful to anyone
+#but the current user
+__history
+*~*~
+
+#These files are all generated on the fly, whenever needed. No need to commit
+# them because as soon as you pull them you'll have to recreate them anyways.
+*.identcache
+*.swap
+*.dcu
+*.local
+*.swp
+*.drc
+*.res
+*.db
+
+#Optional to exclude, I never keep my .exe's in my project as they're just
+# builds
+*.exe
+
+#Modeling Info
+*.txaPackage
+*.tvsconfig
+*.txvpck
