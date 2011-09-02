@@ -3,3 +3,4 @@ deps
 priv
 *.o
 *.beam
+*.plt
