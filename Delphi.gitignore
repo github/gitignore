@@ -1,0 +1,9 @@
+#delphi compiled units
+*.dcu
+
+#backup files
+*.~*
+*.*~
+
+#executable files
+*.exe
