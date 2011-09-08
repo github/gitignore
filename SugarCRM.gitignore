@@ -22,6 +22,7 @@ cache/xml/*
 custom/history/*
 custom/modulebuilder/*
 custom/working/*
+custom/modules/*/Ext/
 # Custom configuration should also be ignored.
 /config.php
 /config_override.php
