@@ -2,6 +2,7 @@
 *.bbl
 *.blg
 *.dvi
+*.fdb_latexmk
 *.glg
 *.glo
 *.gls
@@ -12,12 +13,15 @@
 *.lof
 *.log
 *.lot
+*.nav
 *.nlo
 *.out
-*.toc
-*.fdb_latexmk
 *.pdfsync
-*.synctex.gz
-*.nav
+*.ps
 *.snm
+*.synctex.gz
+*.toc
 *.vrb
+*.maf
+*.mtc
+*.mtc0

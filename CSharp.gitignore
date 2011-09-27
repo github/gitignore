@@ -1,16 +1,6 @@
-# ReSharper meta directory
-_ReSharper*
-
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 bin
 obj
-
-# user settings
-*.user
-*.suo
-
-# if you have pictures, windows will likely create those annoying index files
-Thumbs.db
 
 # mstest test results
 TestResults

@@ -3,9 +3,12 @@ log/*
 web/uploads/*
 config/databases.yml
 config/propel.ini
-data/sql
+data/sql/*
 lib/filter/doctrine/base/Base*
+lib/filter/doctrine/*Plugin/base/Base*
 lib/form/doctrine/base/Base*
+lib/form/doctrine/*Plugin/base/Base*
 lib/model/doctrine/base/Base*
+lib/model/doctrine/*Plugin/base/Base*
 lib/model/om/*
 lib/model/map/*
