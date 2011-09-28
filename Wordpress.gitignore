@@ -9,10 +9,9 @@ wp-content/advanced-cache.php
 wp-content/backup-db/*
 wp-content/blogs.dir/
 wp-content/cache/*
-wp-content/cache/supercache/*
 wp-content/upgrade/*
 wp-content/uploads/
-wp-content/plugins
+wp-content/plugins/
 wp-content/wp-cache-config.php
 wp-includes/
 xmlrpc.php
