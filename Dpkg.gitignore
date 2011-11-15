@@ -1,0 +1,10 @@
+# Add to root of your package
+debian/changelog
+debian/files
+*-stamp
+debian/*debhelper.log
+debian/*debhelper
+debian/*substvars
+
+# Under direcotory debian/ are only temporary data.
+debian/*/**
