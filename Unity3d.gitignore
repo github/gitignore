@@ -1,26 +1,35 @@
+#Unity3d Stuff
+
 Library/cache/*
 Library/metadata/*
 Library/previews/*
-*.sln
-*.suo
-*.pidb
-*.swp
-Thumbs.db
-Thumbs.db.meta
-obj/*
 Library/ScriptAssemblies/*
-*.csproj
-/Assembly-UnityScript-firstpass-vs.unityproj
-/Assembly-UnityScript-firstpass.unityproj
-/Assembly-UnityScript-vs.unityproj
-/Assembly-UnityScript.unityproj
-/Bowling.apk
-/bowling-csharp.sln
-/bowling-csharp.suo
-/bowling.sln
-Temp/*
-.DS_Store
+*.unityproj
 *.userprefs
 bios/*
 guidmapper
 assetDatabase3
+
+#binary stuff
+obj/*
+Temp/*
+
+#Visual Studio Stuff
+*.sln
+*.suo
+*.pidb
+*.swp
+*.csproj
+
+# windows stuff
+# Thumbs.db.meta should not exist, but every now and then it happens
+Thumbs.db
+Thumbs.db.meta
+
+# wired apple stuff
+# .DS_Store.meta should not exist, but every now and then it happens
+.DS_Store
+.DS_Store.meta
+
+#Android Stuff
+*.apk
