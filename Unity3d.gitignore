@@ -1,15 +1,21 @@
-#Unity3d Stuff
+#Based on info from http://unity3d.com/support/documentation/Manual/ExternalVersionControlSystemSupport.html
 
-Library/cache/*
-Library/metadata/*
-Library/previews/*
-Library/ScriptAssemblies/*
+#Unity3d Stuff
+Library/*
+
+!Library/EditorBuildSettings.asset
+!Library/InputManager.asset
+!Library/ProjectSettings.asset
+!Library/QualitySettings.asset
+!Library/TagManager.asset
+!Library/TimeManager.asset
+!Library/AudioManager.asset
+!Library/DynamicsManager.asset
+!Library/NetworkManager.asset 
+
 *.unityproj
 *.userprefs
 bios/*
-guidmapper
-assetDatabase3
-
 #binary stuff
 obj/*
 Temp/*
