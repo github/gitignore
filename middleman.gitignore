@@ -1,0 +1,13 @@
+# For projects using middleman (http://middlemanapp.com/)
+
+# Default output directory
+build
+
+# Gemfile lock file
+Gemfile.lock
+
+# Bundler cache and config
+.bundle
+
+# Sass' cache
+.sass-cache
