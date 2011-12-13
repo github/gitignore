@@ -18,6 +18,7 @@
 *.out
 *.pdfsync
 *.ps
+*.pyg
 *.snm
 *.synctex.gz
 *.toc
