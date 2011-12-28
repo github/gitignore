@@ -2,5 +2,10 @@
 bin
 obj
 
+#User-specific settings for Visual Studio
+*.suo
+*.user
+*.cache
+
 # mstest test results
 TestResults
