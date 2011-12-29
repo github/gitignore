@@ -7,10 +7,11 @@
 # Ignore Play! working directory #
 db
 eclipse
+lib
 log
 logs
+modules
 precompiled
 tmp
 test-result
-eclipse
 server.pid
