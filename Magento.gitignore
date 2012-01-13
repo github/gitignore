@@ -67,7 +67,7 @@ lib/Zend/
 LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
-mage
+./mage
 media/customer/
 media/downloadable/
 media/.htaccess
