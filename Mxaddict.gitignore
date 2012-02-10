@@ -95,6 +95,10 @@ install_manifest.txt
 ############################
 # /-- Editors -------------/
 
+# /-- Aptana --------------/
+.project
+# /-- Aptana End ----------/
+
 # /-- Eclipse -------------/
 # Generic
 *.pydevproject
