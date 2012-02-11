@@ -1,0 +1,11 @@
+# Project deliverables
+deliverables/
+
+# Java class files
+*.class
+
+# generated files
+bin/
+
+# Local configuration file (sdk path, etc)
+local.properties
