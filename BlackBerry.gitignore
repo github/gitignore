@@ -6,6 +6,3 @@ deliverables/
 
 # generated files
 bin/
-
-# Local configuration file (sdk path, etc)
-local.properties
