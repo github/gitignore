@@ -4,7 +4,13 @@
 .settings
 eclipse
 stacktrace.log
-target
-/plugins
+/*.zip
+/plugin.xml
+/*.log
+/*DB.*
+/cobertura.ser
+.DS_Store
+/target/
+/out/
 /web-app/plugins
 /web-app/WEB-INF/classes
