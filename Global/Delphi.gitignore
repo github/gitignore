@@ -1,6 +1,10 @@
 .local
+*.dproj.local
+*.groupproj.local
 *.identcache
+*.dsk
 *.dcu
+*.obj
 *.dll
 *.exe
 *.com
