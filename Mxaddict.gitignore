@@ -95,11 +95,7 @@ install_manifest.txt
 ############################
 # /-- Editors -------------/
 
-# /-- Aptana --------------/
-.project
-# /-- Aptana End ----------/
-
-# /-- Eclipse -------------/
+# /-- Aptana/Eclipse ------/
 # Generic
 *.pydevproject
 .project
@@ -127,7 +123,7 @@ local.properties
 
 # PDT-specific
 .buildpath
-# /-- Eclipse End ---------/
+# /-- Aptana/Eclipse End --/
 
 # /-- Mono Develop --------/
 # User Specific
