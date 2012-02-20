@@ -37,6 +37,17 @@ Desktop.ini
 
 
 ############################
+# /-- Binary Files --------/
+
+# /-- Compiled Source -----/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# /-- Compiled Source End -/
+
 # /-- Archives ------------/
 # It's better to unpack these files and commit the raw source because
 # git has its own built in compression methods.
@@ -61,6 +72,17 @@ Desktop.ini
 *.deb
 *.rpm
 # /-- Archives End --------/
+
+# /-- Binary Files End ----/
+############################
+
+
+############################
+# /-- Logs/Databases ------/
+*.log
+*.sql
+*.sqlite
+# /-- Logs/Databases End --/
 ############################
 
 
@@ -419,7 +441,6 @@ var/
 
 # /-- Frameworks End ------/
 ############################
-
 
 
 ############################
