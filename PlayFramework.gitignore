@@ -6,11 +6,14 @@
 
 # Ignore Play! working directory #
 db
-eclipse
 log
 logs
 precompiled
 tmp
 test-result
-eclipse
 server.pid
+
+# IDEs
+eclipse
+*.iml
+*.ipr
