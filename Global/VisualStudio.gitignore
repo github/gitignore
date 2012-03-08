@@ -64,7 +64,7 @@ sql
 TestResults
 *.Cache
 ClientBin
-stylecop.*
+[Ss]tyle[Cc]op.*
 ~$*
 *.dbmdl
 Generated_Code #added for RIA/Silverlight projects
