@@ -11,6 +11,7 @@ logs
 precompiled
 tmp
 test-result
+modules
 server.pid
 
 # IDEs
