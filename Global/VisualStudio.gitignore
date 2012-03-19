@@ -41,6 +41,9 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+# NUGET is a .NET coding add-in
+packages/
+
 # Installshield output folder 
 [Ee]xpress
 
@@ -61,7 +64,7 @@ publish
 [Bb]in
 [Oo]bj
 sql
-TestResults
+[Tt]est[Rr]esult
 *.Cache
 ClientBin
 stylecop.*
