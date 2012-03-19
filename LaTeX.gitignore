@@ -1,8 +1,10 @@
 *.aux
 *.bbl
 *.blg
+*.brf
 *.dvi
 *.fdb_latexmk
+*.fls
 *.glg
 *.glo
 *.gls
@@ -12,9 +14,16 @@
 *.ist
 *.lof
 *.log
+*.lol
 *.lot
+*.lox
+*.maf
+*.mtc
+*.mtc0
 *.nav
+*.nlg
 *.nlo
+*.nls
 *.out
 *.pdfsync
 *.ps
@@ -22,6 +31,3 @@
 *.synctex.gz
 *.toc
 *.vrb
-*.maf
-*.mtc
-*.mtc0
