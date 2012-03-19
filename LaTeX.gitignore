@@ -25,3 +25,8 @@
 *.maf
 *.mtc
 *.mtc0
+
+# biblatex
+*.bcf
+*-blx.bib
+*.run.xml
