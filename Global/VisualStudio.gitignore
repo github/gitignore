@@ -25,6 +25,7 @@
 *.tlh
 *.tmp
 *.vspscc
+*.vssscc
 .builds
 
 # Visual C++ cache files
@@ -40,6 +41,10 @@ ipch/
 
 # ReSharper is a .NET coding add-in
 _ReSharper*
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
 
 # Installshield output folder 
 [Ee]xpress
@@ -57,11 +62,15 @@ DocProject/Help/html
 # Click-Once directory
 publish
 
+# Publish Web Output
+*.Publish.xml
+
 # Others
 [Bb]in
 [Oo]bj
 sql
 TestResults
+[Tt]est[Rr]esult*
 *.Cache
 ClientBin
 stylecop.*
@@ -74,3 +83,6 @@ Generated_Code #added for RIA/Silverlight projects
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
+
+# NuGet
+packages/
