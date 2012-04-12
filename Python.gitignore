@@ -1,4 +1,7 @@
-*.py[co]
+*.py[cod]
+
+# C extensions
+*.so
 
 # Packages
 *.egg
@@ -28,3 +31,4 @@ nosetests.xml
 
 #Mr Developer
 .mr.developer.cfg
+
