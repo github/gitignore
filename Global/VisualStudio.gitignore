@@ -7,9 +7,16 @@
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
+
+[Dd]ebug*/
 [Rr]elease/
-x64/
+
+build/
+
+
+[Tt]est[Rr]esult
+[Bb]uild[Ll]og.*
+
 *_i.c
 *_p.c
 *.ilk
@@ -29,6 +36,10 @@ x64/
 *.vssscc
 .builds
 
+*.pidb
+
+*.log
+*.scc
 # Visual C++ cache files
 ipch/
 *.aps
@@ -44,13 +55,15 @@ ipch/
 *.gpState
 
 # ReSharper is a .NET coding add-in
-_ReSharper*
+_ReSharper*/
+
+*.[Rr]e[Ss]harper
 
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
 
-# Installshield output folder 
+# Installshield output folder
 [Ee]xpress
 
 # DocProject is a documentation generator add-in
@@ -80,6 +93,9 @@ ClientBin
 [Ss]tyle[Cc]op.*
 ~$*
 *.dbmdl
+
+*.[Pp]ublish.xml
+
 Generated_Code #added for RIA/Silverlight projects
 
 # Backup & report files from converting an old project file to a newer
