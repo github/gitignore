@@ -1,5 +1,6 @@
 .htaccess
-wp-*.php
+./wp-*.php
+!wp-config.php
 xmlrpc.php
 wp-admin/
 wp-includes/
