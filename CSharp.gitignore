@@ -1,6 +1,28 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Dd]ist/
+[Cc]lient[Bb]in/
 
 # mstest test results
-TestResults
+
+[Tt]est[Rr]esults/
+[Tt]est[Rr]esult.xml
+
+# ReSharper files
+
+*.[Rr]e[Ss]harper
+*[Rr]e[Ss]harper.user
+_[Rr]e[Ss]harper.*/
+
+# Misc VSS files
+
+*.suo
+*.sln.cache
+*.user
+*.vssscc
+*.vspscc
+*.[Pp]ublish.xml
