@@ -23,6 +23,7 @@ custom/history/*
 custom/modulebuilder/*
 custom/working/*
 custom/modules/*/Ext/
+custom/application/Ext/*
 # Custom configuration should also be ignored.
 /config.php
 /config_override.php
@@ -30,6 +31,3 @@ custom/modules/*/Ext/
 silentUpgrade*.php
 # Logs files can safely be ignored.
 *.log
-# Ignore Files Built By Other Files
-custom/modules/*/Ext/
-custom/application/Ext/*
