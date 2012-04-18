@@ -4,3 +4,15 @@
 
 # mstest test results
 TestResults
+
+# user specific stuff
+*.suo
+*.docstates
+*.csproj.user
+
+# nuget packages
+packages
+
+# utilities create backup files
+*.bak
+*~
