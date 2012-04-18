@@ -12,3 +12,6 @@ logs
 results
 
 npm-debug.log
+.lock-wscript
+node_modules/**/out
+node_modules/**/build
