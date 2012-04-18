@@ -13,6 +13,7 @@ parts
 sdist
 develop-eggs
 .installed.cfg
+MANIFEST
 
 
 # Installer logs
