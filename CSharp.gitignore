@@ -52,6 +52,11 @@ ipch/
 
 # ReSharper is a .NET coding add-in
 _ReSharper*
+*.csproj.user
+*.resharper.user
+
+# dotCover - Code Coverage for .NET
+*.dotCover
 
 # NCrunch
 *.ncrunch*
