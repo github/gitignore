@@ -30,3 +30,6 @@ custom/modules/*/Ext/
 silentUpgrade*.php
 # Logs files can safely be ignored.
 *.log
+# Ignore Files Built By Other Files
+custom/modules/*/Ext/
+custom/application/Ext/*
