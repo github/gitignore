@@ -16,3 +16,11 @@ tmp
 test-result
 server.pid
 modules
+
+# IDE projects files
+# NetBeans
+nbproject/
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
