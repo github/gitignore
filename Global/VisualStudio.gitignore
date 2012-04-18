@@ -9,6 +9,7 @@
 # Build results
 [Dd]ebug/
 [Rr]elease/
+x64/
 *_i.c
 *_p.c
 *.ilk
