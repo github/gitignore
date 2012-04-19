@@ -18,3 +18,9 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
