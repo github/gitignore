@@ -63,6 +63,9 @@ _ReSharper*/
 # Some recommend against the RS rule below - excludes useful info?
 *.[Rr]e[Ss]harper
 
+# DotCover is a Code Coverage Tool
+*.dotCover
+
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
