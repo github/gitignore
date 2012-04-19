@@ -2,5 +2,4 @@ _
 obj
 .debmake
 *.deb
-.debmake
 .theos
