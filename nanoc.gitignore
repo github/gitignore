@@ -5,3 +5,6 @@ output/
 
 # Temporary file directory
 tmp/
+
+# Diff file from `enable_output_diff`
+output.diff
