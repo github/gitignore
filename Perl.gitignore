@@ -10,6 +10,8 @@ Makefile
 Makefile.old
 MANIFEST.bak
 META.yml
+META.json
 MYMETA.yml
+MYMETA.json
 nytprof.out
 pm_to_blib
