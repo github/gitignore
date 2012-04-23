@@ -1,0 +1,7 @@
+#---------------> Eclipse Folders
+*.project
+*.settings
+*.buildpath
+
+#---------------> MAC Generated
+*.DS_Store
