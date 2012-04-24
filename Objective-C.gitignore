@@ -1,12 +1,7 @@
 # Xcode
-build/*
-*.pbxuser
 !default.pbxuser
-*.mode1v3
 !default.mode1v3
-*.mode2v3
 !default.mode2v3
-*.perspectivev3
 !default.perspectivev3
 *.xcworkspace
 !default.xcworkspace
@@ -14,3 +9,60 @@ xcuserdata
 profile
 *.moved-aside
 DerivedData
+
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspective 
+*.perspectivev3
+
+# git ignore template from: http://cocoaheads.tumblr.com/post/1350304132/gitignore-template-for-xcode3-4
+# cocos2d specific
+PLBlocks.framework/*
+*.pyc 
+
+# old school
+.svn
+
+# eclipse
+.project
+.settings/*
+
+# osx noise
+.DS_store
+.DS_Store
+profile
+
+# Mac OS X Finder
+.DS_Store
+# Sparkle distribution Private Key (Don’t check me in!)
+dsa_priv.pem
+# XCode (and ancestors) per-user config (very noisy, and not relevant)
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+# Xcode 4
+xcuserdata/
+project.xcworkspace/
+# Generated files
+VersionX-revision.h
+# build products
+build/
+*.[oa]
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
