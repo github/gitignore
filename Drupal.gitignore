@@ -18,6 +18,7 @@ sites/all/themes/README.txt
 
 #for non core developer
 #only include "sites" folder without exclusions before
+authorize.php
 cron.php
 index.php
 install.php
