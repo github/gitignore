@@ -53,6 +53,9 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+# DotCover is a Code Coverage Tool
+*.dotCover
+
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
