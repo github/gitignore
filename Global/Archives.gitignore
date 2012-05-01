@@ -5,8 +5,12 @@
 *.rar
 *.zip
 *.gz
+*.tgz
 *.bzip
+*.bz2
+*.Z
 *.xz
+*.txz
 *.lzma
 
 #packing-only formats
@@ -15,6 +19,7 @@
 
 #package management formats
 *.dmg
+*.msi
 *.xpi
 *.gem
 *.egg
