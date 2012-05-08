@@ -1,0 +1,36 @@
+# Causes git to ignore things like auto-generated files. This file
+# is part of Chris Wanstrath's gitignore collection at 
+# www.github.com/github/gitignore
+#
+# Be advised that I have only intensively tested this over c#
+# projects, although it should still work for any other VS stuff.
+#
+#
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
