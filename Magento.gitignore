@@ -1,3 +1,4 @@
+.modgit/
 app/code/community/Find/
 app/code/community/Phoenix/
 app/code/core/
@@ -8,7 +9,9 @@ app/design/frontend/default/blank/
 app/design/frontend/default/default/
 app/design/frontend/default/iphone/
 app/design/frontend/default/modern/
+app/design/frontend/enterprise/default
 app/design/install/
+app/etc/modules/Enterprise_*
 app/etc/modules/Find_Feed.xml
 app/etc/modules/Mage_All.xml
 app/etc/modules/Mage_Api.xml
@@ -19,6 +22,7 @@ app/etc/modules/Mage_Compiler.xml
 app/etc/modules/Mage_Connect.xml
 app/etc/modules/Mage_Downloadable.xml
 app/etc/modules/Mage_ImportExport.xml
+app/etc/modules/Mage_LoadTest.xml
 app/etc/modules/Mage_PageCache.xml
 app/etc/modules/Mage_Persistent.xml
 app/etc/modules/Mage_Weee.xml
@@ -26,10 +30,11 @@ app/etc/modules/Mage_Widget.xml
 app/etc/modules/Mage_XmlConnect.xml
 app/etc/modules/Phoenix_Moneybookers.xml
 app/etc/config.xml
+app/etc/enterprise.xml
 app/etc/local.xml.additional
 app/etc/local.xml.template
 app/.htaccess
-app/locale/en_US/
+app/locale/
 app/Mage.php
 cron.php
 cron.sh
@@ -43,7 +48,9 @@ index.php.sample
 install.php
 js/blank.html
 js/calendar/
+js/enterprise/
 js/extjs/
+js/firebug/
 js/flash/
 js/index.php
 js/jscolor/
@@ -55,6 +62,7 @@ js/spacer.gif
 js/tiny_mce/
 js/varien/
 lib/3Dsecure/
+lib/Apache/
 lib/flex/
 lib/googlecheckout/
 lib/.htaccess
@@ -67,6 +75,7 @@ lib/Zend/
 LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
+LICENSE_EE*
 mage
 media/customer/
 media/downloadable/
@@ -84,6 +93,7 @@ shell/compiler.php
 shell/indexer.php
 shell/log.php
 skin/adminhtml/default/default/
+skin/adminhtml/default/enterprise
 skin/frontend/base/
 skin/frontend/default/blank/
 skin/frontend/default/blue/
@@ -92,5 +102,6 @@ skin/frontend/default/french/
 skin/frontend/default/german/
 skin/frontend/default/iphone/
 skin/frontend/default/modern/
+skin/frontend/enterprise
 skin/install/
 var/
