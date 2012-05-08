@@ -1,5 +1,7 @@
 tmp/*
-config/database.php
+Config/core.php
+Config/database.php
 app/tmp/*
-app/config/database.php
+app/Config/core.php
+app/Config/database.php
 !empty
