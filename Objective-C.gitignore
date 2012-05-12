@@ -13,3 +13,7 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+# ignore sass-cache that may end up being bundled in an xcode project (phonegap project) that uses sass
+.sass-cache
+.sass-cache/*
