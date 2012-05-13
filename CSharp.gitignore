@@ -19,6 +19,7 @@ TestResults
 x64/
 *_i.c
 *_p.c
+*_i.h
 *.ilk
 *.meta
 *.obj
