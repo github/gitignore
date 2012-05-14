@@ -3,8 +3,17 @@ bin/
 bin-debug/
 bin-release/
 
-# Project property files
+# Flash Builder project file, comment out if desired
 .actionScriptProperties
+
+# FlashDevelop project file, comment out if desired
+.as3proj
+
+# Flash Builder project property files
 .flexProperties
 .settings/
 .project
+
+# FlashDevelop project property files
+obj/
+.lxml
