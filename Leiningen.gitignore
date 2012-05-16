@@ -3,3 +3,4 @@ pom.xml
 /lib/
 /classes/
 .lein-deps-sum
+.lein-plugins/
