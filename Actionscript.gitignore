@@ -4,6 +4,7 @@ bin-debug/
 bin-release/
 
 # Project property files
+*.as3proj
 .actionScriptProperties
 .flexProperties
 .settings/
