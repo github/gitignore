@@ -1,0 +1,14 @@
+# C++ objects and libs
+
+*.o
+*.a
+*.so
+*.dll
+*.dynlib
+
+# Qt-es
+
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
