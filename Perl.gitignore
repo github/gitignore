@@ -11,5 +11,6 @@ Makefile.old
 MANIFEST.bak
 META.yml
 MYMETA.yml
+META.json
 nytprof.out
 pm_to_blib
