@@ -1,6 +1,6 @@
-sites/default/files
-sites/default/private
-sites/default/settings.php
+sites/*/files
+sites/*/private
+sites/*/settings.php
 cache/
 files/
 /README.txt
@@ -11,9 +11,9 @@ files/
 /MAINTAINERS.txt
 /UPGRADE.txt
 robots.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
+sites/*/README.txt
+sites/*/modules/README.txt
+sites/*/themes/README.txt
 .htaccess
 
 #for non core developer
@@ -29,4 +29,10 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
 
