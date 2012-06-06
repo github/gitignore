@@ -1,5 +1,8 @@
 .DS_Store
 
+# Custom Finder folder icons (remove leading # to enable)
+#Icon
+
 # Thumbnails
 ._*
 
