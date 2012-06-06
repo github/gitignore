@@ -1,7 +1,9 @@
 .DS_Store
 
-# Custom Finder folder icons (remove leading # to enable)
-#Icon
+# Custom Finder folder icons can be ignored
+# by adding a record for `Icon` followed by 
+# two literal CR characters. Escaping seems 
+# not to work in this case.
 
 # Thumbnails
 ._*
