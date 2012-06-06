@@ -6,6 +6,8 @@
 # not to work in this case.
 # See http://blog.bitfluent.com/post/173740409/ignoring-icon-in-gitignore
 # for more info.
+# Uncomment the line below to enable.
+#Icon
 
 # Thumbnails
 ._*
