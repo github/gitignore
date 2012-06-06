@@ -4,6 +4,8 @@
 # by adding a record for `Icon` followed by 
 # two literal CR characters. Escaping seems 
 # not to work in this case.
+# See http://blog.bitfluent.com/post/173740409/ignoring-icon-in-gitignore
+# for more info.
 
 # Thumbnails
 ._*
