@@ -1,0 +1,18 @@
+# Typo3 files
+/_.htaccess
+/ChangeLog
+/clear.gif
+/fileadmin/_temp_
+/GPL.txt
+/index.php
+/INSTALL.txt
+/LICENSE.txt
+/NEWS.txt
+/README.txt
+/RELEASE_NOTES.txt
+/t3lib
+/typo3
+/typo3conf
+/uploads
+/typo3temp
+/fileadmin/user_upload/
