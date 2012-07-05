@@ -106,3 +106,6 @@ UpgradeLog*.XML
 
 # NuGet
 packages/
+
+*.vcxproj*
+*.sln
