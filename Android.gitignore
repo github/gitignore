@@ -9,7 +9,6 @@
 *.class
 
 # generated files
-bin/
 gen/
 
 # Local configuration file (sdk path, etc)
@@ -18,3 +17,10 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+bin/
+
+# Intellij project files
+
+*.iml
+.idea/
+out/
