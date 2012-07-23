@@ -28,6 +28,7 @@
 *.pyg
 *.snm
 *.synctex.gz
+*.thm
 *.toc
 *.vrb
 *.xdy
