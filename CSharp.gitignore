@@ -76,6 +76,10 @@ publish
 # Publish Web Output
 *.Publish.xml
 
+# Windows Azure Build Output
+csx
+*.build.csdef
+
 # Others
 [Bb]in
 [Oo]bj
