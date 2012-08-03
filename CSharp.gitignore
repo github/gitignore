@@ -76,6 +76,13 @@ publish
 # Publish Web Output
 *.Publish.xml
 
+# NuGet Packages Directory
+packages
+
+# Windows Azure Build Output
+csx
+*.build.csdef
+
 # Others
 [Bb]in
 [Oo]bj
