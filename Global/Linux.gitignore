@@ -1,6 +1,3 @@
 .*
 !.gitignore
 *~
-
-# KDE
-.directory
