@@ -1,6 +1,15 @@
 .DS_Store
 Icon
 
+# Custom Finder folder icons can be ignored
+# by adding a record for `Icon` followed by 
+# two literal CR characters. Escaping seems 
+# not to work in this case.
+# See http://blog.bitfluent.com/post/173740409/ignoring-icon-in-gitignore
+# for more info.
+# Uncomment the line below to enable.
+#Icon
+
 # Thumbnails
 ._*
 
