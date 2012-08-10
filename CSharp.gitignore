@@ -32,6 +32,7 @@ x64/
 *.tli
 *.tlh
 *.tmp
+*.log
 *.vspscc
 *.vssscc
 .builds
@@ -46,6 +47,7 @@ ipch/
 # Visual Studio profiler
 *.psess
 *.vsp
+*.vspx
 
 # Guidance Automation Toolkit
 *.gpState
