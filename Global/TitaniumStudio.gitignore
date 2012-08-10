@@ -1,0 +1,10 @@
+# Appcelerator / Titanium .gitignore
+
+# Ignore the tmp and build folders
+tmp/
+build/
+
+# Ignore personal Titanium settings
+.settings/*
+
+
