@@ -103,6 +103,7 @@ sql/
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
+*~
 *.dbmdl
 *.[Pp]ublish.xml
 *.pfx
