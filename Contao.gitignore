@@ -1,0 +1,4 @@
+system/html/*
+system/logs/*
+system/scripts/*
+system/tmp/*
