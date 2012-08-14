@@ -6,6 +6,7 @@
 *.zip
 *.gz
 *.bzip
+*.bz2
 *.xz
 *.lzma
 
