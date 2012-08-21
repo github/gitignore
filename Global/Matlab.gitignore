@@ -9,3 +9,5 @@
 # OSX / *nix default autosave extension
 *.m~
 
+# Simulink Code Generation
+slprj/
