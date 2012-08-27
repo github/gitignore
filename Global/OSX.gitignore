@@ -1,5 +1,6 @@
 .DS_Store
-Icon
+.LSOverride
+Icon
 
 # Thumbnails
 ._*
