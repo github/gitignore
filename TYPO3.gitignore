@@ -1,0 +1,21 @@
+# TYPO3 core - version is saved in localconf.php
+typo3/
+t3lib/
+typo3_src/
+
+# Temporary files
+fileadmin/_temp_/
+typo3conf/temp_*
+typo3conf/deprecation_*
+typo3temp/
+
+# additional language files
+typo3conf/l10n/
+
+# user uploads
+fileadmin/user_upload/
+uploads/
+
+# Local configuration. Add @include('localconf_local.php'); to your localconf.php
+#typo3conf/localconf_local.php
+typo3conf/ENABLE_INSTALL_TOOL
