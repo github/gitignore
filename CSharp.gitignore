@@ -85,6 +85,9 @@ packages
 csx
 *.build.csdef
 
+# Windows
+Thumbs.db
+
 # Others
 [Bb]in
 [Oo]bj
