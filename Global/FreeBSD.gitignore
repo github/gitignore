@@ -1,0 +1,4 @@
+.*
+!.gitignore
+*~
+.*.sw[a-z]
