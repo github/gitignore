@@ -2,3 +2,4 @@
 !.gitignore
 *~
 .*.sw[a-z]
+*.core
