@@ -8,3 +8,10 @@ bin-release/
 .flexProperties
 .settings/
 .project
+
+# FlashDevelop
+# Project file
+.as3proj
+
+# Build properties folder
+obj/
