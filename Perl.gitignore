@@ -4,6 +4,7 @@ _build/
 cover_db/
 inc/
 Build
+!Build/
 Build.bat
 .last_cover_stats
 Makefile
