@@ -23,6 +23,8 @@
 *.nlo
 *.out
 *.pdfsync
+*.pdftex
+*.pdftex_t
 *.ps
 *.snm
 *.synctex.gz
