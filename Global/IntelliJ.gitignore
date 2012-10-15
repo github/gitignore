@@ -1,4 +1,5 @@
-*.iml
-*.ipr
-*.iws
+# IndelliJ IDEA Project file
+# http://www.jetbrains.com/idea/webhelp/project.html
 .idea/
+*.ipr
+*.iml
