@@ -55,6 +55,9 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+# TeamCity is a build add-in
+_TeamCity*
+
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
