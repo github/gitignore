@@ -1,3 +1,5 @@
+# Python .gitignore file will all the pertinent exclusions.
+
 *.py[cod]
 
 # C extensions
