@@ -55,6 +55,9 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+# Mindbench SASS cache
+.sass-cache/
+
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
