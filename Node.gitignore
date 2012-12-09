@@ -12,3 +12,9 @@ logs
 results
 
 npm-debug.log
+
+# Windows System Files
+Thumbs.db
+
+# OS X System Files
+.DS_Store
