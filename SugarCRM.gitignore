@@ -18,12 +18,16 @@ cache/smarty/cache/*
 cache/smarty/templates_c/*
 cache/themes/*
 cache/xml/*
+cache/htmlclean/URI/*
+cache/htmlclean/HTML/*
 # Ignore some files and directories from the custom directory.
 custom/history/*
 custom/modulebuilder/*
 custom/working/*
 custom/modules/*/Ext/
 custom/application/Ext/*
+custom/Extension/application/Ext/*
+custom/blowfish/*
 # Custom configuration should also be ignored.
 /config.php
 /config_override.php
