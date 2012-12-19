@@ -1,6 +1,6 @@
 # Xcode
 .DS_Store
-build/
+*/build/*
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -16,3 +16,4 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+*.hmap
