@@ -1,10 +1,20 @@
-*.dcu
 *.~*~
 *.local
 *.identcache
 __history
 *.drc
 *.map
+*.dsk
+*.cfg
+
+# binary files
+*.dcu
 *.exe
 *.dll
 bin/*
+
+# local settings for testing with DUnit
+dunit.ini
+
+# optional files
+*.dti
