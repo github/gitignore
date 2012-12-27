@@ -24,3 +24,9 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+# Infinitest configuration
+infinitest.filters
+
+# TestNG
+test-output/
