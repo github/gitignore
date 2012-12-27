@@ -2,3 +2,4 @@
 *.ipr
 *.iws
 .idea/
+out/
