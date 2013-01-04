@@ -24,3 +24,24 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+# Ignore Play! working directory #
+db/**
+eclipse/**
+lib/**
+log/**
+logs/**
+modules/**
+modules/**/*
+precompiled/**
+project/project/**
+project/target/**
+target/**
+tmp/**
+tmp/**/*
+test-result/**
+server.pid
+*.iml
+*.eml
+*.conf
+*.src
