@@ -1,0 +1,36 @@
+## TYPO3 CMS v6
+
+# core files (most likely symlinks)
+/typo3
+/t3lib
+/typo3_src
+/index.php
+
+# temporary files, can be recreated if needed
+/fileadmin/_processed_/
+/fileadmin/_temp_/*
+/typo3conf/temp_*
+/typo3conf/deprecation_*
+/typo3temp/*
+
+# language files
+/typo3conf/l10n/*
+
+# user data
+/fileadmin/user_upload/*
+/uploads/*
+
+# local configuration
+/typo3conf/AdditionalConfiguration.php
+/typo3conf/ENABLE_INSTALL_TOOL
+
+# keep files and directories existing in dummy-package
+!/fileadmin/_temp_/.htaccess
+!/fileadmin/_temp_/index.html
+!/fileadmin/user_upload/index.html
+!/typo3conf/l10n/index.html
+!/typo3temp/index.html
+!/uploads/index.html
+!/uploads/media/index.html
+!/uploads/pics/index.html
+!/uploads/tf/index.html
