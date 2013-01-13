@@ -17,8 +17,6 @@ develop-eggs
 .installed.cfg
 lib
 lib64
-
-# The new '__pycache__' in Python 3
 __pycache__
 
 # Installer logs
