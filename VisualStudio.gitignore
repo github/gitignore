@@ -61,8 +61,10 @@ ipch/
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
-# Some recommend against the RS rule below - excludes useful info?
 *.[Rr]e[Ss]harper
+
+# TeamCity is a build add-in
+_TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
