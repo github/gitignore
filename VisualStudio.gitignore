@@ -105,8 +105,8 @@ ClientBin
 [Ss]tyle[Cc]op.*
 ~$*
 *.dbmdl
-
 *.[Pp]ublish.xml
+*.pfx
 
 Generated_Code #added for RIA/Silverlight projects
 
