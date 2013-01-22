@@ -88,6 +88,7 @@ publish/
 
 # Publish Web Output
 *.Publish.xml
+*.pubxml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
