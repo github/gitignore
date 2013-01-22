@@ -16,7 +16,7 @@ build/
 [Oo]bj/
 
 # MSTest test Results
-[Tt]est[Rr]esults/
+[Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 *_i.c
@@ -34,6 +34,7 @@ build/
 *.tli
 *.tlh
 *.tmp
+*.tmp_proj
 *.log
 *.vspscc
 *.vssscc
@@ -59,15 +60,18 @@ ipch/
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
-
+# Some recommend against the RS rule below - excludes useful info?
 *.[Rr]e[Ss]harper
+
+# DotCover is a Code Coverage Tool
+*.dotCover
 
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
 
 # Installshield output folder
-[Ee]xpress
+[Ee]xpress/
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
@@ -80,7 +84,7 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 # Click-Once directory
-publish
+publish/
 
 # Publish Web Output
 *.Publish.xml
@@ -88,6 +92,7 @@ publish
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
+!packages/repositories.config
 
 # Windows Azure Build Output
 csx
@@ -97,24 +102,25 @@ csx
 AppPackages/
 
 # Others
-sql
-TestResults
-[Tt]est[Rr]esult*
+sql/
 *.Cache
-ClientBin
+ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
+*~
 *.dbmdl
 *.[Pp]ublish.xml
 *.pfx
 
-Generated_Code #added for RIA/Silverlight projects
+# RIA/Silverlight projects
+Generated_Code/
 
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
+UpgradeLog*.htm
 
 # SQL Server files
 App_Data/*.mdf
