@@ -1,0 +1,4 @@
+!.maintenance.php
+log/
+temp/
+!web.config
