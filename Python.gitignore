@@ -1,5 +1,8 @@
 *.py[cod]
 
+# Backup files
+*~
+
 # C extensions
 *.so
 
