@@ -1,2 +1,7 @@
 # SublimeText project files
 *.sublime-workspace
+# *.sublime-project
+#     If you only want to use the project on your computer, rather than
+#     share the Sublime Text project configuration with others, you may
+#     need to disable the *.sublime-project line by making it to a comment
+#     line or delete that line.
