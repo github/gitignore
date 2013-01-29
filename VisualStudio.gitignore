@@ -73,6 +73,10 @@ _TeamCity*
 *.ncrunch*
 .*crunch*.local.xml
 
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
 # Installshield output folder
 [Ee]xpress/
 
