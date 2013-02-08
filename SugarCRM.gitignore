@@ -31,3 +31,6 @@ custom/application/Ext/*
 silentUpgrade*.php
 # Logs files can safely be ignored.
 *.log
+# The new upload directories (since 6.4).
+upload/*
+upload_backup/*
