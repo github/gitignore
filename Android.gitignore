@@ -27,4 +27,4 @@ proguard/
 *.ipr
 *.iws
 .idea/
-
+gen-external-apklibs/
