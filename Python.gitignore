@@ -1,5 +1,9 @@
 *.py[cod]
 
+# Emacs noise
+*#
+*~
+
 # C extensions
 *.so
 
