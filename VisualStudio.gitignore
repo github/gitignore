@@ -135,7 +135,7 @@ App_Data/*.ldf
 # =========================
 
 # Windows image file caches
-Thumbs.db
+[Tt]humbs.db
 ehthumbs.db
 
 # Folder config file
