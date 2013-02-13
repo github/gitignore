@@ -4,6 +4,7 @@
 capybara-*.html
 .rspec
 .rvmrc
+.ruby-version
 /.bundle
 /vendor/bundle
 /log/*
