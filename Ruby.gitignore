@@ -16,3 +16,7 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# rbenv and rvm
+.ruby-version
+.rvmrc
