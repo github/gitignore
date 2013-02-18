@@ -1,23 +1,8 @@
 ## SugarCRM
 # Ignore custom .htaccess stuff.
 /.htaccess
-# Ignore large parts of the annoying cache directory without breaking things.
-cache/csv/*
-cache/dashlets/*
-cache/diagnostic/*
-cache/dynamic_fields/*
-cache/feeds/*
-cache/import/*
-cache/include/*
-cache/jsLanguage/*
-cache/modules/*
-!cache/modules/emails
-!cache/modules/Emails
-cache/pdf/*
-cache/smarty/cache/*
-cache/smarty/templates_c/*
-cache/themes/*
-cache/xml/*
+# Ignore the cache directory completely. *ATTENTION!* This will break things!
+cache/*
 # Ignore some files and directories from the custom directory.
 custom/history/*
 custom/modulebuilder/*
