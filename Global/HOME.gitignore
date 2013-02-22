@@ -1,0 +1,9 @@
+## Ignore all by default
+*
+
+## Allow itself
+!\.gitignore
+
+## Whitelist files you want to share, avoid password related files
+#!\.bashrc
+#!\.zshenv
