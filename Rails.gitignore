@@ -16,3 +16,8 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 .project
+/config/database.yml
+/config/mailer.yml
+/config/paypal.yml
+/config/active_merchant.yml
+/config/initializers/secret_token.rb
