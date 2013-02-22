@@ -13,6 +13,7 @@
 /.pki/
 /.ssh/
 /.subversion/auth/
+/.netrc
 
 # User Data
 /Desktop/
@@ -54,6 +55,7 @@
 /.pry_history
 /.rediscli_history
 /.sqlite_history
+/.zsh_history
 
 # User Software
 /.gem/
@@ -61,6 +63,7 @@
 /.rvm/
 /.vagrant.d/
 /.cabal/
+/.dropbox/
 
 # Transient
 /.DCOPserver*
