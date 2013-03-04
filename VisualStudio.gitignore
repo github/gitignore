@@ -150,5 +150,5 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Mac crap
+# Mac desktop service store files
 .DS_Store
