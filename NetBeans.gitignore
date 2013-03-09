@@ -1,1 +1,13 @@
+## Ignore NetBeans files that are in-situ in a dev project.
+## Things like the environment settings.  Most coders like to have their
+## own coding environment setup.
+## author: Lance Cleveland <lance@lancecleveland.com>
+
+# Private project settings
 /nbproject/private/
+
+# Project properties, things like the project type (php_53), optional?
+/nbproject/*.properties
+
+# Project file layout, typically better to let NetBeans create on-the-fly
+/nbproject/*.xml
