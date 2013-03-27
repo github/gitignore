@@ -1,0 +1,40 @@
+# Timestep directories
+0.*
+[1-9]*
+
+# Fields that must get ignored
+*/phi*
+*/meshPhi*
+
+# Decomposed domain
+processor*
+
+# logfiles
+log.*
+*log
+
+# paraview/ParaFoam
+*.foam
+*.OpenFOAM
+*.pvsm
+
+# mesh data that is no dictionary
+constant/polyMesh/points*
+constant/polyMesh/faces*
+constant/polyMesh/owner*
+constant/polyMesh/neighbour*
+constant/polyMesh/boundary*
+constant/polyMesh/sets
+
+# Zones and levels
+*Level*
+*Zone*
+
+# snappyHexMesh files that are not snappyHexMeshDict
+constant/polyMesh/refinementHistory*
+constant/polyMesh/surfaceIndex*
+constant/triSurface
+
+# function object and post-processing data
+forces
+postProcessing
