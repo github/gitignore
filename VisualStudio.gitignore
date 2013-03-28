@@ -63,6 +63,9 @@ ipch/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 
+# JetBrains coding add-ins settings
+*.DotSettings
+
 # TeamCity is a build add-in
 _TeamCity*
 
