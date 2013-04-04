@@ -1,9 +1,11 @@
+*~
 *.rbc
 *.sassc
 .sass-cache
 capybara-*.html
 .rspec
 .rvmrc
+.rbenvrc
 /.bundle
 /vendor/bundle
 /log/*
@@ -16,3 +18,5 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 .project
+.DS_Store
+.idea/*
