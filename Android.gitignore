@@ -28,3 +28,5 @@ proguard/
 *.iws
 .idea/
 
+# OSX
+.DS_Store
