@@ -1,0 +1,11 @@
+# .gitignore file for Sencha Touch 2.1.x projects generated using the Sencha Cmd command line tool
+
+# Build and Release Folders
+archive/
+build/
+
+# sass cache folder
+resources/sass/.sass-cache/
+
+# Library
+touch/
