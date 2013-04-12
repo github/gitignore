@@ -1,5 +1,6 @@
+.dat*
 .repl_history
-build
+build/
 tags
 
 # Editor files
