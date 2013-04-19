@@ -16,3 +16,9 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 .project
+# various artifacts
+/gems
+/specifications
+# Mac finder artifacts
+.DS_Store
+
