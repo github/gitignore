@@ -16,3 +16,6 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# RubyMine Project Files
+.idea
