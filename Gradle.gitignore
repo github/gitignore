@@ -1,0 +1,32 @@
+*.class
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
+*.log
+*.bk
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Exclude Folder List #
+build/
+.gradle/
+.settings/
+.idea/
+bin/
+out/
+.gradletasknamecache
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
