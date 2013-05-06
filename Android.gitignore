@@ -27,4 +27,8 @@ proguard/
 *.ipr
 *.iws
 .idea/
+out/
+
+# Maven
+target/
 
