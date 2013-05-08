@@ -28,3 +28,6 @@ proguard/
 *.iws
 .idea/
 
+# removing metadata annoying folder. It's not indispensable
+# for eclipse to run projects.
+.metadata/
