@@ -3,7 +3,10 @@
 *.alg
 *.aux
 *.bbl
+*.bcf
 *.blg
+*-blx.aux
+*-blx.bib
 *.dvi
 *.fdb_latexmk
 *.fls
