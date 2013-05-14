@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+# Precompiled headers
+*.gch
+*.pch
