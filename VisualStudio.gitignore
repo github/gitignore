@@ -119,6 +119,15 @@ ClientBin/
 # RIA/Silverlight projects
 Generated_Code/
 
+#Visual Studio LightSwitch
+_Pvt_Extensions/
+GeneratedArtifacts/
+ServiceConfiguration.cscfg
+ModelManifest.xml
+generated.parameters.xml
+## TODO: Comment the next line if you want version controls the generated client .xap file
+*.Client.xap
+
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
 _UpgradeReport_Files/
