@@ -3,3 +3,8 @@ TAGS
 !TAGS/
 tags
 !tags/
+
+# Ignore tags created by GNU Global
+GTAGS
+GRTAGS
+GPATH
