@@ -16,3 +16,12 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 .project
+.idea
+.DS_Store
+nbproject
+.tags
+.tags_sorted_by_file
+TAGS
+.load_path
+doc/**/*
+
