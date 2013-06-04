@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# Executables
+*.out
+*.exe
+*.app
