@@ -1,0 +1,38 @@
+_test/*
+public/_repository/upgrade/*
+public/_install/_license-key.txt
+public/_install/data/caches/smarty_cache/*
+public/_install/data/caches/smarty_compile/*
+public/data/*
+public/_constants.php
+_protected/app/configs/config.ini
+_protected/app/system/core/assets/cron/_delay/
+_protected/data/tmp/
+_protected/data/backup/*
+_protected/data/cache/pH7_cache/*
+_protected/data/cache/pH7_static/*
+_protected/data/cache/pH7tpl_cache/*
+_protected/data/cache/pH7tpl_compile/*
+*.log
+*.tmp
+
+## Gettext ##
+*.mo
+
+## OS ##
+
+# Linux
+*~
+*.swp
+# KDE
+.directory
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Mac OS 
+.DS_Store*
+._*
+
