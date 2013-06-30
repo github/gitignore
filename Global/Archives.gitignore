@@ -9,10 +9,21 @@
 *.bz2
 *.xz
 *.lzma
+*.z
+*.cbr
+*.cbz
+*.tbz2
+*.tbz
+*.tb2
+*.tgz
+*.taz
+*.tlz
+*.txz
 
 #packing-only formats
 *.iso
 *.tar
+*.img
 
 #package management formats
 *.dmg
@@ -21,3 +32,8 @@
 *.egg
 *.deb
 *.rpm
+
+#special
+*.ar
+*.slp
+*.flf
