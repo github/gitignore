@@ -15,3 +15,7 @@ profile
 DerivedData
 .idea/
 *.hmap
+
+#CocoaPods
+Podfile.lock
+Pods
