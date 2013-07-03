@@ -3,6 +3,8 @@
 .LSOverride
 Icon
 
+# Default text enconding
+.CFUserTextEncoding
 
 # Thumbnails
 ._*
