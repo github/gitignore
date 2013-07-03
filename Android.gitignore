@@ -28,3 +28,7 @@ proguard/
 *.iws
 .idea/
 
+# DS_Store files created by Mac OS X
+# http://en.wikipedia.org/wiki/.DS_Store
+*.DS_Store
+
