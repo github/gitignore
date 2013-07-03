@@ -1,0 +1,27 @@
+# Wakanda studio preferences
+*.waPreferences
+
+# Wakanda log
+*.waLog
+*/Logs
+studio_log*
+
+# Wakanda code symbols
+*.waSym
+*.waSymData
+
+# Wakanda index
+*.waIndx
+*.Match
+
+# Wakanda data
+*.waData
+*(compacting)*
+
+# Wakanda User and Group
+*.cacheUAG
+*.waDirectory
+
+# Wakanda backup
+*.waBackup
+*.breakpoints
