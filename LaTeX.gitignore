@@ -24,10 +24,10 @@
 *.out
 *.pdfsync
 *.ps
+*.pyg
 *.snm
 *.synctex.gz
 *.toc
 *.vrb
 *.xdy
 *.tdo
-*.pyg
