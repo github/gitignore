@@ -4,6 +4,8 @@
 capybara-*.html
 .rspec
 .rvmrc
+.ruby-version
+.ruby-gemset
 /.bundle
 /vendor/bundle
 /log/*
@@ -16,3 +18,4 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 .project
+Gemfile.lock
