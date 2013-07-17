@@ -149,3 +149,6 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+
+#BIDS - SSRS project data file caches
+*.rdl.data
