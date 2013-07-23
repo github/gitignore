@@ -32,5 +32,7 @@ nosetests.xml
 
 # Mr Developer
 .mr.developer.cfg
-.project
-.pydevproject
+
+# Aptana/PyDev
+.*project
+.settings
