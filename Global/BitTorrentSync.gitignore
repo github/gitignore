@@ -1,8 +1,9 @@
 # BitTorrent Sync
-*.!sync
 .SyncArchive/
 .SyncTrash/
 .SyncID
 .SyncIgnore
-.SyncPart
-.SyncTemp
+*.!sync
+*.Sync
+*.SyncPart
+*.SyncTemp
