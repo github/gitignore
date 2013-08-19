@@ -8,6 +8,7 @@ capybara-*.html
 /vendor/bundle
 /log/*
 /tmp/*
+/.idea/*
 /db/*.sqlite3
 /public/system/*
 /coverage/
