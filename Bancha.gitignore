@@ -1,0 +1,16 @@
+#Logs
+application/logs/*.php
+
+# Content types
+/application/xml/types/*.xml
+
+# Custom builds and generated php files
+/core/documentation/build
+/core/views/admin/content/translations.php
+
+# Attachs and cache files #
+*.tmp
+/attach/cache/
+/attach/
+/application/cache/_bancha/*.css
+/application/cache/_bancha/*.js
