@@ -1,10 +1,48 @@
-*.dcu
+# Extensions for Delphi and C++ Builder (often in 1 product: RAD Studio)
 *.~*~
-*.local
-*.identcache
-__history
-*.drc
-*.map
-*.exe
+# http://delphi.wikia.com/wiki/Delphi_File_Extensions / http://docwiki.embarcadero.com/RADStudio/XE4/en/File_Extensions_of_Files_Generated_by_RAD_Studio
+# Verified against https://github.com/project-jedi/jvcl/blob/master/.gitignore and https://github.com/project-jedi/jcl/blob/master/.gitignore
+*.a
+*.bpi
+*.bpl
+*.csm
+*.cbk
+*.dcp
+*.dcpil
+*.dcu
+*.dcuil
 *.dll
+*.dpl
+*.drc
+*.dsk
+*.dsm
+*.dylib
+*.entitlements
+*.exe
+*.exe.incr
+*.hpp
+*.i
+*.identcache
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.ipa
+*.jdbg
+*.lib
+*.local
+*.map
+*.o
+*.obj
+*.pdb
+*.plist
+*.rsm
+*.tds
+*.#??
+__history
 bin/*
+Debug/*
+Release/*
+# https://bitbucket.org/NickHodges/delphi-unit-tests/commits/c9838c9892d8f25fb10d50b134755ce7#comment-389061
+# .mes file is a madExcept settings file.
+*.mes
