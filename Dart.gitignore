@@ -1,4 +1,6 @@
-.DS_Store
-packages
-.project
+packages/
 pubspec.lock
+.buildlog
+*.js_
+*.js.deps
+*.js.map
