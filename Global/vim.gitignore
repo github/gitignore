@@ -1,5 +1,5 @@
-.*.s[a-w][a-z]
-.s[a-w][a-z]
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
 *.un~
 Session.vim
 .netrwhist
