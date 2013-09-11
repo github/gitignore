@@ -133,6 +133,12 @@ UpgradeLog*.htm
 App_Data/*.mdf
 App_Data/*.ldf
 
+# Microsoft Fakes
+*.Fakes.dll
+*.Fakes.fakesconfig
+*.Fakes.messages
+*.Fakes.xml
+
 # =========================
 # Windows detritus
 # =========================
