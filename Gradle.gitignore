@@ -1,3 +1,7 @@
-/.gradle
-/build
-/out/
+.gradle
+build
+out
+
+gradlew
+gradlew.bat
+gradle
