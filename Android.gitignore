@@ -28,3 +28,7 @@ proguard/
 *.iws
 .idea/
 
+# Gradle build files
+.gradle
+.settings
+build/
