@@ -21,3 +21,4 @@ config/initializers/secret_token.rb
 .idea
 /*.tmproj
 **.swp
+.DS_Store
