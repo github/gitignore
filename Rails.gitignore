@@ -18,3 +18,4 @@ pickle-email-*.html
 .project
 config/initializers/secret_token.rb
 .zeus.socket
+.idea
