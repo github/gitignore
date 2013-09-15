@@ -20,3 +20,4 @@ config/initializers/secret_token.rb
 .zeus.socket
 .idea
 /*.tmproj
+**.swp
