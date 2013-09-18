@@ -1,7 +1,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon
+Icon^M^M
+.VolumeIcon.icns
 
 
 # Thumbnails
@@ -10,3 +11,4 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+.fseventsd
