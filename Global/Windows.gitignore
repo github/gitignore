@@ -7,3 +7,8 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+# .gid: http://support.microsoft.com/kb/129326
+*.gid
+*.GID
+
