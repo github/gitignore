@@ -29,3 +29,5 @@ proguard/
 *.iws
 .idea/
 
+# Gradle through Android Studio
+.gradle/
