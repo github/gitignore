@@ -19,6 +19,7 @@
 # Android standard project ignores
 bin/
 gen/
+build/
 local.properties
 
 # Eclipse project ignores (With annotations generated files)
@@ -40,3 +41,6 @@ proguard/
 # Maven standard project ignores (With Idea generated)
 gen-external-apklibs/
 target/
+
+# Gradle ignores
+.gradle/
