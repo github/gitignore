@@ -4,4 +4,6 @@ pom.xml
 /classes/
 /targets/
 /target/
+/node_modules/
+npm-debug.log
 .lein-deps-sum
