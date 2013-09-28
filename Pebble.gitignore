@@ -1,0 +1,15 @@
+# Ignore waf build tool generated files
+.waf*
+build
+.lock-waf*
+
+# Ignore linked files/directories
+waf
+wscript
+tools
+include
+lib
+pebble_app.ld
+
+# Ignore other generated files
+serial_dump.txt
