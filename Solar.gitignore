@@ -1,0 +1,11 @@
+# Libraries
+*.lib
+*.solarlib
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+
+# Executables
+*.exe
+*.sol
