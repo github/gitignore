@@ -9,3 +9,6 @@
 # Executables
 *.exe
 *.sol
+
+# Objects
+*.o
