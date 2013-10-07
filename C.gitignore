@@ -2,6 +2,7 @@
 *.o
 *.ko
 *.obj
+*.elf
 
 # Libraries
 *.lib
@@ -17,3 +18,4 @@
 *.exe
 *.out
 *.app
+*.hex
