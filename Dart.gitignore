@@ -1,6 +1,5 @@
 packages/
 pubspec.lock
-.buildlog
 *.js_
 *.js.deps
 *.js.map
