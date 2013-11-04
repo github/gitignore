@@ -1,5 +1,7 @@
-# Xcode
+# OS X
 .DS_Store
+
+# Xcode
 */build/*
 *.pbxuser
 !default.pbxuser
@@ -17,5 +19,5 @@ DerivedData
 *.hmap
 *.xccheckout
 
-#CocoaPods
+# CocoaPods
 Pods
