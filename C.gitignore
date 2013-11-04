@@ -1,6 +1,7 @@
 # Object files
 *.o
 *.ko
+*.obj
 
 # Libraries
 *.lib
