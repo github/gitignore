@@ -1,3 +1,8 @@
+.*
+!.gitignore
+!.mailmap
+*~
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
