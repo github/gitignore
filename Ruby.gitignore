@@ -16,3 +16,11 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Windows & MAC rubbish
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Mac crap
+.DS_Store
