@@ -2,6 +2,7 @@
 *.log
 
 # sbt specific
+.lib/
 dist/*
 target/
 lib_managed/
