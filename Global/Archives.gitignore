@@ -10,6 +10,9 @@
 *.xz
 *.lzma
 
+# ISO Zipping format.
+*.isz
+
 #packing-only formats
 *.iso
 *.tar
@@ -21,3 +24,9 @@
 *.egg
 *.deb
 *.rpm
+
+#More format
+*.cab
+*.img
+*.ima
+*.wim
