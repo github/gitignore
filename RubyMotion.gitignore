@@ -1,8 +1,9 @@
+.dat*
 .repl_history
-build
+build/
 tags
 
-# common annoyance editors
+# Editor files
 .DS_Store
 nbproject
 .redcar
@@ -10,4 +11,10 @@ nbproject
 *.swo
 ~
 .eprj
+vendor/Pods
+*.nib
 
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
