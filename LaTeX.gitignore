@@ -28,6 +28,7 @@
 *.out
 *.pdfsync
 *.ps
+*.run.xml
 *.snm
 *.synctex.gz
 *.toc
