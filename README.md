@@ -47,8 +47,8 @@ high quality, we request that contributions adhere to the following guidelines.
   template for that language or framework, rather than to the template for an
   editor, tool, or operating system.
 
-- **Please only modify *one file* per commit**. This will make merging and
-  conflict resolution easier for everyone.
+- **Please only modify *one template* per pull request**. This helps keep pull
+  requests and feedback focused on a specific project or technology.
 
 In general, the more you can do to help us understand the change you’re making,
 the more likely we’ll be to accept your contribution quickly.
