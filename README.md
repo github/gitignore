@@ -52,7 +52,12 @@ high quality, we request that contributions adhere to the following guidelines.
 
 In general, the more you can do to help us understand the change you’re making,
 the more likely we’ll be to accept your contribution quickly.
-  
+
+Please also understand that we can’t list every tool that ever existed.
+Our aim is to curate a collection of the *most common and helpful* templates,
+not to make sure we cover every project possible. If we choose not to
+include your language, tool, or project, it’s not because it’s not awesome.
+
 ## Contributing workflow
 
 Here’s how we suggest you go about proposing a change to this project:
