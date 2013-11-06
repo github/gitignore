@@ -32,6 +32,9 @@
 *.run.xml
 *.snm
 *.synctex.gz
+*.tex.swap
+*.tex~
+*.tex.backup
 *.toc
 *.vrb
 *.xdy
