@@ -15,14 +15,18 @@ app/etc/modules/Enterprise_*
 app/etc/modules/Find_Feed.xml
 app/etc/modules/Mage_All.xml
 app/etc/modules/Mage_Api.xml
+app/etc/modules/Mage_Api2.xml
 app/etc/modules/Mage_Authorizenet.xml
 app/etc/modules/Mage_Bundle.xml
+app/etc/modules/Mage_Captcha.xml
 app/etc/modules/Mage_Centinel.xml
 app/etc/modules/Mage_Compiler.xml
 app/etc/modules/Mage_Connect.xml
+app/etc/modules/Mage_CurrencySymbol.xml
 app/etc/modules/Mage_Downloadable.xml
 app/etc/modules/Mage_ImportExport.xml
 app/etc/modules/Mage_LoadTest.xml
+app/etc/modules/Mage_Oauth.xml
 app/etc/modules/Mage_PageCache.xml
 app/etc/modules/Mage_Persistent.xml
 app/etc/modules/Mage_Weee.xml
@@ -78,6 +82,7 @@ LICENSE.txt
 LICENSE_EE*
 mage
 media/customer/
+media/dhl/
 media/downloadable/
 media/.htaccess
 media/import/
