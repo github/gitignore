@@ -27,6 +27,7 @@
 *.nav
 *.nlo
 *.out
+*.pdf
 *.pdfsync
 *.ps
 *.run.xml
