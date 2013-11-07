@@ -1,0 +1,6 @@
+storage/cache/*
+storage/database/*
+storage/logs/*
+storage/sessions/*
+storage/views/*
+storage/work/*
