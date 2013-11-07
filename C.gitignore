@@ -3,6 +3,9 @@
 *.ko
 *.obj
 
+#Dependency files
+*.d
+
 # Libraries
 *.lib
 *.a
@@ -17,3 +20,6 @@
 *.exe
 *.out
 *.app
+*.elf
+*.bin
+*.hex
