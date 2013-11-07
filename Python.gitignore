@@ -12,6 +12,7 @@ build
 eggs
 parts
 bin
+.Python
 var
 sdist
 develop-eggs
