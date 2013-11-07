@@ -29,6 +29,8 @@
 *.nlo
 *.out
 *.pdfsync
+*.pdftex
+*.pdftex_t
 *.ps
 *.run.xml
 *.snm
