@@ -6,12 +6,12 @@ capybara-*.html
 .rvmrc
 /.bundle
 /vendor/bundle
-/log/*
-/tmp/*
+/log
+/tmp
 /db/*.sqlite3
-/public/system/*
+/public/system
 /coverage/
-/spec/tmp/*
+/spec/tmp
 **.orig
 rerun.txt
 pickle-email-*.html
