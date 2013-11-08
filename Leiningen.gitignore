@@ -5,3 +5,4 @@ pom.xml
 /targets/
 .lein-deps-sum
 .lein-repl-history
+.lein-plugins/

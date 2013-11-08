@@ -1,6 +1,7 @@
 *.pydevproject
 .project
 .metadata
+.gradle
 bin/**
 tmp/**
 tmp/**/*
@@ -24,3 +25,6 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+# TeXlipse plugin
+.texlipse
