@@ -9,5 +9,4 @@ sitemap.xml
 *.log
 wp-content/cache/
 wp-content/backups/
-sitemap.xml
 sitemap.xml.gz
