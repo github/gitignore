@@ -65,6 +65,9 @@
 *.mtc
 *.mtc0
 
+# minted
+*.pyg
+
 # nomencl
 *.nlo
 
