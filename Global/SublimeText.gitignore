@@ -1,2 +1,4 @@
 # SublimeText project files
 *.sublime-workspace
+
+# *.sublime-project should be checked into the repository as a general rule
