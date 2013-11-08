@@ -16,3 +16,6 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+#Ruby Mine
+.idea
