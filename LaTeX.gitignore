@@ -1,41 +1,75 @@
-*.acn
-*.acr
-*.alg
+## Core latex/pdflatex auxiliary files:
 *.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+
+## Intermediate documents:
+*.dvi
+# these rules might exclude image files for figures etc.
+# *.ps
+# *.eps
+# *.pdf
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
 *.bcf
 *.blg
 *-blx.aux
 *-blx.bib
-*.brf
-*.dvi
+*.run.xml
+
+## Build tool auxiliary files:
 *.fdb_latexmk
-*.fls
+*.synctex.gz
+*.pdfsync
+
+## Auxiliary and intermediate files from other packages:
+
+# algorithms
+*.alg
+*.loa
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.snm
+*.vrb
+
+# glossaries
+*.acn
+*.acr
 *.glg
 *.glo
 *.gls
+
+# hyperref
+*.brf
+
+# listings
+*.lol
+
+# makeidx
 *.idx
 *.ilg
 *.ind
 *.ist
-*.loa
-*.lof
-*.lol
-*.log
-*.lot
+
+# minitoc
 *.maf
 *.mtc
 *.mtc0
-*.nav
+
+# nomencl
 *.nlo
-*.out
-*.pdfsync
-*.ps
-*.run.xml
-*.snm
-*.synctex.gz
-*.thm
-*.toc
-*.vrb
-*.xdy
+
+# todonotes
 *.tdo
+
+# xindy
+*.xdy
