@@ -1,0 +1,9 @@
+# downloaded vendor libraries
+/vendor
+
+# composer files
+composer.phar
+composer.lock
+
+# mac ignore
+.DS_Store
