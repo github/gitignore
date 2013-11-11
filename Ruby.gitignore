@@ -1,23 +1,23 @@
 *.gem
 *.rbc
-.config
-coverage
-InstalledFiles
+/.config
+/coverage/
+/InstalledFiles
 /pkg/
-/spec/reports
-/test/tmp
-/test/version_tmp
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
 /tmp/
 
 ## Documentation cache and generated files:
-/.yardoc
-/_yardoc
+/.yardoc/
+/_yardoc/
 /doc/
-/rdoc
+/rdoc/
 
 ## Environment normalisation:
-/.bundle
-/lib/bundler/man
+/.bundle/
+/lib/bundler/man/
 
 # for a library or gem, you might want to ignore these files since the code is
 # intended to run in multiple environments; otherwise, check them in:
