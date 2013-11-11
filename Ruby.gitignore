@@ -1,5 +1,5 @@
-/*.gem
-/*.rbc
+*.gem
+*.rbc
 /.config
 /coverage/
 /InstalledFiles
@@ -26,4 +26,4 @@
 # .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-/.rvmrc
+.rvmrc
