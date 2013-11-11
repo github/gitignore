@@ -7,7 +7,6 @@
 *.sln.docstates
 
 # Build results
-
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -105,13 +104,14 @@ publish/
 
 # Publish Web Output
 *.Publish.xml
+*.azurePubxml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
 
 # Windows Azure Build Output
-csx
+csx/
 *.build.csdef
 
 # Windows Store app package directory
