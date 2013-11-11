@@ -5,3 +5,6 @@ output/
 
 # Temporary file directory
 tmp/
+
+# Crash Log
+crash.log
