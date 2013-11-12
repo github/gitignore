@@ -8,7 +8,7 @@
 *.egg-info
 *.EGG-INFO
 *.kpf
-*.swp
+*.sw?
 *.wpr
 .*.cfg
 .installed.cfg
