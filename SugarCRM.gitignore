@@ -2,13 +2,13 @@
 # Ignore custom .htaccess stuff.
 /.htaccess
 # Ignore the cache directory completely. ATTENTION! This will break things!
-/cache/*
+/cache/
 # Ignore some files and directories from the custom directory.
-/custom/history/*
-/custom/modulebuilder/*
-/custom/working/*
+/custom/history/
+/custom/modulebuilder/
+/custom/working/
 /custom/modules/*/Ext/
-/custom/application/Ext/*
+/custom/application/Ext/
 # Custom configuration should also be ignored.
 /config.php
 /config_override.php
@@ -17,5 +17,5 @@
 # Logs files can safely be ignored.
 *.log
 # Ignore the new upload directories.
-/upload/*
-/upload_backup/*
+/upload/
+/upload_backup/
