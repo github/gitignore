@@ -49,7 +49,7 @@ get.php
 includes/
 index.php
 index.php.sample
-install.php
+/install.php
 js/blank.html
 js/calendar/
 js/enterprise/
