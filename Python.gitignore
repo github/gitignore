@@ -38,7 +38,6 @@ coverage.xml
 .project
 .pydevproject
 
-
--# Django stuff:
- -*.log
- -*.pot
+# Django stuff:
+*.log
+*.pot
