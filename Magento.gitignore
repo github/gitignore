@@ -1,4 +1,6 @@
 .modgit/
+.htaccess
+.htaccess.sample
 app/code/community/Find/
 app/code/community/Phoenix/
 app/code/core/
@@ -40,6 +42,7 @@ app/etc/local.xml.template
 app/.htaccess
 app/locale/
 app/Mage.php
+api.php
 cron.php
 cron.sh
 downloader/
