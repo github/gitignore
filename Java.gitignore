@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+
+# Eclipse workspace settings #
+.settings/
+
