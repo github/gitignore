@@ -7,11 +7,11 @@
 *.sln.docstates
 
 # Build results
-
 [Dd]ebug/
 [Rr]elease/
 x64/
 build/
+bld/
 [Bb]in/
 [Oo]bj/
 
@@ -22,8 +22,13 @@ build/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
 *_i.c
 *_p.c
+*_i.h
 *.ilk
 *.meta
 *.obj
@@ -43,7 +48,7 @@ build/
 *.vssscc
 .builds
 *.pidb
-*.log
+*.svclog
 *.scc
 
 # Visual C++ cache files
@@ -59,12 +64,16 @@ ipch/
 *.vsp
 *.vspx
 
+# TFS 2012 Local Workspace
+$tf/
+
 # Guidance Automation Toolkit
 *.gpState
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
+*.DotSettings.user
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -74,6 +83,7 @@ _TeamCity*
 
 # NCrunch
 *.ncrunch*
+_NCrunch_*
 .*crunch*.local.xml
 
 # Installshield output folder
@@ -94,14 +104,14 @@ publish/
 
 # Publish Web Output
 *.Publish.xml
-*.pubxml
+*.azurePubxml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
 
 # Windows Azure Build Output
-csx
+csx/
 *.build.csdef
 
 # Windows Store app package directory
@@ -115,6 +125,7 @@ ClientBin/
 ~$*
 *~
 *.dbmdl
+*.dbproj.schemaview
 *.[Pp]ublish.xml
 *.pfx
 *.publishsettings
@@ -132,6 +143,14 @@ UpgradeLog*.htm
 # SQL Server files
 App_Data/*.mdf
 App_Data/*.ldf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Microsoft Fakes
+FakesAssemblies/
 
 # =========================
 # Windows detritus
