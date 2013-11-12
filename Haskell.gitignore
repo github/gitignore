@@ -6,3 +6,6 @@ cabal-dev
 *.chs.h
 .virthualenv
 .hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
