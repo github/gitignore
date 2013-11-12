@@ -6,7 +6,6 @@
 *.EGG
 *.egg-info
 *.EGG-INFO
-*.sw?
 .*.cfg
 bin/
 build/
