@@ -37,6 +37,7 @@ app/etc/config.xml
 app/etc/enterprise.xml
 app/etc/local.xml.additional
 app/etc/local.xml.template
+app/etc/local.xml
 app/.htaccess
 app/locale/
 app/Mage.php
