@@ -1,11 +1,3 @@
-#files
-*.bak
-*.class
-
-#licensefile
-Apache_License.txt
-
-#folders
 **/IntegrationServer/lib/
 **/IntegrationServer/datastore/
 **/IntegrationServer/db/

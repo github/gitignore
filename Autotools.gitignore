@@ -11,3 +11,4 @@ Makefile.in
 /depcomp
 /install-sh
 /missing
+/stamp-h1
