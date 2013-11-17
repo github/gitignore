@@ -11,3 +11,8 @@ project/plugins/project/
 
 # Scala-IDE specific
 .scala_dependencies
+
+# Eclipse specific
+.cache
+.classpath
+.project
