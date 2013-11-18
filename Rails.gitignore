@@ -3,17 +3,23 @@
 .sass-cache
 capybara-*.html
 .rspec
-.rvmrc
-/.bundle
-/vendor/bundle
-/log/*
-/tmp/*
+/log
+/tmp
 /db/*.sqlite3
-/public/system/*
+/public/system
 /coverage/
-/spec/tmp/*
+/spec/tmp
 **.orig
 rerun.txt
 pickle-email-*.html
-.project
 config/initializers/secret_token.rb
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
