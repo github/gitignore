@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget https://raw.github.com/github/gitignore/master/$1.gitignore
+
+wget -O global$1.gitignore https://raw.github.com/github/gitignore/master/Global/$1.gitignore
