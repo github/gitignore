@@ -178,3 +178,12 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+# LightSwitch generated content
+[Cc]lient[Gg]enerated
+[Ss]erver[Gg]enerated
+[Gg]enerated[Aa]rtifacts
+_[Pp]vt_[Ee]xtensions
+ModelManifest.xml
+*.cscfg
+*.xap
