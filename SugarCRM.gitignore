@@ -1,7 +1,11 @@
 ## SugarCRM
 # Ignore custom .htaccess stuff.
 /.htaccess
-# Ignore the cache directory completely. ATTENTION! This will break things!
+# Ignore the cache directory completely.
+# This will break the current behaviour. Which was often leading to
+# the misuse of the repository as backup replacement.
+# For development the cache directory can be safely ignored and
+# therefore it is ignored.
 /cache/
 # Ignore some files and directories from the custom directory.
 /custom/history/
