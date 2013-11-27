@@ -14,3 +14,10 @@ tramp
 
 # flymake-mode
 *_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
