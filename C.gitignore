@@ -1,6 +1,8 @@
 # Object files
 *.o
 *.ko
+*.obj
+*.elf
 
 # Libraries
 *.lib
@@ -18,3 +20,4 @@
 *.app
 *.i*86
 *.x86_64
+*.hex
