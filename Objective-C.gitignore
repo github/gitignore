@@ -17,6 +17,7 @@ profile
 *.moved-aside
 DerivedData
 *.hmap
+*.ipa
 
 # CocoaPods
 Pods
