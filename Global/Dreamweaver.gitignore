@@ -1,0 +1,2 @@
+# Ignore scattered _notes directories that Dreamweaver uses to keep track of its edits and concurrency
+*/_notes
