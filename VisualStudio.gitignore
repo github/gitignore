@@ -7,11 +7,12 @@
 *.sln.docstates
 
 # Build results
-
 [Dd]ebug/
+[Dd]ebugPublic/
 [Rr]elease/
 x64/
 build/
+bld/
 [Bb]in/
 [Oo]bj/
 
@@ -22,8 +23,13 @@ build/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
 *_i.c
 *_p.c
+*_i.h
 *.ilk
 *.meta
 *.obj
@@ -43,8 +49,11 @@ build/
 *.vssscc
 .builds
 *.pidb
-*.log
+*.svclog
 *.scc
+
+# Chutzpah Test files
+_Chutzpah*
 
 # Visual C++ cache files
 ipch/
@@ -59,12 +68,19 @@ ipch/
 *.vsp
 *.vspx
 
+# TFS 2012 Local Workspace
+$tf/
+
 # Guidance Automation Toolkit
 *.gpState
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode is a .NET coding addin-in
+.JustCode
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -74,7 +90,12 @@ _TeamCity*
 
 # NCrunch
 *.ncrunch*
+_NCrunch_*
 .*crunch*.local.xml
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
 
 # Installshield output folder
 [Ee]xpress/
@@ -94,14 +115,16 @@ publish/
 
 # Publish Web Output
 *.Publish.xml
-*.pubxml
+*.azurePubxml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
+## TODO: If the tool you use requires repositories.config, also uncomment the next line
+#!packages/repositories.config
 
 # Windows Azure Build Output
-csx
+csx/
 *.build.csdef
 
 # Windows Store app package directory
@@ -115,6 +138,7 @@ ClientBin/
 ~$*
 *~
 *.dbmdl
+*.dbproj.schemaview
 *.[Pp]ublish.xml
 *.pfx
 *.publishsettings
@@ -133,6 +157,14 @@ UpgradeLog*.htm
 App_Data/*.mdf
 App_Data/*.ldf
 
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Microsoft Fakes
+FakesAssemblies/
+
 # =========================
 # Windows detritus
 # =========================
@@ -146,6 +178,3 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-# Mac crap
-.DS_Store

@@ -1,4 +1,11 @@
-.DS_Store
-packages
-.project
-pubspec.lock
+// Don’t commit the following files and directories created by pub and dart2js
+packages/
+*.js_
+*.js.deps
+*.js.map
+
+// Include when developing application packages
+pubspec.lock 
+
+// Avoid committing generated JavaScript files
+*.dart.js
