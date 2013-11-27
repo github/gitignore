@@ -17,7 +17,6 @@ profile
 *.moved-aside
 DerivedData
 *.hmap
-*.xccheckout
 
 # CocoaPods
 Pods
