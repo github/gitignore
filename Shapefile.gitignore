@@ -1,7 +1,8 @@
 # ESRI shapefiles .gitignore
-# Sources:
+# *Sources*
 # http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 # http://resources.arcgis.com/en/help/main/10.2/index.html#/Shapefile_file_extensions/005600000003000000/
+# http://en.wikipedia.org/wiki/Shapefile
 
 # shapefile
 *.shp
