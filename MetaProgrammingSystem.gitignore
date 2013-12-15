@@ -1,0 +1,20 @@
+# General
+
+workspace.xml
+junitvmwatcher*.properties
+build.properties
+
+# generated java classes and java source files
+# custom artifacts that can't be generated from the models you
+# should add them manually
+# see http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
+# for further reference
+classes_gen
+source_gen
+source_gen.caches
+
+# generated test code and test results
+test_gen
+test_gen.caches
+TEST-*.xml
+junit*.properties
