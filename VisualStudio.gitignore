@@ -114,7 +114,7 @@ DocProject/Help/html
 publish/
 
 # Publish Web Output
-*.Publish.xml
+*.[Pp]ublish.xml
 *.azurePubxml
 
 # NuGet Packages Directory
@@ -139,7 +139,6 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
-*.[Pp]ublish.xml
 *.pfx
 *.publishsettings
 
