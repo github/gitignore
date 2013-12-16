@@ -1,10 +1,17 @@
+# Compiled files
 *.dcu
-*.~*~
+*.dsk
 *.local
 *.identcache
+
+# Backup files
 __history
-*.drc
+*.~*~
+
+# Excution files
 *.map
 *.exe
 *.dll
 bin/*
+Release
+Debug
