@@ -1,19 +1,23 @@
 *.rbc
 *.sassc
 .sass-cache
-capybara-*.html
 .rspec
-/log
-/tmp
-/db/*.sqlite3
-/public/system
-/coverage/
-/spec/tmp
+capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+tmp/
+log/
+db/*.sqlite3
+public/system
+coverage/
+spec/tmp/
 config/initializers/secret_token.rb
 config/secrets.yml
+config/database.yml
+config/deploy.rb
+doc/**/*
+!doc/README_FOR_APP
 
 ## Environment normalisation:
 /.bundle
