@@ -23,5 +23,8 @@ local.properties
 # PDT-specific
 .buildpath
 
+# sbteclipse plugin 
+.target
+
 # TeXlipse plugin
 .texlipse
