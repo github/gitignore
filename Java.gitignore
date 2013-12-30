@@ -17,9 +17,10 @@
 /dist
 
 # Eclipse
-/.classpath
-/.project
 /.settings
+# ! Uncomment these lines if you are not using Eclipse exclusively in the project
+#/.classpath
+#/.project
 
 # Netbeans
 /nbproject
