@@ -7,3 +7,28 @@
 *.jar
 *.war
 *.ear
+
+# maven
+/target
+
+# various other potential build files
+/build
+/bin
+/dist
+
+# Eclipse
+/.classpath
+/.project
+/.settings
+
+# Netbeans
+/nbproject
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Mac filesystem dust
+.DS_Store
