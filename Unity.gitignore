@@ -9,3 +9,7 @@
 /*.suo
 /*.user
 /*.pidb
+
+# Compiled Ressources 
+/*.exe
+*_data/
