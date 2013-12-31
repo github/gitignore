@@ -21,3 +21,6 @@ _testmain.go
 
 *.exe
 *.test
+
+*/.idea/workspace.xml
+*/.idea/tasks.xml
