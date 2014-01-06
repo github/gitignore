@@ -3,3 +3,6 @@
 
 # Ada Library Information
 *.ali
+
+# Executable file
+*.exe
