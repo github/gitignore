@@ -23,6 +23,7 @@ lib-cov
 
 # Node-specific patterns
 
-## You may want to comment this out in certain scenarios:
-## see http://www.futurealoof.com/posts/nodemodules-in-git.html
+## Dependency directory
+## Deployed apps should consider commenting this line out:
+## see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
