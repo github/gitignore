@@ -16,9 +16,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
-!packages/*/build/
-
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -119,9 +116,13 @@ publish/
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+#packages/*
 ## TODO: If the tool you use requires repositories.config, also uncomment the next line
 #!packages/repositories.config
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# This line needs to be after the ignore of the build folder (and the packages folder if the line above has been uncommented)
+!packages/build/
 
 # Windows Azure Build Output
 csx/
