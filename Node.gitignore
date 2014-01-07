@@ -24,7 +24,12 @@ lib-cov
 ## Coverage directory used by tools like istanbul
 coverage
 
-# Node-specific patterns
+# Other popular tool patterns
+
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# NodeJS patterns
 
 ## Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
