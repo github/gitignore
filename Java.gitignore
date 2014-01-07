@@ -7,3 +7,29 @@
 *.jar
 *.war
 *.ear
+
+# maven
+/target
+
+# various other potential build files
+/build
+/bin
+/dist
+
+# Eclipse
+/.settings
+# ! Uncomment these lines if you are not using Eclipse exclusively in the project
+#/.classpath
+#/.project
+
+# Netbeans
+/nbproject
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Mac filesystem dust
+.DS_Store
