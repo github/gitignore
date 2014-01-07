@@ -21,3 +21,7 @@ DerivedData
 
 # CocoaPods
 Pods
+
+# AppCode
+.idea/workspace.xml
+.idea/tasks.xml
