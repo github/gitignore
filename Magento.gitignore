@@ -1,6 +1,7 @@
 .modgit/
 app/code/community/Find/
 app/code/community/Phoenix/
+app/code/community/Cm/
 app/code/core/
 app/design/adminhtml/default/default/
 app/design/adminhtml/default/find/
@@ -33,6 +34,7 @@ app/etc/modules/Mage_Weee.xml
 app/etc/modules/Mage_Widget.xml
 app/etc/modules/Mage_XmlConnect.xml
 app/etc/modules/Phoenix_Moneybookers.xml
+app/etc/modules/Cm_RedisSession.xml
 app/etc/config.xml
 app/etc/enterprise.xml
 app/etc/local.xml.additional
@@ -77,6 +79,9 @@ lib/PEAR/
 lib/phpseclib/
 lib/Varien/
 lib/Zend/
+lib/Cm/
+lib/Credis/
+lib/Magento/
 LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
@@ -89,7 +94,7 @@ media/.htaccess
 media/import/
 media/xmlconnect/
 media/catalog/product/cache/
-
+api.php
 nbproject/
 pear
 pear/
