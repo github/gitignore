@@ -1,14 +1,23 @@
-*.dcu
+# IDE - History and Backup Files
 *.~*
+__history
+
+# IDE - Machine Specific Settings
 *.local
 *.identcache
-__history
+*.dsk
+
+# Output Directory
+bin/*
+
+# Compiler / Linker output
+*.dcu
 *.drc
 *.map
 *.exe
 *.dll
+*.bpi
 *.bpl
 *.dcp
 *.so
 *.apk
-bin/*
