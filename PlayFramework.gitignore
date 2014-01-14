@@ -1,19 +1,43 @@
+# General Java / Scala ignore
+*.class
+*.log
+
+
+# eclipse ignores
+.project
+.metadata
+.classpath
+*.tmp
+*.bak
+*.swp
+.settings/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
 # Ignore Play! working directory #
-bin
-db
-eclipse
-lib
-log
-logs
-modules
+/db
+.eclipse
+/lib/
+/logs/
+/modules
 precompiled
-project/project
-project/target
-target
-tmp
+/project/project
+/project/target
+/target
+tmp/**
+tmp/**/*
 test-result
 server.pid
 *.iml
 *.eml
-dist
+/dist/
 .cache
+
+# sbt ignore
+.history/
+.lib/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
