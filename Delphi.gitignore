@@ -2,6 +2,17 @@
 # Based on Embarcadero documentation:
 # http://docwiki.embarcadero.com/RADStudio/XE5/en/File_Extensions_of_Files_Generated_by_RAD_Studio
 
+# !!! ATTENTION !!!
+# These types should be ignored in most cases.
+# Leave this lines commented only if you know what you are doing.
+# And please DO NOT store .res files in repository. Try to get rid of them.
+#
+#*.res
+#*.ddp
+#*.vlb
+#*.deployproj
+#
+
 # Delphi compiler-generated binaries
 *.exe
 *.dll
@@ -11,7 +22,6 @@
 *.apk
 *.drc
 *.map
-*.res
 *.dres
 *.rsm
 *.tds
@@ -27,8 +37,6 @@
 *.projdata
 *.tvsconfig
 *.dsk
-*.deployproj
-*.vlb
 
 # Delphi history and backups
 __history/
