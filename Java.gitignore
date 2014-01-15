@@ -1,9 +1,10 @@
+# Compiled files
 *.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar #Jar are external library. Do not ignore them if they are important.
 *.war
 *.ear
