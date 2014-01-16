@@ -17,6 +17,7 @@
 *.exe
 *.dll
 *.bpl
+*.bpi
 *.dcp
 *.so
 *.apk
