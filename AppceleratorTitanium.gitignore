@@ -1,3 +1,13 @@
 # Build folder and log file
 build/
 build.log
+
+# From TitaniumStudio's .gitignore (v. 3.2.0)
+tmp
+#npm-debug.log
+.DS_Store
+
+# Other files
+.project
+.settings/*
+._*
