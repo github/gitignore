@@ -5,7 +5,7 @@ packages/
 *.js.map
 
 // Include when developing application packages
-pubspec.lock 
+pubspec.lock
 
 // Avoid committing generated JavaScript files
 *.dart.js
