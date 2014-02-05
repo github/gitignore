@@ -1,5 +1,4 @@
 .htaccess
-wp-config.php
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/
@@ -11,3 +10,4 @@ sitemap.xml
 wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
+wp-config.php

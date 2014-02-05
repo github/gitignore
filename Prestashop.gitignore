@@ -1,0 +1,29 @@
+# Directories content
+cache/class_index.php
+cache/smarty/cache/*
+!cache/smarty/cache/index.php
+cache/smarty/compile/*
+!cache/smarty/compile/index.php
+cache/tcpdf/*
+!cache/tcpdf/index.php
+
+config/xml/*.xml
+config/settings.inc.php
+
+log/*.log
+
+img/*
+!img/index.php
+!img/*/index.php
+
+tools/smarty*/cache/*.php
+!tools/smarty*/cache/index.php
+tools/smarty*/compile/*.php
+!tools/smarty*/compile/index.php
+
+themes/default/cache/*.js
+themes/default/cache/*.css
+
+# Ignore files on root directory
+robots.txt
+sitemap.xml
