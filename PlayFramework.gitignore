@@ -1,4 +1,6 @@
 # Ignore Play! working directory #
+.DS_Store
+.svn
 bin
 db
 eclipse
