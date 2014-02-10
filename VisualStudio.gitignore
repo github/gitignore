@@ -169,6 +169,9 @@ App_Data/*.ldf
 # Microsoft Fakes
 FakesAssemblies/
 
+# Python Tools for Visual Studio
+*.pyproj
+
 # =========================
 # Windows detritus
 # =========================
