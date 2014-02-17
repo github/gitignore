@@ -1,0 +1,21 @@
+# solution files:
+*.sln
+*.suo
+
+# project files:
+*.csproj
+
+# manifest files
+*.manifest
+
+# program degub database
+*.pdb
+
+# executables
+*.exe
+
+# obj folder:
+**/obj/
+
+# bin debug folder:
+**/bin/Debug/
