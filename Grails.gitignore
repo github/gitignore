@@ -38,6 +38,3 @@
 
 # "temporary" build files
 /target
-
-# other
-*.iws
