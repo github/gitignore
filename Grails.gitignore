@@ -12,6 +12,8 @@
 /*.tmproj
 /ivy*
 /eclipse
+/.idea
+*.iws
 
 # default HSQL database files for production mode
 /prodDb.*
@@ -39,5 +41,3 @@
 # "temporary" build files
 /target
 
-# other
-*.iws
