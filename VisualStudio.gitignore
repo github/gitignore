@@ -116,6 +116,8 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+## TODO: Comment the next line if you want to checkin your web deploy settings but do not that will include unencrypted passwords
+*.pubxml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
