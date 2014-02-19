@@ -4,3 +4,6 @@
 Session.vim
 .netrwhist
 *~
+
+#Ignore local_vimrc files http://www.vim.org/scripts/script.php?script_id=727
+_vimrc_local.vim
