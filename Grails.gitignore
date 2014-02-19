@@ -3,16 +3,6 @@
 # web application files
 /web-app/WEB-INF/classes
 
-# IDE support files
-/.classpath
-/.launch
-/.project
-/.settings
-/*.launch
-/*.tmproj
-/ivy*
-/eclipse
-
 # default HSQL database files for production mode
 /prodDb.*
 
@@ -38,6 +28,3 @@
 
 # "temporary" build files
 /target
-
-# other
-*.iws
