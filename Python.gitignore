@@ -34,10 +34,10 @@ coverage.xml
 
 # Translations
 *.mo
+*.pot
 
 # Django stuff:
 *.log
-*.pot
 
 # Sphinx documentation
 docs/_build/
