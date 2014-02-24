@@ -1,0 +1,7 @@
+*.ibc
+*.o
+cabal-dev
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+dist
