@@ -19,5 +19,8 @@ DerivedData
 *.hmap
 *.ipa
 
+# AppCode
+.idea
+
 # CocoaPods
 Pods
