@@ -16,9 +16,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
-!packages/*/build/
-
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -26,6 +23,11 @@ bld/
 #NUNIT
 *.VisualState.xml
 TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
 
 *_i.c
 *_p.c
@@ -97,6 +99,9 @@ _NCrunch_*
 *.mm.*
 AutoTest.Net/
 
+# Web workbench (sass)
+.sass-cache/
+
 # Installshield output folder
 [Ee]xpress/
 
@@ -118,10 +123,13 @@ publish/
 *.azurePubxml
 
 # NuGet Packages Directory
-## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
-## TODO: If the tool you use requires repositories.config, also uncomment the next line
+packages/*
+## TODO: If the tool you use requires repositories.config uncomment the next line
 #!packages/repositories.config
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# This line needs to be after the ignore of the build folder (and the packages folder if the line above has been uncommented)
+!packages/build/
 
 # Windows Azure Build Output
 csx/
@@ -141,6 +149,7 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
+node_modules/
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -153,8 +162,8 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
-App_Data/*.mdf
-App_Data/*.ldf
+*.mdf
+*.ldf
 
 # Business Intelligence projects
 *.rdl.data

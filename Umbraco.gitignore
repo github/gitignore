@@ -1,0 +1,9 @@
+# Ignore Umbraco folders (Generated folders created by Umbraco)
+ClientDependency/
+TEMP/
+Logs/
+Cached/
+ExamineIndexes/
+
+# Ignore Umbraco content cache file
+umbraco.config

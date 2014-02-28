@@ -1,6 +1,4 @@
 *.rbc
-*.sassc
-.sass-cache
 capybara-*.html
 .rspec
 /log
