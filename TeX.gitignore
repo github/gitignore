@@ -72,12 +72,6 @@
 # nomencl
 *.nlo
 
-# todonotes
-*.tdo
-
-# xindy
-*.xdy
-
 # sagetex
 *.sagetex.sage
 *.sagetex.py
@@ -87,4 +81,11 @@
 *.sout
 *.sympy
 sympy-plots-for-*.tex/
+
+# todonotes
+*.tdo
+
+# xindy
+*.xdy
+
 
