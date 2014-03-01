@@ -173,6 +173,17 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+# Visual studio 2013
+*.vcproj
+*.vxcproj
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcproj.filters
+*.vcxproj.user
+*.vcproj.user
+
+
 # =========================
 # Windows detritus
 # =========================
