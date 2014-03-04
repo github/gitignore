@@ -28,8 +28,5 @@
 /web-app/plugins
 
 # "temporary" build files
-/target
-/target-eclipse
 
 # other
-*.iws
