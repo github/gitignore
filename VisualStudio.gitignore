@@ -172,17 +172,3 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
-
-# =========================
-# Windows detritus
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
