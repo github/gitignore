@@ -3,4 +3,9 @@
 
 # project files should be checked into the repository, unless a significant
 # proportion of contributors will probably not be using SublimeText
-# *.sublime-project
+# By default sublime text will use the full path to the project root in the project files path setting. 
+# This leads to merge conflicts unless it is manually changes. According to sublime documentation, it is recommended to 
+# commit the project file in the repository. 
+# It is first suggested to change the path setting to the relative setting so it will work uniformly for all users. 
+# http://www.sublimetext.com/docs/2/projects.html
+*.sublime-project
