@@ -3,4 +3,6 @@
 
 # project files should be checked into the repository, unless a significant
 # proportion of contributors will probably not be using SublimeText
-# *.sublime-project
+# removed the comment to ignore the project file as different users store projects in different directories. 
+# Leads to path mismatches.
+*.sublime-project
