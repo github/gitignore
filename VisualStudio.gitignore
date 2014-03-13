@@ -172,3 +172,9 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Klocwork
+.klocwork
+
+# WinMerge
+*.bak
