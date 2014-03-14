@@ -1,0 +1,11 @@
+#pkg and src dirs
+pkg/
+src/
+
+#source packages and packge files
+*.tgz
+*.tar.gz
+*.xz
+
+#signature file
+*.sig
