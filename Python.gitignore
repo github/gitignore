@@ -36,6 +36,9 @@ coverage.xml
 htmlcov/
 nosetests.xml
 
+# Sphinx documentation
+docs/_build/
+
 # Translations
 *.mo
 *.pot
@@ -53,5 +56,3 @@ nosetests.xml
 # Rope
 .ropeproject
 
-# Sphinx documentation
-docs/_build/
