@@ -28,6 +28,13 @@ var/
 pip-delete-this-directory.txt
 pip-log.txt
 
+# Sphinx documentation
+docs/_build/
+
+# Translations
+*.mo
+*.pot
+
 # Unit test/coverage reports
 .cache
 .coverage
@@ -36,12 +43,6 @@ coverage.xml
 htmlcov/
 nosetests.xml
 
-# Sphinx documentation
-docs/_build/
-
-# Translations
-*.mo
-*.pot
 
 # Mr Developer
 .mr.developer.cfg
@@ -55,4 +56,3 @@ docs/_build/
 
 # Rope
 .ropeproject
-
