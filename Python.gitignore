@@ -49,10 +49,5 @@ nosetests.xml
 .project
 .pydevproject
 
-# PyCharm
-*.iws
-.idea/tasks.xml
-.idea/workspace.xml
-
 # Rope
 .ropeproject
