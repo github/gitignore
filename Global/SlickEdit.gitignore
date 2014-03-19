@@ -1,14 +1,6 @@
 # SlickEdit workspace and project files are ignored by default because
 # typically they are considered to be developer-specific and not part of a
-# project.  However, if multiple SlickEdit users are collaborating on a
-# project, it is possible to store these files in the repository and share
-# them among all developers because they do not contain user-specific data.
-# To store these files in a repository, add the following two lines to the
-# project’s .gitignore file:
-# ----------
-# !*.vpw
-# !*.vpj
-# ----------
+# project.
 *.vpw
 *.vpj
 
