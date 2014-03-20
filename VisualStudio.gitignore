@@ -73,6 +73,10 @@ ipch/
 # TFS 2012 Local Workspace
 $tf/
 
+# Sourcegear Vault/Fortress Ghost Folders
+_sgvault/
+_sgbak/
+
 # Guidance Automation Toolkit
 *.gpState
 
