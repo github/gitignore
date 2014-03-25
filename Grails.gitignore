@@ -28,5 +28,6 @@
 /web-app/plugins
 
 # "temporary" build files
+/target
 
 # other
