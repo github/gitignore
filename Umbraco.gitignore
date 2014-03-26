@@ -10,10 +10,10 @@
 [Aa]pp_Data/ExamineIndexes/*
 [Aa]pp_Browsers/*
 [Aa]pp_Data/TEMP/*
-[Aa]pp_Data/tea-commerce/
+#[Aa]pp_Data/tea-commerce/
 [Aa]pp_Data/ClientDependency/*
-[Aa]pp_Data/courier/cache/*
-[Aa]pp_Data/courier/revisions/*
+#[Aa]pp_Data/courier/cache/*
+#[Aa]pp_Data/courier/revisions/*
 [Aa]pp_Data/justDelete_*
 [Aa]pp_Data/Preview/*
 [Aa]pp_Data/_systemUmbracoIndexDontDelete/*
@@ -25,15 +25,15 @@
 # Log files
 
 [Aa]pp_Data/Logs/*
-[Aa]pp_Data/courier/logs/*
-[Aa]pp_Data/Elmah Logs/*
-[Aa]pp_Data/umbraco.licensing.log.txt
+#[Aa]pp_Data/courier/logs/*
+#[Aa]pp_Data/Elmah Logs/*
+#[Aa]pp_Data/umbraco.licensing.log.txt
 
 # Media Caching
 
-[Mm]edia/*/Cached
-[Ii]magecache/*
+#[Mm]edia/*/Cached
+#[Ii]magecache/*
 
 # 3rd Party Pluggins
 
-uSync.Archive/*
+#uSync.Archive/*
