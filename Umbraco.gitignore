@@ -1,9 +1,39 @@
-# Ignore Umbraco folders (Generated folders created by Umbraco)
-ClientDependency/
-TEMP/
-Logs/
-Cached/
-ExamineIndexes/
+#
+# Umbraco Specific Git Ignore File
+#
 
-# Ignore Umbraco content cache file
-umbraco.config
+# This file should be placed inside the directory that contains your Umbraco Web Application
+# it is assumed that you will be using a global .gitignore file for the rest of the repository. 
+
+# Data folders/files
+
+[Aa]pp_Data/ExamineIndexes/*
+[Aa]pp_Browsers/*
+[Aa]pp_Data/TEMP/*
+[Aa]pp_Data/tea-commerce/
+[Aa]pp_Data/ClientDependency/*
+[Aa]pp_Data/courier/cache/*
+[Aa]pp_Data/courier/revisions/*
+[Aa]pp_Data/justDelete_*
+[Aa]pp_Data/Preview/*
+[Aa]pp_Data/_systemUmbracoIndexDontDelete/*
+
+# Umbraco Cache
+
+[Aa]pp_Data/umbraco.config
+
+# Log files
+
+[Aa]pp_Data/Logs/*
+[Aa]pp_Data/courier/logs/*
+[Aa]pp_Data/Elmah Logs/*
+[Aa]pp_Data/umbraco.licensing.log.txt
+
+# Media Caching
+
+[Mm]edia/*/Cached
+[Ii]magecache/*
+
+# 3rd Party Pluggins
+
+uSync.Archive/*
