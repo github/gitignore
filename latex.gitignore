@@ -1,0 +1,7 @@
+# LaTeX generated
+*.aux
+*.log
+*.toc
+# BibTeX generated
+*.bbl
+*.blg
