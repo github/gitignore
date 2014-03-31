@@ -1,0 +1,5 @@
+# BitTorrent Sync
+# http://www.bittorrent.com/sync
+.SyncArchive
+.SyncID
+.SyncIgnore
