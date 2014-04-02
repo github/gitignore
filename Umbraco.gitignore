@@ -7,33 +7,33 @@
 
 # Data folders/files
 
-#[Aa]pp_[Bb]rowsers/*
-[Aa]pp_[Dd]ata/ExamineIndexes/*
-[Aa]pp_[Dd]ata/TEMP/**
-[Aa]pp_[Dd]ata/tea-commerce/
-[Aa]pp_[Dd]ata/ClientDependency/*
-[Aa]pp_[Dd]ata/courier/cache/*
-[Aa]pp_[Dd]ata/courier/revisions/*
-[Aa]pp_[Dd]ata/justDelete_*
-[Aa]pp_[Dd]ata/[Pp]review/*
-[Aa]pp_[Dd]ata/_systemUmbracoIndexDontDelete/*
+[Aa]pp_Data/ExamineIndexes/*
+[Aa]pp_Browsers/*
+[Aa]pp_Data/TEMP/*
+#[Aa]pp_Data/tea-commerce/
+[Aa]pp_Data/ClientDependency/*
+#[Aa]pp_Data/courier/cache/*
+#[Aa]pp_Data/courier/revisions/*
+[Aa]pp_Data/justDelete_*
+[Aa]pp_Data/Preview/*
+[Aa]pp_Data/_systemUmbracoIndexDontDelete/*
 
 # Umbraco Cache
 
-[Aa]pp_[Dd]ata/umbraco.config
+[Aa]pp_Data/umbraco.config
 
 # Log files
 
-[Aa]pp_[Dd]ata/Logs/*
-[Aa]pp_[Dd]ata/courier/logs/*
-[Aa]pp_[Dd]ata/Elmah Logs/*
-[Aa]pp_[Dd]ata/umbraco.licensing.log.txt
+[Aa]pp_Data/Logs/*
+#[Aa]pp_Data/courier/logs/*
+#[Aa]pp_Data/Elmah Logs/*
+#[Aa]pp_Data/umbraco.licensing.log.txt
 
 # Media Caching
 
-[Mm]edia/*/Cached
-[Ii]magecache/*
+#[Mm]edia/*/Cached
+#[Ii]magecache/*
 
-# 3rd Party Plugins
+# 3rd Party Pluggins
 
-uSync.Archive/*
+#uSync.Archive/*
