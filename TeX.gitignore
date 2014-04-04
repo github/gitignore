@@ -61,9 +61,6 @@
 *.glo
 *.gls
 
-# handout
-*.handout
-
 # hyperref
 *.brf
 
