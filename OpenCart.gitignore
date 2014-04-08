@@ -1,0 +1,11 @@
+.htaccess
+config.php
+admin/config.php
+
+!index.html
+
+download/
+image/data/
+image/cache/
+system/cache/
+system/logs/

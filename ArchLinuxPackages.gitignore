@@ -1,5 +1,7 @@
 *.tar
 *.tar.*
+*.zip
+*.tgz
 *.log
 *.log.*
 *.sig
