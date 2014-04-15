@@ -6,6 +6,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.Python
+env/
 bin/
 build/
 develop-eggs/
@@ -25,6 +27,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+htmlcov/
 .tox/
 .coverage
 .cache

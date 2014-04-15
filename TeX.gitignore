@@ -25,6 +25,7 @@
 ## Build tool auxiliary files:
 *.fdb_latexmk
 *.synctex.gz
+*.synctex.gz(busy)
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:
@@ -40,6 +41,15 @@
 *.nav
 *.snm
 *.vrb
+
+#(e)ledmac/(e)ledpar
+*.end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
 
 # glossaries
 *.acn
@@ -70,6 +80,16 @@
 
 # nomencl
 *.nlo
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
 
 # todonotes
 *.tdo
