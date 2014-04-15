@@ -11,3 +11,4 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
+*.xcuserstate
