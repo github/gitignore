@@ -127,8 +127,9 @@ publish/
 *.pubxml
 
 # NuGet Packages Directory
-packages/*
-## TODO: If the tool you use requires repositories.config uncomment the next line
+packages/
+## TODO: If the tool you use requires repositories.config comment the line above and uncomment the next two lines
+#packages/*
 #!packages/repositories.config
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
