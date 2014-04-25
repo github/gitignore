@@ -1,10 +1,4 @@
-# License and readme
-INSTALL*
-LICENSE*
-README*
-
 # Composer files
-composer.lock
 composer.phar
 vendor/
 
