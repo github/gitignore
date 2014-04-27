@@ -1,0 +1,13 @@
+Mercury/
+.*.swp
+tags
+*.mh
+*.err
+*.init
+*.dll
+*.exe
+*.a
+*.so
+*.dylib
+*.d
+*.c_date
