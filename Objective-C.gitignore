@@ -13,6 +13,7 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
+.DS_Store
 *.hmap
 *.ipa
 *.xcuserstate
