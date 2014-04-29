@@ -1,6 +1,4 @@
 Mercury/
-.*.swp
-tags
 *.mh
 *.err
 *.init
