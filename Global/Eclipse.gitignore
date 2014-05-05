@@ -28,3 +28,4 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+--no-metadata 
