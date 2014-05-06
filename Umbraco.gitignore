@@ -4,6 +4,7 @@ TEMP/
 Logs/
 Cached/
 ExamineIndexes/
+preview/
 
 # Ignore Umbraco content cache file
 umbraco.config
