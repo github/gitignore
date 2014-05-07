@@ -1,4 +1,4 @@
-# .gitignore for Grails 1.2 and 1.3
+# .gitignore for Grails 1.2, 1.3 and 2.x
 
 # web application files
 /web-app/WEB-INF/classes
@@ -20,6 +20,7 @@
 
 # plugin release files
 /*.zip
+/*.zip.sha1
 /plugin.xml
 
 # older plugin install locations
@@ -28,3 +29,5 @@
 
 # "temporary" build files
 /target
+
+# other

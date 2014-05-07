@@ -2,6 +2,8 @@
 .metadata
 .gradle
 bin/
+target/
+target-eclipse/
 tmp/
 *.tmp
 *.bak

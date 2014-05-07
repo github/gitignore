@@ -1,4 +1,5 @@
 .modgit/
+api.php
 app/code/community/Find/
 app/code/community/Phoenix/
 app/code/community/Cm/
@@ -44,6 +45,7 @@ app/etc/local.xml
 app/.htaccess
 app/locale/
 app/Mage.php
+cache/
 cron.php
 cron.sh
 downloader/
