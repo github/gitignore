@@ -183,3 +183,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
