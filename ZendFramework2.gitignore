@@ -14,3 +14,7 @@ logs/
 cache/
 temp/
 tmp/
+
+# ZF1
+demos/
+extras/documentation
