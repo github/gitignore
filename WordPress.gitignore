@@ -1,3 +1,11 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+desktop.ini
+Thumbs.db
 .htaccess
 wp-content/uploads/
 wp-content/blogs.dir/
@@ -5,9 +13,10 @@ wp-content/upgrade/
 wp-content/backup-db/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
 sitemap.xml
 *.log
-wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
 wp-config.php
