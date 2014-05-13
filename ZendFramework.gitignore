@@ -1,5 +1,20 @@
-INSTALL.txt
-LICENSE.txt
-README.txt
+# Composer files
+composer.phar
+vendor/
+
+# Local configs
+config/autoload/*local.php
+
+# Binary gettext files
+*.po
+
+# Data
+log/
+logs/
+cache/
+temp/
+tmp/
+
+# ZF1
 demos/
 extras/documentation
