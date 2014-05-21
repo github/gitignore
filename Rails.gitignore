@@ -24,3 +24,14 @@ config/secrets.yml
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+# For those using Mac OS X
+.DS_Store
+
+#simplecov gem and tests
+coverage/
+/spec/tmp
+
+#used for any jetbrains IDE to store App settings
+.idea
+
