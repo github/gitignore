@@ -183,3 +183,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Roslyn cache
+*.sln.ide/
+
