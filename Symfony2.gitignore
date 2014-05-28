@@ -1,6 +1,3 @@
-# Bootstrap
-/app/bootstrap.php.cache
-
 # Cache and logs
 /app/cache/*
 /app/logs/*
@@ -12,6 +9,7 @@
 /app/config/parameters.ini
 
 # Managed by Composer
+/app/bootstrap.php.cache
 /bin/
 /vendor/
 
