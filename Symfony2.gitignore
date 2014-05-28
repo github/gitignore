@@ -20,5 +20,5 @@
 # PHPUnit
 /app/phpunit.xml
 
-# Composer
+# Composer PHAR
 /composer.phar
