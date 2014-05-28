@@ -1,19 +1,24 @@
-# Bootstrap
-app/bootstrap*
+# Cache and logs
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
 
-# Symfony directories
-vendor/*
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
 
-# Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+# Managed by Composer
+/app/bootstrap.php.cache
+/bin/
+/vendor/
+
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
 
 # PHPUnit
-app/phpunit.xml
+/app/phpunit.xml
 
-# Composer
-composer.phar
+# Composer PHAR
+/composer.phar
