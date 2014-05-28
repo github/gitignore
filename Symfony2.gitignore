@@ -2,6 +2,7 @@
 app/bootstrap.php.cache
 
 # Symfony directories
+bin/*
 vendor/*
 */logs/*
 */cache/*
