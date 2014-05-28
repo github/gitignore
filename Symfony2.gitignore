@@ -11,7 +11,7 @@
 /app/config/parameters.yml
 /app/config/parameters.ini
 
-# Dependencies
+# Managed by Composer
 /bin/
 /vendor/
 
