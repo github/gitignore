@@ -1,19 +1,23 @@
 # Bootstrap
 /app/bootstrap.php.cache
 
-# Symfony directories
-/bin/
-/vendor/
-/app/logs/*
+# Cache and logs
 /app/cache/*
+/app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
-/web/uploads/
-/web/bundles/
 
-# Configuration files
-/app/config/parameters.ini
+# Parameters
 /app/config/parameters.yml
+/app/config/parameters.ini
+
+# Dependencies
+/bin/
+/vendor/
+
+# Assets
+/web/bundles/
+/web/uploads/
 
 # PHPUnit
 /app/phpunit.xml
