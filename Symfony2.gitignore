@@ -1,5 +1,5 @@
 # Bootstrap
-app/bootstrap*
+app/bootstrap.php.cache
 
 # Symfony directories
 vendor/*
