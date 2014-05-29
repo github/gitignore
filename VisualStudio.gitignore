@@ -130,6 +130,9 @@ publish/
 *.pubxml
 
 # NuGet Packages
+## TODO: Update the following path to your packages folder if it
+## is not in the same folder as this .gitignore file, keep the /*
+## at the end or the below include specific items will not work
 packages/*
 *.nupkg
 ## TODO: If the tool you use requires repositories.config
