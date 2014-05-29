@@ -13,8 +13,8 @@
 
 ## File-based project format
 *.ipr
-*.iws
 *.iml
+*.iws
 
 ## Additional for IntelliJ
 out/
