@@ -1,2 +1,6 @@
 # Compiled
 *.elc
+
+# Backup
+*~
+*#
