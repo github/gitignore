@@ -1,0 +1,67 @@
+# System Files #
+# ------------------------------------ #
+
+# Windows #
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX #
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+
+# Popular IDE folders #
+.buildpath
+.project
+.settings
+.DS_Store
+.idea
+
+
+# Composer & Test Related #
+# ------------------------------------ #
+/libraries/vendor/*
+/composer.phar
+/phpunit.xml
+
+
+# Server Files #
+# ------------------------------------ #
+/.htaccess
+/web.config
+
+
+# For whole Joomla! site #
+# ------------------------------------ #
+
+# Dymanic folders #
+/logs/*
+!/logs/index.html
+/log/*
+!/log/index.html
+/cache/*
+!/cache/index.html
+/tmp/*
+!/tmp/index.html
+/administrator/cache/*
+!/administrator/cache/index.html
+
+# Config file #
+/configuration.php
+
+# Some files may big #
+*.zip
+*.rar
+*.7z
+
+# Extensions #
+# ------------------------------------ #
+
+# Akeeba #
+/administrator/components/com_akeeba/backup/*
+!/administrator/components/com_akeeba/backup/index.html
+!/administrator/components/com_akeeba/backup/.htaccess
+
