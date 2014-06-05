@@ -1,0 +1,7 @@
+# Silicon Laboratories for C8051 project
+*.HEX
+*.#*
+*.OBJ
+tmp.out
+*.LST
+*.M51
