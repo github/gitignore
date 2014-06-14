@@ -42,3 +42,15 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# PyCharm IDE
+.idea
+
+# Eclipse / PyDev IDE
+.project
+.pydevproject
+
+# PyBuilder
+target/
+
+
