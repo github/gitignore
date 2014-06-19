@@ -1,0 +1,9 @@
+#RB & Xojo temp files/folders
+Builds*
+*.debug
+*.debug.app
+Debug*.exe
+Debug*/Debug*.exe
+Debug*/Debug*\ Libs
+*.rbuistate
+*.obsolete
