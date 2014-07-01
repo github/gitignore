@@ -26,3 +26,7 @@ Makefile*
 # QtCreator
 
 *.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
