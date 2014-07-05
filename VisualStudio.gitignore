@@ -74,6 +74,7 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+INSTRUMENTED/
 
 # TFS 2012 Local Workspace
 $tf/
