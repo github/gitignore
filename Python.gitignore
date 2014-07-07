@@ -54,4 +54,4 @@ target/
 
 # Intellij IDEA stuffs:
 *.iml
-*.idea
+*.idea/
