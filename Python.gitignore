@@ -51,3 +51,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Intellij IDEA stuffs:
+*.iml
+*.idea
