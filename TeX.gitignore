@@ -99,3 +99,11 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+
+# Desktop Service Store for file Mac OS
+.DS_Store
+
+# swap file
+*.swp
+
