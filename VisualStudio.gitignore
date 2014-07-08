@@ -131,17 +131,13 @@ publish/
 *.pubxml
 
 # NuGet Packages
-**/packages/*
 *.nupkg
-## TODO: If the tool you use *requires* repositories.config, (note that this file is normally regenerated so you should not need it in source control)
-## uncomment the next line
-#!**/packages/repositories.config
-
-# Enable "build/" folder in the NuGet Packages folder since
-# NuGet packages use it for MSBuild targets.
-# This line needs to be after the ignore of the build folder
-# (and the packages folder if the line above has been uncommented)
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
 !**/packages/build/
+# If using the old MSBuild-Integrated Package Restore, uncomment this:
+#!**/packages/repositories.config
 
 # Windows Azure Build Output
 csx/
