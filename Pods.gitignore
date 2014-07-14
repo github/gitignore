@@ -1,1 +1,4 @@
 Pods/
+
+# You may choose to ignore a library lock file http://guides.cocoapods.org/using/using-cocoapods.html#what-is-a-podfilelock
+# Podfile.lock
