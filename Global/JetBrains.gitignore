@@ -1,5 +1,7 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
+## For directory vs file based set-ups, see: https://intellij-support.jetbrains.com/entries/23393067
+
 ## Directory-based project format
 .idea/
 # if you remove the above rule, at least ignore user-specific stuff:
@@ -10,8 +12,12 @@
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
+# optionals:
+# .idea/gradle.xml
+# .idea/dictionaries
+# .idea/libraries
 
-## File-based project format
+## File-based project format - remove if using the above
 *.ipr
 *.iml
 *.iws
