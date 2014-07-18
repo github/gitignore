@@ -180,3 +180,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Publish profiles (may contain sensitive data)
+PublishProfiles/
