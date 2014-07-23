@@ -1,3 +1,9 @@
 # LabView User-specific files
 *.aliases
 *.lvlps
+
+*.ogp
+
+# LabView Build files
+/built
+/build
