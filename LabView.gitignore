@@ -6,6 +6,6 @@
 
 *.ogp
 
-# LabView Build files
+# LabView Build folders
 /built
 /build
