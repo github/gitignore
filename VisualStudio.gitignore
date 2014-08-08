@@ -180,3 +180,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
