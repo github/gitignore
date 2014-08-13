@@ -2,18 +2,22 @@
 
 ## Directory-based project format
 .idea/
+/*.iml
 # if you remove the above rule, at least ignore user-specific stuff:
 # .idea/workspace.xml
 # .idea/tasks.xml
+# .idea/dictionaries
 # and these sensitive or high-churn files:
 # .idea/dataSources.ids
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
+# and, if using gradle::
+# .idea/gradle.xml
+# .idea/libraries
 
 ## File-based project format
 *.ipr
-*.iml
 *.iws
 
 ## Additional for IntelliJ
