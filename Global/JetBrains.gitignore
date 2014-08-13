@@ -12,9 +12,13 @@
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
-# and, if using gradle::
+# and this UI specific file
+# .idea/uiDesigner.xml
+# and, if using gradle:
 # .idea/gradle.xml
 # .idea/libraries
+# and, if using Mongo Explorer plugin
+# .idea/mongoSettings.xml
 
 ## File-based project format
 *.ipr
