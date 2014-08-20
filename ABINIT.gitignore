@@ -1,0 +1,9 @@
+## A .gitignore for ABINIT projects
+
+## Log and error files made after runs
+*.log
+*_LOG_*
+*_STATUS_*
+
+## Potentially huge binary files
+*_DS*
