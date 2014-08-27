@@ -1,0 +1,9 @@
+# Main BI file
+*.qvw
+
+# Data files
+*.qvd
+*.qvx
+
+# Shared Objects Files
+*.shared
