@@ -1,3 +1,8 @@
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
 # workspace files are user-specific
 *.sublime-workspace
 
@@ -5,5 +10,5 @@
 # proportion of contributors will probably not be using SublimeText
 # *.sublime-project
 
-#sftp configuration file
+# sftp configuration file
 sftp-config.json
