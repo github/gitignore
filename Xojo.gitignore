@@ -1,4 +1,5 @@
-#RB & Xojo temp files/folders
+# Xojo (formerly REALbasic and Real Studio)
+
 Builds*
 *.debug
 *.debug.app
