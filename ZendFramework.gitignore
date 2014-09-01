@@ -3,18 +3,18 @@ composer.phar
 vendor/
 
 # Local configs
-config/autoload/*local.php
+config/autoload/*.local.php
 
 # Binary gettext files
-*.po
+*.mo
 
 # Data
-log/
-logs/
-cache/
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
 temp/
-tmp/
 
-# ZF1
+# Legacy ZF1
 demos/
 extras/documentation
