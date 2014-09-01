@@ -3,9 +3,6 @@
 *.tmPreferences.cache
 *.stTheme.cache
 
-# python code in binary format
-*.pyc
-
 # workspace files are user-specific
 *.sublime-workspace
 
