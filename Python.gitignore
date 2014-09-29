@@ -22,6 +22,18 @@ var/
 .installed.cfg
 *.egg
 
+# Python virtual environment
+#
+# When developing locally, it is common practice to create a Python virtual
+# environment for a repo and to pip-install the project in develop mode:
+# https://packaging.python.org/en/latest/tutorial.html#virtual-environments
+# Using pyvenv to create the virtual environment creates the following
+# directories and files.  See the following for more info--
+# https://docs.python.org/3/library/venv.html#creating-virtual-environments
+bin/
+Scripts/
+pyvenv.cfg
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
