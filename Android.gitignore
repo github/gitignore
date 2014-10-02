@@ -24,3 +24,6 @@ proguard/
 
 # Log Files
 *.log
+
+# IDEA files (intellij IDE files)
+.idea/
