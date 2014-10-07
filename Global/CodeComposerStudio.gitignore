@@ -1,0 +1,16 @@
+# =========================
+# Code Composer Studio Files
+# =========================
+
+tmp/
+*.tmp
+*.bak
+
+# Generated build artifact directories
+Debug/
+Release/
+# Generated directories
+.config/
+.launches/
+# Generated file used to help display error messages in the problems view
+.xdchelp
