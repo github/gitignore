@@ -22,6 +22,9 @@
 *.a
 *.lib
 
+# Eclipse
+*.settings
+
 # Executables
 *.exe
 *.out
