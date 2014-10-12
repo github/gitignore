@@ -1,4 +1,5 @@
 # Maven stuff
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -8,7 +9,8 @@ release.properties
 
 *.class
 
-# Java stuff 
+# Java stuff
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
