@@ -1,3 +1,20 @@
+### Mac ###
+
+.DS_Store
+
+### Android Studio ###
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+ 
+# Local IDEA workspace
+.idea/workspace.xml
+
+### Android ###
+
 # Built application files
 *.apk
 *.ap_
