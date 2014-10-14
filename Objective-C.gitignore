@@ -28,3 +28,6 @@ DerivedData
 #AppCode
 .idea/
 *.iml
+
+#OSX Specific
+.DS_Store
