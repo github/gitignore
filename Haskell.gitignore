@@ -1,4 +1,5 @@
-dist
+dist/*
+!dist/resources/
 cabal-dev
 *.o
 *.hi
