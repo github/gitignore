@@ -1,0 +1,24 @@
+#---- Gambas files to ignore (v 1.1) 
+
+# Gambas executable
+*.gambas
+
+# Lock
+.lock
+
+# Autosave files
+*~
+
+# Core
+core
+core.*
+vgcore
+vgcore.*
+.kdbg*
+.*.prof
+
+# Translation files
+.lang/*.pot
+.gambas/*
+
+#----
