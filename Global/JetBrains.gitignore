@@ -42,7 +42,5 @@ atlassian-ide-plugin.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
-# Crashlytics Secret Location
-**/crashlytics.properties
-# High-Churn file
-**/crashlytics-build.properties
+/crashlytics.properties
+/crashlytics-build.properties
