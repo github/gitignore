@@ -183,7 +183,7 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-# Visual Studio 6 build log
+# Visual Studio 6 build log: http://msdn.microsoft.com/en-us/library/aa260829(v=vs.60).aspx
 **/*.plg
-# Visual Studio 6 workspace options file
+# Visual Studio 6 workspace options file: http://msdn.microsoft.com/en-us/library/aa239568(v=vs.60).aspx
 *.opt
