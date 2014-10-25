@@ -16,6 +16,9 @@ gen/
 .gradle/
 build/
 
+# Ignore auto-generated backup files
+*~
+
 # Local configuration file (sdk path, etc)
 local.properties
 
