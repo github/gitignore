@@ -4,6 +4,8 @@ cabal-dev
 *.hi
 *.chi
 *.chs.h
+*.dyn_o
+*.dyn_hi
 .virtualenv
 .hpc
 .hsenv
