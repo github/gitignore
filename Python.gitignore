@@ -56,3 +56,6 @@ target/
 # Thrift
 gen-*/
 
+# VI swap file
+*.sw?
+
