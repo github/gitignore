@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+# User-specific folders
+*.sln.ide/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
