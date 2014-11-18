@@ -31,5 +31,4 @@ config/secrets.yml
 bower.json
 
 #Ignore pow enironment settings
-.powconfig
 .powenv
