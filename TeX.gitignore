@@ -39,6 +39,9 @@
 # amsthm
 *.thm
 
+#AUCTeX
+auto/
+
 # beamer
 *.nav
 *.snm
