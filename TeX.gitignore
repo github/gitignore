@@ -69,6 +69,11 @@
 # hyperref
 *.brf
 
+# knitr
+*-concordance.tex
+*.tikz
+*-tikzDictionary
+
 # listings
 *.lol
 
