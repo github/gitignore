@@ -92,6 +92,9 @@
 # nomencl
 *.nlo
 
+# RefTeX
+*.rel
+
 # sagetex
 *.sagetex.sage
 *.sagetex.py
