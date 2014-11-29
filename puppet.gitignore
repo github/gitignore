@@ -1,0 +1,8 @@
+/.tmp/
+/modules/
+/.vagrant
+/.librarian/
+/build/
+*.sublime-workspace
+*.old
+*.lock
