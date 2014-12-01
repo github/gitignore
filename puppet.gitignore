@@ -3,6 +3,5 @@
 /.vagrant
 /.librarian/
 /build/
-*.sublime-workspace
 *.old
 *.lock
