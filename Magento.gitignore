@@ -20,6 +20,7 @@ app/etc/modules/Mage_Bundle.xml
 app/etc/modules/Mage_Captcha.xml
 app/etc/modules/Mage_Centinel.xml
 app/etc/modules/Mage_Compiler.xml
+app/etc/modules/Mage_ConfigurableSwatches.xml
 app/etc/modules/Mage_Connect.xml
 app/etc/modules/Mage_CurrencySymbol.xml
 app/etc/modules/Mage_Downloadable.xml
@@ -75,6 +76,7 @@ lib/.htaccess
 lib/LinLibertineFont/
 lib/Mage/
 lib/PEAR/
+lib/Pelago/
 lib/phpseclib/
 lib/Varien/
 lib/Zend/
