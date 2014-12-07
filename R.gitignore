@@ -9,7 +9,7 @@
 .Rproj.user
 .Rhistory
 .RData
-*.Rproj
+#*.Rproj
 
 
 # produced vignettes
