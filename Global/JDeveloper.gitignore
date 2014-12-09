@@ -1,4 +1,6 @@
 .data/
 temp/
 classes/
+deploy/
+javadoc/
 cwallet.sso.lck
