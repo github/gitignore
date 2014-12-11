@@ -9,7 +9,7 @@ DataSourcesIndex.xml
 # ignores studio options and their backups
 *.opt
 *.optback
-# somtimes Magic creates backuüs of different xml files, not deleted on crashes
+# sometimes Magic creates backups of different xml files, not deleted on crashes
 *_BCK.xml
-# if a project is opened, a .lock file is created in the project dir to prevent multiple opens, ignored.
+# if a project is opened, a .lock file is created in the project directory to prevent multiple opens, ignored.
 *.lock
