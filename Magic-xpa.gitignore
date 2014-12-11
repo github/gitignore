@@ -1,0 +1,15 @@
+# .gitignore for Magic UniPaaS/xpa (renamed between version 2.0 and 2.1)
+# refer to http://www.magicsoftware.com/magic-xpa-application-platform
+# ProgramHeaders.xml serves as a cache file for program headers which is rebuilt if non existent
+ProgramHeaders.xml
+# DataSourcesIndex.xml serves as a cache file for header information of DataSources.xml which is rebuilt if non existent
+DataSourcesIndex.xml
+# ignores cross reference results stored in project directory
+*.XRF
+# ignores studio options and their backups
+*.opt
+*.optback
+# somtimes Magic creates backuüs of different xml files, not deleted on crashes
+*_BCK.xml
+# if a project is opened, a .lock file is created in the project dir to prevent multiple opens, ignored.
+*.lock
