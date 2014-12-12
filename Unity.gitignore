@@ -13,5 +13,15 @@
 *.pidb
 *.booproj
 
+# Unity3D generated meta files
+*.pidb.meta
+
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+# General operating system files
+*.DS_STORE
+*.db
+
+# Some additional ones
+*.tmp
