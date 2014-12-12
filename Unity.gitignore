@@ -7,7 +7,9 @@
 *.csproj
 *.unityproj
 *.sln
+*.sln.DotSettings
 *.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
@@ -23,5 +25,3 @@ sysinfo.txt
 *.DS_STORE
 *.db
 
-# Some additional ones
-*.tmp
