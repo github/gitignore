@@ -1,0 +1,12 @@
+tmp/
+log/
+out/media/
+out/downloads/
+out/pictures/
+export/
+import/
+setup/
+documenation/
+
+README
+COPYING
