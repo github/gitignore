@@ -2,3 +2,6 @@
 
 # KDE directory preferences
 .directory
+
+# Directories created on removable media
+.[Tt]rash*
