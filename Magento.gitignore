@@ -1,4 +1,5 @@
 .modgit/
+.modman/
 app/code/community/Phoenix/
 app/code/community/Cm/
 app/code/core/
