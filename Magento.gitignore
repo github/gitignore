@@ -42,14 +42,14 @@ app/etc/local.xml
 app/.htaccess
 app/locale/
 app/Mage.php
-cron.php
+/cron.php
 cron.sh
 downloader/
 errors/
 favicon.ico
-get.php
+/get.php
 includes/
-index.php
+/index.php
 index.php.sample
 /install.php
 js/blank.html
@@ -93,7 +93,7 @@ media/.htaccess
 media/import/
 media/xmlconnect/
 media/catalog/product/cache/
-api.php
+/api.php
 nbproject/
 pear
 pear/
