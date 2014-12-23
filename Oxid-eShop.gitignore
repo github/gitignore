@@ -14,9 +14,10 @@ out/pictures/generated
 export/
 import/
 
-# setup, files will be deleted after installation
-setup/
+setup/ # setup, files will be deleted after installation
 
-documenation/
+documenation/ #contains pdf-files about templates
+
+# Copyright, some links and short installation instruction
 README
 COPYING
