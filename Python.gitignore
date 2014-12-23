@@ -52,3 +52,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# SonarQube
+.sonar
+sonar-project.properties
+
+# PyCov
+.coverage
