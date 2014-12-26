@@ -1,0 +1,4 @@
+## Ignore CodeCharge Studio temporary files
+
+# DB Chache files
+*mydb_cache.xml
