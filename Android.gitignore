@@ -2,6 +2,9 @@
 *.apk
 *.ap_
 
+# Built application files (for Android Studio projects)
+/*/build/
+
 # Files for the Dalvik VM
 *.dex
 
