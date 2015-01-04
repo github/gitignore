@@ -1,0 +1,6 @@
+# SlickEdit workspace, project, history and tag files
+#*.vpj
+#*.vpw
+*.vpwhist
+*.vtg
+
