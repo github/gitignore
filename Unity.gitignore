@@ -7,7 +7,6 @@
 *.csproj
 *.unityproj
 *.sln
-*.sln.DotSettings
 *.suo
 *.tmp
 *.user
@@ -20,8 +19,4 @@
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
-
-# General operating system files
-*.DS_STORE
-*.db
 
