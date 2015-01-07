@@ -5,3 +5,5 @@ app/tmp/*
 app/[Cc]onfig/core.php
 app/[Cc]onfig/database.php
 !empty
+# Uncomment if installing Cake core using Composer
+# [Vv]endor/*
