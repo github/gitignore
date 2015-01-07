@@ -2,9 +2,6 @@
 *.apk
 *.ap_
 
-# Built application files (for Android Studio projects)
-/*/build/
-
 # Files for the Dalvik VM
 *.dex
 
@@ -18,6 +15,7 @@ gen/
 # Gradle files
 .gradle/
 build/
+/*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
