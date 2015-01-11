@@ -7,6 +7,9 @@
 
 # RStudio files
 .Rproj.user/
+.Rhistory
+.Rapp.history
+.RData
 
 # produced vignettes
 vignettes/*.html
