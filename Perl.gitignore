@@ -17,3 +17,22 @@ nytprof.out
 /pm_to_blib
 *.o
 *.bs
+
+# If MANIFEST.SKIP is used enable this:
+# /MANIFEST
+
+# Mac Finder generated:
+.DS_Store
+
+# vim swap files:
+*.swp
+
+# random backup files:
+*.bak
+
+# Code::TidyAll Test::Code::TidyAll cache:
+/.tidyall.d/
+
+# Dancer puts the session objects in the session/ directory and the logs in the logs/ directory
+# /session
+# /logs
