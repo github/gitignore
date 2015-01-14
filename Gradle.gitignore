@@ -3,3 +3,6 @@ build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
+
+#Never ignore the wrapper jar (jars are ignored by Java.gitignore)
+!gradle/wrapper/gradle-wrapper.jar
