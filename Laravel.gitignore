@@ -1,3 +1,23 @@
+# Default Laravel ignores
 /bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
 .env.*.php
 .env.php
+.DS_Store
+Thumbs.db
+
+# SASS, node (gulp/grunt), and bower
+.sass-cache
+node_modules
+bower_components
+
+# The main .htaccess
+/public/.htaccess
+
+# If a build system is in use, maybe ignore the dist dir too
+/public/dist
+#/public/img
+#/public/css
+#/public/js
