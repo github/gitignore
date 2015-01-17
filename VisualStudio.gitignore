@@ -191,3 +191,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# VSPHP is a VisualStudio extension for PHP
+*.intellisense.cache
+*.puo
+*.phpproj
