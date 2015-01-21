@@ -21,7 +21,3 @@ ucli*
 # Coverage related files
 simv.vdb/
 urgReport/
-
-# Editor backup files
-*.swp
-*~
