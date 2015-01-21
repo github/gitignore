@@ -96,6 +96,7 @@ media/.htaccess
 media/import/
 media/xmlconnect/
 media/catalog/product/cache/
+media/catalog/product/placeholder/default/
 /api.php
 nbproject/
 pear
