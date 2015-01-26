@@ -12,3 +12,7 @@ packages
 
 # Include when developing application packages.
 pubspec.lock
+
+# Dart Editor specific
+.project
+.settings/
