@@ -52,3 +52,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Python virtual environment (venv) files
+venv/
