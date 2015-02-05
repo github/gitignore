@@ -93,6 +93,7 @@ acs-*.bib
 *.mtc0
 
 # minted
+_minted*
 *.pyg
 
 # morewrites
