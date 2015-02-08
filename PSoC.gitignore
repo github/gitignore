@@ -1,0 +1,28 @@
+# Ignore the build output directories. 
+
+CortexM3/
+CortexM0/
+Export/
+Generated_Source/
+codegentemp/
+
+# Exclude project files with username extensions implicitly
+
+*.cyprj*
+!*.cyprj
+
+# Ignore the workspace configuration files
+# PSoC Creator 3 uses .cywrk, not .cywsp
+
+*.cywrk*
+*.cywsp*
+
+# Ignore the intermediate output files
+
+*.cycdx
+*.cyfit
+*.rpt
+*.svd
+*timing.html
+
+
