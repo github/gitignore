@@ -1,0 +1,30 @@
+# a-blog cms
+# http://www.a-blogcms.jp
+
+# Setting files
+config.server.php
+.htaccess
+
+# License file.
+license.php
+
+# System files.
+/index.js
+/index.php
+
+# Data dirs.
+/archives/
+/archives_rev/
+/media/
+
+# System dir.
+/setup/
+/php/**/*.*
+!/php/ACMS/User/**/*.*
+
+# Other settings.
+/private/*
+!/private/config.system.yaml
+
+/js/*
+!/js/config.js
