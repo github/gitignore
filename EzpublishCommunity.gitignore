@@ -1,0 +1,67 @@
+# eZ Publish 4.x (legacy) stack part. You should use
+# submodule to store it (it's never kept with SF2 part).
+
+# General var folders, that are being
+# recreated every time you clear cache/
+# or regenerate autoloads.
+/ezpublish_legacy/var/autoload/
+/ezpublish_legacy/var/cache/
+/ezpublish_legacy/var/*/cache/
+/ezpublish_legacy/var/*_site/
+/ezpublish_legacy/var/log/
+/ezpublish_legacy/var/*/log/
+/ezpublish_legacy/var/storage/
+/ezpublish_legacy/var/test*
+
+# Temporary locations used for updates.
+/ezpublish_legacy/bin/linux/ezlupdate
+/ezpublish_legacy/bin/win32
+
+# NOTICE
+# If you don't want to store legacy and Symfony2
+# stacks together (preferred), you should .gitignore
+# whole /ezpublish_legacy directory. In other words
+# remove all the lines above and uncomment the one
+# below.
+#/ezpublish_legacy
+
+# eZ Publish 5.x (Symfony2) stack part. Usually provided
+# without a legacy part.
+
+# Symfony2 vendor directory. Should be populated
+# using composer.phar commands.
+/vendor/
+
+# Test directories. We don't actually need them
+# as they're recreated every time you start a task.
+/bin/behat
+/bin/phpunit
+
+# Symfony2 temporary directories.
+/ezpublish/cache/
+/ezpublish/logs/
+
+
+# Symfony2 config files, that should be filled
+# during deployment process.
+/ezpublish/config/parameters.yml
+/ezpublish/config/ezpublish_prod.yml
+/ezpublish/config/ezpublish_dev.yml
+/ezpublish/sessions
+/ezpublish/bootstrap.php.cache
+
+# Symfony2 web public directories. We don't want
+# to hide everything, as some files are too important.
+/web/index_treemenu.php
+/web/index_rest.php
+/web/index_cluster.php
+/web/bundles/
+/web/design
+/web/extension
+/web/share
+/web/var
+/web/.htaccess
+
+# Composer files.
+composer.phar
+composer.lock
