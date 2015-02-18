@@ -154,6 +154,7 @@ AppPackages/
 *.[Cc]ache
 ClientBin/
 [Ss]tyle[Cc]op.*
+*.[Ss]tyle[Cc]op
 ~$*
 *~
 *.dbmdl
