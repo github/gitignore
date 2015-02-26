@@ -1,0 +1,22 @@
+## .gitignore for the [IntelliJ family of IDEs](https://www.jetbrains.com/products.html#IDE_and_editors)
+#+ References: https://intellij-support.jetbrains.com/entries/23393067
+##
+syntax: glob
+
+## Directory-based project format (.idea directory)
+
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Decide after reading and understanding the references:
+# https://intellij-support.jetbrains.com/entries/23393067
+# .idea/gradle.xml
+# .idea/libraries/*.xml
+# dataSources.ids
+# datasources.xml
+# *.dic
+
+
+# Legacy project format (.ipr/.iml/.iws files)
+
+*.iws
