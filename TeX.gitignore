@@ -70,6 +70,10 @@ acs-*.bib
 *.glo
 *.gls
 
+# gnuplot
+*.*.gnuplot
+*.*.table
+
 # hyperref
 *.brf
 
