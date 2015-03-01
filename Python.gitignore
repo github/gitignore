@@ -56,4 +56,4 @@ docs/_build/
 target/
 
 # JetBrains PyCharm, WebStorm, etcc..
-.idea/
+.idea/workspace.xml
