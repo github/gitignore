@@ -54,3 +54,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# JetBrains PyCharm, WebStorm, etcc..
+.idea/
