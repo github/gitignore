@@ -117,3 +117,7 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+# WinEdt
+*.bak
+*.sav
