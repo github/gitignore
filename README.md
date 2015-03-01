@@ -53,6 +53,11 @@ high quality, we request that contributions adhere to the following guidelines.
 In general, the more you can do to help us understand the change you’re making,
 the more likely we’ll be to accept your contribution quickly.
 
+If a template is mostly a list of files installed by a particular version of
+some software (e.g. a PHP framework) then it's brittle and probably no more
+helpful than a simple `ls`. If it's not possible to curate a small set of
+useful rules, then the template might not be a good fit for this collection.
+
 Please also understand that we can’t list every tool that ever existed.
 Our aim is to curate a collection of the *most common and helpful* templates,
 not to make sure we cover every project possible. If we choose not to
