@@ -1,5 +1,8 @@
 # Platforms folder
 platforms
 
+# Plugins folder
+plugins/[com|org]*.*
 
-
+# OS X
+.DS_Store
