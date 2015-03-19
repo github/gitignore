@@ -2,7 +2,7 @@
 platforms
 
 # Plugins folder
-plugins/[com|org]*.*
+plugins/**/
 
 # OS X
 .DS_Store
