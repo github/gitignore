@@ -5,5 +5,10 @@
 *.log
 *.log.*
 *.sig
+
+# AUR metadata
+.AURINFO
+.SRCINFO
+
 pkg/
 src/

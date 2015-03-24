@@ -1,4 +1,5 @@
 Mercury/
+Mercury.modules
 *.mh
 *.err
 *.init
@@ -7,5 +8,6 @@ Mercury/
 *.a
 *.so
 *.dylib
+*.beams
 *.d
 *.c_date
