@@ -35,3 +35,6 @@
 
 # Composer PHAR
 /composer.phar
+
+# Loading symfony application
+/web/app.php
