@@ -6,6 +6,7 @@
 /joomla.xml
 /LICENSE.txt
 /README.txt
+/robots.txt
 /robots.txt.dist
 /web.config.txt
 /administrator/cache/*
@@ -40,7 +41,6 @@
 /administrator/components/index.html
 /administrator/help/*
 /administrator/includes/*
-/administrator/language/en-GB/
 /administrator/language/en-GB/en-GB.com_admin.ini
 /administrator/language/en-GB/en-GB.com_admin.sys.ini
 /administrator/language/en-GB/en-GB.com_ajax.ini
@@ -294,7 +294,6 @@
 /images/powered_by.png
 /includes/*
 /installation/*
-/language/en-GB/
 /language/en-GB/en-GB.com_ajax.ini
 /language/en-GB/en-GB.com_config.ini
 /language/en-GB/en-GB.com_contact.ini
