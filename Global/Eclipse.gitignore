@@ -34,3 +34,6 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+# Mac File
+.DS_Store
