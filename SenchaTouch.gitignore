@@ -1,0 +1,5 @@
+# All sass cached files inside .sass-cache
+**/.sass-cache
+
+# All temporary build files
+**/temp
