@@ -195,5 +195,5 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
-# DNX-based projects have a project.lock.json file. It is not recommended that this be checked in by default
+# DNX-based projects have a project.lock.json file. This should not be checked-in during development
 project.lock.json
