@@ -55,3 +55,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Thrift
+gen-*/
+
+# VI swap file
+*.sw?
+
