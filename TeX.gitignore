@@ -78,6 +78,7 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
+# TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
 *-tikzDictionary
 
@@ -121,6 +122,14 @@ sympy-plots-for-*.tex/
 # xindy
 *.xdy
 
+## Editors
+
 # WinEdt
 *.bak
 *.sav
+
+# Kile
+*.backup
+
+# KBibTeX
+*~*
