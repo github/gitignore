@@ -11,3 +11,5 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# Custom ignore rules
