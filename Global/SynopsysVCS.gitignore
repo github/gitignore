@@ -1,23 +1,57 @@
-# Waveforms
-*.vpd
+########## Waveforms #######################################
+# Value Change Dumping (VCD) - IEEE Standard
 *.vcd
+# VCDlus Dumping (VPD) - Synopsys proprietary format
+*.vpd
+# Extended VCD (EVCD) - Dump only port information
 *.evcd
+# Fast Signal DataBase (FSDB)
+*.fsdb
 
-# Binary files
+
+########## Simulation executable file ######################
+# Default name of the simulation executable.  A different
+# name can be specified with this switch (the associated
+# daidir database name is also taken from here)
+#   -o <path>/<filename>
 simv
 
-# Directories used for compilation
-csrc/
-simv.daidir/
 
-# Log files
+########## Intermediate files used for simulation ##########
+# Generated for Verilog top configs
+simv.daidir/
+# Generated for VHDL top configs
+simv.db.dir/
+# Infrastructure necessary to co-simulate SystemC models
+# with Verilog/VHDL models.  An alternate directory may
+# be specified with this switch:
+#   -Mdir=<directory_path>
+csrc/
+
+
+########### Log files ######################################
+# The switch below allows to specify the file that will be
+# used to write all messages from simulation
+#   -l <filename>
 *.log
 
-# DVE, UCLI related files
-DVEfiles/
-ucli*
-*.key
 
-# Coverage related files
+########## Coverage-related files ##########################
+# Generation of coverage result reports is done with urg
+# and the database location is specified with this switch:
+#   urg -dir <coverage_directory>.vdb
 simv.vdb/
 urgReport/
+
+
+########## DVE, UCLI related files #########################
+# DVE produces some logs that are created in this directory.
+DVEfiles/
+ucli.key
+
+
+########## C Language interface ############################
+# When the design is elaborated for DirectC, VCS will create
+# a file in the current directory with declarations for 
+# C/C++ functions.
+vc_hdrs.h
