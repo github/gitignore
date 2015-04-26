@@ -1,0 +1,54 @@
+# get it from: https://github.com/spring-projects/spring-framework/blob/master/.gitignore
+.gradle
+´build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Ignore Spring specifc files
+/build
+bin
+build.sh
+buildSrc/build
+integration-repo
+.settings
+/spring-*/build
+.springBeans
+spring-test/test-output/
+/src/asciidoc/build
+target/
+
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+
+# Ignore some other files 
+*.java.hsp
+*.sonarj
+*.sw*
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+argfile*
+pom.xml
+activemq-data/
