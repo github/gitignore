@@ -152,6 +152,7 @@ AppPackages/
 
 # Others
 *.[Cc]ache
+!*.[Cc]ache/
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
