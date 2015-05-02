@@ -1,5 +1,5 @@
-# Windows image file caches
-Thumbs.db
+# Windows picture file thumbnail caches
+[Tt]humbs.db
 ehthumbs.db
 
 # Folder config file
@@ -16,10 +16,10 @@ RECYCLER/
 *.msm
 *.msp
 
-# Windows shortcuts
+# Windows shortcuts & Recent Items links
 *.lnk
 
-# System Restore data & restore points. (Also: Windows Backup, Volume Shadow Copy, Content Indexer, CHKDSK logs)
+# System Restore data & restore points, Windows Backup, Volume Shadow Copy, Content Indexer, CHKDSK logs
 System Volume Information/
 
 # System Recovery boot image
