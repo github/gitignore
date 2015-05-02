@@ -7,6 +7,8 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+$Recycle.Bin/
+RECYCLER/
 
 # Windows Installer files
 *.cab
@@ -16,3 +18,15 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# System Restore data & restore points. (Also: Windows Backup, Volume Shadow Copy, Content Indexer, CHKDSK logs)
+System Volume Information/
+
+# System Recovery boot image
+Recovery/
+
+# Virtual Memory file
+pagefile.sys
+
+# Hibernation data
+hiberfil.sys
