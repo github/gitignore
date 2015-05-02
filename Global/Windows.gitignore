@@ -29,3 +29,13 @@ System Volume Information/
 
 # Hibernation data
 [Hh]iberfil.sys
+
+# System boot files
+boot/
+
+# Caches MSI install files
+[Cc][Oo][Nn][Ff][Ii][Gg].[Mm][Ss][Ii]
+MSOCache/
+
+# System performance logs
+[Pp]erf[Ll]ogs/
