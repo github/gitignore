@@ -6,9 +6,8 @@ ehthumbs.db
 [Dd]esktop.ini
 
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
-$Recycle.Bin/
-RECYCLER/
+$R[Ee][Cc][Yy][Cc][Ll][Ee].B[Ii][Nn]/
+R[Ee][Cc][Yy][Cc][Ll][Ee][Rr]/
 
 # Windows Installer files
 *.cab
@@ -23,10 +22,10 @@ RECYCLER/
 System Volume Information/
 
 # System Recovery boot image
-Recovery/
+[Rr][Ee][Cc][Oo][Vv][Ee][Rr][Yy]/
 
 # Virtual Memory file
-pagefile.sys
+[Pp]agefile.sys
 
 # Hibernation data
-hiberfil.sys
+[Hh]iberfil.sys
