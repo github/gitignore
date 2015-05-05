@@ -1,0 +1,22 @@
+# FILES
+*.csproj
+*.csproj.user
+*.sln
+*.suo
+*.exe
+*.dll
+*.config
+*.asax
+*.asax.cs
+*.pdb
+*.manifest
+*.cache
+*.xml
+
+# FOLDERS
+/bin/*
+/Debug/*
+*/obj/*
+*/Properties/*
+/packages/*
+App.config
