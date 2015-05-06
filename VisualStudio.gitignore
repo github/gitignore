@@ -38,6 +38,10 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+# ASP.NET 5
+project.lock.json
+artifacts/
+
 *_i.c
 *_p.c
 *_i.h
