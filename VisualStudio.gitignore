@@ -198,3 +198,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Visual Studo 2015, Roslyn Compiler engine temporary files
+*.ide
