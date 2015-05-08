@@ -38,7 +38,7 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
-# ASP.NET 5
+# DNX
 project.lock.json
 artifacts/
 
