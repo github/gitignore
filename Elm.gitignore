@@ -1,0 +1,2 @@
+# Ignore downloaded packages and build artifacts
+/elm-stuff
