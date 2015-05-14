@@ -171,7 +171,7 @@ ClientBin/
 *.publishsettings
 node_modules/
 bower_components/
-orleans.codegen.cs
+orleans.codegen.(cs|vb|fs)
 
 # RIA/Silverlight projects
 Generated_Code/
