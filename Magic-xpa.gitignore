@@ -1,4 +1,3 @@
-# .gitignore for Magic UniPaaS/xpa (renamed between version 2.0 and 2.1)
 # refer to http://www.magicsoftware.com/magic-xpa-application-platform
 # ProgramHeaders.xml serves as a cache file for program headers which is rebuilt if non existent
 ProgramHeaders.xml
