@@ -17,6 +17,10 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+## When using JetBrains AppCode  instead of XCode igignore
+## directory-based project format:
+.idea/
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
