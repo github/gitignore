@@ -17,9 +17,11 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-## When using JetBrains AppCode  instead of XCode igignore
-## directory-based project format:
-.idea/
+# AppCode
+#
+# When using JetBrains AppCode instead of XCode cosider ignoring .idea project folder.
+#
+# .idea/
 
 # CocoaPods
 #
