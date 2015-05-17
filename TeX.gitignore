@@ -71,8 +71,8 @@ acs-*.bib
 *.gls
 
 # gnuplot
-*.*.gnuplot
-*.*.table
+*.gnuplot
+*.table
 
 # hyperref
 *.brf
