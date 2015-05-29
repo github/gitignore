@@ -33,6 +33,7 @@
 
 ## Auxiliary and intermediate files from other packages:
 
+
 # algorithms
 *.alg
 *.loa
@@ -101,6 +102,9 @@ _minted*
 
 # morewrites
 *.mw
+
+# mylatexformat
+*.fmt
 
 # nomencl
 *.nlo
