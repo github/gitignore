@@ -1,0 +1,7 @@
+
+# Node.js, io.js, npm. see https://www.npmjs.com/
+node_modules/
+
+# spm. see http://spmjs.io/ and https://github.com/spmjs/spm
+spm-modules/
+sea-modules/
