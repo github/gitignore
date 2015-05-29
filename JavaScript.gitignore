@@ -3,5 +3,5 @@
 node_modules/
 
 # spm. see http://spmjs.io/ and https://github.com/spmjs/spm
-spm-modules/
+spm_modules/
 sea-modules/
