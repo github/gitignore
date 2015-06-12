@@ -1,3 +1,5 @@
 # Splunk local meta file
 local.meta
 
+# Splunk local folder
+local
