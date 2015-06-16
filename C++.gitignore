@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+
+# Gcov files
+*.gcno
+*.gcda
