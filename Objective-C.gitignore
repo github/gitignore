@@ -41,3 +41,6 @@ xcuserdata
 # Carthage/Checkouts
 
 Carthage/Build
+
+## OS X specific
+.DS_Store
