@@ -12,9 +12,6 @@
 bin/
 gen/
 
-#idea Folder
-.idea/
-
 # Gradle files
 .gradle/
 build/
