@@ -123,6 +123,7 @@ sympy-plots-for-*.tex/
 # TikZ & PGF
 *.dpth
 *.md5
+*.auxlock
 
 # todonotes
 *.tdo
