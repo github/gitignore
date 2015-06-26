@@ -41,3 +41,8 @@ xcuserdata
 # Carthage/Checkouts
 
 Carthage/Build
+
+# AppCode
+# 
+# ignoring the AppCode ide files.
+.idea/
