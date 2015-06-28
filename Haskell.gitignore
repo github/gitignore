@@ -13,3 +13,8 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+.stack-work/
+.docker-sandbox/
+Dockerfile
+target/
+TAGS
