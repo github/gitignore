@@ -1,7 +1,13 @@
-tmp/*
-[Cc]onfig/core.php
-[Cc]onfig/database.php
-app/tmp/*
-app/[Cc]onfig/core.php
-app/[Cc]onfig/database.php
-!empty
+CakePHP 3
+
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+
+CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*

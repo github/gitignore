@@ -16,6 +16,8 @@
 /.qmake.stash
 *.pro.user
 *.pro.user.*
+*.qbs.user
+*.qbs.user.*
 *.moc
 moc_*.cpp
 qrc_*.cpp
@@ -26,3 +28,7 @@ Makefile*
 # QtCreator
 
 *.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
