@@ -1,0 +1,7 @@
+# Mac OSX system files
+*.DS_Store
+/*.DS_Store
+
+# Cache Files
+*.cache
+*.icache
