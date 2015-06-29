@@ -1,0 +1,30 @@
+# fglcomp compiled outputs
+# http://www.4js.com/online_documentation/fjs-fgl-manual-html/?path=fjs-fgl-manual#c_fgl_FileExtensions_001.html
+*.42m
+*.42f
+*.42s
+*.42r
+*.42x
+*.iem
+
+# Workspace view state (undocumented)
+4pwvs 
+
+# Workspace database (undocumented)
+4pwdb
+
+# fglpc and fglform compiled outputs
+# http://publib.boulder.ibm.com/epubs/pdf/ct1vbna.pdf
+*.4go
+*.4gi
+*.4ge
+*.frm
+*.err
+*.4bl
+*.4bo
+*.ec
+*.c
+*.erc
+*.4ec
+*.pbr
+*.fbm
