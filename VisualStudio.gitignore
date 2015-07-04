@@ -238,15 +238,33 @@ AppPackages/
 # but keep track of directories ending in .cache
 !*.[Cc]ache/
 
-# Others
+# StyleCop
+# an extension for enforcing coding style in C#
+# url: https://stylecop.codeplex.com/
+#
+# temporary files created by the tool
 [Ss]tyle[Cc]op.*
+
+# Others
 ~$*
 *~
 *.dbmdl
 *.dbproj.schemaview
+#
+#
 *.pfx
 *.publishsettings
+#
+# the local cache of node module installed by NPM
+# remove: if you are not using nodejs in your solution
+          OR if you wish to keep this cache under version control
 node_modules/
+
+# Orleans
+# a Distributed Actor Model framework for .NET
+# url: https://github.com/dotnet/Orleans
+#
+# code generated as part of compilation
 orleans.codegen.cs
 
 # RIA/Silverlight projects
@@ -271,12 +289,18 @@ UpgradeLog*.htm
 *.ldf
 
 # Business Intelligence projects
+# remove: if you do not have Business Intelligence projects in your solution
 *.rdl.data
 *.bim.layout
 *.bim_*.settings
 
 # Microsoft Fakes
+# a local cache of assemblies
+# url: https://msdn.microsoft.com/en-us/library/hh549175.aspx
+# remove: if you are not using Microsoft Fakes in your projects
 FakesAssemblies/
 
 # Node.js Tools for Visual Studio
+# url: https://github.com/Microsoft/nodejstools
+# remove: if you do not have this extension installed
 .ntvs_analysis.dat
