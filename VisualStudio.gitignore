@@ -65,6 +65,19 @@ project.lock.json
 # build output
 artifacts/
 
+# Program Database files created by various compilers
+# used when debugging compiled code - the file essentially represents a lookup
+# so that symbols can be resolved to the relevant source code
+# url: https://en.wikipedia.org/wiki/Program_database
+*.pdb
+
+# Visual SourceSafe hint files to keep the projects and solutions in sync
+# with source control - these are no longer necessary once you've moved away
+# from Visual SourceSafe
+*.vspscc
+*.vssscc
+
+
 *_i.c
 *_p.c
 *_i.h
@@ -72,7 +85,6 @@ artifacts/
 *.meta
 *.obj
 *.pch
-*.pdb
 *.pgc
 *.pgd
 *.rsp
@@ -83,8 +95,6 @@ artifacts/
 *.tmp
 *.tmp_proj
 *.log
-*.vspscc
-*.vssscc
 .builds
 *.pidb
 *.svclog
