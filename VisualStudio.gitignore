@@ -149,7 +149,11 @@ AutoTest.Net/
 # url: http://www.mindscapehq.com/products/web-workbench
 .sass-cache/
 
-# Installshield output folder
+# InstallShield
+# installer framework for Windows machines
+# url: http://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/
+#
+# output folder
 [Ee]xpress/
 
 # DocProject
