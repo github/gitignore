@@ -221,7 +221,6 @@ AppPackages/
 !*.[Cc]ache/
 
 # Others
-ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
 *~
@@ -233,6 +232,10 @@ node_modules/
 orleans.codegen.cs
 
 # RIA/Silverlight projects
+# url: https://www.microsoft.com/silverlight/
+# output directory for *.xap artifacts
+ClientBin/
+# temporary directory used by compiler
 Generated_Code/
 
 # Backup & report files from converting an old project file
