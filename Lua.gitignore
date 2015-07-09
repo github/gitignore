@@ -1,5 +1,14 @@
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
 # Object files
 *.o
+*.os
 *.ko
 *.obj
 *.elf
@@ -13,6 +22,8 @@
 *.a
 *.la
 *.lo
+*.def
+*.exp
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -28,5 +39,3 @@
 *.x86_64
 *.hex
 
-# Debug files
-*.dSYM/

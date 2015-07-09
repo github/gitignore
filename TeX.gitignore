@@ -26,15 +26,20 @@
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
+*.synctex
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:
 
+
 # algorithms
 *.alg
 *.loa
+
+# achemso
+acs-*.bib
 
 # amsthm
 *.thm
@@ -66,8 +71,16 @@
 *.glo
 *.gls
 
+# gnuplottex
+*-gnuplottex-*
+
 # hyperref
 *.brf
+
+# knitr
+*-concordance.tex
+*.tikz
+*-tikzDictionary
 
 # listings
 *.lol
@@ -81,13 +94,18 @@
 # minitoc
 *.maf
 *.mtc
-*.mtc0
+*.mtc[0-9]
+*.mtc[1-9][0-9]
 
 # minted
+_minted*
 *.pyg
 
 # morewrites
 *.mw
+
+# mylatexformat
+*.fmt
 
 # nomencl
 *.nlo
@@ -102,8 +120,17 @@
 *.sympy
 sympy-plots-for-*.tex/
 
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
 # todonotes
 *.tdo
 
 # xindy
 *.xdy
+
+# WinEdt
+*.bak
+*.sav
