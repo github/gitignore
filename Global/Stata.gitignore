@@ -10,10 +10,15 @@
 *.stsem
 
 # Graphic export files from Stata
-*.ps
-*.eps
-*.wmf
-*.emf
-*.pdf
-*.png
-*.tif
+# Stata command graph export: http://www.stata.com/manuals14/g-2graphexport.pdf
+#
+# You may add graphic export files to your .gitignore. However you should be
+# aware that this will exclude all image files from this main directory
+# and subdirectories.
+# *.ps
+# *.eps
+# *.wmf
+# *.emf
+# *.pdf
+# *.png
+# *.tif
