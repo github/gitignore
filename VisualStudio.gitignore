@@ -206,3 +206,10 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+#Qt Add-in for Visual Studio
+GeneratedFiles/
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
