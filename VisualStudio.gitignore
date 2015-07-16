@@ -206,3 +206,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+#ASP.NET vNext
+bower_components
+**/wwwroot/lib/*
+node_modules
