@@ -49,8 +49,8 @@ acs-*.bib
 *.snm
 *.vrb
 
-#(e)ledmac/(e)ledpar
-*.end
+#(r)(e)ledmac/(r)(e)ledpar
+*.?end
 *.[1-9]
 *.[1-9][0-9]
 *.[1-9][0-9][0-9]
