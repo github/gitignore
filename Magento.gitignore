@@ -45,6 +45,7 @@ app/etc/local.xml
 app/.htaccess
 app/locale/
 app/Mage.php
+app/bootstrap.php
 /cron.php
 cron.sh
 downloader/
@@ -85,6 +86,8 @@ lib/Zend/
 lib/Cm/
 lib/Credis/
 lib/Magento/
+lib/Net/
+dev/
 LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
