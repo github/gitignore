@@ -24,3 +24,6 @@ proguard/
 
 # Log Files
 *.log
+
+# Captured traces, snapshots etc (Android Studio 1.2+)
+captures/
