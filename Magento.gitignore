@@ -87,7 +87,7 @@ lib/Cm/
 lib/Credis/
 lib/Magento/
 lib/Net/
-dev/
+dev/*
 LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
