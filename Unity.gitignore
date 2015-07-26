@@ -14,6 +14,9 @@
 *.pidb
 *.booproj
 
+# Do not ignore imported assemblies
+!*.dll
+
 # Unity3D generated meta files
 *.pidb.meta
 
