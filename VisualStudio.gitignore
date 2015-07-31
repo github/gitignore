@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+# Folder containing User-specific files as of VS2015
+.vs/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
