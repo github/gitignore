@@ -6,6 +6,10 @@
 build/
 DerivedData
 
+## Mac OS Finder generated
+# https://en.wikipedia.org/wiki/.DS_Store
+.DS_Store
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
