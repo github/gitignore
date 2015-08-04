@@ -93,6 +93,8 @@ acs-*.bib
 
 # minitoc
 *.maf
+*.mlf
+*.mlt
 *.mtc
 *.mtc[0-9]
 *.mtc[1-9][0-9]
