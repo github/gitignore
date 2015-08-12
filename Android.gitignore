@@ -12,9 +12,12 @@
 bin/
 gen/
 
-# Gradle files
+# Gradle and Android Studio files
 .gradle/
 build/
+*.iml
+.idea
+.navigation/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -24,6 +27,3 @@ proguard/
 
 # Log Files
 *.log
-
-# Android Studio Navigation editor temp files
-.navigation/
