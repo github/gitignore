@@ -18,5 +18,6 @@ DerivedData/
 xcuserdata/
 
 ## Other
-*.xccheckout
 *.moved-aside
+*.xccheckout
+*.xcscmblueprint
