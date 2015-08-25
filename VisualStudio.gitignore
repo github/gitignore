@@ -150,6 +150,8 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+# Visual Studio Team Explorer needs a simple pattern to recognize packages as ignored
+/packages
 
 # Windows Azure Build Output
 csx/
