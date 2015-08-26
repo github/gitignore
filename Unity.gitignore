@@ -23,10 +23,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-# MacOSX-specific
-.DS_Store
-
-# Windows-specific
-thumbs.db
-
