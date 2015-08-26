@@ -1,0 +1,15 @@
+# Logtalk temporary file directories
+.lgt_tmp/
+lgt_tmp/
+
+# Logtalk default unit testing results directory
+tester_results/
+
+# backend Prolog compiler temporary files
+.pl-history
+*.out
+*.xwam
+*.qo
+*.ql
+*.itf
+*.po
