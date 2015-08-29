@@ -33,6 +33,7 @@
 
 ## Auxiliary and intermediate files from other packages:
 
+
 # algorithms
 *.alg
 *.loa
@@ -70,6 +71,9 @@ acs-*.bib
 *.glo
 *.gls
 
+# gnuplottex
+*-gnuplottex-*
+
 # hyperref
 *.brf
 
@@ -90,13 +94,18 @@ acs-*.bib
 # minitoc
 *.maf
 *.mtc
-*.mtc0
+*.mtc[0-9]
+*.mtc[1-9][0-9]
 
 # minted
+_minted*
 *.pyg
 
 # morewrites
 *.mw
+
+# mylatexformat
+*.fmt
 
 # nomencl
 *.nlo
@@ -111,8 +120,17 @@ acs-*.bib
 *.sympy
 sympy-plots-for-*.tex/
 
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
 # todonotes
 *.tdo
 
 # xindy
 *.xdy
+
+# WinEdt
+*.bak
+*.sav
