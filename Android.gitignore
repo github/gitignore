@@ -30,3 +30,15 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# JetBrains files
+# Article: https://intellij-support.jetbrains.com/hc/en-us/articles/206827587-How-to-manage-projects-under-Version-Control-Systems
+.idea
+# In IDEA 13 and earlier dataSources.ids, datasources.xml can contain database passwords.
+dataSources.ids
+datasources.xml
+# XML files under .idea/libraries in case they are generated from Gradle project
+.idea/libraries
+.iws
+# Post: http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project
+*.iml 
