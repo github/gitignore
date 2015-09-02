@@ -215,3 +215,15 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+
+# Execution reports created Ranorex
+*.nlog*
+*.rxlog*
+*.rxlog
+*_trace*
+*/*.rxuser
+*.rxuser
+*.rximg
+Report
+Reports
+*/Reports/*
