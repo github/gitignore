@@ -1,7 +1,0 @@
-# Tizen Wearable files
-.build/
-.sdk_delta.info
-.rds_delta
-.settings
-.tproject
-*.wgt
