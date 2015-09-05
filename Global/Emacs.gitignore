@@ -21,3 +21,12 @@ tramp
 
 # elpa packages
 /elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
