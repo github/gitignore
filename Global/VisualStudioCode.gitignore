@@ -1,2 +1,4 @@
+# VSCode vers. < 0.8.0
 .settings
-
+# VSCode vers. >= 0.8.0
+.vscode
