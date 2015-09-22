@@ -215,3 +215,6 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
