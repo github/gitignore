@@ -2,3 +2,13 @@
 .env.*.php
 .env.php
 .env
+/node_modules
+/.idea/
+/.rocketeer/
+/.phpintel/
+/vendor/compiled.php
+/vendor/services.json
+/bootstrap/cache/
+!bootstrap/cache/.gitkeep
+.directory
+Thumbs.db
