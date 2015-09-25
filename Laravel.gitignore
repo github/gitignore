@@ -2,3 +2,4 @@
 .env.*.php
 .env.php
 .env
+/vendor
