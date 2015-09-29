@@ -2,3 +2,7 @@
 x86/
 arm/
 arm-p/
+translations/*.qm
+
+# IDE settings
+.settings/

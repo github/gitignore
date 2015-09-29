@@ -1,4 +1,6 @@
+.htaccess.sample
 .modgit/
+.modman/
 app/code/community/Phoenix/
 app/code/community/Cm/
 app/code/core/
@@ -20,6 +22,7 @@ app/etc/modules/Mage_Bundle.xml
 app/etc/modules/Mage_Captcha.xml
 app/etc/modules/Mage_Centinel.xml
 app/etc/modules/Mage_Compiler.xml
+app/etc/modules/Mage_ConfigurableSwatches.xml
 app/etc/modules/Mage_Connect.xml
 app/etc/modules/Mage_CurrencySymbol.xml
 app/etc/modules/Mage_Downloadable.xml
@@ -42,14 +45,14 @@ app/etc/local.xml
 app/.htaccess
 app/locale/
 app/Mage.php
-cron.php
+/cron.php
 cron.sh
 downloader/
 errors/
 favicon.ico
-get.php
+/get.php
 includes/
-index.php
+/index.php
 index.php.sample
 /install.php
 js/blank.html
@@ -75,6 +78,7 @@ lib/.htaccess
 lib/LinLibertineFont/
 lib/Mage/
 lib/PEAR/
+lib/Pelago/
 lib/phpseclib/
 lib/Varien/
 lib/Zend/
@@ -85,7 +89,7 @@ LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
 LICENSE_EE*
-mage
+/mage
 media/customer/
 media/dhl/
 media/downloadable/
@@ -93,7 +97,8 @@ media/.htaccess
 media/import/
 media/xmlconnect/
 media/catalog/product/cache/
-api.php
+media/catalog/product/placeholder/default/
+/api.php
 nbproject/
 pear
 pear/
@@ -104,6 +109,7 @@ shell/abstract.php
 shell/compiler.php
 shell/indexer.php
 shell/log.php
+sitemap.xml
 skin/adminhtml/default/default/
 skin/adminhtml/default/enterprise
 skin/frontend/base/

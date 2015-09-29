@@ -1,6 +1,6 @@
 */config/development
 */logs/log-*.php
-*/logs/!index.html
+!*/logs/index.html
 */cache/*
-*/cache/!index.html
-*/cache/!.htaccess
+!*/cache/index.html
+!*/cache/.htaccess
