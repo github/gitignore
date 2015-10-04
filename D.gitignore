@@ -1,0 +1,36 @@
+# Gitignore for projects in D using dub.
+# Dlang: http://dlang.org/
+# Dub:   https://github.com/D-Programming-Language/dub
+
+## Binary files ##
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+
+
+## Dub specific ##
+.dub/
+
+# Result of 'dub test'
+__test__*__
+
+# Documentation artifacts (dub --build=[docs|ddox])
+docs.json
+__dummy.html
+docs/*
+
+# By default, ignore dub.selections.json.
+# You should usually rely on tags in dub.json rather than pinning your project
+# to a certain commit, but if you really need to, remove this line:
+dub.selections.json
