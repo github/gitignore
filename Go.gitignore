@@ -22,3 +22,7 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# GO15VENDOREXPERIMENT flag specifics
+vendor/**
+!vendor/manifest
