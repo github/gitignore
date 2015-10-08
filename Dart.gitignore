@@ -11,5 +11,8 @@ packages
 *.js.deps
 *.js.map
 
-# Include when developing application packages.
+# Or the files created by dartdoc.
+doc/
+
+# Don't commit pubspec lock file. (Library packages only! Remove pattern if developing an application package.)
 pubspec.lock
