@@ -8,6 +8,7 @@ config/settings.*.php
 
 admin-dev/autoupgrade/
 cache/
+!classes/cache/
 config/xml/*.xml
 log/
 *sitemap.xml
