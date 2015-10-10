@@ -1,4 +1,4 @@
-﻿# Don’t commit the following directories created by pub.
+# Don’t commit the following directories created by pub.
 .buildlog
 .pub/
 build/
