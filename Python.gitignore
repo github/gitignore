@@ -56,3 +56,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# PyCharm project file
+.idea
+.idea/*
+
+# OS X dir
+.DS_Store
