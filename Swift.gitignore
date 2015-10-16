@@ -41,3 +41,10 @@ xcuserdata
 # Carthage/Checkouts
 
 Carthage/Build
+
+# Fastlane
+#
+# Add the following lines if you want to avoid checking in fastlane generated files.
+#
+# fastlane/report.xml
+# fastlane/screenshots
