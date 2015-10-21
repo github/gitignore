@@ -8,6 +8,7 @@ build/
 
 # Files created by dart2js
 *.js
+*.precompiled.js
 *.js.deps
 *.js.map
 *.info.json
