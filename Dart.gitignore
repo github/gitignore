@@ -10,6 +10,7 @@ build/
 *.js
 *.js.deps
 *.js.map
+*.info.json
 
 # Directory created by dartdoc
 doc/
