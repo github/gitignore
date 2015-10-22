@@ -142,6 +142,12 @@ publish/
 *.pubxml
 *.publishproj
 
+# Azure .publishsetting file 
+# Security Note: The file contains an encoded management certificate that serves as the credentials to administer Windows Azure subscriptions and services. 
+# Store this file in a secure location or delete it after you use it.
+# https://msdn.microsoft.com/en-us/library/dn495124.aspx
+*.publishsettings
+
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
