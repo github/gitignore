@@ -1,18 +1,20 @@
-# Don’t commit the following directories created by pub.
+# Files and directories created by pub
 .buildlog
+.packages
+.project
 .pub/
 build/
-packages
-.packages
+**/packages/
 
-# Or the files created by dart2js.
-*.dart.js
-*.js_
+# Files created by dart2js
+*.js
+*.precompiled.js
 *.js.deps
 *.js.map
+*.info.json
 
-# Or the files created by dartdoc.
+# Directory created by dartdoc
 doc/
 
-# Don't commit pubspec lock file. (Library packages only! Remove pattern if developing an application package.)
+# Don't commit pubspec lock file (Library packages only! Remove pattern if developing an application package)
 pubspec.lock
