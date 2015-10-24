@@ -3,3 +3,8 @@
 .env.php
 .env
 .env.example
+
+/vendor
+/node_modules
+/app/storage
+
