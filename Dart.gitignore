@@ -14,7 +14,7 @@ build/
 #  Convention is to use extension '.dart.js' for Dart compiled to Javascript to
 #  differentiate from explicit Javascript files)
 *.dart.js
-*.js.part
+*.part.js
 *.js.deps
 *.js.map
 *.info.json
