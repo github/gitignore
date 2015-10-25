@@ -1,3 +1,15 @@
+#Exclude vendor libraries.
+#Including composer.lock and install using composer install.
+#Comment if you want to include all libraries
+/vendor
+
+#Node related
+/node_modules
+
+#Homestead related
+Homestead.yaml
+Homestead.json
+
 /bootstrap/compiled.php
 .env.*.php
 .env.php
