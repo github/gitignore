@@ -1,10 +1,11 @@
-/bootstrap/compiled.php
+bootstrap/compiled.php
+bootstrap/cache
 .env.*.php
 .env.php
 .env
 .env.example
 
-/vendor
-/node_modules
-/app/storage
-
+app/storage/
+node_modules/
+storage/
+vendor/
