@@ -120,6 +120,9 @@ _minted*
 *.sympy
 sympy-plots-for-*.tex/
 
+# Texpad
+.texpadtmp
+
 # TikZ & PGF
 *.dpth
 *.md5
