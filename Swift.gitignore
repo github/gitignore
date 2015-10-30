@@ -31,3 +31,11 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# Libraries
+#
+# Swift libraries built as artifacts of part of a Swift project
+
+*.swiftmodule
+*.swiftdoc
+*.dylib
