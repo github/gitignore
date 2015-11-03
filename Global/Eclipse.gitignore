@@ -37,3 +37,6 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+# Toad Extension plugin
+.teeproject
