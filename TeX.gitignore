@@ -33,6 +33,7 @@
 
 ## Auxiliary and intermediate files from other packages:
 
+
 # algorithms
 *.alg
 *.loa
@@ -93,7 +94,8 @@ acs-*.bib
 # minitoc
 *.maf
 *.mtc
-*.mtc0
+*.mtc[0-9]
+*.mtc[1-9][0-9]
 
 # minted
 _minted*
@@ -101,6 +103,9 @@ _minted*
 
 # morewrites
 *.mw
+
+# mylatexformat
+*.fmt
 
 # nomencl
 *.nlo
@@ -114,6 +119,18 @@ _minted*
 *.sout
 *.sympy
 sympy-plots-for-*.tex/
+
+#pythontex
+*.pytxcode
+pythontex-files-*/
+
+# Texpad
+.texpadtmp
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
 
 # todonotes
 *.tdo
