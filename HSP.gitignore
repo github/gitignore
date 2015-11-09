@@ -1,0 +1,9 @@
+# Object files
+hsptmp*
+packfile
+obj
+*.ax
+
+# Binaries
+*.exe
+*.dpm
