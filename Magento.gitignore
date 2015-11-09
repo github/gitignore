@@ -45,6 +45,7 @@ app/etc/local.xml
 app/.htaccess
 app/locale/
 app/Mage.php
+app/bootstrap.php
 /cron.php
 cron.sh
 /dev/tests/functional/etc
@@ -141,6 +142,7 @@ pear/
 php.ini.sample
 pkginfo/
 RELEASE_NOTES.txt
+shell/.htaccess
 shell/abstract.php
 shell/compiler.php
 shell/indexer.php
