@@ -1,0 +1,22 @@
+# Bitrix .gitignore (core version 14+)
+#
+
+# PHPStorm (BrainStorm products)
+.idea
+
+# Bitrix core & upload
+/.htaccess
+/bitrix
+/upload
+/local/php_interface/constants.php
+
+# Misc unused files
+/*.txt
+~*.php
+*.log
+*.xml
+
+# Mac OS X files
+Thumbs.db
+.DS_Store
+._.DS_Store
