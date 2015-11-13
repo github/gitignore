@@ -2,3 +2,4 @@ lib/
 git/lib understand
 bin/install
 bin/lib install
+*.b
