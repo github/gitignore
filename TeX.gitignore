@@ -141,3 +141,7 @@ pythontex-files-*/
 # WinEdt
 *.bak
 *.sav
+
+# endfloat
+*.ttt
+*.fff
