@@ -1,10 +1,8 @@
-lib/
-git/lib understand
-bin/install
-bin/lib install
+# Apples Build
+*.build
+*.apples
 
 # Initialized files
-*.b
 *.exe
 *.ini
 *.basic
