@@ -2,16 +2,16 @@
 
 Makefile.in
 
-/autoscan.log
-/autoscan-*.log
-/configure.scan
-
 # http://www.gnu.org/software/autoconf
 
 /autom4te.cache
+/autoscan.log
+/autoscan-*.log
 /aclocal.m4
 /compile
+/config.h.in
 /configure
+/configure.scan
 /depcomp
 /install-sh
 /missing
