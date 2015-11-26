@@ -1,0 +1,19 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+.DS_Store
+.idea
+.env
+.env.*.php
+.env.php
+php_errors.log
+nginx-error.log
+nginx-access.log
+nginx-ssl.access.log
+nginx-ssl.error.log
+php-errors.log
+sftp-config.json
+selenium.php
+
+# for netbeans compiler
+nbproject
