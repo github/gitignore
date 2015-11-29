@@ -1,0 +1,48 @@
+# PhpStorm-Project
+.idea/
+
+# Cache and logs
+/var/cache/*
+/var/log/*
+!var/cache/clear_cache.sh
+!var/log/clear_cache.sh
+
+/web/cache
+!web/cache/.gitkeep
+
+/bin/*
+!bin/console
+/vendor/
+
+# User provided content
+/media/archive/
+/media/image/
+/media/music/
+/media/pdf/
+/media/temp/
+/media/unknown/
+/media/video/
+
+/files/documents/
+/files/downloads/
+
+# Caches/Proxies
+/tests/Shopware/TempFiles/
+/cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# SASS/SCSS cache
+.sass-cache/
+
+# Internal Repositories
+/internal/
+/engine/Shopware/Plugins/Commercial/
