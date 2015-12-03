@@ -1,8 +1,8 @@
 .htaccess.sample
 .modgit/
 .modman/
-app/code/community/Phoenix/
-app/code/community/Cm/
+app/code/community/Phoenix/Moneybookers/
+app/code/community/Cm/RedisSession/
 app/code/core/
 app/design/adminhtml/default/default/
 app/design/frontend/base/
