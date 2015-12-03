@@ -43,10 +43,13 @@ app/etc/local.xml.additional
 app/etc/local.xml.template
 app/etc/local.xml
 app/.htaccess
+app/bootstrap.php
 app/locale/
 app/Mage.php
 /cron.php
 cron.sh
+dev/.htaccess
+dev/tests/functional/
 downloader/
 errors/
 favicon.ico
@@ -105,6 +108,7 @@ pear/
 php.ini.sample
 pkginfo/
 RELEASE_NOTES.txt
+shell/.htaccess
 shell/abstract.php
 shell/compiler.php
 shell/indexer.php
