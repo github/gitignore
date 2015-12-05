@@ -408,6 +408,7 @@
 /libraries/joomla/*
 /libraries/legacy/*
 /libraries/phpass/*
+/libraries/phpmailer/*
 /libraries/phputf8/*
 /libraries/simplepie/*
 /libraries/vendor/*
