@@ -15,6 +15,9 @@
 .repl_history
 build/
 
+# Specific to RubyMine:
+/.idea
+
 ## Documentation cache and generated files:
 /.yardoc/
 /_yardoc/
