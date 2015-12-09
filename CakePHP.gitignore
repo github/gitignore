@@ -1,11 +1,11 @@
-CakePHP 3
+# CakePHP 3
 
 /vendor/*
 /config/app.php
 /tmp/*
 /logs/*
 
-CakePHP 2
+# CakePHP 2
 
 /app/tmp/*
 /app/Config/core.php

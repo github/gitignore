@@ -1,18 +1,20 @@
-## TYPO3 v4
+## TYPO3 v6.2
 # Ignore serveral upload and file directories.
 /fileadmin/user_upload/
 /fileadmin/_temp_/
+/fileadmin/_processed_/
 /uploads/
 # Ignore cache
 /typo3conf/temp_CACHED*
 /typo3conf/temp_fieldInfo.php
-# Ignore local config which overrides typo3 config.
-# You should include your local stuff with `@include('localconf_local.php');` at the end of localconf.php.
-# See http://stackoverflow.com/questions/11905360/how-best-to-manage-typo3-installations-using-git for details.
-/typo3conf/localconf_local.php
+/typo3conf/deprecation_*.log
+/typo3conf/AdditionalConfiguration.php
 # Ignore system folders, you should have them symlinked.
-# If not comment out the following two entries.
+# If not comment out the following entries.
 /typo3
-/t3lib
+/typo3_src
+/typo3_src-*
+/.htaccess
+/index.php
 # Ignore temp directory.
 /typo3temp/
