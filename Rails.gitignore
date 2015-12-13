@@ -16,11 +16,11 @@ pickle-email-*.html
 config/initializers/secret_token.rb
 config/secrets.yml
 
-## Environment normalisation:
+## Environment normalization:
 /.bundle
 /vendor/bundle
 
-# these should all be checked in to normalise the environment:
+# these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
