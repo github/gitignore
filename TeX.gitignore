@@ -120,6 +120,10 @@ _minted*
 *.sympy
 sympy-plots-for-*.tex/
 
+# pdfcomment
+*.upa
+*.upb
+
 #pythontex
 *.pytxcode
 pythontex-files-*/
