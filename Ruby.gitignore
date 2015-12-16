@@ -26,6 +26,18 @@ build/
 /vendor/bundle
 /lib/bundler/man/
 
+# OS generated files #
+######################
+.DS_Store
+**/.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
 # for a library or gem, you might want to ignore these files since the code is
 # intended to run in multiple environments; otherwise, check them in:
 # Gemfile.lock
