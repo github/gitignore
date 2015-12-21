@@ -32,8 +32,6 @@
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:
-
-
 # algorithms
 *.alg
 *.loa
@@ -48,6 +46,9 @@ acs-*.bib
 *.nav
 *.snm
 *.vrb
+
+# cprotect
+*.cpt
 
 #(e)ledmac/(e)ledpar
 *.end
