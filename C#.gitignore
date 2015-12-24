@@ -1,0 +1,19 @@
+# User-specific files
+*.suo
+
+# Publish Web Output
+*.Publish.xml
+
+# Click-Once directory
+publish/
+
+# NuGet Packages Directory
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
