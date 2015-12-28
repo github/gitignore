@@ -160,6 +160,9 @@ csx/
 ecf/
 rcf/
 
+# Windows Azure ApplicationInsights config file
+ApplicationInsights.config
+
 # Windows Store app package directory
 AppPackages/
 BundleArtifacts/
