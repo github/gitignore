@@ -152,15 +152,15 @@ publish/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 
-# Windows Azure Build Output
+# Microsoft Azure Build Output
 csx/
 *.build.csdef
 
-# Windows Azure Emulator
+# Microsoft Azure Emulator
 ecf/
 rcf/
 
-# Windows Azure ApplicationInsights config file
+# Microsoft Azure ApplicationInsights config file
 ApplicationInsights.config
 
 # Windows Store app package directory
