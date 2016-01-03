@@ -6,6 +6,7 @@
 *.fls
 *.out
 *.toc
+*.fmt
 
 ## Intermediate documents:
 *.dvi
@@ -142,6 +143,9 @@ pythontex-files-*/
 
 # xindy
 *.xdy
+
+# xypic precompiled matrices
+*.xyc
 
 # WinEdt
 *.bak
