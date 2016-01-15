@@ -57,3 +57,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Ignore spyder project settings
+.spyderproject
