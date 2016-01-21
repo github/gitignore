@@ -6,6 +6,7 @@
 *.fls
 *.out
 *.toc
+*.fmt
 
 ## Intermediate documents:
 *.dvi
@@ -26,12 +27,12 @@
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
+*.synctex
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:
-
 # algorithms
 *.alg
 *.loa
@@ -46,6 +47,9 @@ acs-*.bib
 *.nav
 *.snm
 *.vrb
+
+# cprotect
+*.cpt
 
 #(e)ledmac/(e)ledpar
 *.end
@@ -69,8 +73,16 @@ acs-*.bib
 *.glo
 *.gls
 
+# gnuplottex
+*-gnuplottex-*
+
 # hyperref
 *.brf
+
+# knitr
+*-concordance.tex
+*.tikz
+*-tikzDictionary
 
 # listings
 *.lol
@@ -84,13 +96,18 @@ acs-*.bib
 # minitoc
 *.maf
 *.mtc
-*.mtc0
+*.mtc[0-9]
+*.mtc[1-9][0-9]
 
 # minted
+_minted*
 *.pyg
 
 # morewrites
 *.mw
+
+# mylatexformat
+*.fmt
 
 # nomencl
 *.nlo
@@ -105,8 +122,38 @@ acs-*.bib
 *.sympy
 sympy-plots-for-*.tex/
 
+# pdfcomment
+*.upa
+*.upb
+
+#pythontex
+*.pytxcode
+pythontex-files-*/
+
+# Texpad
+.texpadtmp
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
 # todonotes
 *.tdo
 
 # xindy
 *.xdy
+
+# xypic precompiled matrices
+*.xyc
+
+# WinEdt
+*.bak
+*.sav
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
