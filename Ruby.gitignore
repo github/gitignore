@@ -5,6 +5,7 @@
 /InstalledFiles
 /pkg/
 /spec/reports/
+/spec/examples.txt
 /test/tmp/
 /test/version_tmp/
 /tmp/
@@ -20,7 +21,7 @@ build/
 /doc/
 /rdoc/
 
-## Environment normalisation:
+## Environment normalization:
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
