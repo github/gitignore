@@ -1,8 +1,10 @@
 # Folder attributes
-__MACOSX/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Resource Forks
+__MACOSX/
 
 # Icon must end with two \r
 Icon
