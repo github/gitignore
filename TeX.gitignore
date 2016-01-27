@@ -6,6 +6,7 @@
 *.fls
 *.out
 *.toc
+*.fmt
 
 ## Intermediate documents:
 *.dvi
@@ -32,8 +33,6 @@
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:
-
-
 # algorithms
 *.alg
 *.loa
@@ -48,6 +47,9 @@ acs-*.bib
 *.nav
 *.snm
 *.vrb
+
+# cprotect
+*.cpt
 
 #(e)ledmac/(e)ledpar
 *.end
@@ -93,6 +95,8 @@ acs-*.bib
 
 # minitoc
 *.maf
+*.mlf
+*.mlt
 *.mtc
 *.mtc[0-9]
 *.mtc[1-9][0-9]
@@ -120,6 +124,10 @@ _minted*
 *.sympy
 sympy-plots-for-*.tex/
 
+# pdfcomment
+*.upa
+*.upb
+
 #pythontex
 *.pytxcode
 pythontex-files-*/
@@ -138,10 +146,16 @@ pythontex-files-*/
 # xindy
 *.xdy
 
+# xypic precompiled matrices
+*.xyc
+
 # WinEdt
 *.bak
 *.sav
 
-# pdfcomment
-.upa
-.upb
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*

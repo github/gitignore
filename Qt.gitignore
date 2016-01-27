@@ -23,7 +23,7 @@ moc_*.cpp
 qrc_*.cpp
 ui_*.h
 Makefile*
-*-build-*
+*build-*
 
 # QtCreator
 
@@ -32,3 +32,7 @@ Makefile*
 #QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+
+#QtCtreator CMake
+CMakeLists.txt.user
+
