@@ -3,7 +3,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -15,6 +16,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.temp
 
 # Directories potentially created on remote AFP share
 .AppleDB
