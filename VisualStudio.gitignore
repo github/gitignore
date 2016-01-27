@@ -17,10 +17,10 @@
 [Rr]eleases/
 x64/
 x86/
-build/
 bld/
 [Bb]in/
 [Oo]bj/
+[Ll]og/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -151,17 +151,24 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
 
-# Windows Azure Build Output
+# Microsoft Azure Build Output
 csx/
 *.build.csdef
 
-# Windows Azure Emulator
+# Microsoft Azure Emulator
 ecf/
 rcf/
 
+# Microsoft Azure ApplicationInsights config file
+ApplicationInsights.config
+
 # Windows Store app package directory
 AppPackages/
+BundleArtifacts/
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -171,7 +178,6 @@ AppPackages/
 
 # Others
 ClientBin/
-[Ss]tyle[Cc]op.*
 ~$*
 *~
 *.dbmdl

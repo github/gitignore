@@ -32,3 +32,7 @@ Makefile*
 #QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+
+#QtCtreator CMake
+CMakeLists.txt.user
+

@@ -1,5 +1,5 @@
 ## TYPO3 v6.2
-# Ignore serveral upload and file directories.
+# Ignore several upload and file directories.
 /fileadmin/user_upload/
 /fileadmin/_temp_/
 /fileadmin/_processed_/
