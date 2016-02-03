@@ -51,6 +51,9 @@ acs-*.bib
 # cprotect
 *.cpt
 
+# fixme
+*.lox
+
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
 *.?end
