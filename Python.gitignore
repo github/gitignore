@@ -53,6 +53,9 @@ coverage.xml
 *.log
 local_settings.py
 
+# Flask instance folder
+instance/
+
 # Sphinx documentation
 docs/_build/
 
