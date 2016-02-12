@@ -11,6 +11,10 @@
 # comment the following line if you want to have your project file included.
 eagle.epf
 
+# Autorouter files
+*.pro
+*.job
+
 # CAM files
 *.$$$
 *.cmp
@@ -34,3 +38,7 @@ eagle.epf
 *.info
 
 *.eps
+
+# file locks introduced since 7.x
+*.lck
+
