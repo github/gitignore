@@ -166,9 +166,11 @@ rcf/
 # Microsoft Azure ApplicationInsights config file
 ApplicationInsights.config
 
-# Windows Store app package directory
+# Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
