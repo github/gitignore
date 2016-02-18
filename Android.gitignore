@@ -35,5 +35,5 @@ captures/
 # Intellij
 *.iml
 
-# Resources
-.xml
+# Resource files
+*.xml
