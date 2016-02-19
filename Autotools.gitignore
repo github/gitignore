@@ -1,3 +1,4 @@
+# ===== Autotools.gitignore ===== #
 # http://www.gnu.org/software/automake
 
 Makefile.in

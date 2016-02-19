@@ -1,3 +1,4 @@
+# ===== Elixir.gitignore ===== #
 /_build
 /cover
 /deps

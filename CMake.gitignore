@@ -1,3 +1,4 @@
+# ===== CMake.gitignore ===== #
 CMakeCache.txt
 CMakeFiles
 CMakeScripts

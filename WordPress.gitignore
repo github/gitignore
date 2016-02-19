@@ -1,3 +1,4 @@
+# ===== WordPress.gitignore ===== #
 *.log
 .htaccess
 sitemap.xml

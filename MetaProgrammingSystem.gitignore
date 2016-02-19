@@ -1,3 +1,4 @@
+# ===== MetaProgrammingSystem.gitignore ===== #
 workspace.xml
 junitvmwatcher*.properties
 build.properties

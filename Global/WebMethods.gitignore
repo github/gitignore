@@ -1,3 +1,4 @@
+# ===== Global/WebMethods.gitignore ===== #
 **/IntegrationServer/datastore/
 **/IntegrationServer/db/
 **/IntegrationServer/DocumentStore/

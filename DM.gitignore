@@ -1,3 +1,4 @@
+# ===== DM.gitignore ===== #
 *.dmb
 *.rsc
 *.int

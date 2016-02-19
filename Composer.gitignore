@@ -1,3 +1,4 @@
+# ===== Composer.gitignore ===== #
 composer.phar
 /vendor/
 

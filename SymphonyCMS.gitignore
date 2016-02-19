@@ -1,3 +1,4 @@
+# ===== SymphonyCMS.gitignore ===== #
 manifest/cache/
 manifest/logs/
 manifest/tmp/

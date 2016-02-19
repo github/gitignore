@@ -1,3 +1,4 @@
+# ===== Yii.gitignore ===== #
 assets/*
 !assets/.gitignore
 protected/runtime/*

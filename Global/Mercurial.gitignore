@@ -1,3 +1,4 @@
+# ===== Global/Mercurial.gitignore ===== #
 .hg/
 .hgignore
 .hgsigs

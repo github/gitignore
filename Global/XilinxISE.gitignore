@@ -1,3 +1,4 @@
+# ===== Global/XilinxISE.gitignore ===== #
 # intermediate build files
 *.bgn
 *.bit

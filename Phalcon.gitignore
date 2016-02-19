@@ -1,2 +1,3 @@
+# ===== Phalcon.gitignore ===== #
 /cache/
 /config/development/

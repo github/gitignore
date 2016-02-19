@@ -1,3 +1,4 @@
+# ===== Global/Calabash.gitignore ===== #
 # Calabash / Cucumber
 rerun/
 reports/

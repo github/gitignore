@@ -1,3 +1,4 @@
+# ===== Zephir.gitignore ===== #
 # Cache files, generates by Zephir
 .temp/
 .libs/

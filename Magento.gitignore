@@ -1,3 +1,4 @@
+# ===== Magento.gitignore ===== #
 .htaccess.sample
 .modgit/
 .modman/

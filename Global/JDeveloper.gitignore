@@ -1,3 +1,4 @@
+# ===== Global/JDeveloper.gitignore ===== #
 # default application storage directory used by the IDE Performance Cache feature
 .data/
 

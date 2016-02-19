@@ -1,3 +1,4 @@
+# ===== Maven.gitignore ===== #
 target/
 pom.xml.tag
 pom.xml.releaseBackup

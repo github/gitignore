@@ -1,3 +1,4 @@
+# ===== Global/NetBeans.gitignore ===== #
 nbproject/private/
 build/
 nbbuild/

@@ -1,2 +1,3 @@
+# ===== Sass.gitignore ===== #
 .sass-cache/
 *.css.map

@@ -1,3 +1,4 @@
+# ===== Global/OSX.gitignore ===== #
 .DS_Store
 .AppleDouble
 .LSOverride

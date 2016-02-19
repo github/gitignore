@@ -1,3 +1,4 @@
+# ===== Plone.gitignore ===== #
 *.pyc
 *.pyo
 *.tmp*

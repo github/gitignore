@@ -1,3 +1,4 @@
+# ===== Global/FlexBuilder.gitignore ===== #
 bin/
 bin-debug/
 bin-release/

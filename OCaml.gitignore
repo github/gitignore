@@ -1,3 +1,4 @@
+# ===== OCaml.gitignore ===== #
 *.annot
 *.cmo
 *.cma

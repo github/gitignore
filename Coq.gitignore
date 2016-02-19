@@ -1,3 +1,4 @@
+# ===== Coq.gitignore ===== #
 *.vo
 *.glob
 *.v.d

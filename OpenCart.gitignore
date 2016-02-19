@@ -1,3 +1,4 @@
+# ===== OpenCart.gitignore ===== #
 .htaccess
 /config.php
 admin/config.php

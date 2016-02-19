@@ -1,3 +1,4 @@
+# ===== Textpattern.gitignore ===== #
 .htaccess
 css.php
 rpc/

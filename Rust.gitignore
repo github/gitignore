@@ -1,3 +1,4 @@
+# ===== Rust.gitignore ===== #
 # Compiled files
 *.o
 *.so

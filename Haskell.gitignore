@@ -1,3 +1,4 @@
+# ===== Haskell.gitignore ===== #
 dist
 dist-*
 cabal-dev

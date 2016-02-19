@@ -1,2 +1,3 @@
+# ===== Kohana.gitignore ===== #
 application/cache/*
 application/logs/*

@@ -1,3 +1,4 @@
+# ===== ArchLinuxPackages.gitignore ===== #
 *.tar
 *.tar.*
 *.jar

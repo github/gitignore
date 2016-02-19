@@ -1,3 +1,4 @@
+# ===== CakePHP.gitignore ===== #
 # CakePHP 3
 
 /vendor/*

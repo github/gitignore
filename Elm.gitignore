@@ -1,3 +1,4 @@
+# ===== Elm.gitignore ===== #
 # elm-package generated files
 elm-package.json
 elm-stuff/

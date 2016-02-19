@@ -1,3 +1,4 @@
+# ===== CommonLisp.gitignore ===== #
 *.FASL
 *.fasl
 *.lisp-temp

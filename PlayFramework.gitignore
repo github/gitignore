@@ -1,3 +1,4 @@
+# ===== PlayFramework.gitignore ===== #
 # Ignore Play! working directory #
 bin/
 /db

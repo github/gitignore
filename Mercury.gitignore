@@ -1,3 +1,4 @@
+# ===== Mercury.gitignore ===== #
 Mercury/
 Mercury.modules
 *.mh

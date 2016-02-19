@@ -1,3 +1,4 @@
+# ===== Global/SynopsysVCS.gitignore ===== #
 # Waveform formats
 *.vcd
 *.vpd

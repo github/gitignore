@@ -1,3 +1,4 @@
+# ===== TurboGears2.gitignore ===== #
 *.py[co]
 
 # Default development database

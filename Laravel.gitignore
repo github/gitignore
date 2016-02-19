@@ -1,3 +1,4 @@
+# ===== Laravel.gitignore ===== #
 vendor/
 node_modules/
 

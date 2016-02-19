@@ -1,3 +1,4 @@
+# ===== SeamGen.gitignore ===== #
 /bootstrap/data
 /bootstrap/tmp
 /classes/

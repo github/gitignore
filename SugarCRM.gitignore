@@ -1,3 +1,4 @@
+# ===== SugarCRM.gitignore ===== #
 ## SugarCRM
 # Ignore custom .htaccess stuff.
 /.htaccess

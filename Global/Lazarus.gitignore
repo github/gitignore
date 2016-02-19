@@ -1,3 +1,4 @@
+# ===== Global/Lazarus.gitignore ===== #
 # Lazarus compiler-generated binaries (safe to delete)
 *.exe
 *.dll

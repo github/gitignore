@@ -1,3 +1,4 @@
+# ===== Global/Ensime.gitignore ===== #
 # Ensime specific
 .ensime
 .ensime_cache/

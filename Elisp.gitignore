@@ -1,3 +1,4 @@
+# ===== Elisp.gitignore ===== #
 # Compiled
 *.elc
 
