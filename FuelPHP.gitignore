@@ -1,3 +1,4 @@
 # ===== FuelPHP.gitignore ===== #
 fuel/app/logs/*/*/*
 fuel/app/cache/*/*
+
