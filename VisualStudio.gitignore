@@ -21,6 +21,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Bb]ld/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -39,6 +40,14 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+
+# Cordova
+[Pp]lugins/android.json
+[Pp]lugins/windows.json
+[Pp]lugins/wp8.json
+[Pp]lugins/remote_ios.json
+[Pp]latforms/
+
 
 # DNX
 project.lock.json
