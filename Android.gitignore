@@ -34,3 +34,7 @@ captures/
 
 # Intellij
 *.iml
+.idea
+
+# Only needed under Mac OS
+.DS_Store
