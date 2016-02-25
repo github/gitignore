@@ -41,10 +41,15 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+
 # Cordova
-[Pp]lugins/
-[Pp]latforms/
 [Bb]ld/
+[Pp]latforms/
+[Pp]lugins/android.json
+[Pp]lugins/windows.json
+[Pp]lugins/ios.json
+[Pp]lugins/remote_ios.json
+
 
 # DNX
 project.lock.json
