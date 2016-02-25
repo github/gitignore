@@ -1,3 +1,4 @@
+# ===== Prestashop.gitignore ===== #
 # Private files
 # The following files contain your database credentials and other personal data.
 
@@ -23,3 +24,4 @@ admin-dev/import/
 download/
 /img/*
 upload/
+

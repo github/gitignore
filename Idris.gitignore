@@ -1,2 +1,4 @@
+# ===== Idris.gitignore ===== #
 *.ibc
 *.o
+

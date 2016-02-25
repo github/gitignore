@@ -1,3 +1,4 @@
+# ===== Global/Emacs.gitignore ===== #
 # -*- mode: gitignore; -*-
 *~
 \#*\#
@@ -36,3 +37,4 @@ flycheck_*.el
 
 # server auth directory
 /server/
+

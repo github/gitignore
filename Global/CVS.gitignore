@@ -1,4 +1,6 @@
+# ===== Global/CVS.gitignore ===== #
 /CVS/*
 */CVS/*
 .cvsignore
 */.cvsignore
+

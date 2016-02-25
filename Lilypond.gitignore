@@ -1,6 +1,8 @@
+# ===== Lilypond.gitignore ===== #
 *.pdf
 *.ps
 *.midi
 *.mid
 *.log
 *~
+

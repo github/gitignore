@@ -1,5 +1,7 @@
+# ===== Packer.gitignore ===== #
 # Cache objects
 packer_cache/
 
 # For built boxes
 *.box
+

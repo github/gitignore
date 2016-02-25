@@ -1,2 +1,4 @@
+# ===== Global/Ninja.gitignore ===== #
 .ninja_deps
 .ninja_log
+

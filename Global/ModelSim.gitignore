@@ -1,3 +1,4 @@
+# ===== Global/ModelSim.gitignore ===== #
 # ignore ModelSim generated files and directories (temp files and so on)
 [_@]*
 
@@ -21,3 +22,4 @@ cov*/
 transcript*
 sc_dpiheader.h
 vsim.dbg
+

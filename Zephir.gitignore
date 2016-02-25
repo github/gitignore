@@ -1,3 +1,4 @@
+# ===== Zephir.gitignore ===== #
 # Cache files, generates by Zephir
 .temp/
 .libs/
@@ -24,3 +25,4 @@ ext/mkinstalldirs
 ext/run-tests.php
 ext/.deps
 ext/libtool
+

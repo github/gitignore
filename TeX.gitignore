@@ -1,3 +1,4 @@
+# ===== TeX.gitignore ===== #
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -172,3 +173,4 @@ TSWLatexianTemp*
 
 # KBibTeX
 *~*
+

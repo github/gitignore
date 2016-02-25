@@ -1,3 +1,4 @@
+# ===== Global/SublimeText.gitignore ===== #
 # cache files for sublime text
 *.tmlanguage.cache
 *.tmPreferences.cache
@@ -12,3 +13,4 @@
 
 # sftp configuration file
 sftp-config.json
+

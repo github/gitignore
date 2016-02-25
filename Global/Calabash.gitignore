@@ -1,3 +1,4 @@
+# ===== Global/Calabash.gitignore ===== #
 # Calabash / Cucumber
 rerun/
 reports/
@@ -8,3 +9,4 @@ test-servers/
 # bundler
 .bundle
 vendor
+

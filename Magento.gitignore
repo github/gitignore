@@ -1,3 +1,4 @@
+# ===== Magento.gitignore ===== #
 .htaccess.sample
 .modgit/
 .modman/
@@ -124,3 +125,4 @@ skin/frontend/default/modern/
 skin/frontend/enterprise
 skin/install/
 var/
+

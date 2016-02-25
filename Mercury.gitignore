@@ -1,3 +1,4 @@
+# ===== Mercury.gitignore ===== #
 Mercury/
 Mercury.modules
 *.mh
@@ -11,3 +12,4 @@ Mercury.modules
 *.beams
 *.d
 *.c_date
+

@@ -1,3 +1,4 @@
+# ===== Global/MonoDevelop.gitignore ===== #
 #User Specific
 *.userprefs
 *.usertasks
@@ -6,3 +7,4 @@
 *.pidb
 *.resources
 test-results/
+

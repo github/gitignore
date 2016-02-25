@@ -1,3 +1,4 @@
+# ===== Leiningen.gitignore ===== #
 pom.xml
 pom.xml.asc
 *jar
@@ -10,3 +11,4 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-port
+

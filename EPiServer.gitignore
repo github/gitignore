@@ -1,4 +1,6 @@
+# ===== EPiServer.gitignore ===== #
 ######################
 ## EPiServer Files
 ######################
 *License.config
+

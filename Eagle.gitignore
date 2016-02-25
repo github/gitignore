@@ -1,3 +1,4 @@
+# ===== Eagle.gitignore ===== #
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
@@ -41,4 +42,5 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
 

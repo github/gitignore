@@ -1,3 +1,5 @@
+# ===== Concrete5.gitignore ===== #
 config/site.php
 files/cache/*
 files/tmp/*
+

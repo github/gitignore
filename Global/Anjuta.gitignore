@@ -1,3 +1,5 @@
+# ===== Global/Anjuta.gitignore ===== #
 # Local configuration folder and symbol database
 /.anjuta/
 /.anjuta_sym_db.db
+

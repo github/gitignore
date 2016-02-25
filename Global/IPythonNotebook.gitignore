@@ -1,2 +1,4 @@
+# ===== Global/IPythonNotebook.gitignore ===== #
 # Temporary data
 .ipynb_checkpoints/
+

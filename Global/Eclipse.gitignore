@@ -1,3 +1,4 @@
+# ===== Global/Eclipse.gitignore ===== #
 
 .metadata
 bin/
@@ -48,3 +49,4 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+

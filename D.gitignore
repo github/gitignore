@@ -1,3 +1,4 @@
+# ===== D.gitignore ===== #
 # Compiled Object files
 *.o
 *.obj
@@ -18,3 +19,4 @@
 .dub
 docs.json
 __dummy.html
+

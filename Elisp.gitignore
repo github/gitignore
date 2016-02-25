@@ -1,5 +1,7 @@
+# ===== Elisp.gitignore ===== #
 # Compiled
 *.elc
 
 # Packaging
 .cask
+

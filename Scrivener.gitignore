@@ -1,3 +1,4 @@
+# ===== Scrivener.gitignore ===== #
 /Files/binder.autosave
 /Files/binder.backup
 /Files/search.indexes
@@ -5,3 +6,4 @@
 /Files/Docs/docs.checksum
 /QuickLook/
 /Settings/ui.plist
+

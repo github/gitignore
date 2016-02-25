@@ -1,3 +1,4 @@
+# ===== Opa.gitignore ===== #
 _build
 _tracks
 
@@ -11,3 +12,4 @@ opa-debug-js
 *.api-txt
 *.exe
 *.log
+

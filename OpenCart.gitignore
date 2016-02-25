@@ -1,3 +1,4 @@
+# ===== OpenCart.gitignore ===== #
 .htaccess
 /config.php
 admin/config.php
@@ -11,3 +12,4 @@ system/cache/
 system/logs/
 
 system/storage/
+

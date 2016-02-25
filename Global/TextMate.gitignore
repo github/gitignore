@@ -1,3 +1,5 @@
+# ===== Global/TextMate.gitignore ===== #
 *.tmproj
 *.tmproject
 tmtags
+

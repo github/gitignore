@@ -1,3 +1,4 @@
+# ===== Global/Momentics.gitignore ===== #
 # Built files
 x86/
 arm/
@@ -6,3 +7,4 @@ translations/*.qm
 
 # IDE settings
 .settings/
+

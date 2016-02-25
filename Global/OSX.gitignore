@@ -1,3 +1,4 @@
+# ===== Global/OSX.gitignore ===== #
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -22,3 +23,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+

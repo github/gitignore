@@ -1,6 +1,8 @@
+# ===== SymphonyCMS.gitignore ===== #
 manifest/cache/
 manifest/logs/
 manifest/tmp/
 symphony/
 workspace/uploads/
 install-log.txt
+

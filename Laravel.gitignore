@@ -1,3 +1,4 @@
+# ===== Laravel.gitignore ===== #
 vendor/
 node_modules/
 
@@ -12,3 +13,4 @@ storage/
 .env.php
 .env
 .env.example
+

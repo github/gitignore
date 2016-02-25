@@ -1,3 +1,4 @@
+# ===== Umbraco.gitignore ===== #
 # Note: VisualStudio gitignore rules may also be relevant
 
 # Umbraco
@@ -17,3 +18,4 @@
 
 # ImageProcessor DiskCache 
 **/App_Data/cache/
+

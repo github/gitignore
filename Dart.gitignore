@@ -1,3 +1,4 @@
+# ===== Dart.gitignore ===== #
 # See https://www.dartlang.org/tools/private-files.html
 
 # Files and directories created by pub
@@ -25,3 +26,4 @@ doc/api/
 # Don't commit pubspec lock file 
 # (Library packages only! Remove pattern if developing an application package)
 pubspec.lock
+

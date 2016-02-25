@@ -1,3 +1,4 @@
+# ===== Android.gitignore ===== #
 # Built application files
 *.apk
 *.ap_
@@ -34,3 +35,4 @@ captures/
 
 # Intellij
 *.iml
+

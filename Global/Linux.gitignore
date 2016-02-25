@@ -1,3 +1,4 @@
+# ===== Global/Linux.gitignore ===== #
 *~
 
 # temporary files which can be created if a process still has a handle open of a deleted file
@@ -8,3 +9,4 @@
 
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
+

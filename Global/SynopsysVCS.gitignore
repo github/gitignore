@@ -1,3 +1,4 @@
+# ===== Global/SynopsysVCS.gitignore ===== #
 # Waveform formats
 *.vcd
 *.vpd
@@ -34,3 +35,4 @@ ucli.key
 # When the design is elaborated for DirectC, the following file is created
 # with declarations for C/C++ functions.
 vc_hdrs.h
+

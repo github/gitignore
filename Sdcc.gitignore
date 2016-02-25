@@ -1,3 +1,4 @@
+# ===== Sdcc.gitignore ===== #
 # SDCC stuff
 *.lnk
 *.lst
@@ -6,3 +7,4 @@
 *.rel
 *.rst
 *.sym
+

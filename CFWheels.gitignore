@@ -1,3 +1,4 @@
+# ===== CFWheels.gitignore ===== #
 # unpacked plugin folders
 plugins/**/*
 
@@ -10,3 +11,4 @@ db/sql
 # AssetBundler plugin: generated bundles
 javascripts/bundles
 stylesheets/bundles
+

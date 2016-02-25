@@ -1,3 +1,4 @@
+# ===== RhodesRhomobile.gitignore ===== #
 rholog-*
 sim-*
 bin/libs
@@ -7,3 +8,4 @@ bin/target
 bin/*.ap_
 *.o
 *.jar
+

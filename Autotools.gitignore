@@ -1,3 +1,4 @@
+# ===== Autotools.gitignore ===== #
 # http://www.gnu.org/software/automake
 
 Makefile.in
@@ -16,3 +17,4 @@ Makefile.in
 /install-sh
 /missing
 /stamp-h1
+

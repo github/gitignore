@@ -1,4 +1,6 @@
+# ===== ExtJs.gitignore ===== #
 .architect
 bootstrap.json
 build/
 ext/
+

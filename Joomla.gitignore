@@ -1,3 +1,4 @@
+# ===== Joomla.gitignore ===== #
 /.gitignore
 /.htaccess
 /administrator/cache/*
@@ -544,3 +545,4 @@
 /joomla.xml
 /*.txt
 /robots.txt.dist
+

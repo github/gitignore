@@ -1,3 +1,4 @@
+# ===== Unity.gitignore ===== #
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -28,3 +29,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+

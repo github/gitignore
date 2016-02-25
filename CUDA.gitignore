@@ -1,6 +1,8 @@
+# ===== CUDA.gitignore ===== #
 *.i
 *.ii
 *.gpu
 *.ptx
 *.cubin
 *.fatbin
+

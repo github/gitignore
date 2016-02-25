@@ -1,3 +1,4 @@
+# ===== Haskell.gitignore ===== #
 dist
 dist-*
 cabal-dev
@@ -15,3 +16,4 @@ cabal.sandbox.config
 *.aux
 *.hp
 .stack-work/
+

@@ -1,3 +1,4 @@
+# ===== Global/Tags.gitignore ===== #
 # Ignore tags created by etags, ctags, gtags (GNU global) and cscope
 TAGS
 .TAGS
@@ -13,4 +14,5 @@ cscope.files
 cscope.out
 cscope.in.out
 cscope.po.out
+
 

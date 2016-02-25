@@ -1,3 +1,4 @@
+# ===== Xojo.gitignore ===== #
 # Xojo (formerly REALbasic and Real Studio)
 
 Builds*
@@ -9,3 +10,4 @@ Debug*/Debug*\ Libs
 *.rbuistate
 *.xojo_uistate
 *.obsolete
+

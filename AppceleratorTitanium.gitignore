@@ -1,3 +1,5 @@
+# ===== AppceleratorTitanium.gitignore ===== #
 # Build folder and log file
 build/
 build.log
+

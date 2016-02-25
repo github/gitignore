@@ -1,3 +1,4 @@
+# ===== UnrealEngine.gitignore ===== #
 # Compiled Object files
 *.slo
 *.lo
@@ -57,3 +58,4 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+

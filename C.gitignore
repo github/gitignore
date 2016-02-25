@@ -1,3 +1,4 @@
+# ===== C.gitignore ===== #
 # Object files
 *.o
 *.ko
@@ -30,3 +31,4 @@
 
 # Debug files
 *.dSYM/
+

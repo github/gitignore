@@ -1,3 +1,4 @@
+# ===== ROS.gitignore ===== #
 build/
 bin/
 lib/
@@ -45,3 +46,4 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+

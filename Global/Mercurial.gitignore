@@ -1,6 +1,8 @@
+# ===== Global/Mercurial.gitignore ===== #
 .hg/
 .hgignore
 .hgsigs
 .hgsub
 .hgsubstate
 .hgtags
+

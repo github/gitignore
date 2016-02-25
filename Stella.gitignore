@@ -1,3 +1,4 @@
+# ===== Stella.gitignore ===== #
 # Atari 2600 (Stella) support for multiple assemblers
 # - DASM
 # - CC65
@@ -10,3 +11,4 @@ a.out
 
 # Add in special Atari 7800-based binaries for good measure
 *.a78
+

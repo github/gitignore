@@ -1,3 +1,4 @@
+# ===== ZendFramework.gitignore ===== #
 # Composer files
 composer.phar
 vendor/
@@ -18,3 +19,4 @@ temp/
 # Legacy ZF1
 demos/
 extras/documentation
+

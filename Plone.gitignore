@@ -1,3 +1,4 @@
+# ===== Plone.gitignore ===== #
 *.pyc
 *.pyo
 *.tmp*
@@ -16,3 +17,4 @@ fake-eggs/
 parts/
 dist/
 var/
+

@@ -1,2 +1,4 @@
+# ===== Lithium.gitignore ===== #
 libraries/*
 resources/tmp/*
+

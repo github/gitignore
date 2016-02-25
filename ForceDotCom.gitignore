@@ -1,4 +1,6 @@
+# ===== ForceDotCom.gitignore ===== #
 .project
 .settings
 salesforce.schema
 Referenced Packages
+

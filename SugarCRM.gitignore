@@ -1,3 +1,4 @@
+# ===== SugarCRM.gitignore ===== #
 ## SugarCRM
 # Ignore custom .htaccess stuff.
 /.htaccess
@@ -23,3 +24,4 @@
 # Ignore the new upload directories.
 /upload/
 /upload_backup/
+

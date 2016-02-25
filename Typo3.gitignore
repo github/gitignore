@@ -1,3 +1,4 @@
+# ===== Typo3.gitignore ===== #
 ## TYPO3 v6.2
 # Ignore several upload and file directories.
 /fileadmin/user_upload/
@@ -18,3 +19,4 @@
 /index.php
 # Ignore temp directory.
 /typo3temp/
+

@@ -1,3 +1,4 @@
+# ===== Textpattern.gitignore ===== #
 .htaccess
 css.php
 rpc/
@@ -9,3 +10,4 @@ sites/site*/public/theme/
 textpattern/
 HISTORY.txt
 README.txt
+

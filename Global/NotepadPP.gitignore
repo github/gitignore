@@ -1,2 +1,4 @@
+# ===== Global/NotepadPP.gitignore ===== #
 # Notepad++ backups #
 *.bak
+
