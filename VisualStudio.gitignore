@@ -17,10 +17,10 @@
 [Rr]eleases/
 x64/
 x86/
-build/
 bld/
 [Bb]in/
 [Oo]bj/
+[Ll]og/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -76,6 +76,7 @@ _Chutzpah*
 ipch/
 *.aps
 *.ncb
+*.opendb
 *.opensdf
 *.sdf
 *.cachefile
@@ -150,13 +151,26 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
 
-# Windows Azure Build Output
+# Microsoft Azure Build Output
 csx/
 *.build.csdef
 
-# Windows Store app package directory
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Microsoft Azure ApplicationInsights config file
+ApplicationInsights.config
+
+# Windows Store app package directories and files
 AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -166,7 +180,6 @@ AppPackages/
 
 # Others
 ClientBin/
-[Ss]tyle[Cc]op.*
 ~$*
 *~
 *.dbmdl
@@ -175,6 +188,10 @@ ClientBin/
 *.publishsettings
 node_modules/
 orleans.codegen.cs
+
+# Since there are multiple workflows, uncomment next line to ignore bower_components 
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -199,6 +216,9 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -215,3 +235,13 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+
+# FAKE - F# Make
+.fake/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
