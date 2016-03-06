@@ -73,3 +73,6 @@ target/
 
 # dotenv
 .env
+
+# Spyder project settings
+.spyderproject
