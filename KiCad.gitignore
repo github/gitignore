@@ -18,6 +18,3 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
-
-# Other system files
-.DS_Store
