@@ -56,6 +56,9 @@ local_settings.py
 # Flask instance folder
 instance/
 
+# Scrapy stuff:
+.scrapy
+
 # Sphinx documentation
 docs/_build/
 
@@ -70,3 +73,9 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
+
+# dotenv
+.env
+
+# Spyder project settings
+.spyderproject
