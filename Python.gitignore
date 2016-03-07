@@ -79,3 +79,8 @@ celerybeat-schedule
 
 # Spyder project settings
 .spyderproject
+
+# Eclipse and PyDev project.
+.settings/
+.project
+.pydevproject
