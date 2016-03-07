@@ -1,7 +1,5 @@
 vendor/
 node_modules/
-.rocketeer/
-.phpintel/
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -13,3 +11,6 @@ storage/
 .env.*.php
 .env.php
 .env
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
