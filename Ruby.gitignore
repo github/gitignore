@@ -14,6 +14,10 @@
 .dat*
 .repl_history
 build/
+vendor/Pods/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
 
 ## Documentation cache and generated files:
 /.yardoc/
