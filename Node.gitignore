@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 
+# .DS_Store
+*/.DS_Store # 1 level deep
+.DS_Store
+
 # Runtime data
 pids
 *.pid
@@ -23,12 +27,12 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-/node_modules
-jspm_packages
+# Dependency directory
+*/node_modules
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
