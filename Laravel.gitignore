@@ -11,4 +11,6 @@ storage/
 .env.*.php
 .env.php
 .env
-.env.example
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
