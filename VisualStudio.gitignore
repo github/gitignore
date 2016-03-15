@@ -163,9 +163,6 @@ csx/
 ecf/
 rcf/
 
-# Microsoft Azure ApplicationInsights config file
-ApplicationInsights.config
-
 # Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
@@ -238,6 +235,7 @@ _Pvt_Extensions
 
 # Paket dependency manager
 .paket/paket.exe
+paket-files/
 
 # FAKE - F# Make
 .fake/
