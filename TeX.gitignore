@@ -174,4 +174,4 @@ TSWLatexianTemp*
 *.backup
 
 # KBibTeX
-*~*
+*~[0-9]*
