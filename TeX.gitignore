@@ -175,3 +175,6 @@ TSWLatexianTemp*
 
 # KBibTeX
 *~*
+
+# Emacs: AUCTeX / RefTeX
+*.rel
