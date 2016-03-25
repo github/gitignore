@@ -41,3 +41,6 @@
 
 # Composer PHAR
 /composer.phar
+
+# Temporary files
+*/Entity/*~
