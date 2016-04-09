@@ -2,12 +2,46 @@
 /config.php
 admin/config.php
 
+# It seems next rule is not working for folders like download/index.html
 !index.html
 
-download/
-image/data/
-image/cache/
-system/cache/
-system/logs/
+download/*
+image/data/*
+image/cache/*
+system/cache/*
+system/logs/*
 
-system/storage/
+# OPENCART 2.0.x
+system/download/*
+system/modification/*
+system/upload/*
+
+# OPENCART 2.1.x
+system/storage/cache/*
+system/storage/download/*
+system/storage/logs/*
+system/storage/modification/*
+system/storage/upload/*
+
+#
+## Prevent folders ignoring by adding to repo index.html
+## otherwise when you'd upload a repo to host you won't have folders
+#
+
+!download/index.html
+!image/data/index.html
+!image/cache/index.html
+!system/cache/index.html
+!system/logs/index.html
+
+# OPENCART 2.0.x
+!system/download/index.html
+!system/modification/index.html
+!system/upload/index.html
+
+# OPENCART 2.1.x
+!system/storage/cache/index.html
+!system/storage/download/index.html
+!system/storage/logs/index.html
+!system/storage/modification/index.html
+!system/storage/upload/index.html
