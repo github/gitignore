@@ -10,6 +10,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Roslyn Compiler temporary files
+**.ide/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
