@@ -1,0 +1,37 @@
+# -----------------------------------------------------------------------------
+# Filename    : .gitignore
+# Description : What files should GIT ignore during status checks etc.
+# Note(s)     : Be aware that the patterns used are case-sensitive
+# -----------------------------------------------------------------------------
+
+# Progress 
+*.r
+*.pl
+
+# Developer Studio
+/.dbconnection
+/.project
+/.propath
+/debugger.pref
+/protrace*
+
+# DataDigger 
+DataDigger/Cache
+DataDigger/backup
+DataDigger/DataDigger*.ini
+DataDigger/DataDigger*.log
+
+# General folders
+/.gitignore
+/old/
+/debug/
+
+# General files
+/*.tmp
+/*.bak
+/*.bck
+/*.old
+/*- Copy.*
+/*- Copy (*).*
+/*.log
+
