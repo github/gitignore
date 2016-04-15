@@ -4,34 +4,31 @@
 # Note(s)     : Be aware that the patterns used are case-sensitive
 # -----------------------------------------------------------------------------
 
-# Progress 
-*.r
-*.pl
-
 # Developer Studio
 /.dbconnection
 /.project
 /.propath
 /debugger.pref
 /protrace*
+*.r
+*.pl
 
 # DataDigger 
 DataDigger/Cache
 DataDigger/backup
-DataDigger/DataDigger*.ini
+DataDigger/DataDigger-*.ini
 DataDigger/DataDigger*.log
 
 # General folders
-/.gitignore
 /old/
 /debug/
 
 # General files
-/*.tmp
-/*.bak
-/*.bck
-/*.old
-/*- Copy.*
-/*- Copy (*).*
-/*.log
-
+.gitignore
+*.tmp
+*.bak
+*.bck
+*.old
+*- Copy.*
+*- Copy (*).*
+*.log
