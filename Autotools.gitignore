@@ -1,3 +1,7 @@
+# If you use AC_CONFIG_AUX_DIR, ignore that dir here.
+#
+# If you use recurisve configure, remove leading slashes.
+
 # http://www.gnu.org/software/automake
 
 Makefile.in
@@ -31,3 +35,11 @@ Makefile.in
 # http://www.gnu.org/software/texinfo
 
 /texinfo.tex
+
+# ./configure generated files
+# Not needed if configuring out-of-tree
+
+Makefile
+/config.cache
+/config.log
+/config.status
