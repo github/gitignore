@@ -1,0 +1,39 @@
+# ignore files #
+**/.gitignore
+
+#.gitignore for java class #
+**/*.class
+**/classes
+**/classes/**
+
+# eclipse #
+**/.classpath
+#**/.project
+**/.settings
+
+# logs #
+**/logs
+**/*.log
+**/*.log.*
+
+# build files #
+**/bin
+**/target
+**/out
+**/build
+**/bin/**
+**/target/**
+**/out/**
+**/build/**
+
+# Package Files #
+**/*.jar
+**/*.war
+**/*.ear
+
+# svn #
+**/.svn
+**/.svn/**
+
+# virtual machine crash logs #
+**/hs_err_pid*
