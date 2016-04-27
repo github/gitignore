@@ -11,3 +11,6 @@
 
 # PowerPoint temporary
 ~$*.ppt*
+
+# Visio temporary
+*.~vsdx
