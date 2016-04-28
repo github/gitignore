@@ -12,5 +12,5 @@
 # PowerPoint temporary
 ~$*.ppt*
 
-# Visio temporary
+# Visio autosave temporary files
 *.~vsdx
