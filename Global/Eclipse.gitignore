@@ -49,3 +49,15 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+# Java class files
+**/*.class
+**/classes
+**/classes/**
+
+# svn plugin
+**/.svn
+**/.svn/**
+
+# virtual machine crash logs
+**/hs_err_pid*
