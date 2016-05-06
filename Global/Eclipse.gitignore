@@ -9,6 +9,7 @@ tmp/
 local.properties
 .settings/
 .loadpath
+.recommenders
 
 # Eclipse Core
 .project
@@ -37,8 +38,14 @@ local.properties
 # sbteclipse plugin
 .target
 
+# Tern plugin
+.tern-project
+
 # TeXlipse plugin
 .texlipse
 
 # STS (Spring Tool Suite)
 .springBeans
+
+# Code Recommenders
+.recommenders/
