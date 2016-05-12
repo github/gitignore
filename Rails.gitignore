@@ -16,6 +16,10 @@ pickle-email-*.html
 config/initializers/secret_token.rb
 config/secrets.yml
 
+# dotenv
+# TODO Comment out this rule if environment variables can be committed
+.env
+
 ## Environment normalization:
 /.bundle
 /vendor/bundle
