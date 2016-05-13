@@ -29,6 +29,9 @@ tramp
 # elpa packages
 /elpa/
 
+# El-Get
+/el-get/
+
 # reftex files
 *.rel
 
