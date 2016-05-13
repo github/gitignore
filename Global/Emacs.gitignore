@@ -53,3 +53,27 @@ flycheck_*.el
 
 # directory configuration
 .dir-locals.el
+
+# Auto-Complete
+/ac-comphist.dat
+
+# EMMS
+/emms/
+
+# emacs-async
+/async-bytecomp.log
+
+# haskell-emacs
+/haskell-fun/
+
+# Emacs DBI
+/.edbi-ds-history
+
+# request.el
+/request/
+
+# pcache
+/var/
+
+# smex
+/smex-items
