@@ -7,6 +7,13 @@
 auto-save-list
 tramp
 .\#*
+/games/
+/bookmarks
+/network-security.data
+/newsticker/
+/recentf
+/tutorial
+/url/
 
 # Org-mode
 .org-id-locations
