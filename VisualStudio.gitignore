@@ -252,4 +252,4 @@ paket-files/
 *.sln.iml
 
 # KoreBuild
-*.build
+*.build/
