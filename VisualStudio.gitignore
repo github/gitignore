@@ -250,3 +250,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Comment line below for publishing profiles (warning: it might contain 
+# sensitive data) 
+PublishProfiles/
