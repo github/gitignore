@@ -1,0 +1,3 @@
+## GitIgnore for Aptana Studio
+*.project
+.settings/
