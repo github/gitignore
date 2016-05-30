@@ -6,6 +6,10 @@
 *.fls
 *.out
 *.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
 
 ## Intermediate documents:
 *.dvi
@@ -32,7 +36,6 @@
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:
-
 # algorithms
 *.alg
 *.loa
@@ -48,8 +51,15 @@ acs-*.bib
 *.snm
 *.vrb
 
-#(e)ledmac/(e)ledpar
+# cprotect
+*.cpt
+
+# fixme
+*.lox
+
+#(r)(e)ledmac/(r)(e)ledpar
 *.end
+*.?end
 *.[1-9]
 *.[1-9][0-9]
 *.[1-9][0-9][0-9]
@@ -69,6 +79,7 @@ acs-*.bib
 *.glg
 *.glo
 *.gls
+*.glsdefs
 
 # gnuplottex
 *-gnuplottex-*
@@ -78,6 +89,7 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
+# TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
 *-tikzDictionary
 
@@ -92,8 +104,11 @@ acs-*.bib
 
 # minitoc
 *.maf
+*.mlf
+*.mlt
 *.mtc
-*.mtc0
+*.mtc[0-9]
+*.mtc[1-9][0-9]
 
 # minted
 _minted*
@@ -101,6 +116,9 @@ _minted*
 
 # morewrites
 *.mw
+
+# mylatexformat
+*.fmt
 
 # nomencl
 *.nlo
@@ -115,12 +133,48 @@ _minted*
 *.sympy
 sympy-plots-for-*.tex/
 
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
 # todonotes
 *.tdo
 
 # xindy
 *.xdy
 
+# xypic precompiled matrices
+*.xyc
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+## Editors:
 # WinEdt
 *.bak
 *.sav
+
+# Texpad
+.texpadtmp
+
+# Kile
+*.backup
+
+# KBibTeX
+*~[0-9]*

@@ -1,32 +1,29 @@
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
-
-*.iml
-
-## Directory-based project format:
-.idea/
-# if you remove the above rule, at least ignore the following:
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-# .idea/workspace.xml
-# .idea/tasks.xml
-# .idea/dictionaries
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
-# .idea/dataSources.ids
-# .idea/dataSources.xml
-# .idea/sqlDataSources.xml
-# .idea/dynamic.xml
-# .idea/uiDesigner.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
 # Gradle:
-# .idea/gradle.xml
-# .idea/libraries
+.idea/gradle.xml
+.idea/libraries
 
 # Mongo Explorer plugin:
-# .idea/mongoSettings.xml
+.idea/mongoSettings.xml
 
 ## File-based project format:
-*.ipr
 *.iws
 
 ## Plugin-specific files:
@@ -44,3 +41,4 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
+fabric.properties

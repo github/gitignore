@@ -8,3 +8,9 @@
 
 # Excel Backup File
 *.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsdx
