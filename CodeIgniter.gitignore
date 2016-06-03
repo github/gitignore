@@ -6,9 +6,6 @@
 !*/cache/.htaccess
 
 #codeigniter 3
-application/cache/*
-!application/cache/index.html
-!application/cache/.htaccess
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
