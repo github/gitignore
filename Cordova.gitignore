@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules
+
+# App platform binaries and built files
+# Use `cordova prepare` to copy files to platform/ for building
+platforms
+
+# Plugin Git clones; optinally exclude
+# plugins
