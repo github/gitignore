@@ -58,3 +58,9 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# AppCode
+#
+# Ignore files produced by AppCode
+
+.idea
