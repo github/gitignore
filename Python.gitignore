@@ -90,3 +90,5 @@ ENV/
 
 # Vim swp temp files
 *.swp
+*.swo
+*~
