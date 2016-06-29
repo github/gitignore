@@ -152,6 +152,9 @@ pythontex-files-*/
 # todonotes
 *.tdo
 
+# easy-todo
+*.lod
+
 # xindy
 *.xdy
 
