@@ -1,0 +1,29 @@
+# Logs
+*.log.*
+*.log.wf
+*.docx
+*.wf
+logfile
+apps/var/logs/www/*
+apps/var/logs/admin/*
+apps/var/logs/api/*
+
+# cache
+apps/var/cache/*
+apps/var/temp
+apps/cli/tools/tmp
+
+# slef config
+apps/library/Smarty/config
+apps/library/Smarty/config/www/map.json
+apps/library/Smarty/config/admin/map.json
+apps/config/config-staging.php
+robots.txt
+sftp-config.json
+
+# ignore front_end view
+apps/modules/www/views
+apps/modules/admin/views
+apps/config/env_para.php
+public/static
+public_admin/static
