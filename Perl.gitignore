@@ -16,5 +16,6 @@ Build.bat
 nytprof.out
 /pm_to_blib
 *.o
+*.pm.tdy
 *.bs
 /_eumm/
