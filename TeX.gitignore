@@ -131,6 +131,9 @@ _minted*
 *.sagetex.py
 *.sagetex.scmd
 
+# scrwfile
+*.wrt
+
 # sympy
 *.sout
 *.sympy
