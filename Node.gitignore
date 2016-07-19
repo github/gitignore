@@ -36,3 +36,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Code butler (http://codebutler.com/)
+butler
