@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 
+# .DS_Store
+*/.DS_Store # 1 level deep
+.DS_Store
+
 # Runtime data
 pids
 *.pid
@@ -28,7 +32,7 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules
+*/node_modules
 jspm_packages
 
 # Optional npm cache directory
@@ -36,3 +40,4 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
