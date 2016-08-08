@@ -251,3 +251,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# new extension (of unknown origin or purpose) being generated that is breaking the changes section of the team explorer
+# (http://stackoverflow.com/questions/37704514/visual-studio-2015-database-project-directory-contains-a-file-with-extension-jfm)
+*.jfm
