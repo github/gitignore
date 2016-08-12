@@ -52,6 +52,7 @@
 /administrator/language/en-GB/en-GB.plg_content_contact.sys.ini
 /administrator/language/en-GB/en-GB.plg_content_finder.ini
 /administrator/language/en-GB/en-GB.plg_content_finder.sys.ini
+/administrator/language/en-GB/en-GB.plg_editors-xtd_module*
 /administrator/language/en-GB/en-GB.plg_finder_categories.ini
 /administrator/language/en-GB/en-GB.plg_finder_categories.sys.ini
 /administrator/language/en-GB/en-GB.plg_finder_contacts.ini
@@ -64,6 +65,10 @@
 /administrator/language/en-GB/en-GB.plg_finder_tags.sys.ini
 /administrator/language/en-GB/en-GB.plg_finder_weblinks.ini
 /administrator/language/en-GB/en-GB.plg_finder_weblinks.sys.ini
+/administrator/language/en-GB/en-GB.plg_installer_folderinstaller*
+/administrator/language/en-GB/en-GB.plg_installer_packageinstaller*
+/administrator/language/en-GB/en-GB.plg_installer_packageinstaller
+/administrator/language/en-GB/en-GB.plg_installer_urlinstaller*
 /administrator/language/en-GB/en-GB.plg_installer_webinstaller.ini
 /administrator/language/en-GB/en-GB.plg_installer_webinstaller.sys.ini
 /administrator/language/en-GB/en-GB.plg_quickicon_joomlaupdate.ini
@@ -72,6 +77,8 @@
 /administrator/language/en-GB/en-GB.plg_search_tags.sys.ini
 /administrator/language/en-GB/en-GB.plg_system_languagecode.ini
 /administrator/language/en-GB/en-GB.plg_system_languagecode.sys.ini
+/administrator/language/en-GB/en-GB.plg_system_stats*
+/administrator/language/en-GB/en-GB.plg_system_updatenotification*
 /administrator/language/en-GB/en-GB.plg_twofactorauth_totp.ini
 /administrator/language/en-GB/en-GB.plg_twofactorauth_totp.sys.ini
 /administrator/language/en-GB/en-GB.plg_twofactorauth_yubikey.ini
@@ -249,8 +256,10 @@
 /administrator/language/en-GB/en-GB.tpl_hathor.sys.ini
 /administrator/language/en-GB/en-GB.xml
 /administrator/language/en-GB/index.html
+/administrator/language/ru-RU/index.html
 /administrator/language/overrides/*
 /administrator/language/index.html
+/administrator/logs/index.html
 /administrator/manifests/*
 /administrator/modules/mod_custom/*
 /administrator/modules/mod_feed/*
@@ -289,6 +298,7 @@
 /components/com_finder/*
 /components/com_mailto/*
 /components/com_media/*
+/components/com_modules/*
 /components/com_newsfeeds/*
 /components/com_search/*
 /components/com_users/*
@@ -407,6 +417,7 @@
 /libraries/idna_convert/*
 /libraries/joomla/*
 /libraries/legacy/*
+/libraries/php-encryption/*
 /libraries/phpass/*
 /libraries/phpmailer/*
 /libraries/phputf8/*
@@ -431,9 +442,11 @@
 /media/media/*
 /media/mod_languages/*
 /media/overrider/*
+/media/plg_captcha_recaptcha/*
 /media/plg_quickicon_extensionupdate/*
 /media/plg_quickicon_joomlaupdate/*
 /media/plg_system_highlight/*
+/media/plg_system_stats/*
 /media/system/*
 /media/index.html
 /modules/mod_articles_archive/*
@@ -486,6 +499,7 @@
 /plugins/editors/none/*
 /plugins/editors/tinymce/*
 /plugins/editors/index.html
+/plugins/editors-xtd/module/*
 /plugins/editors-xtd/article/*
 /plugins/editors-xtd/image/*
 /plugins/editors-xtd/pagebreak/*
@@ -523,6 +537,8 @@
 /plugins/system/redirect/*
 /plugins/system/remember/*
 /plugins/system/sef/*
+/plugins/system/stats/*
+/plugins/system/updatenotification/*
 /plugins/system/index.html
 /plugins/twofactorauth/*
 /plugins/user/contactcreator/*
