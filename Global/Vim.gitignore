@@ -3,8 +3,11 @@
 [._]s[a-w][a-z]
 # session
 Session.vim
+_d.session
 # temporary
 .netrwhist
 *~
 # auto-generated tag files
 tags
+# deprecations
+_deprecations
