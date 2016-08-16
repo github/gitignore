@@ -1,0 +1,13 @@
+config/connect.php
+config/bases/
+tmp/
+/IMG/
+local/
+.backup
+.svn*
+svn*
+
+# Exclure les répertoires de test
+tests/
+# Exclure testbuilder
+plugins/auto/tb/
