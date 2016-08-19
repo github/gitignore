@@ -1,0 +1,5 @@
+# Used by direnv to load environment variables.
+# While some projects elect to version control .envrc files,
+# Others recommend excluding these as they sometimes present a security risk.
+# When in doubt, version control as .envrc.sample, and symlink to .envrc
+.envrc
