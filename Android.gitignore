@@ -2,6 +2,9 @@
 *.apk
 *.ap_
 
+# except mac system file
+.DS_Store
+
 # Files for the Dalvik VM
 *.dex
 
