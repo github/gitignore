@@ -1,0 +1,26 @@
+# Ignores for Maven and common Maven plugins
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Ignores for common IDEs used with Maven
+
+# Eclipse (https://eclipse.org/)
+.settings/
+.project
+.classpath
+
+# NetBeans (https://netbeans.org/)
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# IntelliJ IDEA (https://www.jetbrains.com/idea/)
+.idea
+*.iml
