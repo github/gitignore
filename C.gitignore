@@ -1,3 +1,6 @@
+# Prerequisites
+*.d
+
 # Object files
 *.o
 *.ko
@@ -30,3 +33,4 @@
 
 # Debug files
 *.dSYM/
+*.su

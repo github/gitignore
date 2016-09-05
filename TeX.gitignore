@@ -7,6 +7,9 @@
 *.out
 *.toc
 *.fmt
+*.fot
+*.cb
+*.cb2
 
 ## Intermediate documents:
 *.dvi
@@ -15,6 +18,9 @@
 # *.ps
 # *.eps
 # *.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -28,6 +34,7 @@
 ## Build tool auxiliary files:
 *.fdb_latexmk
 *.synctex
+*.synctex(busy)
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
@@ -81,6 +88,10 @@ acs-*.bib
 # gnuplottex
 *-gnuplottex-*
 
+# gregoriotex
+*.gaux
+*.gtex
+
 # hyperref
 *.brf
 
@@ -125,6 +136,9 @@ _minted*
 *.sagetex.py
 *.sagetex.scmd
 
+# scrwfile
+*.wrt
+
 # sympy
 *.sout
 *.sympy
@@ -138,6 +152,9 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
+# thmtools
+*.loe
+
 # TikZ & PGF
 *.dpth
 *.md5
@@ -145,6 +162,9 @@ pythontex-files-*/
 
 # todonotes
 *.tdo
+
+# easy-todo
+*.lod
 
 # xindy
 *.xdy
@@ -171,4 +191,4 @@ TSWLatexianTemp*
 *.backup
 
 # KBibTeX
-*~*
+*~[0-9]*
