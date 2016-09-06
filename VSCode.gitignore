@@ -1,0 +1,6 @@
+## Ignore Visual Studio Code temporary files in the .vscode folder.
+
+## vscode
+**/.vscode/*.db
+**/.vscode/*.db-wal
+**/.vscode/*.db-shm
