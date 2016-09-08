@@ -14,8 +14,17 @@ gen/
 out/
 
 # Gradle files
+.gradle
 .gradle/
 build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# Signing files
+.signing/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -26,16 +35,76 @@ proguard/
 # Log Files
 *.log
 
-# Android Studio Navigation editor temp files
-.navigation/
-
-# Android Studio captures folder
+# Android Studio
+/*/build/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
 captures/
+.navigation/
+*.ipr
+*~
+*.swp
 
-# Intellij
+# Android Patch
+gen-external-apklibs
+
+# NDK
+obj/
+
+# IntelliJ IDEA
 *.iml
+*.iws
+
+# User-specific configurations
+.idea/libraries/
 .idea/workspace.xml
-.idea/libraries
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
 # Keystore files
 *.jks
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Legacy Eclipse project files
+.classpath
+.project
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs (Reference: http://www.java.com/en/download/help/error_hotspot.xml)
+hs_err_pid*
+
