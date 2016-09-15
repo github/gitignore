@@ -60,3 +60,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# macOS
+#
+# No need to add system files like .DS_Store
+.DS_Store
