@@ -36,7 +36,8 @@
 *.su
 
 # Kernel Module Compile Results
-*.mod.c
+*.mod*
+*.cmd
 modules.order
 Module.symvers
 Mkfile.old
