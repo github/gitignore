@@ -34,3 +34,11 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
