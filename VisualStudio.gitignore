@@ -110,6 +110,10 @@ _TeamCity*
 # DotCover is a Code Coverage Tool
 *.dotCover
 
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
@@ -189,6 +193,7 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
+*.jfm
 *.pfx
 *.publishsettings
 node_modules/
@@ -258,3 +263,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Cake - Uncomment if you are using it
+# tools/
