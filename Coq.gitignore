@@ -10,6 +10,7 @@
 *.ml.d
 *.ml4.d
 *.mli.d
+*.native
 *.o
 *.v.d
 *.vio
