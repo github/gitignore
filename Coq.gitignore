@@ -10,6 +10,8 @@
 *.ml.d
 *.ml4.d
 *.mli.d
+*.mllib.d
+*.mlpack.d
 *.native
 *.o
 *.v.d
