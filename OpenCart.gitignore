@@ -11,3 +11,9 @@ system/cache/
 system/logs/
 
 system/storage/
+
+# vQmod
+vqmod/logs/*
+vqmod/vqcache/*
+vqmod/checked.cache
+vqmod/mods.cache
