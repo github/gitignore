@@ -42,3 +42,6 @@ jspm_packages
 
 # Output of 'npm pack'
 *.tgz
+
+# Yarn lock file
+yarn.lock
