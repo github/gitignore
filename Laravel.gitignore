@@ -7,6 +7,7 @@ app/storage/
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
+public/storage
 .env.*.php
 .env.php
 .env
