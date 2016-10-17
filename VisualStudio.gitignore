@@ -44,6 +44,7 @@ dlldata.c
 project.lock.json
 project.fragment.lock.json
 artifacts/
+Properties/launchSettings.json
 
 *_i.c
 *_p.c
