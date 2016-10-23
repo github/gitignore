@@ -1,0 +1,5 @@
+bin/
+obj/
+*.userprefs
+
+# See also VisualStudio.gitignore!
