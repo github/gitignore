@@ -1,0 +1,7 @@
+# Gitignore for Perl 6 (http://www.perl6.org)
+# As part of https://github.com/github/gitignore
+
+# precompiled files
+.precomp
+lib/.precomp
+
