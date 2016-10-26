@@ -3,3 +3,6 @@
 
 # Packaging
 .cask
+
+# Backup files
+*~
