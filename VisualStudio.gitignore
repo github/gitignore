@@ -268,5 +268,9 @@ paket-files/
 __pycache__/
 *.pyc
 
+# New IntelliSense database, VS2015 Update 2 or later
+*.VC.db
+
+
 # Cake - Uncomment if you are using it
 # tools/
