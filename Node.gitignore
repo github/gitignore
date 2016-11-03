@@ -42,3 +42,6 @@ jspm_packages
 
 # Output of 'npm pack'
 *.tgz
+
+#Webstorm/Jetbrains
+.idea
