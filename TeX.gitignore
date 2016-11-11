@@ -61,6 +61,15 @@ acs-*.bib
 # fixme
 *.lox
 
+# feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+*.[1-9]
+*.[1-9][0-9]
+
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
 *.?end
@@ -114,9 +123,7 @@ acs-*.bib
 *.maf
 *.mlf
 *.mlt
-*.mtc
-*.mtc[0-9]
-*.mtc[1-9][0-9]
+*.mtc[0-9]*
 
 # minted
 _minted*
