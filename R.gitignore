@@ -2,8 +2,17 @@
 .Rhistory
 .Rapp.history
 
+# Session Data files
+.RData
+
 # Example code in package build process
 *-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
 
 # RStudio files
 .Rproj.user/
@@ -11,3 +20,6 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
