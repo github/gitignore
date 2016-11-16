@@ -43,7 +43,7 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
-# DNX
+# .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
