@@ -19,3 +19,9 @@ project/plugins/project/
 # ENSIME specific
 .ensime_cache/
 .ensime
+
+# IntelliJ idea specific
+*.iml
+*.ipr
+*.iws
+out/
