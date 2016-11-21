@@ -64,3 +64,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Default location for StarterContent, engine adds these from local storage
+Content/StarterContent/*
