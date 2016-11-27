@@ -59,6 +59,9 @@ acs-*.bib
 # cprotect
 *.cpt
 
+# endnotes
+*.ent
+
 # fixme
 *.lox
 
