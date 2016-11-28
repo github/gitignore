@@ -1,12 +1,13 @@
-# Windows image file caches
-Thumbs.db
+# Windows picture file thumbnail caches
+[Tt]humbs.db
 ehthumbs.db
 
 # Folder config file
-Desktop.ini
+[Dd]esktop.ini
 
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
+$R[Ee][Cc][Yy][Cc][Ll][Ee].B[Ii][Nn]/
+R[Ee][Cc][Yy][Cc][Ll][Ee][Rr]/
 
 # Windows Installer files
 *.cab
@@ -14,5 +15,27 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Windows shortcuts
+# Windows shortcuts & Recent Items links
 *.lnk
+
+# System Restore data & restore points, Windows Backup, Volume Shadow Copy, Content Indexer, CHKDSK logs
+System Volume Information/
+
+# System Recovery boot image
+[Rr][Ee][Cc][Oo][Vv][Ee][Rr][Yy]/
+
+# Virtual Memory file
+[Pp]agefile.sys
+
+# Hibernation data
+[Hh]iberfil.sys
+
+# System boot files
+boot/
+
+# Caches MSI install files
+[Cc][Oo][Nn][Ff][Ii][Gg].[Mm][Ss][Ii]
+MSOCache/
+
+# System performance logs
+[Pp]erf[Ll]ogs/
