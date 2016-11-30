@@ -1,22 +1,35 @@
 *.DS_Store
 .AppleDouble
 .LSOverride
+.metadata_never_index
 
 # Icon must end with two \r
 Icon
 
 
-# Thumbnails
+# Resource forks
 ._*
 
-# Files that might appear in the root of a volume
+# Files and directories that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
+.dbfseventsd
 .Spotlight-V100
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+.com.apple.timemachine.supported
+.PKInstallSandboxManager
+Desktop DB
+Desktop DF
+.file
+.hotfiles.btree
+.quota.ops.user
+.quota.user
+.quota.ops.group
+.quota.group
+.vol
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -24,3 +37,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Sherlock files
+TheFindByContentFolder
+TheVolumeSettingsFolder
+.FBCIndex
+.FBCSemaphoreFile
+.FBCLockFolder
