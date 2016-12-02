@@ -1,20 +1,34 @@
-/blib/
-/.build/
-_build/
-cover_db/
-inc/
-Build
 !Build/
-Build.bat
 .last_cover_stats
-/Makefile
-/Makefile.old
-/MANIFEST.bak
 /META.yml
 /META.json
 /MYMETA.*
-nytprof.out
-/pm_to_blib
 *.o
 *.bs
+
+# Devel::Cover
+cover_db/
+
+# Devel::NYTProf
+nytprof.out
+
+# Dizt::Zilla
+/.build/
+
+# Module::Build
+_build/
+Build
+Build.bat
+
+# Module::Install
+inc/
+
+# ExtUitls::MakeMaker
+/blib/
 /_eumm/
+/*.gz
+/Makefile
+/Makefile.old
+/MANIFEST.bak
+/pm_to_blib
+/*.zip
