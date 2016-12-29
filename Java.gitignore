@@ -1,5 +1,13 @@
 *.class
 
+# Eclipse editor
+.classpath
+.project
+.settings/
+
+# Log file
+.log
+
 # BlueJ files
 *.ctxt
 
@@ -10,6 +18,9 @@
 *.jar
 *.war
 *.ear
+
+# Vagrant
+.vagrant
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
