@@ -8,5 +8,5 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
-# Exclude maven wrapper
+# Unignore maven wrapper jar
 !/.mvn/wrapper/maven-wrapper.jar
