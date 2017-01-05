@@ -142,6 +142,9 @@ _minted*
 # nomencl
 *.nlo
 
+# pax
+*.pax
+
 # sagetex
 *.sagetex.sage
 *.sagetex.py
