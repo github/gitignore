@@ -89,3 +89,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# pycharm IDE
+.idea/
+
+# vim
+*.swp
+*.un~
