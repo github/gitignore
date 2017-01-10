@@ -271,4 +271,5 @@ __pycache__/
 *.pyc
 
 # Cake - Uncomment if you are using it
-# tools/
+# tools/**
+# !tools/packages.config
