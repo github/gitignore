@@ -49,3 +49,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Intellij
+*.iml
+.idea

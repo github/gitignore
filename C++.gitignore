@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Intellij
+*.iml
+.idea
