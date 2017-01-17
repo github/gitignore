@@ -1,3 +1,4 @@
+# Compiled files
 *.class
 
 # BlueJ files
@@ -7,7 +8,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar #Jar are external library. Do not ignore them if they are important.
 *.war
 *.ear
 
