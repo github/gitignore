@@ -31,3 +31,7 @@ doc/api/
 # Don't commit pubspec lock file 
 # (Library packages only! Remove pattern if developing an application package)
 pubspec.lock
+
+# Dart Editor specific
+.project
+.settings/
