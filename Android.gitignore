@@ -47,3 +47,9 @@ captures/
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
+
+# Visual Studio Code
+.classpath
+.project
+.settings
+javac-services.*
