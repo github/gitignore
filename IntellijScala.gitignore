@@ -1,0 +1,18 @@
+target
+*.class
+*.iml
+*.ipr
+.idea
+!.idea/workspace.xml
+
+# File-based project format:
+*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# IntelliJ
+/out/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
