@@ -1,12 +1,18 @@
 # See https://www.dartlang.org/tools/private-files.html
 
 # Files and directories created by pub
-.buildlog
+
+# SDK 1.20 and later (no longer creates packages directories)
 .packages
-.project
 .pub/
 build/
+
+# Older SDK versions
+# (Include if the minimum SDK version specified in pubsepc.yaml is earlier than 1.20)
+.project
+.buildlog
 **/packages/
+
 
 # Files created by dart2js
 # (Most Dart developers will use pub build to compile Dart, use/modify these 
