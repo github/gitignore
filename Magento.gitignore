@@ -27,6 +27,7 @@ app/.htaccess
 app/bootstrap.php
 app/locale/en_US/
 app/Mage.php
+app/bootstrap.php
 /cron.php
 cron.sh
 dev/.htaccess
@@ -69,6 +70,8 @@ lib/Zend/
 lib/Cm/
 lib/Credis/
 lib/Magento/
+lib/Net/
+dev/*
 LICENSE_AFL.txt
 LICENSE.html
 LICENSE.txt
