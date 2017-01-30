@@ -1,0 +1,23 @@
+.idea  #project files PHP-Storm
+.metadata # projet files Eecplise
+
+# folder for tmp-files / log-files
+tmp/
+log/
+
+# folder for upload media files (picturs, ...)
+out/media/
+out/downloads/
+out/pictures/generated
+
+# generated content by user or some modules
+export/
+import/
+
+setup/ # setup, files will be deleted after installation
+
+documenation/ #contains pdf-files about templates
+
+# Copyright, some links and short installation instruction
+README
+COPYING
