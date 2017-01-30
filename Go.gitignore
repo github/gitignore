@@ -1,5 +1,7 @@
-# Binary on Windows
+# Binaries for programs and plugins
 *.exe
+*.dll
+*.so
 
 # Test binary, build with `go test -c`
 *.test
