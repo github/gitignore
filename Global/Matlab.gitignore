@@ -17,3 +17,6 @@ slprj/
 
 # Session info
 octave-workspace
+
+# Simulink autosave extension
+.autosave

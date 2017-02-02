@@ -13,5 +13,11 @@ project/boot/
 project/plugins/project/
 
 # Scala-IDE specific
+.ensime
+.ensime_cache/
 .scala_dependencies
 .worksheet
+
+# ENSIME specific
+.ensime_cache/
+.ensime

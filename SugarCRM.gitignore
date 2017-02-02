@@ -7,6 +7,7 @@
 # For development the cache directory can be safely ignored and
 # therefore it is ignored.
 /cache/
+!/cache/index.html
 # Ignore some files and directories from the custom directory.
 /custom/history/
 /custom/modulebuilder/
@@ -22,4 +23,5 @@
 *.log
 # Ignore the new upload directories.
 /upload/
+!/upload/index.html
 /upload_backup/
