@@ -1,18 +1,39 @@
 # -*- mode: gitignore; -*-
 *~
 \#*\#
+.\#*
+
 /.emacs.desktop
 /.emacs.desktop.lock
+
+# Byte compiled file
 *.elc
-auto-save-list
+
+# auto-save-mode directory
+/auto-save-list/
+
+# TRAMP connection history
 tramp
-.\#*
+
+# Gamegrid score file directory
 /games/
+
+# bookmark.el
 /bookmarks
+
+# Network Security Manager settings file
 /network-security.data
+
+# Newsticker (Feed Reader)
 /newsticker/
+
+# recently opened files history
 /recentf
+
+# Emacs turorial save data file
 /tutorial
+
+# Emacs-W3 save data file (cookies)
 /url/
 
 # Org-mode
