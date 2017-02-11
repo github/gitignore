@@ -2,8 +2,9 @@
 .lgt_tmp/
 lgt_tmp/
 
-# Logtalk default unit testing results directory
-tester_results/
+# Logtalk default unit testing and doclet results and logs directories
+logtalk_tester_logs/
+logtalk_doclet_logs/
 
 # backend Prolog compiler temporary files
 .pl-history
