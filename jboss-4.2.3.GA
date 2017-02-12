@@ -1,0 +1,21 @@
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+/server/default/deploy/*.xml.failed
+/server/default/deploy/*.war.failed
+
+/**
+* For ignore * .war, * .war.failed and * .xml.failed if you use other directories of jboss.
+* Do it similar configuration used for
+* /server/default/deploy
+*
+*/
