@@ -25,3 +25,12 @@
 /server/default/deploy/*.war.failed
 /server/default/deploy/*.war.dodeploy
 
+/*
+*Important
+* Case your directory for example
+* /server/minimal/lib be empty. 
+* The git will not submit this directory for you repository.
+* In this case is necessary create one archive, for example .gitignore empty in this directory.
+* Case you run your server without this directory the server will faild when you start service.
+*/
+
