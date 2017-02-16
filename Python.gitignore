@@ -89,3 +89,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# IntelliJ and Pycharm project folder
+.idea/
+
