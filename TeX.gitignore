@@ -134,6 +134,9 @@ acs-*.bib
 *.mlf
 *.mlt
 *.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
 
 # minted
 _minted*
