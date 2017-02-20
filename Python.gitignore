@@ -76,7 +76,7 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
-#Sage parsed files
+# SageMath parsed files
 *.sage.py
 
 # dotenv
