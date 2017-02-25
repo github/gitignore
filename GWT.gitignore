@@ -15,3 +15,14 @@ gwt-unitCache/
 war/WEB-INF/deploy/
 war/WEB-INF/classes/
 
+#compilation logs
+.gwt/
+
+#caching for already compiled files
+gwt-unitCache/
+
+#gwt junit compilation files
+www-test/
+
+#old GWT (1.5) created this dir
+.gwt-tmp/

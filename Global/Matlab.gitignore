@@ -12,5 +12,11 @@
 # Compiled MEX binaries (all platforms)
 *.mex*
 
-# Simulink Code Generation	
+# Simulink Code Generation
 slprj/
+
+# Session info
+octave-workspace
+
+# Simulink autosave extension
+.autosave
