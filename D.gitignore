@@ -20,5 +20,8 @@ docs.json
 __dummy.html
 docs/
 
+# Ignored test executable created by DUB
+/*-test-*
+
 # Code coverage
 *.lst
