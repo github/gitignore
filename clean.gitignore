@@ -2,10 +2,20 @@
 *.exe
 *.out
 
+# Generated ABC Bytecode
+*.bc
+*.pbc
+
+# Project files and IDE settings
+*.prj
+*.prp
+
 # Directory used to store object files, abc files and assembly files
 Clean System Files/
 
 # iTasks environment extra data
 *-data/
 *-www/
-sapl/
+
+# Deprecated
+*-sapl/
