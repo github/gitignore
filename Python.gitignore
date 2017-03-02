@@ -90,5 +90,11 @@ ENV/
 # Spyder project settings
 .spyderproject
 
+# Visual Studio Code project settings
+.vscode
+
+#ctags tags file (common in Visual Studio Code Python projects)
+tags
+
 # Rope project settings
 .ropeproject
