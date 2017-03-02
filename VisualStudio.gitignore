@@ -205,6 +205,9 @@ orleans.codegen.cs
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
 
+# VS15: by default bower location is moved, bower restore is true
+**/wwwroot/lib/
+
 # RIA/Silverlight projects
 Generated_Code/
 
