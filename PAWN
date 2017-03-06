@@ -1,0 +1,6 @@
+# Binary files
+*.amx
+*.exe
+
+# IDE setting files
+settings.ini
