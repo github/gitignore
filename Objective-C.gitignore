@@ -6,6 +6,10 @@
 build/
 DerivedData/
 
+## Test generated
+*.gcno
+*.gcda
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -27,6 +31,12 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+## Finder
+.DS_Store
+
+## Git
+*.orig # Files created by mergetool
 
 # CocoaPods
 #
