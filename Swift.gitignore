@@ -6,6 +6,10 @@
 build/
 DerivedData/
 
+## Test generated
+*.gcno
+*.gcda
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -31,6 +35,12 @@ xcuserdata/
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
+
+## Finder
+.DS_Store
+
+## Git
+*.orig # Files created by mergetool
 
 # Swift Package Manager
 #
