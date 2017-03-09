@@ -1,0 +1,5 @@
+# AppCode
+#
+# Ignore files produced by AppCode
+
+.idea
