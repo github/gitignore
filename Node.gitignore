@@ -54,6 +54,9 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Yarn lock file
+yarn.lock
+
 # dotenv environment variables file
 .env
 
