@@ -1,0 +1,11 @@
+# Ansible retry files
+*.retry
+
+# Test driven development on Ansible with Molecule, Testinfra and pytest
+.cache/
+.idea/
+.molecule/
+.tox/
+__pycache__/
+tests/roles
+*.pyc
