@@ -1,0 +1,53 @@
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
+.project
+.settings/
+.metadata
+build.properties
+config
+
+# Apex Log as optional
+apex-scripts/log
+
+# Eclipse specific
+salesforce.schema
+Referenced Packages
+bin/
+tmp/
+config/
+*.tmp
+*.bak
+local.properties
+.settings
+.loadpath
+.classpath
+*.cache
+
+# Illuminated Cloud (IntelliJ IDEA)
+IlluminatedCloud
+out
+.idea
+*.iml
+
+# Mavensmate
+*.sublime-project
+*.sublime-settings
+*.sublime-workspace
+mm.log
+
+# Haoide SublimeText
+.config
+.deploy
+.history
+
+# OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+# The Welkin Suite specific
+**/.localHistory
+
+*.sfuo
+
+TestCache.xml
+
+TestsResultsCache.xml
