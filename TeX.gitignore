@@ -108,6 +108,10 @@ acs-*.bib
 *.gaux
 *.gtex
 
+# gnuplot
+*.gnuplot
+*.table
+
 # hyperref
 *.brf
 
