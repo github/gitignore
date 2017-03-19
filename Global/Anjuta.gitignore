@@ -1,3 +1,21 @@
 # Local configuration folder and symbol database
 /.anjuta/
 /.anjuta_sym_db.db
+
+
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# My configurations:
+db.ini
+deploy_key_rsa
