@@ -1,4 +1,4 @@
-*.tmp
+*.[Tt][Mm][Pp]
 
 # Word temporary
 ~$*.doc*
