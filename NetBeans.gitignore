@@ -1,0 +1,10 @@
+nbproject/*
+dist/*
+build/*
+.dep.inc
+Makefile
+build.xml
+manifest.mf
+
+
+
