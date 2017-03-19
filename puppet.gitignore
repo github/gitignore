@@ -1,0 +1,7 @@
+/.tmp/
+/modules/
+/.vagrant
+/.librarian/
+/build/
+*.old
+*.lock
