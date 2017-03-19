@@ -1,0 +1,4 @@
+# HaxeFlixel - A port of Flixel to Haxe using OpenFL. http://haxeflixel.com/
+
+# Ignore the output folder where binaries are created
+output/
