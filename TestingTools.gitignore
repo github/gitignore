@@ -1,0 +1,15 @@
+#
+# This .gitignore file aims to avoid all those files and folders generated
+# by testing tools such as 'SonarQube', 'PyCov' and so on
+#
+
+# SonarQube
+.sonar
+sonar-project.properties
+
+# Sphinx
+doc/build
+doc/make.bat
+
+# PyCov
+.coverage
