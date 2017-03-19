@@ -1,0 +1,27 @@
+# Altium Designer is the #1 tool for designing electronic Schematic and PCB
+# and necessary files for electronic boards fabrication.
+# http://www.altium.com/
+
+# Altium makes automatic zip backup of the project witch should be ignored in the git! 
+History/
+*/History/
+
+# Some temprory preview files is created when working with the software.
+__Previews/
+*/__Previews/
+
+# project specific logs that are not needed in the board development!
+Project Logs for*/
+*/Project Logs for*/
+
+# Output of the project necessary for fabrication. think it as executables!
+# If you want a snapshot of your fabrication files too, comment the following line.
+Output/
+*/Output/
+
+# DRC rull check and html outputs.
+*.drc
+*.html
+
+# other unneeded files.
+*.PrjPcbStructure
