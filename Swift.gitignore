@@ -39,6 +39,12 @@ playground.xcworkspace
 # Package.pins
 .build/
 
+# AppCode
+#
+# When using JetBrains AppCode instead of XCode cosider ignoring .idea project folder.
+#
+# .idea/
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
