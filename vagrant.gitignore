@@ -1,0 +1,5 @@
+# Vagrant file
+.vagrant
+
+# Boxes
+*.box
