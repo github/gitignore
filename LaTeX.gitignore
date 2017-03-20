@@ -1,0 +1,26 @@
+# Text editor backup files
+*~
+*.bak
+.*.un~
+
+# Gedit LaTeX ini file
+.*.ini
+
+# LaTeX compilation artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.lof
+*.log
+*.lol
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.thm
+*.toc
+*.vrb
+*.fdb_latexmk
