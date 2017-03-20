@@ -1,0 +1,6 @@
+#######################
+#     Komodo Edit     #
+#######################
+*.komodoproject
+*.kpf
+.komodotools
