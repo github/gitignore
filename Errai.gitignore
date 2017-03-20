@@ -1,0 +1,8 @@
+.gwt-tmp/
+.errai/
+.gwt
+/errai-bus/war/WEB-INF/classes/
+/errai-ioc/war/WEB-INF/classes/
+/errai-tools/war/
+*ErraiBusTests.JUnit/
+gwt-unitCache/
