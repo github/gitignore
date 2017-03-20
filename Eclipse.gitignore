@@ -1,0 +1,6 @@
+# General Eclipse Files
+.classpath
+.metadata
+.project
+.settings
+*.properties
