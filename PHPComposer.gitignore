@@ -1,0 +1,8 @@
+## Composer 
+
+vendor/
+composer.phar
+
+
+## Optional
+#composer.lock
