@@ -1,0 +1,52 @@
+# .gitignore for ASP.NET MVC / Windows Azure development
+# Original file: https://gist.github.com/3318347 by @codingoutloud
+## Github doc on ignoring files: https://help.github.com/articles/ignoring-files
+## The man page for .gitignore (referenced by github): http://man.cx/gitignore
+## Of possible interest (can be complex): https://github.com/github/gitignore
+ 
+# Troubleshooting
+# 1. If you add a .gitignore file to an existing repo (or significantly change one), you may want 
+# to force it to act as though the new/updated .gitignore was in force the whole time. 
+## http://stackoverflow.com/questions/1139762/gitignore-file-not-ignoring
+### git rm -r --cached .
+### git add .
+### git commit -m ".gitignore is now working"
+# 2. If you get an Unsynchronized Commit error in the GitHub Windows client, you may want to try this.
+## http://stackoverflow.com/questions/8174324/github-unsynchronized-commit
+# 3. If you get "unstaged changes" "you cannot sync with unstaged changes" "please commit your changes and try again" from 
+#    Github for Windows client...
+## ?
+ 
+# don't ignore myself!
+!.gitignore
+ 
+# Visual Studio build objects
+bin/
+csx/
+obj/
+rcf/
+ 
+# Windows Azure Publish Settings contain security keys for accessing your Windows Azure account
+.publishsettings
+ 
+# Visual Studio user-specific files
+## Useful whenever working as part of a team or on software (like open source) that others will download
+*.suo
+*.user
+ 
+# Access Control Service integration (via FedUtil or Add STS Reference from VS2010) will create FederationMetadata.xml below this folder
+##=> looks like FederationMetadata.xml is referenced in csproj, so need it in source control
+# FederationMetadata\
+## Multiple applications of FedUtil will result in *.backup.1, *.backup.2, etc., files for Web.config and FederationMetadata.xml
+*.backup.*
+ 
+# NuGet
+# Also consider letting NuGet automatically restore missing packages for you:
+## http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages/
+packages/
+ 
+# ReSharper
+_ReSharper*/
+ 
+# NCrunch
+*ncrunch*
