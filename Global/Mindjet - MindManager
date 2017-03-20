@@ -1,0 +1,2 @@
+# Ignore temporary Mindjet - MindManager files
+~$*.mmap.~$lock
