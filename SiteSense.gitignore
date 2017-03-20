@@ -1,0 +1,5 @@
+# ignore database information and installer lockfile
+dbSettings.php
+INSTALL.LOCK
+# ignore UGC directory
+images/
