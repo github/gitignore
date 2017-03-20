@@ -1,0 +1,6 @@
+# binaries gen by Ti Desktop
+dist/
+
+# build and build log gen by Ti Mobile
+build/
+build.log
