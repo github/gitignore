@@ -1,0 +1,6 @@
+#Vagrant files
+Vagrantfile
+.vagrant/
+
+#Common vagrant script
+bootstrap.sh
