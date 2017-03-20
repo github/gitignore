@@ -1,0 +1,11 @@
+# Based on http://www.labviewwiki.org/Hg#Ignoring_files
+
+# LabView User-specific files
+*.aliases
+*.lvlps
+
+*.ogp
+
+# LabView Build folders
+/built
+/build
