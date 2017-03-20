@@ -1,0 +1,9 @@
+# BitTorrent Sync
+.SyncArchive/
+.SyncTrash/
+.SyncID
+.SyncIgnore
+*.!sync
+*.Sync
+*.SyncPart
+*.SyncTemp
