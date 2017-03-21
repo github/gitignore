@@ -1,0 +1,41 @@
+#Based on info from http://unity3d.com/support/documentation/Manual/ExternalVersionControlSystemSupport.html
+
+#Unity3d Stuff
+Library/*
+
+!Library/EditorBuildSettings.asset
+!Library/InputManager.asset
+!Library/ProjectSettings.asset
+!Library/QualitySettings.asset
+!Library/TagManager.asset
+!Library/TimeManager.asset
+!Library/AudioManager.asset
+!Library/DynamicsManager.asset
+!Library/NetworkManager.asset 
+
+*.unityproj
+*.userprefs
+bios/*
+#binary stuff
+obj/*
+Temp/*
+
+#Visual Studio Stuff
+*.sln
+*.suo
+*.pidb
+*.swp
+*.csproj
+
+# windows stuff
+# Thumbs.db.meta should not exist, but every now and then it happens
+Thumbs.db
+Thumbs.db.meta
+
+# wired apple stuff
+# .DS_Store.meta should not exist, but every now and then it happens
+.DS_Store
+.DS_Store.meta
+
+#Android Stuff
+*.apk
