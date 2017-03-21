@@ -1,0 +1,35 @@
+## Configuration and Temporary files
+app/config/database.php
+app/config/install.php
+app/tmp/*
+!app/tmp/empty
+app/db/*
+!app/db/empty
+!app/plugins/empty
+app/webroot/files/*
+!app/webroot/files/empty
+files/*
+!files/empty
+
+## IDE files and folders
+.cache
+.project
+.settings
+nbproject
+.idea
+.DS_Store
+_notes
+
+## Allow 'empty' files
+!empty
+
+## Themed
+!app/webroot/themed/empty
+themed/demo/*
+!themed/demo/empty
+
+## Project
+themed/PROJECT/pages/*
+!themed/PROJECT/pages/empty
+app/webroot/themed/PROJECT/pages/*
+app/webroot/themed/PROJECT/pages/empty
