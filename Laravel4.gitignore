@@ -1,0 +1,8 @@
+# Configuration Files
+app/config/database.php
+app/config/app.php
+
+# Composer Files
+vendor/
+bootstrap/compiled.php
+composer.lock
