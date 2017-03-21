@@ -88,6 +88,7 @@ ipch/
 *.VC.VC.opendb
 
 # Visual Studio profiler
+Downloaded Profiling Logs/
 *.psess
 *.vsp
 *.vspx
