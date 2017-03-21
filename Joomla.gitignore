@@ -1,3 +1,46 @@
+# For whole Joomla! site #
+# -------------------------------------------------------------- #
+
+# Composer & Test Related #
+/libraries/vendor/*
+/composer.phar
+/phpunit.xml
+
+
+# Server Files #
+/.htaccess
+/web.config
+
+# Dymanic folders #
+/logs/*
+!/logs/index.html
+/log/*
+!/log/index.html
+/cache/*
+!/cache/index.html
+/tmp/*
+!/tmp/index.html
+/administrator/cache/*
+!/administrator/cache/index.html
+
+# Config file #
+/configuration.php
+
+# Some files may big #
+*.zip
+*.rar
+*.7z
+
+# Extensions #
+
+# Akeeba #
+/administrator/components/com_akeeba/backup/*
+!/administrator/components/com_akeeba/backup/index.html
+!/administrator/components/com_akeeba/backup/.htaccess
+
+
+# For Extension Development, we ignore all system files #
+# -------------------------------------------------------------- #
 /.gitignore
 /.htaccess
 /administrator/cache/*
