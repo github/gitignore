@@ -1,0 +1,17 @@
+## AVR build gitignore
+
+# Dependencies directory
+.dep
+
+# Build-generated files
+*.hex
+*.eep
+*.cof
+*.elf
+*.map
+*.obj
+*.o
+*.a90
+*.sym
+*.lnk
+*.lss
