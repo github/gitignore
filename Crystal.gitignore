@@ -1,0 +1,6 @@
+# Compiled files
+*.bc
+*.o
+
+# Compiler's cache
+.crystal
