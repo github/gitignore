@@ -94,4 +94,4 @@ ENV/
 .ropeproject
 
 # mkdocs documentation
-site/
+/site
