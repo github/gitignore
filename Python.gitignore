@@ -92,3 +92,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# mkdocs documentation
+/site
