@@ -1,0 +1,11 @@
+
+website/var/assets/
+website/var/backup/
+website/var/cache/
+website/var/config/
+website/var/log/
+website/var/recyclebin/
+website/var/search/
+website/var/system/
+website/var/tmp/
+website/var/versions/
