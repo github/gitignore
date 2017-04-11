@@ -95,3 +95,9 @@ ENV/
 
 # mkdocs documentation
 /site
+
+# editors
+*~
+*.swp
+*.swo
+
