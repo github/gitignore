@@ -1,5 +1,5 @@
 #Ignore List for Microchips MPLabX IDE
-#Form of eclipse with vendor specific changes
+#Form of netbeans with vendor specific changes
 #Taken from zeha on GIST https://gist.github.com/zeha/5999375
 
 *.d
