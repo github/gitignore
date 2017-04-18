@@ -1,0 +1,7 @@
+# Ignores for Intellij IDEA, IDEA is my favorite JAVA IDE.
+
+# for package target 
+target/
+# for IDEA files
+.idea/
+.iml
