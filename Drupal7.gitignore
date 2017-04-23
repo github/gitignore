@@ -1,0 +1,49 @@
+# Ignore configuration files that may contain sensitive information
+/sites/*/*settings*.php
+
+# Ignore paths that may contain generated content
+/sites/*/files
+/sites/*/private
+/sites/*/public
+/sites/*/files-public
+/sites/*/files-private
+
+# Ignore paths that may contain temporary files
+/sites/*/translations
+/sites/*/tmp
+/sites/*/cache
+
+# Ignore drupal core (if not versioning drupal sources)
+/includes
+/misc
+/modules
+/profiles
+/scripts
+/sites/example.sites.php
+/sites/README.txt
+/sites/sites.php
+/sites/*/libraries/README.txt
+/sites/*/modules/README.txt
+/sites/*/themes/README.txt
+/themes
+/.editorconfig
+/.gitignore
+/.htaccess
+/authorize.php
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/cron.php
+/index.php
+/INSTALL.mysql.txt
+/INSTALL.pgsql.txt
+/install.php
+/INSTALL.sqlite.txt
+/INSTALL.txt
+/LICENSE.txt
+/MAINTAINERS.txt
+/README.txt
+/robots.txt
+/update.php
+/UPGRADE.txt
+/web.config
+/xmlrpc.php
