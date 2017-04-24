@@ -28,17 +28,21 @@ msg/_*.py
 # qcreator stuff
 CMakeLists.txt.user
 
+# python
 srv/_*.py
 *.pcd
 *.pyc
 qtcreator-*
 *.user
+__pycache__/
 
 /planning/cfg
 /planning/docs
 /planning/src
 
 *~
+*.swp
+*.swo
 
 # Emacs
 .#*
