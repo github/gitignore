@@ -1,0 +1,7 @@
+# Ansible gitignore
+# https://github.com/ansible/ansible
+
+# When playbook fails, Ansible creates .retry files to allow users to
+# retry the playbooks only on failed nodes
+# http://docs.ansible.com/ansible/intro_configuration.html#retry-files-enabled
+*.retry
