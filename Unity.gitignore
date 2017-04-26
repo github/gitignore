@@ -23,6 +23,9 @@ ExportedObj/
 *.svd
 *.pdb
 
+# Do not ignore imported assemblies
+!*.dll
+
 # Unity3D generated meta files
 *.pidb.meta
 
