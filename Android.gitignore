@@ -1,3 +1,28 @@
+#IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+#Ecliipse project files
+.classpath
+.project
+.settings/
+
+#OS auto gen
+.DS_Store
+Thumbs.db
+
+#Temp files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.vpp~*
+*.*~
+~*.*
+
 # Built application files
 *.apk
 *.ap_
