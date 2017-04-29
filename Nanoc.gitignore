@@ -1,6 +1,6 @@
-# For projects using nanoc (http://nanoc.ws/)
+# For projects using Nanoc (http://nanoc.ws/)
 
-# Default location for output, needs to match output_dir's value found in config.yaml
+# Default location for output (needs to match output_dir's value found in nanoc.yaml)
 output/
 
 # Temporary file directory
