@@ -1,3 +1,7 @@
+# macOS
+#
+# gitignore contributors: remember to update Global/macOS.gitignore, Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
 *.DS_Store
 .AppleDouble
 .LSOverride
