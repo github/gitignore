@@ -1,0 +1,16 @@
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+
+# protect api keys in setting json
+settings-production.json
+settings.json
+
+# protect your mup.json settings
+mup.json
+mup.js
+
+# npm packages to ignore
+node_modules
+npm-debug.log
