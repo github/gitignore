@@ -1,0 +1,5 @@
+#OS development
+*.iso
+*.img
+*.elf
+*.o
