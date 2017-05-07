@@ -1,0 +1,5 @@
+app/storage/cache/*
+app/storage/logs/*
+app/storage/meta/*
+app/storage/session/*
+app/storage/views/*
