@@ -1,4 +1,5 @@
 .architect
+.sencha
 bootstrap.css
 bootstrap.js
 bootstrap.json
@@ -10,3 +11,4 @@ ext/
 modern.json
 modern.jsonp
 resources/sass/.sass-cache/
+sass/example/
