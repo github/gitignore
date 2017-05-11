@@ -1,0 +1,52 @@
+# Prerequisites
+*.d
+*.dep
+# Object files
+*.o
+*.obj
+*.OBJ
+
+# Listing Files
+*.COD
+*.cod
+*.[Ii]
+*.LST
+*.lst
+*.MAP
+*.map
+*.[Mm]51
+*.[Mm]66
+*.SCR
+*.scr
+
+# LINK output
+*.ABS
+
+# Libraries
+*.lib
+*.LIB
+
+# Build Files
+*._IA
+*.__[Ii]
+*._[Ii][Ii]
+*.SCR
+*.scr
+
+# build
+*.lnp
+*.build_log.htm
+*.HEX
+*.hex
+# project
+*.uvgui.*
+*.uvguix.*
+
+
+
+# task
+**/__pycache__
+*.bat
+output/FD612
+*.SRC
+*.src
