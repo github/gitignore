@@ -1,3 +1,9 @@
+# something maybe need to add
+# *.bat  # generate batch file
+# output/project_name # uv project generate without file ext
+# *.SRC # generate source file
+# *.src 
+
 # Prerequisites
 *.d
 *.dep
@@ -26,6 +32,14 @@
 *.lib
 *.LIB
 
+
+# uv output
+*.lnp
+*.build_log.htm
+*.HEX
+*.hex
+
+
 # Build Files
 *._IA
 *.__[Ii]
@@ -33,20 +47,7 @@
 *.SCR
 *.scr
 
-# build
-*.lnp
-*.build_log.htm
-*.HEX
-*.hex
 # project
 *.uvgui.*
 *.uvguix.*
 
-
-
-# task
-**/__pycache__
-*.bat
-output/FD612
-*.SRC
-*.src
