@@ -8,7 +8,7 @@ config/settings.*.php
 
 admin-dev/autoupgrade/
 /cache/*
-!cache/index.php
+!/cache/index.php
 !/cache/*/
 /cache/*/*
 !/cache/cachefs/index.php
