@@ -45,6 +45,7 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+!.coveragerc
 
 # Translations
 *.mo
