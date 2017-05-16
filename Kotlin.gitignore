@@ -1,0 +1,30 @@
+# User
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Kotlin lang - https://github.com/JetBrains/kotlin/blob/master/.gitignore
+.DS_Store
+.idea/shelf
+/android.tests.dependencies
+/confluence/target
+/dependencies
+/dist
+/gh-pages
+/ideaSDK
+/android-studio/sdk
+out
+tmp
+*.versionsBackup
+/idea/testData/debugger/tinyApp/classes*
+/jps-plugin/testData/kannotator
+ultimate/.DS_Store
+ultimate/.idea/shelf
+ultimate/dependencies
+ultimate/ideaSDK
+ultimate/out
+ultimate/tmp
+ultimate/workspace.xml
+ultimate/*.versionsBackup
