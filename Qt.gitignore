@@ -12,6 +12,7 @@
 
 # Qt-es
 
+*_plugin_import.cpp
 /.qmake.cache
 /.qmake.stash
 *.pro.user
