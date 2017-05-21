@@ -27,6 +27,11 @@ ui_*.h
 Makefile*
 *build-*
 
+
+# Qt unit tests
+target_wrapper.*
+
+
 # QtCreator
 
 *.autosave
