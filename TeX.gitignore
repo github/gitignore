@@ -49,6 +49,9 @@ acs-*.bib
 # amsthm
 *.thm
 
+#AUCTeX
+auto/
+
 # beamer
 *.nav
 *.pre
