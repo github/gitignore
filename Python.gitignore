@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Emacs noise
+*#
+*~
+
 # C extensions
 *.so
 
