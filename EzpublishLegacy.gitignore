@@ -1,0 +1,21 @@
+# General var folders, that are being
+# recreated every time you clear cache/
+# or regenerate autoloads.
+/var/autoload/
+/var/cache/
+/var/*/cache/
+/var/*_site/
+/var/log/
+/var/*/log/
+/var/storage/
+/var/test*
+
+# Temporary locations used for updates.
+/bin/linux/ezlupdate
+/bin/win32
+
+# These two exists only if you copy your
+# stack from newer, 5.x eZ Publish version
+# or if you use if from Symfony2 backend.
+/vendor
+/composer.lock
