@@ -7,6 +7,9 @@
 *.o
 *.obj
 
+# Visual Studio
+*.cpp
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -25,6 +28,7 @@
 *.la
 *.a
 *.lib
+
 
 # Executables
 *.exe
