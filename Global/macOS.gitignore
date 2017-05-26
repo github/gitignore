@@ -3,9 +3,9 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
-# Thumbnails
+# Companion files
 ._*
 
 # Files that might appear in the root of a volume
