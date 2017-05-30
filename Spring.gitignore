@@ -1,0 +1,15 @@
+*.DS_Store
+.gradle
+.classpath
+.project
+.settings/
+.idea
+.springBeans
+*.log
+*.iws
+*.ipr
+*.iml
+bin
+build
+src/main/webapp/META-INF
+target
