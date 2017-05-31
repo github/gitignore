@@ -12,11 +12,11 @@
 *.lzma
 *.cab
 
-#packing-only formats
+# Packing-only formats
 *.iso
 *.tar
 
-#package management formats
+# Package management formats
 *.dmg
 *.xpi
 *.gem
