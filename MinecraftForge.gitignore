@@ -1,0 +1,16 @@
+*.class
+*.iml
+*.ipr
+*.iws
+*.txt
+.classpath/
+.project/
+.settings/
+.gradle/
+build/
+minecraft/
+out/
+bin
+config/
+logs/
+saves/
