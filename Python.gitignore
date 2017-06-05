@@ -5,6 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+# mac osx
+.DS_Store
+
+#pycharm
+.idea
 
 # Distribution / packaging
 .Python
