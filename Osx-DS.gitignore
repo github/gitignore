@@ -1,0 +1,2 @@
+# files that OSX creates to track metadata that is of no use to a remote system
+.DS_Store
