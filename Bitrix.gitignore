@@ -1,0 +1,11 @@
+# exclude core
+bitrix/*
+
+# include templates folder (you can add your template name to ignore system templates)
+!bitrix/templates
+
+# include custom components  
+!bitrix/components/
+bitrix/components/bitrix/
+
+
