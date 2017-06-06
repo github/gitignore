@@ -1,0 +1,32 @@
+#
+# From: https://gist.github.com/rjmunro/5831320
+#
+
+#### IDEs ####
+
+*.iml
+*.ipr
+*.iws
+.idea/
+.project
+.settings
+*~
+
+#### cordova-cli ####
+
+# Android
+platforms/android/assets/www
+platforms/android/bin/
+platforms/android/gen/
+platforms/android/res/xml/config.xml
+
+# iOS
+platforms/ios/build/
+platforms/ios/CordovaLib/build/
+platforms/ios/www
+platforms/ios/MyPace/config.xml
+platforms/ios/.staging
+
+# Emulator logs
+platforms/ios/cordova/console.log
+
