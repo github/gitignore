@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Intellij
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
