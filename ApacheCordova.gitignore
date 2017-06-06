@@ -1,0 +1,5 @@
+# Generated build files
+bld/
+
+# Generated binaries etc
+bin/
