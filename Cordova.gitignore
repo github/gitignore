@@ -1,0 +1,14 @@
+# Platforms folder
+platforms
+
+# Plugins folder
+plugins/**/
+
+# OS X
+.DS_Store
+
+# Node modules
+node_modules
+
+# Bower
+bower_components
