@@ -30,6 +30,10 @@ wheels/
 *.manifest
 *.spec
 
+# PyCharm IDE
+# Added when using PyCharm IDE
+.idea/
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
