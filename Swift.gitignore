@@ -65,3 +65,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# macOS
+#
+# No need to add system files like .DS_Store
+.DS_Store
