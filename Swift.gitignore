@@ -39,6 +39,9 @@ playground.xcworkspace
 # Package.pins
 .build/
 
+## OS X specific
+*.DS_Store
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
