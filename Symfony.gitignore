@@ -14,6 +14,8 @@
 !var/cache/.gitkeep
 !var/logs/.gitkeep
 !var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/.web-server-pid
 
 # Parameters
 /app/config/parameters.yml
@@ -25,6 +27,7 @@
 /bin/*
 !bin/console
 !bin/symfony_requirements
+/vendor/
 
 # Assets and user uploads
 /web/bundles/
@@ -39,3 +42,5 @@
 
 # Backup entities generated with doctrine:generate:entities command
 **/Entity/*~
+/.idea/
+/vendor/
