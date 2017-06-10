@@ -1,0 +1,10 @@
+/.deps/
+/libs/
+/.crystal/
+/doc/
+
+
+# Libraries don't need dependency lock
+# Dependencies will be locked in application that uses them
+# Uncomment the line below if you are creating a library.
+#/.deps.lock
