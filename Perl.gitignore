@@ -4,6 +4,7 @@
 /META.json
 /MYMETA.*
 *.o
+*.pm.tdy
 *.bs
 
 # Devel::Cover

@@ -28,7 +28,6 @@
 *.blg
 *-blx.aux
 *-blx.bib
-*.brf
 *.run.xml
 
 ## Build tool auxiliary files:
@@ -77,8 +76,6 @@ acs-*.bib
 *.t[1-9]
 *.t[1-9][0-9]
 *.tfm
-*.[1-9]
-*.[1-9][0-9]
 
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
@@ -134,6 +131,9 @@ acs-*.bib
 *.mlf
 *.mlt
 *.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
 
 # minted
 _minted*
@@ -142,14 +142,14 @@ _minted*
 # morewrites
 *.mw
 
-# mylatexformat
-*.fmt
-
 # nomencl
 *.nlo
 
 # pax
 *.pax
+
+# pdfpcnotes
+*.pdfpc
 
 # sagetex
 *.sagetex.sage
