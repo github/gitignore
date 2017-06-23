@@ -293,3 +293,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# Supercharger
+.vs/Supercharger/
