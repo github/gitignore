@@ -13,4 +13,4 @@
 ~$*.ppt*
 
 # Visio autosave temporary files
-*.~vsdx
+*.~vsd*

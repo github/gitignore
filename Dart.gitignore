@@ -1,33 +1,12 @@
 # See https://www.dartlang.org/tools/private-files.html
 
 # Files and directories created by pub
-
-# SDK 1.20 and later (no longer creates packages directories)
 .packages
 .pub/
 build/
-
-# Older SDK versions
-# (Include if the minimum SDK version specified in pubsepc.yaml is earlier than 1.20)
-.project
-.buildlog
-**/packages/
-
-
-# Files created by dart2js
-# (Most Dart developers will use pub build to compile Dart, use/modify these 
-#  rules if you intend to use dart2js directly
-#  Convention is to use extension '.dart.js' for Dart compiled to Javascript to
-#  differentiate from explicit Javascript files)
-*.dart.js
-*.part.js
-*.js.deps
-*.js.map
-*.info.json
+# If you're building an application, you may want to check-in your pubspec.lock
+pubspec.lock
 
 # Directory created by dartdoc
+# If you don't generate documentation locally you can remove this line.
 doc/api/
-
-# Don't commit pubspec lock file 
-# (Library packages only! Remove pattern if developing an application package)
-pubspec.lock
