@@ -1,4 +1,5 @@
 dist
+dist-*
 cabal-dev
 *.o
 *.hi
@@ -13,4 +14,7 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+*.eventlog
 .stack-work/
+cabal.project.local
+.HTF/

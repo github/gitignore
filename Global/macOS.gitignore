@@ -1,4 +1,5 @@
-.DS_Store
+# General
+*.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -15,6 +16,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
