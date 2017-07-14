@@ -4,3 +4,6 @@
 
 # Module directory
 .terraform/
+
+# Variable values for development
+terraform.tfvars
