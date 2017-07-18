@@ -42,6 +42,10 @@
 *.idb
 *.pdb
 
+#codeblocks files
+*.cpb
+
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
