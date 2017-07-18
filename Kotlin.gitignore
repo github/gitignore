@@ -45,3 +45,10 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
+
+# Additional Files
+/local.properties
+.DS_Store
+/build
+/captures
+.gradle
