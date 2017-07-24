@@ -1,0 +1,9 @@
+# Libraries
+crush.dll
+crush.dylib
+
+# Files generated during test
+quick-test/quick-test.log
+quick-test/runnable/
+system/tests/source/units/auto-tests/
+tests/source/units/auto-tests/
