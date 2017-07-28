@@ -1,0 +1,49 @@
+# IAR C-STAT and C-RUN
+# Comment this out if you use C-Stat or C-Run to compile/analyze your project
+*.ewt
+
+# IAR Debugger files
+*.ewd
+
+# IAR Workspace files
+*.eww
+
+# IAR Settings  
+**/settings/*.crun  
+**/settings/*.dbgdt  
+**/settings/*.cspy  
+**/settings/*.cspy.*  
+**/settings/*.xcl  
+**/settings/*.dni  
+**/settings/*.wsdt  
+**/settings/*.wspos  
+
+# IAR Debug Exe  
+**/Debug/Exe/
+
+# IAR Debug List
+**/Debug/List
+
+# IAR Debug Obj  
+**/Obj/*.pbd  
+**/Obj/*.pbd.*  
+**/Obj/*.pbi  
+**/Obj/*.pbi.*
+
+# Log files
+**.log 
+
+# IAR backup files
+Backup*
+
+# IAR .dep files
+*.dep
+
+# Compiled Binaries
+*.bin
+*.elf
+*.hex
+*.map
+
+# Trash files
+*.bak
