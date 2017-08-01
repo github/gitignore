@@ -36,5 +36,4 @@ constant/polyMesh/surfaceIndex*
 constant/triSurface
 
 # function object and post-processing data
-forces
 postProcessing
