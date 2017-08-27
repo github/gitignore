@@ -19,7 +19,8 @@
 *.rar
 
 #IntelliJ Files
-.iml
+*.iml
+.idea
 
 #Folders
 target
