@@ -1,4 +1,3 @@
-
 # Logs
 logs
 *.log
