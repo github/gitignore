@@ -12,3 +12,6 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# Ignores the vendor directory provided by some applications such as: Glide, Godep, etc...
+vendor/
