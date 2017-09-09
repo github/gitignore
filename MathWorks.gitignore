@@ -1,0 +1,18 @@
+## Autosave files
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# MATLAB Version Model Backup
+*.slx.r20*
+*.mdl.r20*
+
+# Simulink autosave extension
+*.autosave
+
+## Compilation
+# Compiled MEX binaries (all platforms)
+slprj/
+*.mex*
