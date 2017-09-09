@@ -98,3 +98,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Common archived and compressed file formats
+.bz
+.bz2
+.gz
+.tar.gz
+.tar
+.zip
