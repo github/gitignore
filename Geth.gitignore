@@ -1,0 +1,10 @@
+# .gitignore for Geth 0.4.16
+
+# caches
+/geth
+/keystore
+history
+
+# logs
+*.out
+*.log
