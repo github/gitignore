@@ -1,0 +1,22 @@
+# changes file
+*.changes
+
+# system image
+*.image
+
+# Pharo Smalltalk Debug log file
+PharoDebug.log
+
+# Squeak Smalltalk Debug log file
+SqueakDebug.log
+
+# Monticello package cache
+/package-cache
+
+# playground cache
+/play-cache
+/play-stash
+
+# Metacello-github cache
+/github-cache
+github-*.zip
