@@ -3,12 +3,18 @@
 /.idea
 /.vagrant
 
+composer.phar
+composer.lock
 Homestead.json
 Homestead.yaml
+.DS_Store
+Thumbs.db
 
 # Laravel 4 specific
 bootstrap/compiled.php
-app/storage/
+/app/storage
+.env.*.php
+.env.php
 
 # Laravel 5 & Lumen specific
 /public/hot
@@ -20,3 +26,4 @@ npm-debug.log
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+
