@@ -51,13 +51,13 @@ project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
 
-#Ignore StyleCopReport
+# StyleCop
 StyleCopReport.xml
 
-#Ignore thumbnails created by windows
+# Thumbnails created by windows
 Thumbs.db
 
-#Ignore files build by Visual Studio
+# Files build by Visual Studio
 *_i.c
 *_p.c
 *_i.h
