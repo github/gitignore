@@ -57,7 +57,7 @@ StyleCopReport.xml
 # Thumbnails created by windows
 Thumbs.db
 
-# Files build by Visual Studio
+# Files built by Visual Studio
 *_i.c
 *_p.c
 *_i.h
