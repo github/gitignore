@@ -54,9 +54,6 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
-# Thumbnails created by windows
-Thumbs.db
-
 # Files built by Visual Studio
 *_i.c
 *_p.c
