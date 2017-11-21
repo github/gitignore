@@ -13,6 +13,8 @@
 # IntelliJ files
 .idea/
 *.iml
+*.iws
+*.ipr
 .DS_Store
 /target/
 
