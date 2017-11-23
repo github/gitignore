@@ -1,0 +1,36 @@
+# eclipse maven java project gitignore
+
+# common
+*.bak
+
+
+# eclipse
+*.classpath
+*.project
+*.settings/
+
+
+# svn
+.svn/
+
+
+# build: maven, ant
+target/
+build/
+
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
