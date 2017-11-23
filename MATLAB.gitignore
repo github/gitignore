@@ -1,0 +1,13 @@
+# Ignore MATLAB autosave files.
+*.asv
+*.m~
+ 
+# Ignore prebuilt MEX files.
+*.mex*
+ 
+# Ignore prepackaged MATLAB app and toolbox files.
+*.mlappinstall
+*.mltbx
+ 
+# Ignore pregenerated helpsearch folders.
+*helpsearch*
