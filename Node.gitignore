@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# Standard Things ESM modules cache (https://github.com/standard-things/esm)
+.esm-cache
