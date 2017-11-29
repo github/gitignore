@@ -54,6 +54,10 @@ project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
 
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
 *_i.c
 *_p.c
 *_i.h
