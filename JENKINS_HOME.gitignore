@@ -13,7 +13,13 @@
 jobs/**
 !jobs/**/
 
+#uncomment the following line to save next build numbers with config
+#!jobs/**/nextBuildNumber
+
 #exclude only config.xml files in repository subdirectories
 !config.xml
+
+#don't track workspaces (when users build on the master)
+jobs/**/*workspace
 
 #as a result only settings and job config.xml files in JENKINS_HOME will be tracked by git
