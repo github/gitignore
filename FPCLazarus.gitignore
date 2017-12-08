@@ -1,0 +1,12 @@
+# Binary and generated files and directories.
+backup
+lib
+# Standard unneeded file types.
+# See http://wiki.freepascal.org/file_types
+*.lps
+*.compiled
+*.o
+*.or
+*.ppu
+*.res
+*.exe
