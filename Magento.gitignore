@@ -100,9 +100,6 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Linux
-.*
-!.gitignore
-!.htaccess
 *~
 
 # Mac OS X
