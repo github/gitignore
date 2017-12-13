@@ -1,0 +1,10 @@
+.DS_Store
+/scripts
+/site/accounts
+/site/cache
+/thumbs
+/site/config/config.dev.getkirby.com.php
+/site/config/config.algolia.php
+/update
+/node_modules
+/kits
