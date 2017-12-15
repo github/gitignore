@@ -21,3 +21,6 @@
 
 # ImageProcessor DiskCache 
 **/App_Data/cache/
+
+# Ignore the Models Builder models out of date flag
+**/App_Data/Models/ood.flag
