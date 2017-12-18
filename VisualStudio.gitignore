@@ -210,8 +210,22 @@ ClientBin/
 *.jfm
 *.pfx
 *.publishsettings
-*.snk
 orleans.codegen.cs
+
+# Uncomment following rule to ignore strong name key files.
+# "Strong-naming gives an application or component a unique identity that other 
+# software can use to refer explicitly to it. For example, strong-naming enables 
+# application authors and administrators to specify a precise servicing version 
+# to be used for a shared component. This enables different applications to specify 
+# different versions without affecting other applications. In addition, you can 
+# use the strong name of a component as security evidence to establish a trust 
+# relationship between two components."
+# Having an *.snk in a repository would allow anyone to produce build as if they 
+# were the original publisher. 
+# If *.snk files are needed for CI build then they should be encrypted with a 
+# password that is an environment variable. Use of a password protected PFX may
+# be prefereable in this case (see `*.pfx` line above).
+#*.snk
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
