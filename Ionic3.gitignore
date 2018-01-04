@@ -1,0 +1,58 @@
+# Log and tmp data
+*~
+*.sw[mnpcod]
+*.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+
+# NPM (Node Package Manager) files
+npm-debug.log*
+node_modules/
+tmp/
+temp/
+.package.tmp.json
+
+# Preprocessors cache files
+.idea/
+.sourcemaps/
+.vscode/
+.sass-cache/
+.versions/
+coverage/
+dist/
+.tmp/
+hooks/
+
+# Ionic 3 plugins files
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
+
+# Trash data
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db
+.env
+UserInterfaceState.xcuserstate
+
+# source files
+src/themes/version.scss
+scripts/e2e/webpackEntryPoints.json
+scripts/build/e2e-generated-tsconfig.json
+*.css.ts
+
+# demo files
+demos/node_modules
+demos/polyfills
+demos/css
+demos/fonts
+demos/src/**/*.js
+demos/src/**/*.map
+demos/src/**/*.ngfactory.ts
+demos/src/**/*.d.ts
+demos/src/**/*.metadata.json
+demos/src/**/*.css.shim.ts
