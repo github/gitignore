@@ -94,6 +94,12 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# PyCharm project settings
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
 # Rope project settings
 .ropeproject
 
