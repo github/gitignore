@@ -1,5 +1,11 @@
-# Compiled Bytecode
+#
+# Pawn Package Files
+#
+
+# Compiled Bytecode, precompiled output and assembly
 *.amx
+*.lst
+*.asm
 
 # Vendor directory for dependencies
 dependencies/
