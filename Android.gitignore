@@ -54,3 +54,10 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
