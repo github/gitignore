@@ -16,8 +16,11 @@
 
 # Don't ignore Umbraco packages (VisualStudio.gitignore mistakes this for a NuGet packages folder)
 # Make sure to include details from VisualStudio.gitignore BEFORE this
-!**/App_Data/[Pp]ackages/
-!**/[Uu]mbraco/[Dd]eveloper/[Pp]ackages
+!**/App_Data/[Pp]ackages/*
+!**/[Uu]mbraco/[Dd]eveloper/[Pp]ackages/*
 
 # ImageProcessor DiskCache 
 **/App_Data/cache/
+
+# Ignore the Models Builder models out of date flag
+**/App_Data/Models/ood.flag
