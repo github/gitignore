@@ -1,0 +1,24 @@
+# depedencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+build_webpack
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.truffle-solidity-loader
+.vagrant/**
+blockchain/geth/**
+blockchain/keystore/**
+blockchain/history
+
+#truffle
+.tern-port
+yarn.lock
+package-lock.json
