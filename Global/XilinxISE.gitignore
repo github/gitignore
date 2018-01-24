@@ -9,7 +9,6 @@
 *.msd
 *.msk
 *.ncd
-*.ngc
 *.ngd
 *.ngr
 *.pad
@@ -27,6 +26,8 @@
 *.ut
 *.xpi
 *.xst
+*.log
+*.vhi
 *_bitgen.xwbt
 *_envsettings.html
 *_map.map
@@ -41,6 +42,9 @@
 *_summary.xml
 *_usage.xml
 *_xst.xrpt
+
+# un-comment if you don't use compiled cores 
+#*.ngc
 
 # iMPACT generated files
 _impactbatch.log
@@ -65,3 +69,9 @@ xlnx_auto_0_xdb/
 xst/
 _ngo/
 _xmsgs/
+work/
+
+#ignore OS noise
+
+Thumbs.db
+.DS_Store
