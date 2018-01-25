@@ -2,8 +2,4 @@
 /cookbooks
 
 # Bundler
-bin/*
-.bundle/*
-
-.kitchen/
-.kitchen.local.yml
+bin/sdfsdaf
