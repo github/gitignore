@@ -6,6 +6,17 @@
 *.lo
 *.o
 *.obj
+*.crf
+*.build_log.htm
+*.htm
+*.bin
+*.elf
+*.axf
+*.sct
+*.scr
+*.lnp
+*.dep
+
 
 # Precompiled Headers
 *.gch
