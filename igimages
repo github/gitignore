@@ -1,0 +1,8 @@
+$git status
+#ignorar imagens
+*.jpg
+*.png
+*.jpeg
+*.gif
+#ignorar pasta de imagens
+/imagens/*
