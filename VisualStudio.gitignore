@@ -259,9 +259,6 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
-# TypeScript v1 declaration files
-typings/
-
 # Visual Studio 6 build log
 *.plg
 
