@@ -25,7 +25,7 @@ Global (operating system or editor specific) templates should go into the
 
 ## Contributing guidelines
 
-We’d love you to help us improve this project. To help us keep this collection
+We’d love for you to help us improve this project. To help us keep this collection
 high quality, we request that contributions adhere to the following guidelines.
 
 - **Provide a link to the application or project’s homepage**. Unless it’s
@@ -42,7 +42,7 @@ high quality, we request that contributions adhere to the following guidelines.
   It’s especially helpful to articulate why this change applies to *everyone*
   who works with the applicable technology, rather than just you or your team.
 
-- **Please consider the scope of your change**. If your change specific to a
+- **Please consider the scope of your change**. If your change is specific to a
   certain language or framework, then make sure the change is made to the
   template for that language or framework, rather than to the template for an
   editor, tool, or operating system.
@@ -52,6 +52,11 @@ high quality, we request that contributions adhere to the following guidelines.
 
 In general, the more you can do to help us understand the change you’re making,
 the more likely we’ll be to accept your contribution quickly.
+
+If a template is mostly a list of files installed by a particular version of
+some software (e.g. a PHP framework) then it's brittle and probably no more
+helpful than a simple `ls`. If it's not possible to curate a small set of
+useful rules, then the template might not be a good fit for this collection.
 
 Please also understand that we can’t list every tool that ever existed.
 Our aim is to curate a collection of the *most common and helpful* templates,
