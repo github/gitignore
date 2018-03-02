@@ -110,6 +110,14 @@ acs-*.bib
 *.gaux
 *.gtex
 
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
 # hyperref
 *.brf
 
