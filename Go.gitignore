@@ -10,3 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Vendor directory containing dependencies, specifically when using dep or govendor.
+vendor/
