@@ -237,6 +237,7 @@ _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
+ServiceFabricBackup/
 
 # SQL Server files
 *.mdf
@@ -257,9 +258,6 @@ FakesAssemblies/
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 node_modules/
-
-# TypeScript v1 declaration files
-typings/
 
 # Visual Studio 6 build log
 *.plg
