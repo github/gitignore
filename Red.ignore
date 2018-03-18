@@ -1,0 +1,17 @@
+# This is a minimal set of files to be ignored for the red git repository.
+# (The files listed are those that are generated when running the automated tests.)
+#
+# It is not tracked in the repository.
+#
+# Copyright © 2018 Red Foundation
+# Licensed under the Boost Software licence 
+# (see https://github.com/red/red/blob/master/BSL-License.txt)
+
+.gitignore
+quick-test/quick-test.log
+quick-test/runnable/
+system/tests/source/units/auto-tests/
+tests/source/units/auto-tests/
+crush.dll
+crush.so
+crush.dylib
