@@ -1,0 +1,9 @@
+#IntelliJ IDEA project info
+.idea/
+*.iml
+
+#svn file info
+.svn/
+
+#mac file store info
+.DS_Store
