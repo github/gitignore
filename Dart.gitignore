@@ -1,14 +1,13 @@
-# Don’t commit the following directories created by pub.
-.buildlog
+# See https://www.dartlang.org/guides/libraries/private-files
+
+# Files and directories created by pub
+.dart_tool/
+.packages
 .pub/
 build/
-packages
-
-# Or the files created by dart2js.
-*.dart.js
-*.js_
-*.js.deps
-*.js.map
-
-# Include when developing application packages.
+# If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
+
+# Directory created by dartdoc
+# If you don't generate documentation locally you can remove this line.
+doc/api/
