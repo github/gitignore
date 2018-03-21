@@ -1,4 +1,3 @@
-/.gitignore
 /.htaccess
 /administrator/cache/*
 /administrator/components/com_admin/*
@@ -251,7 +250,7 @@
 /administrator/language/en-GB/en-GB.tpl_hathor.sys.ini
 /administrator/language/en-GB/en-GB.xml
 /administrator/language/overrides/*
-/administrator/logs/index.html
+/administrator/logs/*
 /administrator/manifests/*
 /administrator/modules/mod_custom/*
 /administrator/modules/mod_feed/*
