@@ -1,12 +1,12 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# User-specific stuff:
+# User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
 
-# Sensitive or high-churn files:
+# Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
@@ -14,7 +14,7 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
-# Gradle:
+# Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
 
@@ -22,13 +22,11 @@
 cmake-build-debug/
 cmake-build-release/
 
-# Mongo Explorer plugin:
+# Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-## File-based project format:
+# File-based project format
 *.iws
-
-## Plugin-specific files:
 
 # IntelliJ
 out/
