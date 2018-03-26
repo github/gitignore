@@ -51,3 +51,6 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+# Checkstyle Plug-in
+.checkstyle
