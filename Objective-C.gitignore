@@ -17,6 +17,9 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+## System Files
+.DS_Store
+
 ## Other
 *.moved-aside
 *.xccheckout
