@@ -13,6 +13,7 @@ lib/
 lib64/
 MANIFEST
 parts/
+python-wheels/
 sdist/
 var/
 wheels/
