@@ -13,7 +13,7 @@ the following resources are a great place to start:
 
 [man]: http://git-scm.com/docs/gitignore
 [help]: https://help.github.com/articles/ignoring-files
-[chapter]: http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
+[chapter]: https://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: http://git-scm.com/book
 
 ## Folder structure
