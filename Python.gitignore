@@ -17,7 +17,7 @@ sdist/
 var/
 wheels/
 
-# Unit test / coverage reports
+# Unit tests / coverage reports
 .cache
 .coverage
 .coverage.*
@@ -43,26 +43,24 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Django stuff:
+# Django
 *.log
 db.sqlite3
 local_settings.py
 
-# Flask stuff:
+# Flask
 .webassets-cache
 instance/
 
-# Installer logs
+# pip
 pip-delete-this-directory.txt
 pip-log.txt
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
-# Spyder project settings
+# Spyder IDE
 .spyderproject
 .spyproject
 
@@ -73,13 +71,13 @@ pip-log.txt
 # C extensions
 *.so
 
-# celery beat schedule file
+# Celery
 celerybeat-schedule
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# mkdocs documentation
+# MkDocs
 /site
 
 # mypy
@@ -91,14 +89,14 @@ target/
 # pyenv
 .python-version
 
-# Rope project settings
+# Rope
 .ropeproject
 
-# SageMath parsed files
+# SageMath
 *.sage.py
 
-# Scrapy stuff:
+# Scrapy
 .scrapy
 
-# Sphinx documentation
+# Sphinx
 docs/_build/
