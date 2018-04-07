@@ -10,7 +10,7 @@ dist/
 downloads/
 eggs/
 lib/
-lib64/
+lib64
 MANIFEST
 parts/
 python-wheels/
