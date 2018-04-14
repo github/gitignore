@@ -198,6 +198,9 @@ pythontex-files-*/
 # easy-todo
 *.lod
 
+# xmpincl
+*.xmpi
+
 # xindy
 *.xdy
 
