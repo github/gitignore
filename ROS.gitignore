@@ -49,3 +49,11 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# Ros ignores
+cmake_install.cmake
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
