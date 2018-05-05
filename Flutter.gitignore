@@ -1,0 +1,5 @@
+.flutter-plugins
+
+# Firebase / Google Cloud Services
+android/*/google-services.json
+ios/*/GoogleService-Info.plist
