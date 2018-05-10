@@ -1,0 +1,19 @@
+# Jigsaw Static Site Generator
+
+# Jigsaw specific
+# Reference - https://github.com/tightenco/jigsaw/blob/master/stubs/site/.gitignore
+
+# Ignore build folder
+/build_local/
+/build_staging/
+/build_production/
+
+# Ignore node dependencies resolved by npm/yarn
+/node_modules/
+
+# Ignore php dependecies resolved by composer 
+/vendor/
+
+# Optionally ignore lock files
+# composer.lock
+# yarn.lock
