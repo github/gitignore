@@ -3,8 +3,6 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/Assets/AssetStoreTools*
-/Assets/Temp.meta
 
 # Visual Studio 2015 cache directory
 /.vs/
