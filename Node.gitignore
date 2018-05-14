@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# wercker local build folder http://www.wercker.com/
+.wercker/
