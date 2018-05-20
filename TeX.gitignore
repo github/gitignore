@@ -10,9 +10,11 @@
 *.fot
 *.cb
 *.cb2
+.*.lb
 
 ## Intermediate documents:
 *.dvi
+*.xdv
 *-converted-to.*
 # these rules might exclude image files for figures etc.
 # *.ps
@@ -28,7 +30,6 @@
 *.blg
 *-blx.aux
 *-blx.bib
-*.brf
 *.run.xml
 
 ## Build tool auxiliary files:
@@ -38,6 +39,10 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+
+## Build tool directories for auxiliary files
+# latexrun
+latex.out/
 
 ## Auxiliary and intermediate files from other packages:
 # algorithms
@@ -56,8 +61,14 @@ acs-*.bib
 *.snm
 *.vrb
 
+# changes
+*.soc
+
 # cprotect
 *.cpt
+
+# elsarticle (documentclass of Elsevier journals)
+*.spl
 
 # endnotes
 *.ent
@@ -71,8 +82,6 @@ acs-*.bib
 *.t[1-9]
 *.t[1-9][0-9]
 *.tfm
-*.[1-9]
-*.[1-9][0-9]
 
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
@@ -105,6 +114,14 @@ acs-*.bib
 *.gaux
 *.gtex
 
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
 # hyperref
 *.brf
 
@@ -128,6 +145,9 @@ acs-*.bib
 *.mlf
 *.mlt
 *.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
 
 # minted
 _minted*
@@ -136,11 +156,16 @@ _minted*
 # morewrites
 *.mw
 
-# mylatexformat
-*.fmt
-
 # nomencl
+*.nlg
 *.nlo
+*.nls
+
+# pax
+*.pax
+
+# pdfpcnotes
+*.pdfpc
 
 # sagetex
 *.sagetex.sage
@@ -177,6 +202,9 @@ pythontex-files-*/
 # easy-todo
 *.lod
 
+# xmpincl
+*.xmpi
+
 # xindy
 *.xdy
 
@@ -204,5 +232,15 @@ TSWLatexianTemp*
 # KBibTeX
 *~[0-9]*
 
-# auto folder when using emacs and auctex 
-/auto/*
+# auto folder when using emacs and auctex
+./auto/*
+*.el
+
+# expex forward references with \gathertags
+*-tags.tex
+
+# standalone packages
+*.sta
+
+# generated if using elsarticle.cls
+*.spl
