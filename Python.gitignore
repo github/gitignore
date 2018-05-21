@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# JetBrains IDEs (pyCharm etc.)
+# Depending on your work environment, sometimes you just need to ignore those two files which are user specific instead of the .idea folder
+# More at: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# .idea/workspaces.xml
+# .idea/tasks.xml
+.idea/
