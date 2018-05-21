@@ -52,7 +52,6 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-**/Properties/launchSettings.json
 
 # StyleCop
 StyleCopReport.xml
@@ -64,8 +63,10 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+*.iobj
 *.pch
 *.pdb
+*.ipdb
 *.pgc
 *.pgd
 *.rsp
@@ -238,6 +239,7 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 ServiceFabricBackup/
+*.rptproj.bak
 
 # SQL Server files
 *.mdf
@@ -322,3 +324,6 @@ ASALocalRun/
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
+
+# MFractors (Xamarin productivity tool) working folder 
+.mfractor/
