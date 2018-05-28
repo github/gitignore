@@ -19,11 +19,3 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
-
-
-# files and directories created by development environments
-*.iml         // IntelliJ
-*.ipr         // IntelliJ
-*.iws         // IntelliJ
-.idea/        // IntelliJ
-.DS_Store     // Mac
