@@ -43,6 +43,22 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+.idea/
+.kdev4/
+.vscode/
+*.code-workspace
+*.kdev4
+*.pro
+*.workspace
+*CodeCompletionFolders.txt
+*CodeLitePreProcessor.txt
+*Config.pri
+*Defines.pri
+*Header.pri
+*Includes.pri
+*Source.pri
+CMakeLists.txt
+Makefile
 
 # Precompiled Assets
 SourceArt/**/*.png
