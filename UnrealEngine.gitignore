@@ -7,7 +7,9 @@
 # Qt Creator
 *.autosave
 *.pro.user
-CMakeLists.txt.user*
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
 
 # Compiled Object files
 *.slo
