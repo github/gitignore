@@ -4,6 +4,20 @@
 # Visual Studio 2015 database file
 *.VC.db
 
+# Visual Studio Code user specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Qt Creator
+*.autosave
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
 # Compiled Object files
 *.slo
 *.lo
@@ -43,6 +57,15 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+*.pro
+*.pri
+*.kdev4
+.code-workspace
+*.workspace
+*CodeCompletionFolders.txt
+*CodeLitePreProcessor.txt
+CMakeLists.txt
+Makefile
 
 # Precompiled Assets
 SourceArt/**/*.png
