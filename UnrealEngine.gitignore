@@ -43,6 +43,15 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+*.pro
+*.pro.user
+*.pri
+*.kdev4
+*.workspace
+*CodeCompletionFolders.txt
+*CodeLitePreProcessor.txt
+CMakeLists.txt
+Makefile
 
 # Precompiled Assets
 SourceArt/**/*.png
