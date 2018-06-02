@@ -4,6 +4,13 @@
 # Visual Studio 2015 database file
 *.VC.db
 
+# Qt Creator
+*.autosave
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
 # Compiled Object files
 *.slo
 *.lo
