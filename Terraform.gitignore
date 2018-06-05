@@ -13,3 +13,9 @@ crash.log
 # version control.
 #
 # example.tfvars
+
+# ignore terraform.tfvars file as it is a best-practices convention to either use environment
+# variables for secrets or this file.  This allows for the previous PR's logic based on environment
+# configuration answer files to persist while covering this edge case which does not apply to
+# environment-specific files.
+terraform.tfvars
