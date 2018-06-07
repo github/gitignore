@@ -297,7 +297,8 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Python virtual environments
+# Python virtual environments - avoids auto-commits of venvs when
+# creating Python projects with an initial git repository.
 .env
 .venv
 env/
