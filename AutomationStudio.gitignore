@@ -1,0 +1,13 @@
+# Ignore this file
+*.gitignore
+
+# Ignore Folders
+AS/
+Binaries/
+Diagnosis/
+Temp/
+Logical/Libraries/# If you use custom libraries you have to include them seperately
+
+# Ignore .set und .isopen files
+*.set
+*.isopen
