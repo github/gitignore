@@ -60,6 +60,9 @@ typings/
 # next.js build output
 .next
 
+# nuxt.js build output
+.nuxt
+
 # vuepress build output
 .vuepress/dist
 
