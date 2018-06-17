@@ -6,17 +6,17 @@ high quality, we request that contributions adhere to the following guidelines.
 - **Provide a link to the application or project’s homepage**. Unless it’s
   extremely popular, there’s a chance the maintainers don’t know about or use
   the language, framework, editor, app, or project your change applies to.
-  
+
 - **Provide links to documentation** supporting the change you’re making.
   Current, canonical documentation mentioning the files being ignored is best.
   If documentation isn’t available to support your change, do the best you can
   to explain what the files being ignored are for.
-  
+
 - **Explain why you’re making a change**. Even if it seems self-evident, please
   take a sentence or two to tell us why your change or addition should happen.
   It’s especially helpful to articulate why this change applies to *everyone*
   who works with the applicable technology, rather than just you or your team.
-  
+
 - **Please consider the scope of your change**. If your change specific to a
   certain language or framework, then make sure the change is made to the
   template for that language or framework, rather than to the template for an
