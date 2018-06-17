@@ -174,7 +174,7 @@ publish/
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
-PublishScripts/
+PublishProfiles/
 
 # NuGet Packages
 *.nupkg
