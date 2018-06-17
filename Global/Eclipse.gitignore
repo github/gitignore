@@ -23,6 +23,9 @@ local.properties
 # CDT-specific (C/C++ Development Tooling)
 .cproject
 
+# CDT- autotools
+.autotools
+
 # Java annotation processor (APT)
 .factorypath
 
@@ -43,6 +46,9 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+# Annotation Processing
+.apt_generated/
 
 # Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main

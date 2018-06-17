@@ -14,3 +14,4 @@
 # Metadata
 *.aliases
 *.lvlps
+.cache/

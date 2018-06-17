@@ -13,7 +13,7 @@ the following resources are a great place to start:
 
 [man]: http://git-scm.com/docs/gitignore
 [help]: https://help.github.com/articles/ignoring-files
-[chapter]: http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
+[chapter]: https://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: http://git-scm.com/book
 
 ## Folder structure
@@ -25,7 +25,7 @@ Global (operating system or editor specific) templates should go into the
 
 ## Contributing guidelines
 
-We’d love you to help us improve this project. To help us keep this collection
+We’d love for you to help us improve this project. To help us keep this collection
 high quality, we request that contributions adhere to the following guidelines.
 
 - **Provide a link to the application or project’s homepage**. Unless it’s
@@ -42,7 +42,7 @@ high quality, we request that contributions adhere to the following guidelines.
   It’s especially helpful to articulate why this change applies to *everyone*
   who works with the applicable technology, rather than just you or your team.
 
-- **Please consider the scope of your change**. If your change specific to a
+- **Please consider the scope of your change**. If your change is specific to a
   certain language or framework, then make sure the change is made to the
   template for that language or framework, rather than to the template for an
   editor, tool, or operating system.
