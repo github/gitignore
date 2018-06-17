@@ -1,0 +1,10 @@
+# Dependencies directory
+/node_modules/
+
+# Dependencies error logs
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Build directory
+/build/
