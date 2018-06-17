@@ -10,3 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# don't include the Go dependency management tool vendor folder
+vendor/
