@@ -47,3 +47,6 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# Rider-specific rules
+*.sln.iml
