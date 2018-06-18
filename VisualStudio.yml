@@ -9,3 +9,6 @@ aliases:
 editors:
   - Global/JetBrains.gitignore
   - Global/VisualStudioCode.gitignore
+
+reviewers:
+  - Brendan Forster (@shiftkey)

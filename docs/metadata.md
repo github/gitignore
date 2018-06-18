@@ -56,3 +56,19 @@ Some ecosystems have up-to-date documentation about things that are necessary to
 ```yaml
 reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 ```
+
+### `reviewers`
+
+This element is inspired by the [`DefinitelyTyped`](https://github.com/DefinitelyTyped/DefinitelyTyped) project, allowing community members to opt-in to reviewing templates when a pull request is opened. This helps to share the review load and credit people who have been helpful with reviews.
+
+```yaml
+reviewers:
+  - @shiftkey
+```
+
+A friendly name can be provided alongside the GitHub account name.
+
+```yaml
+reviewers:
+  - Brendan Forster (@shiftkey)
+```
