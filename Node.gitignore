@@ -71,3 +71,6 @@ typings/
 
 # Serverless directories
 .serverless
+
+# VS Code history directory
+.history
