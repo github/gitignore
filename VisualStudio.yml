@@ -1,0 +1,14 @@
+aliases:
+  - CSharp
+  - C#
+  - FSharp
+  - F#
+  - VisualBasic
+  - VB
+
+editors:
+  - Global/JetBrains.gitignore
+  - Global/VisualStudioCode.gitignore
+
+reviewers:
+  - Brendan Forster (@shiftkey)
