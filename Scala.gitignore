@@ -1,2 +1,6 @@
 *.class
 *.log
+
+
+# vscode configs
+.vscode/
