@@ -1,2 +1,6 @@
 *.rbc
 *.fyc
+
+
+# vscode configs
+.vscode/
