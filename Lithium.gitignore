@@ -1,2 +1,6 @@
 libraries/*
 resources/tmp/*
+
+
+# vscode configs
+.vscode/
