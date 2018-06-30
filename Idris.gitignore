@@ -1,2 +1,6 @@
 *.ibc
 *.o
+
+
+# vscode configs
+.vscode/
