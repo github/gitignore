@@ -4,3 +4,7 @@
 
 # Dynamic plugins .dll
 bin/
+
+
+# vscode configs
+.vscode/
