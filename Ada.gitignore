@@ -3,3 +3,7 @@
 
 # Ada Library Information
 *.ali
+
+
+# vscode configs
+.vscode/
