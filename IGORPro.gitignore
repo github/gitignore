@@ -3,3 +3,7 @@
 *.pxt
 *.uxp
 *.uxt
+
+
+# vscode configs
+.vscode/
