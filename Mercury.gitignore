@@ -11,3 +11,7 @@ Mercury.modules
 *.beams
 *.d
 *.c_date
+
+
+# vscode configs
+.vscode/
