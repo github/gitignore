@@ -2,3 +2,7 @@ config/site.php
 files/cache/*
 files/tmp/*
 .htaccess
+
+
+# vscode configs
+.vscode/
