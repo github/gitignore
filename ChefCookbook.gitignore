@@ -7,3 +7,7 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+
+
+# vscode configs
+.vscode/
