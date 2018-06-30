@@ -17,3 +17,7 @@ sized/
 thumbs/
 _thumbs/
 */expressionengine/cache/*
+
+
+# vscode configs
+.vscode/
