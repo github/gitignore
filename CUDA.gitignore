@@ -4,3 +4,7 @@
 *.ptx
 *.cubin
 *.fatbin
+
+
+# vscode configs
+.vscode/
