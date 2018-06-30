@@ -17,3 +17,7 @@ jboss/server/minimal/work/**/*
 # deployed package files #
 
 *.DEPLOYED
+
+
+# vscode configs
+.vscode/
