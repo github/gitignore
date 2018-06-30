@@ -15,3 +15,7 @@
 *.sx32fsl
 *.wx64fsl
 *.wx32fsl
+
+
+# vscode configs
+.vscode/

@@ -7,3 +7,7 @@ bin/target
 bin/*.ap_
 *.o
 *.jar
+
+
+# vscode configs
+.vscode/

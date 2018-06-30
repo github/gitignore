@@ -1,2 +1,6 @@
 /cache/
 /config/development/
+
+
+# vscode configs
+.vscode/

@@ -1,1 +1,5 @@
 *.agdai
+
+
+# vscode configs
+.vscode/

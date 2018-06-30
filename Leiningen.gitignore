@@ -12,3 +12,11 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+
+
+# vscode configs
+.vscode/
+
+
+# vscode configs
+.vscode/

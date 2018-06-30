@@ -37,3 +37,7 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+
+# vscode configs
+.vscode/

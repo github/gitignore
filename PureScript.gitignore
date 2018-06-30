@@ -6,3 +6,7 @@ node_modules
 # Generated files
 .psci
 output
+
+
+# vscode configs
+.vscode/

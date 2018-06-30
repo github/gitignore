@@ -3,3 +3,7 @@
 *.int
 *.lk
 *.zip
+
+
+# vscode configs
+.vscode/

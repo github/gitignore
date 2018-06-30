@@ -11,3 +11,7 @@ opa-debug-js
 *.api-txt
 *.exe
 *.log
+
+
+# vscode configs
+.vscode/

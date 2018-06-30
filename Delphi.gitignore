@@ -64,3 +64,7 @@ __recovery/
 
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)
 *.stat
+
+
+# vscode configs
+.vscode/

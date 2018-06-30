@@ -25,3 +25,7 @@
 /upload/*
 !/upload/index.html
 /upload_backup/
+
+
+# vscode configs
+.vscode/

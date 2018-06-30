@@ -4,3 +4,7 @@
 *.mid
 *.log
 *~
+
+
+# vscode configs
+.vscode/

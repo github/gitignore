@@ -4,3 +4,7 @@ manifest/tmp/
 symphony/
 workspace/uploads/
 install-log.txt
+
+
+# vscode configs
+.vscode/

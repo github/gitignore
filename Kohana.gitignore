@@ -1,2 +1,6 @@
 application/cache/*
 application/logs/*
+
+
+# vscode configs
+.vscode/

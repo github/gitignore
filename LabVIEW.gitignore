@@ -15,3 +15,7 @@
 *.aliases
 *.lvlps
 .cache/
+
+
+# vscode configs
+.vscode/

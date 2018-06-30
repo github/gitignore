@@ -5,3 +5,7 @@
 .precomp
 lib/.precomp
 
+
+
+# vscode configs
+.vscode/

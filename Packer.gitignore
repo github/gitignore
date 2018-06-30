@@ -3,3 +3,7 @@ packer_cache/
 
 # For built boxes
 *.box
+
+
+# vscode configs
+.vscode/

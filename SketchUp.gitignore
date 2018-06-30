@@ -1,1 +1,5 @@
 *.skb
+
+
+# vscode configs
+.vscode/

@@ -41,3 +41,7 @@
 /var/package/*
 !/var/package/*.xml
 
+
+
+# vscode configs
+.vscode/

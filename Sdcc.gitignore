@@ -6,3 +6,7 @@
 *.rel
 *.rst
 *.sym
+
+
+# vscode configs
+.vscode/
