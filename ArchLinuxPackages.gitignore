@@ -11,3 +11,7 @@
 
 pkg/
 src/
+
+
+# vscode configs
+.vscode/
