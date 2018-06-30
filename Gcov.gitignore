@@ -3,3 +3,7 @@
 *.gcno
 *.gcda
 *.gcov
+
+
+# vscode configs
+.vscode/
