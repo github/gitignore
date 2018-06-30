@@ -14,3 +14,7 @@ server.pid
 *.eml
 /dist/
 .cache
+
+
+# vscode configs
+.vscode/
