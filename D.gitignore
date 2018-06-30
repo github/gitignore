@@ -22,3 +22,7 @@ docs/
 
 # Code coverage
 *.lst
+
+
+# vscode configs
+.vscode/
