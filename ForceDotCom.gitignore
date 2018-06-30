@@ -2,3 +2,7 @@
 .settings
 salesforce.schema
 Referenced Packages
+
+
+# vscode configs
+.vscode/
