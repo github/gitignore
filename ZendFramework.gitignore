@@ -22,3 +22,7 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+
+
+# vscode configs
+.vscode/
