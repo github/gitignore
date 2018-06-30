@@ -6,3 +6,7 @@
 
 # Compiled Pre-Linked Libraries
 *.plx
+
+
+# vscode configs
+.vscode/
