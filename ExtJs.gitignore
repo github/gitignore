@@ -12,3 +12,7 @@ modern.jsonp
 resources/sass/.sass-cache/
 resources/.arch-internal-preview.css
 .arch-internal-preview.css
+
+
+# vscode configs
+.vscode/
