@@ -4,3 +4,7 @@ bower_components/
 
 build/
 dist/
+
+
+# vscode configs
+.vscode/
