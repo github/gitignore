@@ -71,3 +71,7 @@ typings/
 
 # Serverless directories
 .serverless
+
+
+# vscode configs
+.vscode/
