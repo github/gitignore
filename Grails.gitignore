@@ -31,3 +31,7 @@
 
 # "temporary" build files
 /target
+
+
+# vscode configs
+.vscode/
