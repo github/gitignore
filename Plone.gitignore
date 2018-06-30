@@ -16,3 +16,7 @@ fake-eggs/
 parts/
 dist/
 var/
+
+
+# vscode configs
+.vscode/
