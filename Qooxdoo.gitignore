@@ -3,3 +3,7 @@ cache-downloads
 inspector
 api
 source/inspector.html
+
+
+# vscode configs
+.vscode/
