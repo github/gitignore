@@ -226,7 +226,7 @@ TSWLatexianTemp*
 # Texpad
 .texpadtmp
 
-#LyX
+# LyX
 *.lyx~
 
 # Kile
