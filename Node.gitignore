@@ -71,3 +71,7 @@ typings/
 
 # Serverless directories
 .serverless
+
+# Linux Swap Files
+*.swp
+*.swo
