@@ -18,3 +18,13 @@ Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+yarn-error.log
+
+#The .idea folder (hidden on OS X) in the solution root contains IntelliJ’s project specific settings files
+/.idea
+
+#Visual Studio Code project specific setting
+/.vscode
+
+#vagrant specific file
+/.vagrant
