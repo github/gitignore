@@ -1,0 +1,51 @@
+# Compiled class file
+*.class
+*.obj
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.bak
+*.tar
+*.lib
+*.rar
+*.gz
+
+#Image Files or Binary#
+*.bin
+*.rpm
+*.gif
+*.icon
+*.jpg
+*.swp
+*.midi
+*.log
+
+# Documents #
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
+*.pub
+*.ppt
+*.pptx
+*.vsd
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid
+
