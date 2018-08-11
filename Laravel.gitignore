@@ -1,6 +1,7 @@
 vendor/
 node_modules/
 npm-debug.log
+yarn-error.log
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -10,21 +11,7 @@ app/storage/
 public/storage
 public/hot
 storage/*.key
-.env.*.php
-.env.php
 .env
 Homestead.yaml
 Homestead.json
-
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
-.rocketeer/
-yarn-error.log
-
-#The .idea folder (hidden on OS X) in the solution root contains IntelliJ’s project specific settings files
-/.idea
-
-#Visual Studio Code project specific setting
-/.vscode
-
-#vagrant specific file
 /.vagrant
