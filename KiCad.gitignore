@@ -9,7 +9,6 @@
 *~
 _autosave-*
 *.tmp
-*-cache.lib
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
