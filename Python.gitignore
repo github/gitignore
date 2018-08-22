@@ -72,6 +72,10 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# IPython
+default_profile/
+ipython_config.py
+
 # pyenv
 .python-version
 
