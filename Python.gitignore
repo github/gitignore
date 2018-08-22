@@ -1,104 +1,103 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
 # Distribution / packaging
+.eggs/
+.installed.cfg
 .Python
+*.egg
+*.egg-info/
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
 lib/
-lib64/
+lib64
+MANIFEST
 parts/
+python-wheels/
 sdist/
 var/
 wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+
+# Unit tests / coverage reports
+.cache
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+.tox/
+*.cover
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# Environments
+.env
+.venv
+env.bak/
+env/
+ENV/
+venv.bak/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+local_settings.py
+
+# Flask
+.webassets-cache
+instance/
+
+# pip
+pip-delete-this-directory.txt
+pip-log.txt
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Spyder IDE
+.spyderproject
+.spyproject
 
 # Translations
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+# C extensions
+*.so
 
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
+# Celery
+celerybeat-schedule
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
+# MkDocs
 /site
 
 # mypy
 .mypy_cache/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# Rope
+.ropeproject
+
+# SageMath
+*.sage.py
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
