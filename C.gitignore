@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Unix and Linux Generated files
+*.swp
+*.nfs.*
+*.plist
