@@ -4,4 +4,7 @@
 # precompiled files
 .precomp
 lib/.precomp
-
+# macOS
+.DS_Store
+# vi
+.swp
