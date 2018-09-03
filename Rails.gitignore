@@ -47,3 +47,15 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
