@@ -1,0 +1,62 @@
+# Global wildcards
+*.aps
+*.bak
+*.dll
+*.log
+*.ncb
+*.obj
+*.old
+*.opensdf
+*.orig
+*.pdb
+*.Publish.xml
+*.sdf
+*.sln.cache
+*.suo
+*.tmp
+*.user
+*.lock.json
+
+# Well-known infrastructure folders
+/packages/
+/target/
+**/aspnet_client/
+
+# IDEs
+*[Rr]e[Ss]harper*
+**/.idea/
+**/.metadata/
+**/.settings/
+/[Tt]est[Rr]esults/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+ipch/
+
+# Visual Studio project upgrade
+[Bb]ackup/
+UpgradeLog*
+_UpgradeReport_Files/
+
+# Operating Systems generated
+.DS_Store
+[Dd]esktop.ini
+[Tt]humbs.db
+
+#ncrunch
+*.*crunch*
+_NCrunch_*
+
+#publish profiles
+*publish.ps1
+*.pubxml
+*.psm1
+
+#some test
+.vs
+node_modules
+**/launchSettings.json
+**/appsettings.json
+**/appsettings.*.json
+**/*sonar*
