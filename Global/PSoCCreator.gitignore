@@ -14,3 +14,5 @@ Export/
 *.cyfit
 *.rpt
 *.svd
+*.log
+*.zip
