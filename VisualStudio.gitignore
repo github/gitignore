@@ -280,6 +280,9 @@ node_modules/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
+# Team Explorer Diff tool file backups
+*.orig
+
 # Paket dependency manager
 .paket/paket.exe
 paket-files/
