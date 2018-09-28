@@ -65,8 +65,10 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-# Markdown Navigator Plugin
+# Markdown Navigator Plugin for JetBrains' IDEs
 .idea/markdown-navigator/profiles_settings.xml
 markdown-exported-files.xml
 markdown-navigator.xml
 
+# Sonarlint Plugin for JetBrains' IDEs
+**/.idea/sonarlint
