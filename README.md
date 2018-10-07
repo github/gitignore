@@ -19,7 +19,7 @@ the following resources are a great place to start:
 ## Folder structure
 
 The files in the root directory are for `.gitignore` templates that are
-project specific, such as language or framework specific templates.
+project-specific, such as language or framework specific templates.
 Global (operating system or editor specific) templates should go into the
 [`Global/`](./Global) directory.
 
