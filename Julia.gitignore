@@ -2,3 +2,5 @@
 *.jl.*.cov
 *.jl.mem
 deps/deps.jl
+docs/build
+docs/site
