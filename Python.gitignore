@@ -78,7 +78,9 @@ profile_default/
 ipython_config.py
 
 # pyenv
-.python-version
+# for a library or a package, you might want to ignore this file since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# .python-version
 
 # celery beat schedule file
 celerybeat-schedule
