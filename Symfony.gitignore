@@ -15,6 +15,10 @@
 !var/logs/.gitkeep
 !var/sessions/.gitkeep
 
+# Logs (Symfony4)
+/var/log/*
+!var/log/.gitkeep
+
 # Parameters
 /app/config/parameters.yml
 /app/config/parameters.ini
@@ -31,9 +35,6 @@
 /web/bundles/
 /web/uploads/
 
-# Assets managed by Bower
-/web/assets/vendor/
-
 # PHPUnit
 /app/phpunit.xml
 /phpunit.xml
@@ -45,4 +46,7 @@
 /composer.phar
 
 # Backup entities generated with doctrine:generate:entities command
-*/Entity/*~
+**/Entity/*~
+
+# Embedded web-server pid file
+/.web-server-pid
