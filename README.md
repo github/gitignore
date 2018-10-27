@@ -44,7 +44,16 @@ then the template is not a good fit for this collection.
 
 If a template is mostly a list of files installed by a particular version of
 some software (e.g. a PHP framework), it should live under the `ecosystem`
-directory. See [versioned templates]() for a guide to this setup.
+directory. See [versioned templates](#versioned-templates) for more details.
+
+If you have a small set of rules, or want to support a technology that is not
+widely in use, and still believe this will be helpful to others, please read the
+section about [specialized templates](#specialized-templates) for more details.
+
+If you believe your template is important and should be highly visible, please
+add details about the impact of the technology when you open a pull request. We
+may not accept it immediately, but we can promote it to the root at a later date
+based on demand.
 
 Please also understand that we can’t list every tool that ever existed.
 Our aim is to curate a collection of the _most common and helpful_ templates,
