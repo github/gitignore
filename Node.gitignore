@@ -77,6 +77,3 @@ typings/
 
 #DynamoDB Local files 
 .dynamodb/ 
-
-#VS Code editor files 
-.vscode/ 
