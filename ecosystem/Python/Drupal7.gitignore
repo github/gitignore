@@ -1,3 +1,7 @@
+# gitignore template for Drupal 7 projects
+#
+# It is recommended that you use `Drupal.gitignore` as this is the latest version
+
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 sites/example.sites.php
