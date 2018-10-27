@@ -18,10 +18,17 @@ the following resources are a great place to start:
 
 ## Folder structure
 
-The files in the root directory are for `.gitignore` templates that are
-project-specific, such as language or framework specific templates.
-Global (operating system or editor specific) templates should go into the
-[`Global/`](./Global) directory.
+We support a collection of templates, organized in this way:
+
+- [`Global`](./Global) contains templates for various editors, tools and
+  operating systems that can be used in different situations. It is recommended
+  that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
+  or merge these rules into your project-specific templates if you want to use
+  them permanently.
+- [`ecosystem`](./ecosystem) contains specialized templates coalescing around
+  popular programming languages, but don't make sense to live in the mainstream
+  templates. These should be added to your project-specific templates when you
+  decide to adopt the framework or tool.
 
 ## Contributing guidelines
 
