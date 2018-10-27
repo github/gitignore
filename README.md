@@ -20,6 +20,10 @@ the following resources are a great place to start:
 
 We support a collection of templates, organized in this way:
 
+- the root folder contains templates in common use, to help people get started
+  with popular programming languages and technologies. These define a meaningful
+  set of rules to help get started, and ensure you are not committing
+  unimportant files into your repository
 - [`Global`](./Global) contains templates for various editors, tools and
   operating systems that can be used in different situations. It is recommended
   that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
@@ -29,6 +33,23 @@ We support a collection of templates, organized in this way:
   popular programming languages, but don't make sense to live in the mainstream
   templates. These should be added to your project-specific templates when you
   decide to adopt the framework or tool.
+
+## What makes a good template?
+
+A template should contain a set of rules to help Git repositories work with a
+specific programming language, framework, tool or environment.
+
+If it's not possible to curate a small set of useful rules for this situation,
+then the template is not a good fit for this collection.
+
+If a template is mostly a list of files installed by a particular version of
+some software (e.g. a PHP framework), it should live under the `ecosystem`
+directory. See [versioned templates]() for a guide to this setup.
+
+Please also understand that we can’t list every tool that ever existed.
+Our aim is to curate a collection of the _most common and helpful_ templates,
+not to make sure we cover every project possible. If we choose not to
+include your language, tool, or project, it’s not because it’s not awesome.
 
 ## Contributing guidelines
 
@@ -60,15 +81,49 @@ high quality, we request that contributions adhere to the following guidelines.
 In general, the more you can do to help us understand the change you’re making,
 the more likely we’ll be to accept your contribution quickly.
 
-If a template is mostly a list of files installed by a particular version of
-some software (e.g. a PHP framework) then it's brittle and probably no more
-helpful than a simple `ls`. If it's not possible to curate a small set of
-useful rules, then the template might not be a good fit for this collection.
+## Versioned templates
 
-Please also understand that we can’t list every tool that ever existed.
-Our aim is to curate a collection of the _most common and helpful_ templates,
-not to make sure we cover every project possible. If we choose not to
-include your language, tool, or project, it’s not because it’s not awesome.
+Some templates can change greatly between versions, and if you wish to contribute
+to this repository we need to follow this specific flow:
+
+- the template at the root should be the current supported version
+- the template at the root should not have a version in the filename (i.e.
+  "evergreen")
+- previous versions of templates should live under `ecosystem`
+- previous versions of the template should embed the version in the filename,
+  for readability
+
+This helps ensure users get the latest version (because they'll use whatever is
+at the root) but helps maintainers support older versions still in the wild.
+
+## Specialized templates
+
+If you have a template that you would like to contribute, but it isn't quite
+mainstream, please consider adding this to the `ecosystem` directory under a
+folder that best suits where it belongs.
+
+The rules in your specialized template should be specific to the framework or
+tool, and any additional templates should be mentioned in a comment in the
+header of the template
+
+For example
+
+```
+# gitignore template for InforCRM (formerly SalesLogix)
+#
+# Recommended: VisualStudio.gitignore
+
+# Ignore model files that are auto-generated
+ModelIndex.xml
+ExportedFiles.xml
+
+# Ignore deployment files
+[Mm]odel/[Dd]eployment
+
+# Force include portal SupportFiles
+!Model/Portal/*/SupportFiles/[Bb]in/
+!Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
+```
 
 ## Contributing workflow
 
