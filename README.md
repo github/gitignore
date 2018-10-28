@@ -43,7 +43,7 @@ If it's not possible to curate a small set of useful rules for this situation,
 then the template is not a good fit for this collection.
 
 If a template is mostly a list of files installed by a particular version of
-some software (e.g. a PHP framework), it should live under the `ecosystem`
+some software (e.g. a PHP framework), it should live under the `community`
 directory. See [versioned templates](#versioned-templates) for more details.
 
 If you have a small set of rules, or want to support a technology that is not
@@ -53,7 +53,7 @@ section about [specialized templates](#specialized-templates) for more details.
 If you believe your template is important and should be highly visible, please
 add details about the impact of the technology when you open a pull request. We
 may not accept it immediately, but we can promote it to the root at a later date
-based on demand.
+based on interest.
 
 Please also understand that we can’t list every tool that ever existed.
 Our aim is to curate a collection of the _most common and helpful_ templates,
@@ -98,7 +98,7 @@ to this repository we need to follow this specific flow:
 - the template at the root should be the current supported version
 - the template at the root should not have a version in the filename (i.e.
   "evergreen")
-- previous versions of templates should live under `ecosystem`
+- previous versions of templates should live under `community`
 - previous versions of the template should embed the version in the filename,
   for readability
 
@@ -108,14 +108,14 @@ at the root) but helps maintainers support older versions still in the wild.
 ## Specialized templates
 
 If you have a template that you would like to contribute, but it isn't quite
-mainstream, please consider adding this to the `ecosystem` directory under a
+mainstream, please consider adding this to the `community` directory under a
 folder that best suits where it belongs.
 
 The rules in your specialized template should be specific to the framework or
 tool, and any additional templates should be mentioned in a comment in the
 header of the template
 
-For example, this template might live at `ecosystem/DotNet/InforCRM.gitignore`:
+For example, this template might live at `community/DotNet/InforCRM.gitignore`:
 
 ```
 # gitignore template for InforCRM (formerly SalesLogix)
