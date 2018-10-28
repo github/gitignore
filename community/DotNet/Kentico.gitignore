@@ -1,0 +1,64 @@
+# gitignore template for using Kentico CMS
+# website: http://www.kentico.com/
+#
+# Recommended template: VisualStudio.gitignore
+
+# Include some Kentico folders excluded by Visual Studio rules
+!CMS/CMSAdminControls/*/
+!CMS/CMSModules/System/*/
+!CMS/App_Data/CIRepository/**
+
+# Kentico temporary/environment files
+CMS/App_Data/AzureCache
+CMS/App_Data/AzureTemp
+CMS/App_Data/CMSModules/DeviceProfile/logFiftyOne.txt
+CMS/App_Data/CMSModules/DeviceProfiles/logFiftyOne.txt
+CMS/App_Data/CMSModules/WebFarm/webfarm.sync
+CMS/App_Data/CMSTemp
+CMS/App_Data/Persistent
+CMS/CMSSiteUtils/Export
+CMS/CMSSiteUtils/Import
+
+# Ignore all smart search indexes, but not the other system folder contents
+CMS/App_Data/CMSModules/SmartSearch/**
+!CMS/App_Data/CMSModules/SmartSearch/*/
+!CMS/App_Data/CMSModules/SmartSearch/_StopWords/**
+!CMS/App_Data/CMSModules/SmartSearch/_Synonyms/**
+
+## Kentico Starter Sites
+# Starter site resource Files
+CMS/App_Data/DancingGoat
+
+# Starter site web templates
+CMS/App_Data/Templates/CommunitySite
+CMS/App_Data/Templates/CorporateSite
+CMS/App_Data/Templates/DancingGoat
+CMS/App_Data/Templates/EcommerceSite
+CMS/App_Data/Templates/IntranetPortal
+CMS/App_Data/Templates/PersonalSite
+
+# Starter site app themes
+CMS/App_Themes/CommunitySite
+CMS/App_Themes/CorporateSite
+CMS/App_Themes/EcommerceSite
+CMS/App_Themes/IntranetPortal*
+CMS/App_Themes/PersonalSite
+
+# Starter site ASPX templates
+CMS/CMSTemplates/CorporateSite
+
+# Starter site media libraries
+CMS/CommunitySite
+CMS/CorporateSite
+CMS/DancingGoat
+CMS/EcommerceSite
+CMS/IntranetPortal
+CMS/PersonalSite
+
+## Project specific ignores
+# Sensitive settings
+AppSettings.config
+ConnectionStrings.config
+
+# Project media libraries (recommend shared file storage)
+# e.g. CMS/{SiteCodeName}
