@@ -2,7 +2,7 @@
 # will have compiled files and executables
 # Applies to all directories with the name target, in and recursively under the current directory
 # (unless overwritten by "!target/" in a subdirectory).
-**/target/
+/**/target/
 
 # Remove Cargo.lock from gitignore if creating an executable, leave it for libraries
 # More information here https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
