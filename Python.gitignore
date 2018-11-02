@@ -112,3 +112,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# vscode stuff igonred
+.vscode/*
+
+# sublime stuff ignored
+*.sublime-*
