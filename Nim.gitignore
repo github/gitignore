@@ -1,1 +1,4 @@
 nimcache/
+
+# OS X
+.DS_Store
