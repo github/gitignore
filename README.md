@@ -29,8 +29,8 @@ We support a collection of templates, organized in this way:
   that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
   or merge these rules into your project-specific templates if you want to use
   them permanently.
-- [`ecosystem`](./ecosystem) contains specialized templates coalescing around
-  popular programming languages, but don't make sense to live in the mainstream
+- [`community`](./community) contains specialized templates for other popular
+  languages, tools and project, which don't currently belong in the mainstream
   templates. These should be added to your project-specific templates when you
   decide to adopt the framework or tool.
 
@@ -43,7 +43,7 @@ If it's not possible to curate a small set of useful rules for this situation,
 then the template is not a good fit for this collection.
 
 If a template is mostly a list of files installed by a particular version of
-some software (e.g. a PHP framework), it should live under the `community`
+some software (e.g. a PHP framework), it could live under the `community`
 directory. See [versioned templates](#versioned-templates) for more details.
 
 If you have a small set of rules, or want to support a technology that is not
@@ -98,7 +98,7 @@ to this repository we need to follow this specific flow:
 - the template at the root should be the current supported version
 - the template at the root should not have a version in the filename (i.e.
   "evergreen")
-- previous versions of templates should live under `community`
+- previous versions of templates should live under `community/`
 - previous versions of the template should embed the version in the filename,
   for readability
 
