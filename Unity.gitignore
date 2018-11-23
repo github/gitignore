@@ -3,7 +3,11 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+#Andoid build folder
+/.gradle/
 Assets/AssetStoreTools*
+
+
 
 # Visual Studio cache directory
 .vs/
