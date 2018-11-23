@@ -1,1 +1,4 @@
-*.retry
+<?php
+/**
+  /** global React: React DOM */
+npm install .leslint-rules
