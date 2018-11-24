@@ -1,6 +1,9 @@
-# All build-directories inside an EWARM subdirectory
-# EWARM will put its build files under a subdirectory
-# with the same name as the configuration.
+# gitignore template for the IAR EWARM
+# website: https://www.iar.com/
+
+# Some tools will put the EWARM files
+# under a subdirectory with the same name
+# as the configuration.
 # Example
 # EWARM/Config1/Obj /List /Exe
 # EWARM/Config2/Obj /List /Exe
