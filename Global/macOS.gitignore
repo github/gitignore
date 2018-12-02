@@ -19,6 +19,8 @@ Icon[]
 .PKInstallSandboxManager
 .PKInstallSandboxManager-SystemSoftware
 .hotfiles.btree
+.vol
+.file
 
 # Directories potentially created on remote AFP share
 .AppleDB
