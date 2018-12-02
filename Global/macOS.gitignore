@@ -22,6 +22,7 @@ Icon[]
 .vol
 .file
 .disk_label*
+lost+found
 
 # Directories potentially created on remote AFP share
 .AppleDB
