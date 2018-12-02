@@ -16,6 +16,8 @@ Icon[]
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 .com.apple.timemachine.supported
+.PKInstallSandboxManager
+.PKInstallSandboxManager-SystemSoftware
 
 # Directories potentially created on remote AFP share
 .AppleDB
