@@ -15,6 +15,7 @@ Icon[]
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+.com.apple.timemachine.supported
 
 # Directories potentially created on remote AFP share
 .AppleDB
