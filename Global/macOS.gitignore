@@ -18,6 +18,7 @@ Icon[]
 .com.apple.timemachine.supported
 .PKInstallSandboxManager
 .PKInstallSandboxManager-SystemSoftware
+.hotfiles.btree
 
 # Directories potentially created on remote AFP share
 .AppleDB
