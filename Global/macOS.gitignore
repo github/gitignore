@@ -35,3 +35,9 @@ TheVolumeSettingsFolder
 .FBCIndex
 .FBCSemaphoreFile
 .FBCLockFolder
+
+# Quota system
+.quota.group
+.quota.user
+.quota.ops.group
+.quota.ops.user
