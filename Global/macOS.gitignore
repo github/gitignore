@@ -43,3 +43,9 @@ TheVolumeSettingsFolder
 .quota.user
 .quota.ops.group
 .quota.ops.user
+
+# TimeMachine
+Backups.backupdb
+.MobileBackups
+.MobileBackups.trash
+MobileBackups.trash
