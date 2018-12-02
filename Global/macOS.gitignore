@@ -21,6 +21,7 @@ Icon[]
 .hotfiles.btree
 .vol
 .file
+.disk_label*
 
 # Directories potentially created on remote AFP share
 .AppleDB
