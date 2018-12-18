@@ -205,6 +205,10 @@ pythontex-files-*/
 # todonotes
 *.tdo
 
+# vhistory
+*.hst
+*.ver
+
 # easy-todo
 *.lod
 
