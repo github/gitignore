@@ -338,4 +338,4 @@ ASALocalRun/
 .localhistory/
 
 #BeatPulse healthcheck temp database 
-livenessdb
+*livenessdb
