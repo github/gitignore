@@ -17,9 +17,13 @@
 /logs/*
 !/logs/empty
 
+/config/Migrations/schema-dump-default.lock
+
 # CakePHP 2
 
 /app/tmp/*
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+
