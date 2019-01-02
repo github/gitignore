@@ -1,0 +1,17 @@
+# Reference for Flask gitignore: http://flask.pocoo.org/docs/1.0/tutorial/layout/
+
+.gitignore
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
