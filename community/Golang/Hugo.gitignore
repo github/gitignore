@@ -1,10 +1,11 @@
 ### Hugo ###
-# gitginore template for Hugo projects
+# gitignore template for Hugo projects
 # website: https://gohugo.io
 
 # generated files by hugo
 /public/
 /resources/_gen/
+/isableFastRender/
 
 # executable may be added to repository
 hugo.exe
