@@ -68,3 +68,7 @@ fastlane/readme.md
 
 # Version control
 vcs.xml
+
+# macOS file meta-data
+.DS_Store
+
