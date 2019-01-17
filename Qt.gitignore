@@ -41,3 +41,6 @@ target_wrapper.*
 
 # QtCreator CMake
 CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database 
+compile_commands.json
