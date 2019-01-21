@@ -1,0 +1,26 @@
+# Adventure Game Studio git ignore
+# --------------------------------
+# Built things
+_Debug/
+_Release/
+Compiled/
+*.exe
+
+#Audio Cache can be rebuilt from sources
+AudioCache/
+
+# User
+_OpenInEditor.lock
+Game.agf.user
+
+# backups
+Game.agf.bak
+backup_acsprset.spr
+
+# memory dumps
+*.dmp
+
+# temporary files
+~aclzw.tmp
+game28.dta
+warnings.log
