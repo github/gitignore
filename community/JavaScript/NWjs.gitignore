@@ -1,0 +1,29 @@
+# gitignore template for NW.js projects
+# website: https://nwjs.io/
+
+# Seen in standard and sdk versions
+credits.html
+locales/
+libEGL.dll
+libGLEv2.dll
+node.dll
+nw.dll
+nw.exe
+natives_blob.bin
+nw_100_percent.pak
+nw_200_percent.pak
+nw_elf.dll
+snapshot_blob.bin
+resources.pak
+
+# Seen only in standard
+d3dcompiler_47.dll
+ffmpeg.dll
+icudtl.dat
+
+# Seen only in sdk
+pnacl/
+chromedriver.exe
+nacl_irt_x86_64.nexe
+nwjc.exe
+payload.exe

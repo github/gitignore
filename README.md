@@ -18,10 +18,47 @@ the following resources are a great place to start:
 
 ## Folder structure
 
-The files in the root directory are for `.gitignore` templates that are
-project specific, such as language or framework specific templates.
-Global (operating system or editor specific) templates should go into the
-[`Global/`](./Global) directory.
+We support a collection of templates, organized in this way:
+
+- the root folder contains templates in common use, to help people get started
+  with popular programming languages and technologies. These define a meaningful
+  set of rules to help get started, and ensure you are not committing
+  unimportant files into your repository
+- [`Global`](./Global) contains templates for various editors, tools and
+  operating systems that can be used in different situations. It is recommended
+  that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
+  or merge these rules into your project-specific templates if you want to use
+  them permanently.
+- [`community`](./community) contains specialized templates for other popular
+  languages, tools and project, which don't currently belong in the mainstream
+  templates. These should be added to your project-specific templates when you
+  decide to adopt the framework or tool.
+
+## What makes a good template?
+
+A template should contain a set of rules to help Git repositories work with a
+specific programming language, framework, tool or environment.
+
+If it's not possible to curate a small set of useful rules for this situation,
+then the template is not a good fit for this collection.
+
+If a template is mostly a list of files installed by a particular version of
+some software (e.g. a PHP framework), it could live under the `community`
+directory. See [versioned templates](#versioned-templates) for more details.
+
+If you have a small set of rules, or want to support a technology that is not
+widely in use, and still believe this will be helpful to others, please read the
+section about [specialized templates](#specialized-templates) for more details.
+
+If you believe your template is important and should be highly visible, please
+add details about the impact of the technology when you open a pull request. We
+may not accept it immediately, but we can promote it to the root at a later date
+based on interest.
+
+Please also understand that we can’t list every tool that ever existed.
+Our aim is to curate a collection of the _most common and helpful_ templates,
+not to make sure we cover every project possible. If we choose not to
+include your language, tool, or project, it’s not because it’s not awesome.
 
 ## Contributing guidelines
 
@@ -39,7 +76,7 @@ high quality, we request that contributions adhere to the following guidelines.
 
 - **Explain why you’re making a change**. Even if it seems self-evident, please
   take a sentence or two to tell us why your change or addition should happen.
-  It’s especially helpful to articulate why this change applies to *everyone*
+  It’s especially helpful to articulate why this change applies to _everyone_
   who works with the applicable technology, rather than just you or your team.
 
 - **Please consider the scope of your change**. If your change is specific to a
@@ -47,21 +84,56 @@ high quality, we request that contributions adhere to the following guidelines.
   template for that language or framework, rather than to the template for an
   editor, tool, or operating system.
 
-- **Please only modify *one template* per pull request**. This helps keep pull
+- **Please only modify _one template_ per pull request**. This helps keep pull
   requests and feedback focused on a specific project or technology.
 
 In general, the more you can do to help us understand the change you’re making,
 the more likely we’ll be to accept your contribution quickly.
 
-If a template is mostly a list of files installed by a particular version of
-some software (e.g. a PHP framework) then it's brittle and probably no more
-helpful than a simple `ls`. If it's not possible to curate a small set of
-useful rules, then the template might not be a good fit for this collection.
+## Versioned templates
 
-Please also understand that we can’t list every tool that ever existed.
-Our aim is to curate a collection of the *most common and helpful* templates,
-not to make sure we cover every project possible. If we choose not to
-include your language, tool, or project, it’s not because it’s not awesome.
+Some templates can change greatly between versions, and if you wish to contribute
+to this repository we need to follow this specific flow:
+
+- the template at the root should be the current supported version
+- the template at the root should not have a version in the filename (i.e.
+  "evergreen")
+- previous versions of templates should live under `community/`
+- previous versions of the template should embed the version in the filename,
+  for readability
+
+This helps ensure users get the latest version (because they'll use whatever is
+at the root) but helps maintainers support older versions still in the wild.
+
+## Specialized templates
+
+If you have a template that you would like to contribute, but it isn't quite
+mainstream, please consider adding this to the `community` directory under a
+folder that best suits where it belongs.
+
+The rules in your specialized template should be specific to the framework or
+tool, and any additional templates should be mentioned in a comment in the
+header of the template
+
+For example, this template might live at `community/DotNet/InforCRM.gitignore`:
+
+```
+# gitignore template for InforCRM (formerly SalesLogix)
+# website: https://www.infor.com/product-summary/cx/infor-crm/
+#
+# Recommended: VisualStudio.gitignore
+
+# Ignore model files that are auto-generated
+ModelIndex.xml
+ExportedFiles.xml
+
+# Ignore deployment files
+[Mm]odel/[Dd]eployment
+
+# Force include portal SupportFiles
+!Model/Portal/*/SupportFiles/[Bb]in/
+!Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
+```
 
 ## Contributing workflow
 

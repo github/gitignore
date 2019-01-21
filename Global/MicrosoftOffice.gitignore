@@ -3,6 +3,9 @@
 # Word temporary
 ~$*.doc*
 
+# Word Auto Backup File
+Backup of *.doc*
+
 # Excel temporary
 ~$*.xls*
 
