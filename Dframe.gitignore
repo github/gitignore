@@ -1,0 +1,16 @@
+# Ignore files that are auto-generated
+app/View/templates_c/*
+app/View/cache/*
+app/View/logs/*
+web/assets/*
+vendor
+
+# Force include 
+!app/View/templates_c/.gitkeep
+!app/View/cache/.gitkeep
+!app/View/logs/.gitkeep
+!web/assets/.gitkeep
+
+# Ignore IDE
+.project
+.vscode/
