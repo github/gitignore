@@ -1,3 +1,5 @@
+## Ignore Unity temporary files, build results, ...
+## Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
