@@ -6,3 +6,6 @@ export_presets.cfg
 
 # Mono-specific ignores
 .mono/
+
+#android-build specific
+adbkey
