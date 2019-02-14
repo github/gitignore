@@ -1,0 +1,16 @@
+# Ignore all
+*
+
+# Designore list
+!/.gitignore
+
+# All configs in Jenkins home
+!/*.xml
+
+# All jobs configs
+!/jobs
+!/jobs/*
+!/jobs/*/*.xml
+
+# Ignore files after designore list
+credentials.xml
