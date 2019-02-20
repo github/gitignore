@@ -224,6 +224,11 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
+# Dump files containing OS information including username, network shares, etc. recorded during crash
+*.dmp
+*.dump
+*.mdmp
+
 # Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
