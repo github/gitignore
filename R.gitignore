@@ -5,6 +5,9 @@
 # Session Data files
 .RData
 
+# User-specific files
+.Ruserdata
+
 # Example code in package build process
 *-Ex.R
 
