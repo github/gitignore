@@ -83,7 +83,9 @@ ipython_config.py
 .python-version
 
 # pipenv
-Pipfile.lock
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in VCS.
+#   However, in case of collaboration, Pipfile.lock may conflict on different OS.
+#Pipfile.lock
 
 # celery beat schedule file
 celerybeat-schedule
