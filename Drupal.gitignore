@@ -18,6 +18,9 @@
 /sites/*/tmp
 /sites/*/cache
 
+# Ignore testing related files
+/sites/simpletest
+
 # Ignore drupal core (if not versioning drupal sources)
 /core
 /modules/README.txt
