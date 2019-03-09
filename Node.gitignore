@@ -5,7 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Diagnostic reports
+# Diagnostic reports (https://nodejs.org/api/report.html)
 report.*.json
 
 # Runtime data
