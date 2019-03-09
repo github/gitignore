@@ -1,6 +1,6 @@
 # gitignore template for Drupal 8 projects
 #
-# earlier versions of Drupal are tracked in `community/Python/`
+# earlier versions of Drupal are tracked in `community/PHP/`
 
 # Ignore configuration files that may contain sensitive information
 /sites/*/*settings*.php
