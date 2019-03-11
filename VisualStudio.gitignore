@@ -21,14 +21,14 @@ mono_crash.*
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-[Xx]64/
-[Xx]86/
+x64/
+x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in*/
-[Oo]bj*/
-[Ll]og*/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
