@@ -1,6 +1,9 @@
 .gradle
 /build/
 
+# Ignore some java file
+!/build/**/*.java
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
