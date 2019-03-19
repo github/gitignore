@@ -41,9 +41,8 @@ captures/
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
-.idea/caches
 # Android Studio 3 in .gitignore file.
-.idea/caches/build_file_checksums.ser
+.idea/caches
 .idea/modules.xml
 
 # Keystore files
