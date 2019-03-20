@@ -3,3 +3,6 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Local History for Visual Studio Code
+.history/
