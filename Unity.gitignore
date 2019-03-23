@@ -1,3 +1,5 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -9,7 +11,7 @@
 ![Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
-# [Aa]ssets/AssetStoreTools*
+# /[Aa]ssets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
