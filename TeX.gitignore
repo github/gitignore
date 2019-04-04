@@ -64,6 +64,9 @@ acs-*.bib
 # changes
 *.soc
 
+# comment
+*.cut
+
 # cprotect
 *.cpt
 
@@ -134,6 +137,9 @@ acs-*.bib
 # listings
 *.lol
 
+# luatexja-ruby
+*.ltjruby
+
 # makeidx
 *.idx
 *.ilg
@@ -188,6 +194,9 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
+# tcolorbox
+*.listing
+
 # thmtools
 *.loe
 
@@ -199,8 +208,15 @@ pythontex-files-*/
 # todonotes
 *.tdo
 
+# vhistory
+*.hst
+*.ver
+
 # easy-todo
 *.lod
+
+# xcolor
+*.xcp
 
 # xmpincl
 *.xmpi
@@ -226,6 +242,9 @@ TSWLatexianTemp*
 # Texpad
 .texpadtmp
 
+# LyX
+*.lyx~
+
 # Kile
 *.backup
 
@@ -241,6 +260,3 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
-
-# generated if using elsarticle.cls
-*.spl

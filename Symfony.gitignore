@@ -15,6 +15,10 @@
 !var/logs/.gitkeep
 !var/sessions/.gitkeep
 
+# Logs (Symfony4)
+/var/log/*
+!var/log/.gitkeep
+
 # Parameters
 /app/config/parameters.yml
 /app/config/parameters.ini

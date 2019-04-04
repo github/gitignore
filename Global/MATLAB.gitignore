@@ -7,16 +7,19 @@
 # Compiled MEX binaries (all platforms)
 *.mex*
 
-# Packaged app and toolbox files 
-*.mlappinstall 
-*.mltbx 
-  
-# Generated helpsearch folders 
-helpsearch*/ 
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Generated helpsearch folders
+helpsearch*/
 
 # Simulink code generation folders
 slprj/
 sccprj/
+
+# Matlab code generation folders
+codegen/
 
 # Simulink autosave extension
 *.autosave

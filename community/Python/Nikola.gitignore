@@ -1,0 +1,7 @@
+# gitignore template for Nikola static site generator
+# website: https://getnikola.com/
+
+.doit.db
+*.py[cod]
+cache/
+output/
