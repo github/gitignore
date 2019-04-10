@@ -1,11 +1,14 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 
 /[Ll]ibrary/
-/[Tt]emp/
+/[Tt]emp/*
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+
+# Keep backup scenes
+![Tt]emp/__Backupscenes
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
