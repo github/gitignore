@@ -10,6 +10,9 @@
 # IntelliJ and IntelliJ like IDEs (JetBrains)
 .idea
 *.iml
+*.ipr
+*.iws
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
