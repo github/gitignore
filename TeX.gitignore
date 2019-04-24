@@ -144,7 +144,6 @@ acs-*.bib
 *.idx
 *.ilg
 *.ind
-*.ist
 
 # minitoc
 *.maf
