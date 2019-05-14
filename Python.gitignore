@@ -121,3 +121,44 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# tensorflow checkpoint files
+*.data-*
+*.index
+*.meta
+
+# train dev test set
+.train
+.dev
+.test
+
+# image files
+.ai
+.bmp
+.cdr
+.dxf
+.emf
+.eps
+.exif
+.flic
+.fpx
+.gif
+.hdri
+.ico
+.jpeg
+.pcd
+.pcx
+.png
+.psd
+.raw
+.svg
+.tga
+.tif
+.ufo
+.webp
+.wmf
+
+# font  files
+.ttf
+.otf
+
