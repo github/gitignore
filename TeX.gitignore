@@ -259,3 +259,6 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+
+# glossaries-extra
+*.ist
