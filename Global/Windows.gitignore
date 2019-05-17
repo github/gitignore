@@ -22,3 +22,16 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# MS-DOS Device Driver names cannot be used as file names in Windows. 
+# As a result, we are unable to name folders as con, aux, nul, etc.
+CON
+PRN
+NUL
+COM1
+COM2
+COM3
+COM4
+LPT1
+LPT2
+LPT3
