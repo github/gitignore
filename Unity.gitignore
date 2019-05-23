@@ -61,3 +61,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# keep the *.asset files from Library
+# including e.g. the current build target and build settings
+!/[Ll]ibrary/*.asset
