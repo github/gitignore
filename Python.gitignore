@@ -54,6 +54,10 @@ coverage.xml
 *.mo
 *.pot
 
+#pycharm
+this folder contains files which store user-specific settings
+./idea
+
 # Django stuff:
 *.log
 local_settings.py
