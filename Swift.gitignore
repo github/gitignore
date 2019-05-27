@@ -58,6 +58,10 @@ playground.xcworkspace
 
 Carthage/Build
 
+# Accio dependency management
+Dependencies/
+.accio/
+
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the

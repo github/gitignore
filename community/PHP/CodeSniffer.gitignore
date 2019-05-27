@@ -3,5 +3,4 @@
 #
 # Recommended template: PHP.gitignore
 
-/vendor/*
 /wpcs/*

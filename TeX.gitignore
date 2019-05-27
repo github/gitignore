@@ -110,6 +110,9 @@ acs-*.bib
 *.gls
 *.glsdefs
 
+# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# *.ist
+
 # gnuplottex
 *-gnuplottex-*
 
@@ -137,11 +140,13 @@ acs-*.bib
 # listings
 *.lol
 
+# luatexja-ruby
+*.ltjruby
+
 # makeidx
 *.idx
 *.ilg
 *.ind
-*.ist
 
 # minitoc
 *.maf
