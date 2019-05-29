@@ -1,3 +1,6 @@
+# gitignore template for LTspice
+# website: https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
+
 # Logfile
 *.log
 
