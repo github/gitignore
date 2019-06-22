@@ -1,5 +1,9 @@
 # ignore everything in the root except the "wp-content" directory.
+/*
 !wp-content/
+
+# ignore Mac OS file that stores custom attributes for its containing folder
+.DS_Store
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
