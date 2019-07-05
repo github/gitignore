@@ -1,0 +1,18 @@
+# gitignore template for SQL Server Reporting Services (SSRS)
+#
+# Recommended: SSRS
+
+# Ignore model files that are auto-generated
+*.data
+*.user
+*.rds
+
+# Ignore solutions files
+*.sln
+*.suo
+*.rptproj
+*.obj
+
+# Ignore shortcut
+*.ink
+
