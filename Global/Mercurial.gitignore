@@ -1,3 +1,6 @@
-/.hg/*
-*/.hg/*
+.hg/
 .hgignore
+.hgsigs
+.hgsub
+.hgsubstate
+.hgtags

@@ -8,19 +8,26 @@ capybara-*.html
 /public/system
 /coverage/
 /spec/tmp
-**.orig
+*.orig
 rerun.txt
 pickle-email-*.html
 
-# TODO Comment out these rules if you are OK with secrets being uploaded to the repo
+# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
-config/secrets.yml
+config/master.key
 
-## Environment normalisation:
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+
+# dotenv
+# TODO Comment out this rule if environment variables can be committed
+.env
+
+## Environment normalization:
 /.bundle
 /vendor/bundle
 
-# these should all be checked in to normalise the environment:
+# these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
@@ -33,3 +40,10 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
+
