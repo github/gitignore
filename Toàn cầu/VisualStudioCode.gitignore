@@ -1,0 +1,5 @@
+..gitignore/*
+!.gitignore/settings.json
+!.gitignore/tasks.json
+!.gitignore/launch.json
+!.gitignore/extensions.json
