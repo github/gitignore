@@ -301,6 +301,9 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
+# Ionide - VSCode F# extension - https://github.com/ionide/ionide-vscode-fsharp
+.ionide/
+
 # CodeRush personal settings
 .cr/personal
 
