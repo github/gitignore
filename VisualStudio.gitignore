@@ -347,3 +347,7 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+# Symbol cache for Ionide VSCode extension
+.ionide/symbolCache.db
+
