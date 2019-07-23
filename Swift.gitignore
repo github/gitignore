@@ -80,3 +80,12 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# DS_Store Files
+#
+# The .DS_Store file is a file created by OS that holds meta-information about a directory. 
+# You can expect to always find it and can safely ignore it. The file is not shown by the Finder.
+
+*.DS_Store
+*/.DS_Store
+Pods/.DS_Store
