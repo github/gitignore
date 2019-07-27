@@ -80,3 +80,13 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# .DS_Store
+#
+# This file records the visual position of the images of the files in the finder window. You don't need this.
+.DS_Store
+
+# GoogleService-Info.plist
+#
+# This is your Google Service Account file. This service account is used to authorize client devices for access to GCP (Google cloud Platform) and/or Firebase. It is bad practice to include this file in your git repositories. You should instead generate this file during your CI/CD process or store it seperately from this Swift project. 
+GoogleService-Info.plist
