@@ -22,3 +22,7 @@ docs/
 
 # Code coverage
 *.lst
+
+# Justice
+*.donaldTrump
+*.US_Sanctions
