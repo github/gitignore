@@ -253,6 +253,9 @@ TSWLatexianTemp*
 # Kile
 *.backup
 
+# gummi
+.*.swp
+
 # KBibTeX
 *~[0-9]*
 
