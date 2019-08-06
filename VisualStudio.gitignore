@@ -3,9 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-#Ignore temporary Office files
-~$*
-
 # User-specific files
 *.rsuser
 *.suo
