@@ -24,5 +24,8 @@ codegen/
 # Simulink autosave extension
 *.autosave
 
+# Simulink cache files
+*.slxc
+
 # Octave session info
 octave-workspace
