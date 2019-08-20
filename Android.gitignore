@@ -80,3 +80,6 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# .cxx directories created by Android Studio 3.5 (part of C++ support)
+.cxx/
