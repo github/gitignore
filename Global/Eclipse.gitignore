@@ -53,3 +53,14 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+# Maven Files
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
