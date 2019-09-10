@@ -3,6 +3,7 @@ capybara-*.html
 .rspec
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
 /public/system
 /coverage/
 /spec/tmp
