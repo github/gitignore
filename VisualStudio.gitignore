@@ -126,6 +126,9 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+# JetBrains Rider is a cross-platform .NET IDE
+.idea/
+
 # JustCode is a .NET coding add-in
 .JustCode
 
