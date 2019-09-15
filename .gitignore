@@ -1,0 +1,16 @@
+# Force include core files
+!*.yy
+!*.gml
+!/*.yyp
+
+# Builds
+*.exe
+*.apk
+*.pkg
+*.ipa
+*.app
+*.zip
+
+# Miscellaneous
+*.dll
+*.log
