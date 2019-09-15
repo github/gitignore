@@ -6,12 +6,12 @@
 # Builds for Desktop
 *.exe
 *.zip
+*.app
 *.pkg
 
 # Builds for Mobile
 *.apk
 *.ipa
-*.app
 *.xarchive
 
 # Builds for UWP
