@@ -3,13 +3,23 @@
 !*.gml
 !/*.yyp
 
-# Builds
+# Builds for Desktop
 *.exe
-*.apk
+*.zip
 *.pkg
+
+# Builds for Mobile
+*.apk
 *.ipa
 *.app
-*.zip
+*.xarchive
+
+# Builds for UWP
+*.appx
+*.appxupload
+
+# Builds for HTML5
+# index.html
 
 # Miscellaneous
 *.dll
