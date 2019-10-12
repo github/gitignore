@@ -1,0 +1,48 @@
+# EPICS site : https://epics-controls.org/
+# References : epics-base / epics-modules / @ralphlange / @jeonghanlee
+# Directories built by EPICS building system 
+/cfg/
+/bin/
+/lib/
+/db/
+/dbd/
+/html/
+/include/
+/templates/
+O.*/
+/*Top/cfg/
+/*Top/bin/
+/*Top/lib/
+/*Top/db/
+/*Top/dbd/
+/*Top/html/
+/*Top/include/
+/*Top/templates/
+
+
+# User-specific files for local modifications
+/configure/*.local
+/configure/RELEASE.*
+/configure/CONFIG_SITE.*
+/modules/RELEASE.*.local
+/modules/Makefile.local
+/*Top/configure/*.local
+
+# documents
+/documentation/html
+/documentation/*.tag
+
+# Others for UI, autosave, and so on
+/QtC-*
+envPaths
+cdCommands
+dllPath.bat
+*BAK.adl
+auto_settings.sav*
+auto_positions.sav*
+*.orig
+*.log
+.*.swp
+*~
+.#*
+\#*\#
