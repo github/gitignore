@@ -9,7 +9,11 @@
 *.compiled-library
 *.compileinfo
 *.tmc
+*.tmcRefac
 *.library
+*.project.~u
+*.tsproj.bak
+*.xti.bak
 _Boot/
 _CompileInfo/
 _Libraries/
