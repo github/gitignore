@@ -75,16 +75,6 @@ typings/
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# next.js build output
-.next
-
-# nuxt.js build output
-.nuxt
-
-# gatsby files
-.cache/
-public
-
 # vuepress build output
 .vuepress/dist
 
@@ -99,3 +89,6 @@ public
 
 # TernJS port file
 .tern-port
+
+# Looking for Next.js, Gatsby or other frameworks?
+# Try looking here: https://github.com/github/gitignore/tree/master/community/JavaScript
