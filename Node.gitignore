@@ -99,3 +99,7 @@ public
 
 # TernJS port file
 .tern-port
+
+# IntelliJ IDEA
+.idea/
+
