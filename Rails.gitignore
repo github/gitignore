@@ -65,3 +65,9 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+# Ignore IDE files
+# TODO: Comment out this line if you need project configurations versioned
+.idea/
+.vscode/
+.atom/
