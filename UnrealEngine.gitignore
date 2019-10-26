@@ -1,5 +1,6 @@
-# Visual Studio 2015 user specific files
+# Visual Studio 2015+ user specific files
 .vs/
+enc_temp_folder/
 
 # Compiled Object files
 *.slo
