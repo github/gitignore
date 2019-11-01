@@ -259,14 +259,19 @@ ServiceFabricBackup/
 *.ldf
 *.ndf
 
-# Business Intelligence projects
+# SQL Server Integration Services
+*.dtproj.user
+
+# SQL Server Reporting Services
 *.rdl.data
-*.bim.layout
-*.bim_*.settings
 *.rptproj.rsuser
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
+
+# SQL Server Analysis Services
+*.bim.layout
+*.bim_*.settings
 
 # Microsoft Fakes
 FakesAssemblies/
