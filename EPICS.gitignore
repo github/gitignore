@@ -40,9 +40,3 @@ dllPath.bat
 *BAK.adl
 auto_settings.sav*
 auto_positions.sav*
-*.orig
-*.log
-.*.swp
-*~
-.#*
-\#*\#
