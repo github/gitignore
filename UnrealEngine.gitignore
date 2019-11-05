@@ -1,6 +1,10 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Codelite Generated files
+*.session
+*.tags
+
 # Compiled Object files
 *.slo
 *.lo
