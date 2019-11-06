@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Subversion Source Control (for mixed environments i.e. GIT local SVN Remote)
+.svn
