@@ -94,8 +94,9 @@ ipython_config.py
 # pyflow
 __pypackages__/
 
-# celery beat schedule file
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
