@@ -91,6 +91,9 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+# pyflow
+__pypackages__/
+
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
