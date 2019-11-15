@@ -81,6 +81,9 @@ target/
 profile_default/
 ipython_config.py
 
+# PyCharm project directory
+.idea/
+
 # pyenv
 .python-version
 
