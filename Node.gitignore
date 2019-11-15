@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Node.js Diagnostic Report files
+report.*.json
