@@ -1,0 +1,25 @@
+# .gitignore for WINDEV, WEBDEV and WINDEV Mobile projects
+#
+# WINDEV – WEBDEV – WINDEV Mobile
+Corbeille
+Groupware
+Sauvegarde
+Backup
+*.cpl
+cache.gestion de sources
+*.wpf
+*.env
+HstDuree.log
+*.waudit
+*.cache
+*.wdcoverage
+*.REP
+#
+#WEBDEV
+*\res
+*.awl
+*.awp
+#
+# WINDEV Mobile 
+android
+*.xcode.gen
