@@ -6,6 +6,7 @@ Makefile.in
 /py-compile
 /test-driver
 /ylwrap
+.deps/
 
 # http://www.gnu.org/software/autoconf
 
