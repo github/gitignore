@@ -12,7 +12,9 @@ wp-config.php
 wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
+wp-content/plugins/index.php
 !wp-content/themes/
+wp-content/themes/index.php
 
 # Example plugins
 wp-content/plugins/hello.php
