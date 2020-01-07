@@ -1,23 +1,29 @@
-# ignore everything in the root except the "wp-content" directory.
+# Wordpress - ignore core, configuration, examples, generated data and logs.
+# https://github.com/github/gitignore/blob/master/WordPress.gitignore
+
+# Core
+/*
 !wp-content/
 
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
+# Configuration
+wp-config.php
+
+# Generated data without custom one
 wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
 
-# ignore these plugins
+# Example plugins
 wp-content/plugins/hello.php
 
-# ignore specific themes
+# Example themes
 wp-content/themes/twenty*/
 
-# ignore node dependency directories
+# Example themes use node dependency
 node_modules/
 
-# ignore log files and databases
+# Log files and databases
 *.log
 *.sql
 *.sqlite
