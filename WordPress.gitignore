@@ -29,3 +29,6 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# Self
+!*.gitignore
