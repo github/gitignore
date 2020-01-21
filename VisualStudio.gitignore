@@ -353,6 +353,6 @@ MigrationBackup/
 .ionide/
 
 # Scala extensions
-.bloop/
 .metals/
-.scalafmt.conf
+.bloop/
+project/metals.sbt
