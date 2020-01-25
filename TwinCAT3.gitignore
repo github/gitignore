@@ -17,6 +17,8 @@
 *.project.~u
 *.tsproj.bak
 *.xti.bak
+LineIDs.dbg
+LineIDs.dbg.bak
 _Boot/
 _CompileInfo/
 _Libraries/
