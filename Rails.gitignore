@@ -53,12 +53,13 @@ bower.json
 # Ignore node_modules
 node_modules/
 
-# Ignore precompiled javascript packs
+# Ignore precompiled JavaScript packs
 /public/packs
 /public/packs-test
 /public/assets
 
-# Ignore yarn files
+# Ignore Yarn
+/.yarn/
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
