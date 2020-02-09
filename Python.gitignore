@@ -130,3 +130,6 @@ dmypy.json
 
 # pytest benchmark
 .benchmarks/
+
+# pytype static type analyzer
+.pytype/
