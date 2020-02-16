@@ -14,7 +14,7 @@
 # Ignore Umbraco content cache file
 **/App_Data/umbraco.config
 
-## git ignore this folder as it will be added by Install-Package UmbracoCms or updated by Update-Package UmbracoCms
+## this folder should be added via Install-Package UmbracoCms or you can remove this line if you think it fits the way you work on your project.
 **/[Uu]mbraco/ 
 
 # Don't ignore Umbraco packages (VisualStudio.gitignore mistakes this for a NuGet packages folder)
