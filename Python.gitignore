@@ -133,3 +133,10 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+
+# IDE
+.vscode
+
+# static
+media
+static
