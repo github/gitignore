@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.changelog
+
+# Runtime
+*.seed
+pids
+*.pid*
+
+# Testing (jscover, istanbul etc.)
+lib-cov
+coverage
+.nyc_output
+
+# Dependency directories (node, bower and etc.)
+node_modules/
+bower_components/
+jspm_packages/
+
+# Binaries and distribution directories
+dist/
+lib/
+bin/
+
+# Production
+build/
+
+# Package managers (yarn, npm and etc.)
+package-lock.json
+.yarn-integrity
+yarn.lock
+.npm
+.module-cache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editors
+.DS_STORE
+*.sublime*
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.iml
+.idea/
+.vscode/
+
+# Grunt
+.grunt
+
+# ESLint
+.eslintcache
+
+# npm-pack
+*.tgz
+
+# REPL
+.node_repl_history
+
+# Typescript
+typings/
+
+# Backups
+*.backup.*
+*.back.*
+
+# node-waf
+.lock-wscript
+
+# Others
+psd
+thumb
+sketch
