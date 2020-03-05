@@ -60,6 +60,7 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+**/ScaffoldingReadMe.txt
 
 # StyleCop
 StyleCopReport.xml
