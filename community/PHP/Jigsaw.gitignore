@@ -1,0 +1,8 @@
+# gitignore template for Jigsaw Static Site Generator
+#
+# website - https://jigsaw.tighten.co
+
+# Ignore build folder
+build_local
+build_staging
+build_production
