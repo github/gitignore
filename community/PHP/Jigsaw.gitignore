@@ -3,6 +3,4 @@
 # website - https://jigsaw.tighten.co
 
 # Ignore build folder
-build_local
-build_staging
-build_production
+build_*
