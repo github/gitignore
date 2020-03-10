@@ -133,3 +133,5 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+# tensorflow saved model extensions
+.h5
