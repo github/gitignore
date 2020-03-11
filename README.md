@@ -113,7 +113,7 @@ folder that best suits where it belongs.
 
 The rules in your specialized template should be specific to the framework or
 tool, and any additional templates should be mentioned in a comment in the
-header of the template
+header of the template.
 
 For example, this template might live at `community/DotNet/InforCRM.gitignore`:
 
