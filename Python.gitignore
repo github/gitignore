@@ -134,10 +134,6 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# IDE
-.vscode
-.idea
-
 # static files generated from Django application using `collectstatic`
 media
 static
