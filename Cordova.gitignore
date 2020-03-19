@@ -1,0 +1,15 @@
+# Cordova gitignore
+
+# The required node_modules, plugins and platforms are saved in package.json and will be installed when running cordova prepare or cordova build. So these directories are not needed to be pushed to git.
+
+# Git is not able handle node_modules because of the many changes.
+node_modules
+
+# Platforms takes up quite some space and includes builds as well
+platforms
+
+# Plugins
+plugins
+
+# OS X
+.DS_Store
