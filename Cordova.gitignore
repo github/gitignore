@@ -11,5 +11,8 @@ platforms
 # Plugins
 plugins
 
+# Automatically generated files used for updates and builds
+package-lock.json
+
 # OS X
 .DS_Store
