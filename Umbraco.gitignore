@@ -14,10 +14,16 @@
 # Ignore Umbraco content cache file
 **/App_Data/umbraco.config
 
+## this [Uu]mbraco/ folder should be created by cmd like `Install-Package UmbracoCms -Version 8.5.3` 
+## you can find your umbraco version at your Web.config. (i.e. <add key="Umbraco.Core.ConfigurationStatus" value="8.5.3" />)
+## Uncomment this line if you think it fits the way you work on your project.
+## **/[Uu]mbraco/ 
+
 # Don't ignore Umbraco packages (VisualStudio.gitignore mistakes this for a NuGet packages folder)
 # Make sure to include details from VisualStudio.gitignore BEFORE this
 !**/App_Data/[Pp]ackages/*
 !**/[Uu]mbraco/[Dd]eveloper/[Pp]ackages/*
+!**/[Uu]mbraco/[Vv]iews/[Pp]ackages/*
 
 # ImageProcessor DiskCache
 **/App_Data/cache/
