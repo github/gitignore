@@ -18,7 +18,7 @@ the following resources are a great place to start:
 
 # Modularity of the gitignore files
 
-Gitignore files in this repository are modular. There are small, maintainable gitignore files for Tools, Languages, BuildSystem, Editors, IDEs, OperatingSystems and more. If you want to combine them, to tailor a custom gitignore specific for all your Projects needs using [gitgnore.io](gitignore.io).
+Gitignore files in this repository are modular. There are small, maintainable gitignore files for Tools, Languages, BuildSystem, Editors, IDEs, OperatingSystems and more. If you want to combine them, to tailor a custom gitignore specific for all your Projects needs use [gitgnore.io](gitignore.io).
 
 ## Folder structure
 
