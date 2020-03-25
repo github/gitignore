@@ -5,3 +5,6 @@ configs/
 dwsync.xml
 dw_php_codehinting.config
 *.mno
+
+# Mac OS X
+.DS_Store
