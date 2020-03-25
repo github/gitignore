@@ -16,6 +16,10 @@ the following resources are a great place to start:
 [chapter]: https://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: http://git-scm.com/book
 
+# Modularity of the gitignore files
+
+Gitignore files in this repository are modular. There are small, maintainable gitignore files for Tools, Languages, BuildSystem, Editors, IDEs, OperatingSystems and more. If you want t combine them, to tailor a custom gitignore specific for all your Projects needs using [gitgnore.io](gitignore.io).
+
 ## Folder structure
 
 We support a collection of templates, organized in this way:
