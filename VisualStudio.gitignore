@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#Media / Cache File
+**/Media
+**/App_Data/cache
+**/App_Data/Logs
+**/App_Data/Modals
+
 # User-specific files
 *.rsuser
 *.suo
