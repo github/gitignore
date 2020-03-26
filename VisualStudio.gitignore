@@ -355,3 +355,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Backup of merge conflict files
+*.orig
