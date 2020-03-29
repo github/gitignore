@@ -141,3 +141,11 @@ cython_debug/
 # static files generated from Django application using `collectstatic`
 media
 static
+
+#vs code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
