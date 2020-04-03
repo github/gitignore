@@ -23,25 +23,25 @@
 
 # Ignore drupal core (if not versioning drupal sources)
 /core
+/vendor
 /modules/README.txt
 /profiles/README.txt
+/themes/README.txt
 /sites/README.txt
 /sites/example.sites.php
 /sites/example.settings.local.php
 /sites/development.services.yml
-/themes/README.txt
-/vendor
 /.csslintrc
 /.editorconfig
 /.eslintignore
 /.eslintrc.json
 /.gitattributes
+/.ht.router.php
 /.htaccess
 /autoload.php
-/composer.json
-/composer.lock
 /example.gitignore
 /index.php
+/INSTALL.txt
 /LICENSE.txt
 /README.txt
 /robots.txt

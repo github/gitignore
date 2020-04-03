@@ -3,6 +3,7 @@ capybara-*.html
 .rspec
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
 /public/system
 /coverage/
 /spec/tmp
@@ -23,9 +24,10 @@ config/master.key
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
 
-# dotenv
-# TODO Comment out this rule if environment variables can be committed
+# dotenv, dotenv-rails
+# TODO Comment out these rules if environment variables can be committed
 .env
+.env.*
 
 ## Environment normalization:
 /.bundle
@@ -64,3 +66,4 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+/public/uploads
