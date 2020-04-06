@@ -1,16 +1,21 @@
 *.rbc
 capybara-*.html
 .rspec
-/log
-/tmp
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
 /public/system
 /coverage/
 /spec/tmp
 *.orig
 rerun.txt
 pickle-email-*.html
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
@@ -19,9 +24,10 @@ config/master.key
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
 
-# dotenv
-# TODO Comment out this rule if environment variables can be committed
+# dotenv, dotenv-rails
+# TODO Comment out these rules if environment variables can be committed
 .env
+.env.*
 
 ## Environment normalization:
 /.bundle
@@ -47,3 +53,17 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/public/uploads

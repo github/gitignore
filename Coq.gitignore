@@ -1,4 +1,5 @@
 .*.aux
+.*.d
 *.a
 *.cma
 *.cmi
@@ -17,6 +18,8 @@
 *.v.d
 *.vio
 *.vo
+*.vok
+*.vos
 .coq-native/
 .csdp.cache
 .lia.cache
