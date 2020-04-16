@@ -481,8 +481,13 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
+<<<<<<< HEAD
 # CodeRush personal settings
 .cr/personal
+=======
+# CodeRush
+.cr/
+>>>>>>> add-metadata
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
