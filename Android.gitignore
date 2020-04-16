@@ -36,6 +36,7 @@ proguard/
 # Android Studio captures folder
 captures/
 
+<<<<<<< HEAD
 # IntelliJ
 *.iml
 .idea/workspace.xml
@@ -50,6 +51,8 @@ captures/
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
 .idea/navEditor.xml
 
+=======
+>>>>>>> add-metadata
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
 #*.jks
