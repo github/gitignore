@@ -1,0 +1,21 @@
+# IDEs
+.idea
+_ReSharper.Caches
+.vs
+.vscode
+
+# Engine
+bin
+.thumbnails
+
+data/.thumbnails
+data/.cache_textures
+data/.runtimes
+
+obj
+junk
+launch_debug.bat
+launch_editor.bat
+launch_release.bat
+*.obj
+*.tlog
