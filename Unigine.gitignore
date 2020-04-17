@@ -7,11 +7,6 @@ _ReSharper.Caches
 # Engine
 bin
 .thumbnails
-
-data/.thumbnails
-data/.cache_textures
-data/.runtimes
-
 obj
 junk
 launch_debug.bat
