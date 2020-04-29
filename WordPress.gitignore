@@ -1,4 +1,6 @@
 # ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
 !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
