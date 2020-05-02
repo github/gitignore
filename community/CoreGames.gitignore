@@ -1,0 +1,12 @@
+# gitignore template for games on the Core platform
+# website: https://www.coregames.com
+# documentation: https://docs.coregames.com
+
+# Exports folder is entirely generated
+Exports/
+
+# User settings are per user
+UserSettings/
+
+# Local storage for testing persistent storage
+Storage/
