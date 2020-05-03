@@ -1,0 +1,17 @@
+# Meson Directories
+meson-logs
+meson-private
+
+# Meson Files
+meson_benchmark_setup.dat
+meson_test_setup.dat
+sanitycheckcpp.cc
+sanitycheckcpp.exe
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_logs
+
+# Misc
+compile_commands.json
