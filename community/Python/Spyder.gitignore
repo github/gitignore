@@ -1,0 +1,40 @@
+# Compiled python files
+*.py[oc]
+
+# gedit files
+*~
+
+# Notepad++ files
+nppBackup/
+
+# Pytest dirs/files
+.pytest_cache/
+
+# Special dirs and files
+build/
+dist/
+bin/
+spyder.egg-info/
+spyder_crash.log
+.spyproject
+.idea/
+.cache
+.coverage*
+MANIFEST
+
+# git .orig files
+*.orig
+
+# log files
+*.log
+
+# Rope project folders
+.ropeproject/
+.vscode/
+result.xml
+
+# Pylint dirs/files
+.pylint.d/
+
+# Ignore setuptools development files in the PyLS subrepo
+external-deps/python-language-server/python_language_server.egg-info/
