@@ -1,0 +1,29 @@
+# gitignore template for Alteryx Designer
+# website: https://www.alteryx.com/
+# website: https://help.alteryx.com/current/designer/alteryx-file-types
+
+# Alteryx Data Files
+.yxdb
+.cydb
+.cyidx
+.rptx
+.vvf
+.aws
+
+# Alteryx Special Files
+.yxwv
+.yxft
+.yxbe
+.bak
+.pcxml
+.log
+.bin
+.yxlang
+CASS.ini
+
+# Alteryx License Files
+.yxlc
+.slc
+.cylc
+.alc
+.gzlc
