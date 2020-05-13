@@ -1,0 +1,11 @@
+# gitignore template for Tableau Desktop
+# website: https://www.tableau.com/
+# website: https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+
+# Workbooks
+.twbx
+.twbr
+
+# Data Files
+.tde
+.hyper
