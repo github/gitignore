@@ -24,3 +24,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Backup (also rescue backup)
+rescue-backup/
+backup/
