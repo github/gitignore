@@ -1,0 +1,20 @@
+# -*- mode: gitignore; -*-
+*~
+** / * ~ 
+** / \ # *
+
+# Ignore main files
+**/*main.c
+**/*main.py
+
+# Ignore object files and libraries
+*.o
+*.ko
+*.obj
+*.elf
+*.m
+
+# ignore _putchar.c and a.out
+**/_putchar.c
+**/a.out
+**/__pycache__
