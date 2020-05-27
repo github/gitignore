@@ -209,6 +209,11 @@ pythontex-files-*/
 *.md5
 *.auxlock
 
+# titletoc
+*.ptc
+*.plf
+*.plt
+
 # todonotes
 *.tdo
 
