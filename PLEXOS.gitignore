@@ -1,0 +1,8 @@
+# gitignore template for PLEXOS Market Simulation Software
+# website: https://energyexemplar.com/solutions/plexos/
+
+# Backup
+*.BAK
+
+# History
+*.his
