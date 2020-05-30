@@ -154,6 +154,10 @@ acs-*.bib
 *.maf
 *.mlf
 *.mlt
+*.mtc
+*.slf
+*.slt
+*.stc
 *.mtc[0-9]*
 *.slf[0-9]*
 *.slt[0-9]*
