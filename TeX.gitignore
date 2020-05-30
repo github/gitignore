@@ -139,6 +139,10 @@ acs-*.bib
 # *.tikz
 *-tikzDictionary
 
+# latexindent.pl backup files
+*.bak
+*.bak[0-9]*
+
 # listings
 *.lol
 
