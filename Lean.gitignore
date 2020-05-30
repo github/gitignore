@@ -7,10 +7,5 @@
 # Tool specific: https://github.com/leanprover-community/format_lean
 build
 
-# IDE specific: VSCode
-.vscode/*
-.history/
-*.code-workspace
-
 # OS specific
 .DS_Store
