@@ -60,8 +60,8 @@ captures/
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
-# **/google-services.json
-# **/google_maps_api.xml
+# google-services.json
+# google_maps_api.xml
 
 # Freeline
 freeline.py
