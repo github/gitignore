@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Folder with compiled class files
+/bin
+
 # Log file
 *.log
 
@@ -18,6 +21,11 @@
 *.zip
 *.tar.gz
 *.rar
+
+# Project files
+*.project
+*.classpath
+/.settings
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
