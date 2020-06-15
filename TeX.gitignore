@@ -206,6 +206,9 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
+# snapshot
+*.dep
+
 # tcolorbox
 *.listing
 
