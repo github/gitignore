@@ -1,0 +1,7 @@
+# Language: Zig ()https://ziglang.org/
+# Source: https://github.com/ziglang/zig/blob/master/.gitignore (modified)
+
+**/zig-cache/
+**/build/
+**/build-*/
+**/docgen_tmp/
