@@ -4,6 +4,8 @@
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
+!wp-content/languages/
+wp-content/languages/*.mo
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
