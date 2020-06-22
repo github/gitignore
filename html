@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Menu for Lazy Dog</title>
+<link rel="stylesheet" type="text/css" href="styles_menu.css" />
+  </head>
+<body>
+<form action="http://www.example.com/review.php" method="get">
+
+
+
+
+   <fieldset>
+      <legend>
+	What you like to order?
+      </legend>
+<div>
+<a href="contact.html">contact</a>
+<a href="Menu1.html">menu</a>
+<a href="about.html">about</a>
+<a href="home.html">home</a>
+
+</div>
+	
+<p>
+<br>
+Appetizers:
+<br>
+<a>Chicken Tenders</a>: Lightly breaded chicken breast served with a side of fries 8.99
+<br>
+<a>Mozzarella Cheese Sticks</a>: Lightly breaded mozzarella cheese served with a side of marinara sauce 7.99
+<br>
+<a>Boneless Chicken Wings</a>: Bite sized chicken pieces served with your choice of dipping sauce 11.99
+<br><br>
+
+Entrees:
+<br>
+<a>Classic BLT</a>: Bacon, Lettuce, Tomato wrapped around a bun. 5.99
+<br>
+<a>Build Your Own Chicken Wraps</a>: Crispy chicken along with lettuce wraped with a tortilla wrap. 6.99
+<br>
+<a>Country-Fried Steak & Eggs* Sizzlin' Skillet</a>: A classic dish served with fries. 9.99
+<br><br>
+
+Desserts:
+<br>
+<a>Build Your Own Sundae</a>: Vanilla ice cream topped with your choice of topping. 4.99
+<br>
+<a>New York Style Cheesecake</a>: Cheesecake with a flakey crust. 3.99
+<br>
+<a>Caramel Apple Pie Crisp</a>: A pie with apple filling and cimmamon 5.99
+<br><br>
+
+
+ <label for="appetizer-select">
+	Please select an appetizer.
+</label>
+<select name="apps" id="appetizer-select">
+  <option value="chicken_tenders">Premium Chicken Tenders</option>
+  <option value="cheese_sticks">Mozzarella Cheese Sticks</option>
+  <option value="chicken_wings">Boneless Chicken Wings</option>
+
+</select>
+
+<label>
+#
+<input type="text" name="quantity_apps" size="2" maxlength="2">
+</label>
+<br>
+<label for="entree-select">
+       Please select an entree.
+</label>
+<select name="entrees" id="entree-select">
+  <option value="blt">Classic BLT</option>
+  <option value="chicken_wraps">Build Your Own Chicken Wraps</option>
+  <option value="steak">Country-Fried Steak & Eggs* Sizzlin' Skillet</option>
+  
+</select>
+<label>
+#
+<input type="text" name="quantity_entrees" size="2" maxlength="2">
+</label>		
+<br>
+<label for="dessert_select">
+       Please select a dessert.
+</label>
+<select name="desserts" id="dessert_select">
+  <option value="sundae">Build Your Own Sundae</option>
+  <option value="cheesecake">New York Style Cheesecake</option>
+  <option value="apple_crisp">Caramel Apple Pie Crisp</option>
+</select>
+
+<label>
+#
+<input type="text" name="quantity_desserts" size="2" maxlength="2">
+</label>	
+   </fieldset>
+
+<fieldset>
+
+      <legend>
+         Payment:
+      </legend>
+<p>
+       <label>
+	Name:
+         <input type="text" name="name" size="30" maxlength="100">
+      </label>
+      <label>
+	Credit Card #:
+         <input type="text" name="card" size="16" maxlength="16">
+      </label>
+      <br>
+      <label>
+	Security Code:
+         <input type="text" name="code" size="4" maxlength="4">
+      </label>
+      <br>
+       <label>
+	Expiration Date (MM/YY):
+         <input type="text" name="date" size="5" maxlength="5">
+      </label>
+      <br>
+      <label>
+	Address:
+         <input type="text" name="address" size="30" maxlength="100">
+      </label>
+      <br>
+	<label>
+	City:
+         <input type="text" name="city" size="30" maxlength="100">
+      </label>
+      <label>
+	State:
+         <input type="text" name="state" size="2" maxlength="2">
+      </label>
+      <label>
+	Zip Code:
+         <input type="text" name="zip" size="10" maxlength="10">
+      </label>
+      <br>
+      <label>
+        Email:
+	<input type="email" name="email" size="30" maxlength="100">
+      </label>
+       <label>
+        Phone:
+	<input type="text" name="phone" size="10" maxlength="10">
+      </label>
+</p>
+      <br>
+      </fieldset>
+      <br>
+<input type="submit" class="submit" />
+</form>
+</body>
+</html>
