@@ -1,0 +1,10 @@
+language: ruby
+
+sudo: false
+
+branches:
+  only:
+    - master
+
+script:
+  - ruby -e "puts 'Hello world!'"

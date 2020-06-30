@@ -4,8 +4,8 @@
 *.evcd
 *.fsdb
 
-# Default name of the simulation executable.  A different name can be 
-# specified with this switch (the associated daidir database name is 
+# Default name of the simulation executable.  A different name can be
+# specified with this switch (the associated daidir database name is
 # also taken from here):  -o <path>/<filename>
 simv
 
@@ -13,7 +13,7 @@ simv
 simv.daidir/
 simv.db.dir/
 
-# Infrastructure necessary to co-simulate SystemC models with 
+# Infrastructure necessary to co-simulate SystemC models with
 # Verilog/VHDL models.  An alternate directory may be specified with this
 # switch:  -Mdir=<directory_path>
 csrc/
@@ -22,7 +22,7 @@ csrc/
 # used to write all messages from simulation:  -l <filename>
 *.log
 
-# Coverage results (generated with urg) and database location.  The 
+# Coverage results (generated with urg) and database location.  The
 # following switch can also be used:  urg -dir <coverage_directory>.vdb
 simv.vdb/
 urgReport/
