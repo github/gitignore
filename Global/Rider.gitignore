@@ -1,0 +1,254 @@
+############################################################
+## Visual Studio 2012
+############################################################
+syntax: glob
+
+.hg/**
+.hgtags
+
+## User-specific files
+
+*.suo
+*.user
+*.sln.docstates
+
+## Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+## MSTest test Results
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
+## Visual C++ cache files
+
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+## Visual Studio profiler
+
+*.psess
+*.vsp
+*.vspx
+
+## Guidance Automation Toolkit
+
+*.gpState
+
+## ReSharper Ignores
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## TeamCity Ignores
+_TeamCity*
+
+## DotCover Ignores
+
+*.dotCover
+
+## NCrunch Ignores
+
+*.ncrunch*
+.*crunch*.local.xml
+
+## Installshield output folder
+[Ee]xpress/
+
+## DocProject Ignores
+
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+## Click-Once Ignores
+
+publish/
+
+## Publish Web Output
+
+*.Publish.xml
+*.pubxml
+
+## Windows Azure Build Ignores
+
+csx
+*.build.csdef
+
+## Windows Store Ignores
+
+AppPackages/
+
+## RIA/Silverlight projects
+
+Generated_Code/
+
+## SQL Server Ignores
+
+App_Data/*.mdf
+App_Data/*.ldf
+
+## Backup & Report Files when converting a solution
+## Not required, we have mercurial!
+
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+## NuGet
+packages/
+
+## Miscellaneous Ignores
+
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+
+## Windows Ignores
+
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vs/
+
+# Covers JetBrains IDEs: Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/shelf/*
+**/.idea/dictionaries
+**/.idea/httpRequests/
+**/.idea/**/usage.statistics.xml
+
+# Generated files
+.idea/**/contentModel.xml
+# from https://github.com/github/gitignore/pull/3401#discussion_r422064257
+.idea/**/projectSettingsUpdater.xml
+
+# Sensitive or high-churn files
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.xml
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/uiDesigner.xml
+**/.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# From https://github.com/JetBrains/resharper-rider-samples/blob/master/.gitignore
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.suo
+*.user
+.vs/
+[Bb]in/
+[Oo]bj/
+_UpgradeReport_Files/
+[Pp]ackages/
+
+# Rider auto-generated files from https://github.com/JetBrains/resharper-rider-samples/blob/master/.gitignore
+**/.idea/**/*.iml
+**/.idea/**/contentModel.xml
+# Rider auto-generated files from https://rider-support.jetbrains.com/hc/en-us/articles/207097529
+**/.idea/**/modules.xml
