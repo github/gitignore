@@ -173,7 +173,7 @@ Desktop.ini
 # Generated files
 .idea/**/contentModel.xml
 # from https://github.com/github/gitignore/pull/3401#discussion_r422064257
-.idea/**/projectSettingsUpdater.xml
+**/.idea/**/projectSettingsUpdater.xml
 
 # Sensitive or high-churn files
 **/.idea/**/dataSources/
