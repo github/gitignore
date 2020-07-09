@@ -88,3 +88,31 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+
+# MacOS General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# MacOS Icon must end with two \r
+Icon
+
+# MacOS Thumbnails
+._*
+
+# MacOS Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# MacoS Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
