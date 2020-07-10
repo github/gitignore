@@ -27,6 +27,7 @@ O.*/
 /modules/RELEASE.*.local
 /modules/Makefile.local
 /*Top/configure/*.local
+*.local
 
 # documents
 /documentation/html
