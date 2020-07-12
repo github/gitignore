@@ -1,0 +1,8 @@
+# gitignore template for ThinkPHP v3.2.3
+# website: http://www.thinkphp.cn/
+
+# Logs and Cache files
+/Application/Runtime/
+
+# Common configure file
+/Application/Common/Conf/config.php

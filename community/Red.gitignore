@@ -1,0 +1,16 @@
+# gitignore template for Red programming language
+# website: http://www.red-lang.org/
+
+# Red Compiled code
+*.red
+
+# Libraries
+crush.dll
+crush.dylib
+crush.so
+
+# Files generated during test
+quick-test/quick-test.log
+quick-test/runnable/
+system/tests/source/units/auto-tests/
+tests/source/units/auto-tests/

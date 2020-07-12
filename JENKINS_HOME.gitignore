@@ -1,0 +1,50 @@
+# Learn more about Jenkins and JENKINS_HOME directory for which this file is
+# intended.
+#
+#  http://jenkins-ci.org/
+#  https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
+#
+# Note: secret.key is purposefully not tracked by git. This should be backed up
+# separately because configs may contain secrets which were encrypted using the
+# secret.key.  To back up secrets use 'tar -czf /tmp/secrets.tgz secret*' and
+# save the file separate from your repository.  If you want secrets backed up
+# with configuration, then see the bottom of this file for an example.
+
+# Ignore all JENKINS_HOME except jobs directory, root xml config, and
+# .gitignore file.
+/*
+!/jobs
+!/.gitignore
+!/*.xml
+
+# Ignore all files in jobs subdirectories except for folders.
+# Note: git doesn't track folders, only file content.
+jobs/**
+!jobs/**/
+
+# Uncomment the following line to save next build numbers with config.
+
+#!jobs/**/nextBuildNumber
+
+# For performance reasons, we want to ignore builds in Jenkins jobs because it
+# contains many tiny files on large installations.  This can impact git
+# performance when running even basic commands like 'git status'.
+builds
+indexing
+
+# Exclude only config.xml files in repository subdirectories.
+!config.xml
+
+# Don't track workspaces (when users build on the master).
+jobs/**/*workspace
+
+# Security warning: If secrets are included with your configuration, then an
+# adversary will be able to decrypt all encrypted secrets within Jenkins
+# config.  Including secrets is a bad practice, but the example is included in
+# case someone still wants it for convenience.  Uncomment the following line to
+# include secrets for decryption with repository configuration in Git.
+
+#!/secret*
+
+# As a result, only Jenkins settings and job config.xml files in JENKINS_HOME
+# will be tracked by git.
