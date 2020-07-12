@@ -24,7 +24,7 @@ Build.bat
 # Module::Install
 inc/
 
-# ExtUitls::MakeMaker
+# ExtUtils::MakeMaker
 /blib/
 /_eumm/
 /*.gz

@@ -6,16 +6,20 @@ Makefile.in
 /py-compile
 /test-driver
 /ylwrap
+.deps/
+.dirstamp
 
 # http://www.gnu.org/software/autoconf
 
-/autom4te.cache
+autom4te.cache
 /autoscan.log
 /autoscan-*.log
 /aclocal.m4
 /compile
 /config.guess
 /config.h.in
+/config.log
+/config.status
 /config.sub
 /configure
 /configure.scan
@@ -31,3 +35,17 @@ Makefile.in
 # http://www.gnu.org/software/texinfo
 
 /texinfo.tex
+
+# http://www.gnu.org/software/m4/
+
+m4/libtool.m4
+m4/ltoptions.m4
+m4/ltsugar.m4
+m4/ltversion.m4
+m4/lt~obsolete.m4
+
+# Generated Makefile 
+# (meta build system like autotools, 
+# can automatically generate from config.status script
+# (which is called by configure script))
+Makefile
