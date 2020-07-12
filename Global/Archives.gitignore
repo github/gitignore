@@ -5,17 +5,21 @@
 *.rar
 *.zip
 *.gz
+*.gzip
+*.tgz
 *.bzip
+*.bzip2
 *.bz2
 *.xz
 *.lzma
 *.cab
+*.xar
 
-#packing-only formats
+# Packing-only formats
 *.iso
 *.tar
 
-#package management formats
+# Package management formats
 *.dmg
 *.xpi
 *.gem
@@ -25,3 +29,4 @@
 *.msi
 *.msm
 *.msp
+*.txz

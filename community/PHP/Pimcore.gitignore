@@ -1,0 +1,53 @@
+# gitignore template for Pimcore CMS
+
+# pimcore source files
+/pimcore
+
+# asset files
+/website/var/assets/*
+
+# backups
+/website/var/backup/*
+
+# file cache
+/website/var/cache/*
+
+# generated PHP classes, keep definition files (.psf)
+/website/var/classes/Object*
+!/website/var/classes/objectbricks
+
+# various configuration files
+/website/var/config/system.xml
+/website/var/config/cache.xml
+/website/var/config/robots.txt
+/website/var/config/Geo*
+/website/var/config/object/*
+/website/var/config/portal/*
+/website/var/config/sqlreport/*
+
+# sent e-mail log files
+/website/var/email/*
+
+# log files
+/website/var/log/*.log
+
+# serialized recyclebin files
+/website/var/recyclebin/*
+
+# search plugin
+/website/var/search/*
+
+# various temp files
+/website/var/system/*
+/website/var/tmp/*
+
+# serialized version files
+/website/var/versions/asset/*
+/website/var/versions/document/*
+/website/var/versions/object/*
+
+# user profile images
+/website/var/user-image/*
+
+# keep .dummy files
+!.dummy

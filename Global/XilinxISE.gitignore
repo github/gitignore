@@ -42,6 +42,16 @@
 *_usage.xml
 *_xst.xrpt
 
+# iMPACT generated files
+_impactbatch.log
+impact.xsl
+impact_impact.xwbt
+ise_impact.cmd
+webtalk_impact.xml
+
+# Core Generator generated files
+xaw2verilog.log
+
 # project-wide generated files
 *.gise
 par_usage_statistics.html

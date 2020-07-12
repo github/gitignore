@@ -1,0 +1,33 @@
+# gitignore for JBoss v6 projects
+#
+# Note: to ensure empty directories remain part of the repository, like
+# `/server/minimal/lib`, you should add an empty `.gitignore` or `.gitkeep` file
+# to the directory - otherwise you may have issues when starting the service.
+
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+/server/jbossweb-standalone/data
+/server/jbossweb-standalone/log
+/server/jbossweb-standalone/tmp
+/server/jbossweb-standalone/work
+/server/standard/data
+/server/standard/log
+/server/standard/tmp
+/server/standard/work
+/server/default/deploy/*.jar.failed
+/server/default/deploy/*.jar.dodeploy
+/server/default/deploy/*.xml.failed
+/server/default/deploy/*.xml.dodeploy
+/server/default/deploy/*.war.failed
+/server/default/deploy/*.war.dodeploy
+
