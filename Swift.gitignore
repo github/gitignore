@@ -88,3 +88,11 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# AppCode
+#
+# The .idea folder contains settings of your local AppCode installation.
+# Ignore this directory unless you want to share your settings among the team members.
+# https://www.jetbrains.com/help/objc/working-with-git-tutorial.html#ignore
+
+.idea/
