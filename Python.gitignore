@@ -136,3 +136,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# DS Store custom attributes 
+.DS_Store
+
+# VS Code extension 
+.vscode/
