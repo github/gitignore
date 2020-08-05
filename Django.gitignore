@@ -1,11 +1,22 @@
 # DJANGO 
 
+# Django logs
 *.log
+# Message files
 *.pot
+# Bytecode compiled
 *.pyc
+# Bytecode compiled files are stored in this folder
 __pycache__/
+# It overrides the normal settings.py file. 
+# It contains the information about Databases, secret_key, allowed_hosts, debug
+# You should add this if you want to deploy your site and do not want to disclose 
+# information listed above to the whole internet which can be vulnerable to security of your site
 local_settings.py
+# Databases files created when you apply migrations (after creating a model)
 db.sqlite3
 db.sqlite3-journal
+# These are the files uploaded by user on your site (eg. images, profile_picture, pdf, doc files etc.)
 /media
+# These are the static files added by admin (eg. css, js, images, pdf etc.)
 /static
