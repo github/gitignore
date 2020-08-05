@@ -1,0 +1,9 @@
+# Language: ATS (http://www.ats-lang.org/)
+# Source: adapted from https://github.com/ats-lang/ATS-Postiats-release/edit/master/.gitignore
+
+*~
+\#*
+.\#*
+*_?ats.o
+*_?ats.c
+*.exe
