@@ -1,0 +1,50 @@
+# Log Files
+*.log
+
+# IntelliJ
+*.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/gradle.xml
+.idea/**/assetWizardSettings.xml
+.idea/**/libraries
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/caches
+.idea/**/modules.xml
+.idea/**/navEditor.xml
+.idea/**/usage.statistics.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+out/
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Version control
+vcs.xml
+
+# Markdown Navigator plugin https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# CodeStream plugin https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# SonarQube Plugin https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
