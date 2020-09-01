@@ -53,3 +53,4 @@ compile_commands.json
 
 *_qmlcache.qrc
 *_resource.rc
+uic_wrapper.bat
