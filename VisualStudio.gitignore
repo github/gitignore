@@ -99,6 +99,11 @@ StyleCopReport.xml
 
 # Chutzpah Test files
 _Chutzpah*
+# C Program cache files
+*.exe
+
+#Icon .ico files
+*.ini
 
 # Visual C++ cache files
 ipch/
