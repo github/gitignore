@@ -2,11 +2,18 @@
 # website: https://www.coregames.com
 # documentation: https://docs.coregames.com
 
-# Exports folder is entirely generated
-Exports/
+# Temporary files used when publishing & to store some preview data like persistent storage
+# No need to synchronize
+Temp/
 
-# User settings are per user
+# Local user settings used to store script breakpoints & hierarchy state (locked/hidden objects)
+# No need to synchronize
 UserSettings/
 
-# Local storage for testing persistent storage
-Storage/
+# Screenshots used when publishing & for project thumbnails in the Create tab
+# Comment out if you want to synchronize screenshots
+Screenshots/
+
+# Directory created when migrating from an old storage format
+# No need to synchronize
+.core_backup/
