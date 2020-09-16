@@ -3,8 +3,9 @@
 .AppleDouble
 .LSOverride
 
-# Icon must end with two \r
-Icon
+# Start of Icon[\r] pattern
+Icon[]
+# End of Icon[\r] pattern
 
 # Thumbnails
 ._*
