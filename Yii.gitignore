@@ -1,6 +1,63 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+#files extensions to ignore
+*.log
+*.zip
+*.data
+
+# phpstorm project files
+.idea
+*.iml
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# sublime text project / workspace files
+*.sublime-project
+*.sublime-workspace
+
+# visual studio code project files
+.vscode
+~
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+# cubrid install dir
+/cubrid
+
+# composer itself is not needed
+composer.phar
+
+# composer.lock in applications is ignored since it's automatically created by composer when application is installed
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# ignore dev installed apps and extensions
+/apps
+/extensions
+/packages
+
+# NPM packages
+/node_modules
+.env
+
+#apps runtimes and assets
+/frontend/web/assets
+/backend/web/assets
+/frontend/runtime
+/backend/runtime
+/web/assets
+/runtime
