@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+# Files that help ensure VSCode can work but we don't want checked into the
+# repo
+/node_modules
+/tsconfig.json
+
+# Cache 
+.cache
+
+# dotenv environment variables file
+.env
+.env.test
