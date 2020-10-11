@@ -21,3 +21,9 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+# IDE configuration
+.idea/
+
+# MAC OS Configuration
+.DS_Store
