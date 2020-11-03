@@ -6,6 +6,10 @@ luac.out
 *.zip
 *.tar.gz
 
+# LuaCov coverage reports
+luacov.stats.out
+luacov.report.out
+
 # Object files
 *.o
 *.os
