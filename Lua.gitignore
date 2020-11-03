@@ -2,7 +2,7 @@
 luac.out
 
 # luarocks build files
-*.src.rock
+*.rock
 *.zip
 *.tar.gz
 
