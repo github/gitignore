@@ -8,3 +8,4 @@ branches:
 
 script:
   - ruby -e "puts 'Hello world!'"
+.gitignore
