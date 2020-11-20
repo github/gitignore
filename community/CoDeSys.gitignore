@@ -1,0 +1,4 @@
+# gitignore template for CoDeSys files
+*.opt
+*.~u
+*.compileinfo
