@@ -22,5 +22,8 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
+## AppCode's settings folder
+.idea/
+
 ## Gcc Patch
 /*.gcno

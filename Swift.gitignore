@@ -30,6 +30,9 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+## AppCode's settings folder
+.idea/
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
