@@ -61,3 +61,9 @@
 # 3D Images
 *.3dm
 *.max
+
+# Netpbm
+*.pbm
+*.pgm
+*.pnm
+*.ppm
