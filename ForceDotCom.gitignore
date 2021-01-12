@@ -2,3 +2,5 @@
 .settings
 salesforce.schema
 Referenced Packages
+#For Vim users
+*.swp

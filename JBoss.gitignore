@@ -17,3 +17,5 @@ jboss/server/minimal/work/**/*
 # deployed package files #
 
 *.DEPLOYED
+#For Vim users
+*.swp

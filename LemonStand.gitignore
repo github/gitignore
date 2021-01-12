@@ -19,3 +19,5 @@ install.php
 /modules/system/*
 /modules/users/*
 # add content_*.php if you don't want erase client changes to content
+#For Vim users
+*.swp

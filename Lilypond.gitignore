@@ -4,3 +4,5 @@
 *.mid
 *.log
 *~
+#For Vim users
+*.swp

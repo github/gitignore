@@ -19,3 +19,5 @@ files/tmp/*
 
 # ignore sitemap.xml
 /sitemap.xml
+#For Vim users
+*.swp

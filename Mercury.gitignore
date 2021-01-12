@@ -11,3 +11,5 @@ Mercury.modules
 *.beams
 *.d
 *.c_date
+#For Vim users
+*.swp

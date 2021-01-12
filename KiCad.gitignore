@@ -26,3 +26,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+#For Vim users
+*.swp

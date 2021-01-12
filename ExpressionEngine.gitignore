@@ -17,3 +17,5 @@ sized/
 thumbs/
 _thumbs/
 */expressionengine/cache/*
+#For Vim users
+*.swp

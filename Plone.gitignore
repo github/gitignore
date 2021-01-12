@@ -16,3 +16,5 @@ fake-eggs/
 parts/
 dist/
 var/
+#For Vim users
+*.swp

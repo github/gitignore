@@ -2,3 +2,5 @@
 ## EPiServer Files
 ######################
 *License.config
+#For Vim users
+*.swp

@@ -27,3 +27,5 @@ setup.log
 
 # Local OPAM switch
 _opam/
+#For Vim users
+*.swp

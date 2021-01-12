@@ -25,3 +25,5 @@
 /upload/*
 !/upload/index.html
 /upload_backup/
+#For Vim users
+*.swp

@@ -3,3 +3,5 @@
 *.gcno
 *.gcda
 *.gcov
+#For Vim users
+*.swp

@@ -50,3 +50,5 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+#For Vim users
+*.swp

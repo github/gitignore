@@ -3,3 +3,5 @@
 *.int
 *.lk
 *.zip
+#For Vim users
+*.swp

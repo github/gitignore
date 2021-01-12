@@ -7,3 +7,5 @@ bin/target
 bin/*.ap_
 *.o
 *.jar
+#For Vim users
+*.swp

@@ -3,3 +3,5 @@
 *.pxt
 *.uxp
 *.uxt
+#For Vim users
+*.swp

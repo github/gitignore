@@ -12,3 +12,7 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+#For Vim users
+*.swp
+#For Vim users
+*.swp

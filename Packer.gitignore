@@ -6,3 +6,5 @@ crash.log
 
 # For built boxes
 *.box
+#For Vim users
+*.swp

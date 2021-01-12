@@ -23,3 +23,5 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+#For Vim users
+*.swp

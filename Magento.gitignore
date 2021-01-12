@@ -43,3 +43,5 @@
 /var/package/*
 !/var/package/*.xml
 
+#For Vim users
+*.swp

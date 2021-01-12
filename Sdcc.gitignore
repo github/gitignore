@@ -6,3 +6,5 @@
 *.rel
 *.rst
 *.sym
+#For Vim users
+*.swp

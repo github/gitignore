@@ -1,2 +1,4 @@
 *.agdai
 MAlonzo/**
+#For Vim users
+*.swp

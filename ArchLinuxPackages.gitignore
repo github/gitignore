@@ -11,3 +11,5 @@
 
 pkg/
 src/
+#For Vim users
+*.swp

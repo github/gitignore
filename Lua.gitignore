@@ -39,3 +39,5 @@ luac.out
 *.x86_64
 *.hex
 
+#For Vim users
+*.swp

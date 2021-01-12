@@ -11,3 +11,5 @@ opa-debug-js
 *.api-txt
 *.exe
 *.log
+#For Vim users
+*.swp

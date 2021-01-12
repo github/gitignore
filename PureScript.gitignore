@@ -7,3 +7,5 @@ node_modules
 # Generated files
 .psci
 output
+#For Vim users
+*.swp

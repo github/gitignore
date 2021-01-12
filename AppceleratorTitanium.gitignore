@@ -1,3 +1,5 @@
 # Build folder and log file
 build/
 build.log
+#For Vim users
+*.swp

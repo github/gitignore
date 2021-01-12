@@ -49,3 +49,5 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+#For Vim users
+*.swp

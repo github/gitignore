@@ -22,3 +22,5 @@ docs/
 
 # Code coverage
 *.lst
+#For Vim users
+*.swp

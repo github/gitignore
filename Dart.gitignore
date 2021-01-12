@@ -22,3 +22,5 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+#For Vim users
+*.swp

@@ -4,3 +4,5 @@
 *.ptx
 *.cubin
 *.fatbin
+#For Vim users
+*.swp

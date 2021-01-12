@@ -18,3 +18,5 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
+#For Vim users
+*.swp

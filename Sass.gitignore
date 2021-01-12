@@ -2,3 +2,5 @@
 *.css.map
 *.sass.map
 *.scss.map
+#For Vim users
+*.swp

@@ -4,3 +4,5 @@ manifest/tmp/
 symphony/
 workspace/uploads/
 install-log.txt
+#For Vim users
+*.swp

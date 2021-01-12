@@ -1,3 +1,5 @@
 nimcache/
 nimblecache/
 htmldocs/
+#For Vim users
+*.swp

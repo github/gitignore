@@ -7,3 +7,5 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+#For Vim users
+*.swp

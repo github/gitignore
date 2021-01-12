@@ -7,3 +7,5 @@ waf-*-*/
 waf3-*-*/
 # Lockfile
 .lock-waf_*_build
+#For Vim users
+*.swp

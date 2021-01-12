@@ -703,3 +703,5 @@
 /README.txt
 /robots.txt.dist
 /web.config.txt
+#For Vim users
+*.swp

@@ -15,3 +15,5 @@
 *.aliases
 *.lvlps
 .cache/
+#For Vim users
+*.swp

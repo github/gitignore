@@ -1,2 +1,4 @@
 libraries/*
 resources/tmp/*
+#For Vim users
+*.swp

@@ -3,3 +3,5 @@
 
 # Ada Library Information
 *.ali
+#For Vim users
+*.swp

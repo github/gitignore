@@ -5,3 +5,5 @@
 *.scm~
 *.scm#*
 .#*.scm
+#For Vim users
+*.swp

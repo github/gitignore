@@ -15,3 +15,5 @@
 *.sx32fsl
 *.wx64fsl
 *.wx32fsl
+#For Vim users
+*.swp

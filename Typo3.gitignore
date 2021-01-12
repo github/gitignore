@@ -21,3 +21,5 @@
 /index.php
 # Ignore temp directory.
 /typo3temp/
+#For Vim users
+*.swp

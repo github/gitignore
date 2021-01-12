@@ -31,3 +31,5 @@
 
 # "temporary" build files
 /target
+#For Vim users
+*.swp

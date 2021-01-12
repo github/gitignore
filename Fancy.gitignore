@@ -1,2 +1,4 @@
 *.rbc
 *.fyc
+#For Vim users
+*.swp

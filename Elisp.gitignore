@@ -9,3 +9,5 @@
 
 # Undo-tree save-files
 *.~undo-tree
+#For Vim users
+*.swp

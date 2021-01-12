@@ -47,3 +47,5 @@
 /robots.txt
 /update.php
 /web.config
+#For Vim users
+*.swp

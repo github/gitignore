@@ -1,2 +1,4 @@
 /cache/
 /config/development/
+#For Vim users
+*.swp

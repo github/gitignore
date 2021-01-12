@@ -8,3 +8,5 @@ tmp/nanoc/
 
 # Crash Log
 crash.log
+#For Vim users
+*.swp

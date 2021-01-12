@@ -1,2 +1,4 @@
 *.ibc
 *.o
+#For Vim users
+*.swp

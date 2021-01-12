@@ -4,3 +4,5 @@ bower_components/
 
 build/
 dist/
+#For Vim users
+*.swp

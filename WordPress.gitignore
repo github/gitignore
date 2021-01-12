@@ -21,3 +21,5 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+#For Vim users
+*.swp

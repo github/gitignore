@@ -5,3 +5,5 @@
 .precomp
 lib/.precomp
 
+#For Vim users
+*.swp

@@ -15,3 +15,5 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+#For Vim users
+*.swp

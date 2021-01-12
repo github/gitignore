@@ -14,3 +14,5 @@ server.pid
 *.eml
 /dist/
 .cache
+#For Vim users
+*.swp

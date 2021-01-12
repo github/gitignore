@@ -171,3 +171,5 @@ themes/default-bootstrap/modules/*/mails/*
 /vendor/
 /web/bundles/
 
+#For Vim users
+*.swp

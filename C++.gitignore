@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+#For Vim users
+*.swp
+#For Vim users
+*.swp

@@ -1,1 +1,3 @@
 *.skb
+#For Vim users
+*.swp

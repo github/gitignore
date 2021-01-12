@@ -6,3 +6,5 @@
 
 # Compiled Pre-Linked Libraries
 *.plx
+#For Vim users
+*.swp
