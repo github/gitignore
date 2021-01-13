@@ -86,3 +86,6 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# macOS file stores custom attributes of its containing folder
+.DS_Store
