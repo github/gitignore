@@ -1,0 +1,16 @@
+# gitignore template for Puppet modules
+# website: https://forge.puppet.com/
+
+# Built packages
+pkg/*
+
+# Should run on multiple platforms so don't check in
+Gemfile.lock
+
+# Tests
+spec/fixtures/*
+coverage/*
+
+# Third-party
+vendor/*
+.bundle/*
