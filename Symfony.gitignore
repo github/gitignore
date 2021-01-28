@@ -1,15 +1,45 @@
-cache/*
-log/*
-web/uploads/*
-config/databases.yml
-config/propel.ini
-data/sql/*
-lib/filter/doctrine/base/Base*
-lib/filter/doctrine/*Plugin/base/Base*
-lib/form/doctrine/base/Base*
-lib/form/doctrine/*Plugin/base/Base*
-lib/model/doctrine/base/Base*
-lib/model/doctrine/*Plugin/base/Base*
-lib/model/om/*
-lib/model/map/*
-web/*Plugin/*
+# Cache and logs (Symfony2)
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+
+# Email spool folder
+/app/spool/*
+
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# Managed by Composer
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+**/Entity/*~
