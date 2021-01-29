@@ -13,6 +13,7 @@
 *.jpx
 *.jpm
 *.mj2
+*.jpc
 
 # JPEG XR
 *.jxr
@@ -61,3 +62,9 @@
 # 3D Images
 *.3dm
 *.max
+
+# High Efficiency Image File Format
+*.heif
+
+# Adobe PhotoShop Document
+*.psd
