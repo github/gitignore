@@ -15,3 +15,8 @@
 *.aliases
 *.lvlps
 .cache/
+
+# TestStand Files
+*.opt
+*.lvlps
+*.tso
