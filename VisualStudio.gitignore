@@ -62,6 +62,9 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# Tye
+.tye/
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
