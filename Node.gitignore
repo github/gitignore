@@ -70,7 +70,7 @@ web_modules/
 
 # dotenv environment variables file
 .env
-.env.test
+.env.*
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
