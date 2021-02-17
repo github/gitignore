@@ -1,3 +1,6 @@
+# General
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -79,6 +82,11 @@ web_modules/
 # Next.js build output
 .next
 out
+
+# Umi.js build output
+.umi
+.umi-production
+.umi-test
 
 # Nuxt.js build / generate output
 .nuxt
