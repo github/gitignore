@@ -1,1 +1,9 @@
+# When a playbook fails by default a .retry file will be created in ~/
 *.retry
+# logging is off by default, unless path defined
+.log
+# files to ignore for both static and dynamic
+.orig
+.bak
+.ini
+.py[co]
