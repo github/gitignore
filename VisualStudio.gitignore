@@ -361,7 +361,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-### PlatformIO ###
+# PlatformIO for Visual Studio Code
 .pioenvs
 .piolibdeps
 .clang_complete
