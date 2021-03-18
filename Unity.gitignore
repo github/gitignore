@@ -74,5 +74,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Extra Stuff
-/[Pp]ackages/packages-lock.json
 /[Uu]serSettings/EditorUserSettings.asset
