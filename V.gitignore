@@ -5,7 +5,6 @@
 *.o
 *.so
 *.tmp.c
-*.obj
 *.exp
 *.ilk
 *.pdb
