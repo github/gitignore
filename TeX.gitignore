@@ -10,14 +10,19 @@
 *.fot
 *.cb
 *.cb2
+.*.lb
 
 ## Intermediate documents:
 *.dvi
+*.xdv
 *-converted-to.*
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
 # *.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -25,15 +30,19 @@
 *.blg
 *-blx.aux
 *-blx.bib
-*.brf
 *.run.xml
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
 *.synctex
+*.synctex(busy)
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+
+## Build tool directories for auxiliary files
+# latexrun
+latex.out/
 
 ## Auxiliary and intermediate files from other packages:
 # algorithms
@@ -48,14 +57,34 @@ acs-*.bib
 
 # beamer
 *.nav
+*.pre
 *.snm
 *.vrb
+
+# changes
+*.soc
+
+# comment
+*.cut
 
 # cprotect
 *.cpt
 
+# elsarticle (documentclass of Elsevier journals)
+*.spl
+
+# endnotes
+*.ent
+
 # fixme
 *.lox
+
+# feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
 
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
@@ -80,35 +109,55 @@ acs-*.bib
 *.glo
 *.gls
 *.glsdefs
+*.lzo
+*.lzs
+
+# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# *.ist
 
 # gnuplottex
 *-gnuplottex-*
+
+# gregoriotex
+*.gaux
+*.gtex
+
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
 
 # hyperref
 *.brf
 
 # knitr
 *-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
 *-tikzDictionary
 
 # listings
 *.lol
 
+# luatexja-ruby
+*.ltjruby
+
 # makeidx
 *.idx
 *.ilg
 *.ind
-*.ist
 
 # minitoc
 *.maf
 *.mlf
 *.mlt
-*.mtc
-*.mtc[0-9]
-*.mtc[1-9][0-9]
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
 
 # minted
 _minted*
@@ -117,16 +166,24 @@ _minted*
 # morewrites
 *.mw
 
-# mylatexformat
-*.fmt
-
 # nomencl
+*.nlg
 *.nlo
+*.nls
+
+# pax
+*.pax
+
+# pdfpcnotes
+*.pdfpc
 
 # sagetex
 *.sagetex.sage
 *.sagetex.py
 *.sagetex.scmd
+
+# scrwfile
+*.wrt
 
 # sympy
 *.sout
@@ -141,6 +198,9 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
+# tcolorbox
+*.listing
+
 # thmtools
 *.loe
 
@@ -152,11 +212,25 @@ pythontex-files-*/
 # todonotes
 *.tdo
 
+# vhistory
+*.hst
+*.ver
+
+# easy-todo
+*.lod
+
+# xcolor
+*.xcp
+
+# xmpincl
+*.xmpi
+
 # xindy
 *.xdy
 
-# xypic precompiled matrices
+# xypic precompiled matrices and outlines
 *.xyc
+*.xyd
 
 # endfloat
 *.ttt
@@ -173,8 +247,38 @@ TSWLatexianTemp*
 # Texpad
 .texpadtmp
 
+# LyX
+*.lyx~
+
 # Kile
 *.backup
 
+# gummi
+.*.swp
+
 # KBibTeX
 *~[0-9]*
+
+# TeXnicCenter
+*.tps
+
+# auto folder when using emacs and auctex
+./auto/*
+*.el
+
+# expex forward references with \gathertags
+*-tags.tex
+
+# standalone packages
+*.sta
+
+# Makeindex log files
+*.lpz
+
+# xwatermark package
+*.xwm
+
+# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
+# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
+# Uncomment the next line to have this generated file ignored.
+#*Notes.bib
