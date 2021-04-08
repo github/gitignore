@@ -17,3 +17,6 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+
+# Local configuration files
+.vim/
