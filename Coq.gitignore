@@ -10,6 +10,7 @@
 *.glob
 *.ml.d
 *.ml4.d
+*.mlg.d
 *.mli.d
 *.mllib.d
 *.mlpack.d
@@ -20,7 +21,7 @@
 *.vo
 *.vok
 *.vos
-.coq-native/
+.coq-native
 .csdp.cache
 .lia.cache
 .nia.cache
@@ -31,6 +32,7 @@ lia.cache
 nia.cache
 nlia.cache
 nra.cache
+native_compute_profile_*.data
 
 # generated timing files
 *.timing.diff
