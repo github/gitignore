@@ -22,3 +22,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Windows download location security zone metafile
+*:Zone.Identifier
