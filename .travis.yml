@@ -7,4 +7,4 @@ branches:
     - master
 
 script:
-  - ruby -e "puts 'Hello world!'"
+  - ruby -e "puts 'Hello world!!'"
