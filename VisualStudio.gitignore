@@ -360,3 +360,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Created by Finder on Mac or JetBrains Rider on Mac.
+# I am sick and tired of cloning .NET Repositories that uses this .gitignore
+# but does not ignore these.
+.DS_Store
