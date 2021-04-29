@@ -1,0 +1,5 @@
+java:
+  - Java.gitignore
+
+macos:
+  - Global/macOS.gitignore
