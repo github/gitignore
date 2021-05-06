@@ -360,3 +360,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# PuppeteerSharp users
+.local-chromium
+.local-chromium/
