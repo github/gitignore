@@ -167,6 +167,9 @@ _minted*
 # morewrites
 *.mw
 
+# newpax
+*.newpax
+
 # nomencl
 *.nlg
 *.nlo
