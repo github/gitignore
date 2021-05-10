@@ -19,5 +19,18 @@
 *.tar.gz
 *.rar
 
+# Maven generated target folders
+target
+out
+
+# Eclipse Files
+.project
+.classpath
+.settings
+.factorypath
+.metadata
+.idea
+*.iml
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
