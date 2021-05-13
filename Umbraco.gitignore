@@ -11,6 +11,13 @@
 **/App_Data/TEMP/
 **/App_Data/NuGetBackup/
 
+# Umbraco 9 now stores it's unimportant folders within the umbraco directory
+**/[Uu]mbraco/Data/*
+# we want to keep the packages directory
+!**/[Uu]mbraco/Data/[Pp]ackages/*
+**/[Uu]mbraco/Logs/*
+**/[Uu]mbraco/mediacache/*
+
 # Ignore Umbraco content cache file
 **/App_Data/umbraco.config
 
@@ -30,3 +37,7 @@
 
 # Ignore the Models Builder models out of date flag
 **/App_Data/Models/ood.flag
+**/[Uu]mbraco/models/ood.flag
+
+# Ignore the compiled Models Builder models
+**/[Uu]mbraco/models/Compiled/*
