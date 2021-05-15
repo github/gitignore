@@ -1,7 +1,5 @@
 # gitignore template for gretl
 # website: gretl.sourceforge.net/
-#
-# Recommended: gretl.gitignore
 
 # Auto-generated log file is overwritten whenever you start a new session
 session.inp
