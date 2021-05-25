@@ -15,7 +15,7 @@
 **/App_Data/umbraco.config
 
 ## this [Uu]mbraco/ folder should be created by cmd like `Install-Package UmbracoCms -Version 8.5.3` 
-## you can find your umbraco version at your Web.config. (i.e. <add key="Umbraco.Core.ConfigurationStatus" value="8.5.3" />)
+## you can find your Umbraco version in your Web.config. (i.e. <add key="Umbraco.Core.ConfigurationStatus" value="8.5.3" />)
 ## Uncomment this line if you think it fits the way you work on your project.
 ## **/[Uu]mbraco/ 
 
@@ -29,4 +29,4 @@
 **/App_Data/cache/
 
 # Ignore the Models Builder models out of date flag
-**/App_Data/Models/ood.flag
+**/ood.flag
