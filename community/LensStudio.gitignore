@@ -1,3 +1,6 @@
+# gitignore template for LensStudio
+# website: https://lensstudio.snapchat.com/
+
 # macOS/IDE #
 .DS_Store
 .idea
