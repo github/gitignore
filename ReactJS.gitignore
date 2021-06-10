@@ -1,0 +1,76 @@
+# Dependency directories (node, bower, jspm and etc.)
+node_modules/
+bower_components/
+jspm_packages/
+
+# Package managers (yarn, npm and etc.)
+package-lock.json
+.module-cache
+.yarn-integrity
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+.npm
+npm-debug.log*
+
+# Testing (jscoverage, jscover, istanbul etc.)
+lib-cov
+coverage
+.nyc_output
+
+# Binaries and distribution directories
+dist/
+lib/
+bin/
+
+# Runtime
+*.seed
+pids
+*.pid*
+
+# Production
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+/.changelog
+
+# Backups
+*.backup.*
+*.back.*
+
+# ESLint
+.eslintcache
+
+# Typescript
+typings/
+
+# Grunt
+.grunt
+
+# Editors
+.DS_STORE
+*.sublime*
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.iml
+.idea/
+.vscode/
+
+# Misc
+*.tgz
+.lock-wscript
+.node_repl_history
+psd
+thumb
+sketch
