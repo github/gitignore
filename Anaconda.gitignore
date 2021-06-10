@@ -1,0 +1,104 @@
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+*.org
+.project
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.coverage.*
+/.idea
+/.vscode
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.py[ocd]
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.bz2
+*.bzip2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.zip
+
+# Python files #
+################
+# setup.py working directory
+/build
+# sphinx build directory
+/_build
+# setup.py dist directory
+/dist
+/doc/build
+/doc/cdoc/build
+/MANIFEST
+# Egg metadata
+*.egg-info
+/.eggs
+# The shelf plugin uses this dir
+./.shelf
+# coverage reports
+.coverage
+# ipython files
+**/.ipynb_checkpoints
+__pycache__
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# Patches #
+###########
+*.patch
+*.diff
+
+# OS generated files #
+######################
+.DS_Store*
+.VolumeIcon.icns
+.fseventsd
+Icon?
+.gdb_history
+ehthumbs.db
+Thumbs.db
+
+# pytest-cov #
+##############
+/.cache
+*,cover
+htmlcov
+
+# Things specific to this project #
+###################################
+/.anaconda
+/.envs
+/record.txt
+/docs/build
+/examples/movies/movies.db
+*.orig
+CHANGELOG.temp
