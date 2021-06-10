@@ -16,6 +16,9 @@
 # Mono auto generated files
 mono_crash.*
 
+# MacOS generated files
+._*.sln
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
