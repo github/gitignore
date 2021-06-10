@@ -1,0 +1,5 @@
+# Folder config file
+[Dd]esktop.ini
+
+# Exclude local dependencies, caches and project settings
+*.local
