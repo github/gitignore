@@ -1,0 +1,31 @@
+# gitignore template for React Native
+# website: https://facebook.github.io/react-native/
+
+# Node Folder
+node_modules
+
+# When to use Expo
+# website: https://expo.io/
+# Expo Manager temporary files
+*.expo
+*.expo-shared
+
+# When using the VSCODE Editor
+# website: https://code.visualstudio.com/
+*.vscode
+
+# When using Watchman
+# website: https://facebook.github.io/watchman/
+*.watchmanconfig
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Keystore Files
+*.keystore
+*.jks
+*.p12
+*.key
+
+# Apple Certificates
+*.mobileprovision
