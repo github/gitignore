@@ -232,6 +232,9 @@ pythontex-files-*/
 # xindy
 *.xdy
 
+# xsim
+*.xsim
+
 # xypic precompiled matrices and outlines
 *.xyc
 *.xyd
