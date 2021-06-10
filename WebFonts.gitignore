@@ -1,0 +1,18 @@
+# gitignore template for Web Fonts
+
+# TrueType Font
+*.ttf
+
+# OpenType PostScript
+*.otf
+
+# Web Open Font Format
+*.woff
+*.woff2
+
+# Embedded OpenType
+*.eot
+
+# Scalable Vector Graphics Font
+*.svg
+*.svgz
