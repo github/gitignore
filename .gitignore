@@ -1,0 +1,19 @@
+#  Gitignore file for use in Uipath repositories 
+
+## Ignore .objects folder that comes with UI Automation Package. 
+## Ignore .local configuration files created when opening a project
+## Ignore .settings configuration files which sometimes appear
+##         when running your project in debug mode.
+
+#################################################################################################################
+# 
+# This .gitignore file was created by building from the UiPath Forumn discussion on same here:  
+# https://forum.uipath.com/t/is-there-a-suggested-gitignore-to-use-with-uipath-studio/182482/4
+# 
+# Contribution made by @u778294 Lisa Williams North Carolina, USA
+# 
+#################################################################################################################
+
+.settings/
+.local/
+.objects/
