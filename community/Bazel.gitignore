@@ -1,6 +1,11 @@
-# gitignore template for Bazel build system
+# gitignore template for the Bazel build system
 # website: https://bazel.build/
 
-# Ignore all bazel-* symlinks. There is no full list since this can change
-# based on the name of the directory bazel is cloned into.
-/bazel-*
+# Ignore all bazel-* symlinks. 
+bazel-*
+
+# If you use [Gazelle](https://github.com/bazelbuild/bazel-gazelle),
+# and you do not want newly-generated files to be saved in the repo,
+# use this Gazelle option and the corresponding ignore rule.
+# `# gazelle:build_file_name BUILD.gazelle BUILD.bazel BUILD`
+BUILD.gazelle
