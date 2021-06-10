@@ -32,3 +32,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Exclude local Terragrunt files and directories
+.terragrunt*/
+_generated_*.tf
