@@ -1,0 +1,15 @@
+# other
+.DS_Store
+
+# node
+npm-debug.log
+/node_modules/
+
+# reason
+.merlin
+.bsb.lock
+/lib/bs/
+
+# reason-native
+_esy/
+_build/
