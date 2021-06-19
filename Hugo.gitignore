@@ -1,0 +1,16 @@
+# HUGO
+# https://gohugo.io/
+# https://github.com/gohugoio/hugo
+# Hugo is a static HTML and CSS website generator written in Go. 
+# It is optimized for speed, ease of use, and configurability. 
+# Hugo takes a directory with content and templates and renders them into
+# a full HTML website.
+
+# Hugo build output 
+# https://gohugo.io/getting-started/usage/#the-hugo-command
+/public/
+
+# Resource Cache
+# (Can optionally be committed to Git to cache resource generation)
+# https://discourse.gohugo.io/t/why-does-hugo-create-the-resources-directory/13021/3
+/resources/
