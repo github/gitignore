@@ -152,4 +152,6 @@ by automatically forking the project and prompting to send a pull request too.
 
 ## License
 
-[CC0-1.0](./LICENSE).
+This work is dual-licensed under [CC0-1.0](./LICENSE) and [MIT](./LICENSE.mit), or any later version of both licenses. You can choose between one of them if you use this work.
+
+`SPDX-License-Identifier: CC0-1.0 OR MIT`
