@@ -17,3 +17,6 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# OneNote TOC Files; they are auto-generated and change constantly.
+*.onetoc*
