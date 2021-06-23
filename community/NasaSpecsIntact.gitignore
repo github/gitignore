@@ -1,0 +1,40 @@
+# gitignore template for Nasa SpecsIntact (SI)
+# Website: https://specsintact.ksc.nasa.gov/
+#
+# Recommended: 
+# MicrosoftOffice.gitignore
+# 
+
+# SpecsIntact (SI) Locking file; this would lock everyone out.
+*.se$
+
+# SI Reports; auto-generated. They do not belong in the repository
+# as they will be re-created exactly when using a specific checkout point.
+*.RPT
+ADDRVER.*
+BRKTVER.*
+DUPEREF.*
+REFVER.*
+SECTVER.*
+SUBMVER.*
+TTLDIFFS.*
+
+# SpecsIntact files that change a lot and don't actually affect SI
+# PULL.TBL is an auto-generated file to help speed SI loading. 
+PULL.TBL
+pulltbl.bck
+
+# Tailoring information.
+# Keep tailor.tag; it is a list of tailoring options in SI.
+
+# JOB.OTL informs SI where a spec section came from. 
+# Keeping the old one isn't useful in git.
+JOB.OTL.OLD
+
+# OneNote TOC Files; SI Work Directories may be installed in a location co-located with OneNote
+# notebooks, and if so, OneNote will litter the SI folder with these.
+*.onetoc*
+
+# Log files, typically tagfix or other auto generated logs that aren't useful 
+# outside of the user that made them and clutter up the index.
+*.log
