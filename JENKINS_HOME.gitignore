@@ -46,7 +46,7 @@ jobs/**/*workspace
 
 #!/secret*
 
-# Security warning: Following includes Jenkins' account settings
+# Security warning: Following includes Jenkins's account settings
 # "user name", "password hash" and so on.
 # So, uncomment when it's not problem the settings are published in Git.
 
