@@ -46,5 +46,11 @@ jobs/**/*workspace
 
 #!/secret*
 
+# Security warning: Following includes Jenkins' account settings
+# "user name", "password hash" and so on.
+# So, uncomment when it's not problem the settings are published in Git.
+
+# !/users
+
 # As a result, only Jenkins settings and job config.xml files in JENKINS_HOME
 # will be tracked by git.
