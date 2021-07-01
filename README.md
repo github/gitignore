@@ -20,10 +20,10 @@ the following resources are a great place to start:
 
 We support a collection of templates, organized in this way:
 
-- the root folder contains templates in common use, to help people get started
+- The root folder contains templates in common use, to help people get started
   with popular programming languages and technologies. These define a meaningful
   set of rules to help get started, and ensure you are not committing
-  unimportant files into your repository
+  unimportant files into your repository.
 - [`Global`](./Global) contains templates for various editors, tools and
   operating systems that can be used in different situations. It is recommended
   that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
