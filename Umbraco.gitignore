@@ -24,3 +24,8 @@
 
 # Ignore the Models Builder models out of date flag
 **/App_Data/Models/ood.flag
+
+# NEW for version 9 .Net 5 (Core)
+**/umbraco/Data/*
+**/umbraco/mediacache
+**/wwwroot/umbraco/lib
