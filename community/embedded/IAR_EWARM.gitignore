@@ -1,5 +1,5 @@
 # gitignore template for the IAR EWARM
-# website: https://www.iar.com/
+# website: https://www.iar.com/knowledge/support/technical-notes/ide/which-files-should-be-version-controlled/
 
 # Some tools will put the EWARM files
 # under a subdirectory with the same name
