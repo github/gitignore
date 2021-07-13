@@ -15,11 +15,15 @@
 *.axf
 *.b[0-2][0-9]
 *.b3[0-1]
+*.bak
+*.build_log.htm
 *.crf
 *.d
+*.dep
 *.elf
 *.htm
 *.iex
+*.lnp
 *.o
 *.obj
 *.sbr
@@ -39,6 +43,3 @@
 JLinkLog.txt
 
 # Other Files
-*.bak
-*.build_log.htm
-*.dep
