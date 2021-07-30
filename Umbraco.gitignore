@@ -40,3 +40,6 @@
 
 #include default location for modelsbuilder output
 !**/umbraco/models
+
+#include default location for packages
+!**/umbraco/Data/packages
