@@ -7,7 +7,7 @@
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
+# Java class files 
 *.class
 
 # Generated files
@@ -66,7 +66,7 @@ captures/
 # Freeline
 freeline.py
 freeline/
-freeline_project_description.json
+freeline_project_description.json 
 
 # fastlane
 fastlane/report.xml
