@@ -1,3 +1,6 @@
+# Compiled Scripts
+*.a3x
+
 # Tidy Auto-Generated Backups
 Backup/*
 
