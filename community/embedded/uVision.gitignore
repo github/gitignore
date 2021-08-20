@@ -1,0 +1,45 @@
+# git ignore file for Keil µVision Project
+
+# µVision 5 and µVision 4 Project screen layout file
+*.uvguix.*
+*.uvgui.*
+
+# Listing Files
+*.i
+*.lst
+*.m51
+*.m66
+*.map
+
+# Object Files
+*.axf
+*.b[0-2][0-9]
+*.b3[0-1]
+*.bak
+*.build_log.htm
+*.crf
+*.d
+*.dep
+*.elf
+*.htm
+*.iex
+*.lnp
+*.o
+*.obj
+*.sbr
+
+# Firmware Files
+*.bin
+*.h86
+*.hex
+
+# Build Files
+.bat
+
+# Debugger Files
+.ini
+
+# JLink Files
+JLinkLog.txt
+
+# Other Files
