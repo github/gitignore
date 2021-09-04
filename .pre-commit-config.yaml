@@ -5,3 +5,7 @@ repos:
       - id: check-yaml
       - id: end-of-file-fixer
       - id: trailing-whitespace
+        exclude: |
+          (?x)^(
+            Global/macOS.gitignore|   # contains the pattern `Icon\r`
+          )$
