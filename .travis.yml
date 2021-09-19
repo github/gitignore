@@ -4,7 +4,7 @@ sudo: false
 
 branches:
   only:
-  - master
-  
+    - master
+
 script:
   - ruby -e "puts 'Hello world!'"
