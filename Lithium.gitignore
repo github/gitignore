@@ -1,2 +1,5 @@
 libraries/*
 resources/tmp/*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

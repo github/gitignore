@@ -47,3 +47,6 @@ flycheck_*.el
 # network security
 /network-security.data
 
+
+# Automatically Created/Updated on Windows
+Thumbs.db

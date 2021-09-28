@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Automatically Created/Updated on Windows
+Thumbs.db

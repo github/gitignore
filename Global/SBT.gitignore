@@ -10,3 +10,6 @@ project/plugins/project/
 .history
 .cache
 .lib/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -3,3 +3,6 @@
 
 # Ignore build folder
 .aws-sam/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

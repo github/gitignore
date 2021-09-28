@@ -25,3 +25,6 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Automatically Created/Updated on Windows
+Thumbs.db

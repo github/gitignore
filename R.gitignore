@@ -43,3 +43,6 @@ docs/
 
 # translation temp files
 po/*~
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -8,3 +8,6 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

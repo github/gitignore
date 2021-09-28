@@ -7,3 +7,6 @@ node_modules
 # Generated files
 .psci
 output
+
+# Automatically Created/Updated on Windows
+Thumbs.db

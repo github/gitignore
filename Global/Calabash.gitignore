@@ -8,3 +8,6 @@ test-servers/
 # bundler
 .bundle
 vendor
+
+# Automatically Created/Updated on Windows
+Thumbs.db

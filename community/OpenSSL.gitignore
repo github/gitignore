@@ -32,3 +32,6 @@
 
 ## S/MIME message
 *.smime
+
+# Automatically Created/Updated on Windows
+Thumbs.db

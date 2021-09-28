@@ -31,3 +31,6 @@
 /server/default/deploy/*.war.failed
 /server/default/deploy/*.war.dodeploy
 
+
+# Automatically Created/Updated on Windows
+Thumbs.db

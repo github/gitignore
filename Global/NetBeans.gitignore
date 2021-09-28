@@ -6,3 +6,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

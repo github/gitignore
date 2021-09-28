@@ -19,3 +19,6 @@ files/tmp/*
 
 # ignore sitemap.xml
 /sitemap.xml
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -3,3 +3,6 @@
 
 # Used by previous versions of JEnv
 .jenv-version
+
+# Automatically Created/Updated on Windows
+Thumbs.db

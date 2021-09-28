@@ -3,3 +3,6 @@
 
 # Ada Library Information
 *.ali
+
+# Automatically Created/Updated on Windows
+Thumbs.db

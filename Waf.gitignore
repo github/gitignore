@@ -7,3 +7,6 @@ waf-*-*/
 waf3-*-*/
 # Lockfile
 .lock-waf_*_build
+
+# Automatically Created/Updated on Windows
+Thumbs.db

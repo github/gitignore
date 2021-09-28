@@ -26,3 +26,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Automatically Created/Updated on Windows
+Thumbs.db

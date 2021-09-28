@@ -4,3 +4,6 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# Automatically Created/Updated on Windows
+Thumbs.db

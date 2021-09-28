@@ -62,3 +62,6 @@ ConnectionStrings.config
 
 # Project media libraries (recommend shared file storage)
 # e.g. CMS/{SiteCodeName}
+
+# Automatically Created/Updated on Windows
+Thumbs.db

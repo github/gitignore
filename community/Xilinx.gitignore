@@ -103,3 +103,6 @@
 */*/*/bd/*/ip/*/*.tcl
 hw_handoff
 ipshared
+
+# Automatically Created/Updated on Windows
+Thumbs.db

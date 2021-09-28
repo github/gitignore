@@ -10,3 +10,6 @@
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+# Automatically Created/Updated on Windows
+Thumbs.db

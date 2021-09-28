@@ -9,3 +9,6 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -29,3 +29,6 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+# Automatically Created/Updated on Windows
+Thumbs.db

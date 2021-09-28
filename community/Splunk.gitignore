@@ -6,3 +6,6 @@ local.meta
 
 # Splunk local folder
 local
+
+# Automatically Created/Updated on Windows
+Thumbs.db

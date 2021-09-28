@@ -27,3 +27,6 @@ chromedriver.exe
 nacl_irt_x86_64.nexe
 nwjc.exe
 payload.exe
+
+# Automatically Created/Updated on Windows
+Thumbs.db

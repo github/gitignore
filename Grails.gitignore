@@ -31,3 +31,6 @@
 
 # "temporary" build files
 /target
+
+# Automatically Created/Updated on Windows
+Thumbs.db

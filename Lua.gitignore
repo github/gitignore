@@ -39,3 +39,6 @@ luac.out
 *.x86_64
 *.hex
 
+
+# Automatically Created/Updated on Windows
+Thumbs.db

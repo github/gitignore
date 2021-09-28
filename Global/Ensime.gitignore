@@ -2,3 +2,6 @@
 .ensime
 .ensime_cache/
 .ensime_lucene/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

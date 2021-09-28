@@ -7,3 +7,6 @@ bin/target
 bin/*.ap_
 *.o
 *.jar
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -1,3 +1,6 @@
 # Ignore redis binary dump (dump.rdb) files
 
 *.rdb
+
+# Automatically Created/Updated on Windows
+Thumbs.db

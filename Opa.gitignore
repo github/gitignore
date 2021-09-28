@@ -11,3 +11,6 @@ opa-debug-js
 *.api-txt
 *.exe
 *.log
+
+# Automatically Created/Updated on Windows
+Thumbs.db

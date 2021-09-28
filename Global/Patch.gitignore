@@ -1,2 +1,5 @@
 *.orig
 *.rej
+
+# Automatically Created/Updated on Windows
+Thumbs.db

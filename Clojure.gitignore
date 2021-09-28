@@ -1,1 +1,3 @@
 Leiningen.gitignore
+# Automatically Created/Updated on Windows
+Thumbs.db

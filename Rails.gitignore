@@ -67,3 +67,6 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
+
+# Automatically Created/Updated on Windows
+Thumbs.db

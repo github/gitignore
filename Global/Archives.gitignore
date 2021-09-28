@@ -30,3 +30,6 @@
 *.msm
 *.msp
 *.txz
+
+# Automatically Created/Updated on Windows
+Thumbs.db

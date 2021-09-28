@@ -15,3 +15,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -1,2 +1,5 @@
 # Notepad++ backups #
 *.bak
+
+# Automatically Created/Updated on Windows
+Thumbs.db

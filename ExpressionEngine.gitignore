@@ -17,3 +17,6 @@ sized/
 thumbs/
 _thumbs/
 */expressionengine/cache/*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -5,3 +5,6 @@
 *.py[cod]
 cache/
 output/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -3,3 +3,6 @@
 *.int
 *.lk
 *.zip
+
+# Automatically Created/Updated on Windows
+Thumbs.db

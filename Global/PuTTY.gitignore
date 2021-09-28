@@ -1,2 +1,5 @@
 # Private key
 *.ppk
+
+# Automatically Created/Updated on Windows
+Thumbs.db

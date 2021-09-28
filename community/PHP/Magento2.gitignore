@@ -52,3 +52,6 @@
 !/vendor/.htaccess
 /generated/*
 !/generated/.htaccess
+
+# Automatically Created/Updated on Windows
+Thumbs.db

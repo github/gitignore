@@ -23,3 +23,6 @@ www-test/
 
 #old GWT (1.5) created this dir
 .gwt-tmp/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

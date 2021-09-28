@@ -27,3 +27,6 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

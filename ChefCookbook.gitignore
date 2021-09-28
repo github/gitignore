@@ -7,3 +7,6 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -3,3 +3,6 @@
 
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.log
+
+# Automatically Created/Updated on Windows
+Thumbs.db

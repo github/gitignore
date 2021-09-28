@@ -21,3 +21,6 @@ cov*/
 transcript*
 sc_dpiheader.h
 vsim.dbg
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -703,3 +703,6 @@
 /README.txt
 /robots.txt.dist
 /web.config.txt
+
+# Automatically Created/Updated on Windows
+Thumbs.db

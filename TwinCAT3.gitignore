@@ -23,3 +23,5 @@ _Boot/
 _CompileInfo/
 _Libraries/
 _ModuleInstall/
+# Automatically Created/Updated on Windows
+Thumbs.db

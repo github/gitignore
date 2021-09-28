@@ -25,3 +25,6 @@
 /upload/*
 !/upload/index.html
 /upload_backup/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

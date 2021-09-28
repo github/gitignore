@@ -12,3 +12,6 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

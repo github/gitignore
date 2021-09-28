@@ -51,3 +51,6 @@
 
 # keep .dummy files
 !.dummy
+
+# Automatically Created/Updated on Windows
+Thumbs.db

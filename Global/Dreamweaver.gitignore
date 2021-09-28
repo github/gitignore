@@ -5,3 +5,6 @@ configs/
 dwsync.xml
 dw_php_codehinting.config
 *.mno
+
+# Automatically Created/Updated on Windows
+Thumbs.db

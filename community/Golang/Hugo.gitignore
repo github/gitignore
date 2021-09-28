@@ -6,3 +6,6 @@
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Automatically Created/Updated on Windows
+Thumbs.db

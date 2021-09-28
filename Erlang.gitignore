@@ -15,3 +15,6 @@ deps
 .rebar3
 _build/
 _checkouts/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

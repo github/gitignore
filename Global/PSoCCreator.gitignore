@@ -16,3 +16,6 @@ Export/
 *.svd
 *.log
 *.zip
+
+# Automatically Created/Updated on Windows
+Thumbs.db

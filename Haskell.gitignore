@@ -21,3 +21,6 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

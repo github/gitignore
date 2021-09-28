@@ -17,3 +17,6 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

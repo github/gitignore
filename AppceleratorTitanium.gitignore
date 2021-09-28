@@ -1,3 +1,6 @@
 # Build folder and log file
 build/
 build.log
+
+# Automatically Created/Updated on Windows
+Thumbs.db

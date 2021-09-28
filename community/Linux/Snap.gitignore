@@ -12,3 +12,6 @@ stage/
 
 # Source archive packed by `snapcraft cleanbuild` before pushing to the LXD container
 /*_source.tar.bz2
+
+# Automatically Created/Updated on Windows
+Thumbs.db

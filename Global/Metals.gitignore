@@ -3,3 +3,6 @@
 .metals/
 .bloop/
 project/metals.sbt
+
+# Automatically Created/Updated on Windows
+Thumbs.db

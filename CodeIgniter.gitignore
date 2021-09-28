@@ -15,3 +15,6 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

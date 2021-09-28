@@ -24,3 +24,6 @@ ext/mkinstalldirs
 ext/run-tests.php
 ext/.deps
 ext/libtool
+
+# Automatically Created/Updated on Windows
+Thumbs.db

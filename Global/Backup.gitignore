@@ -3,3 +3,6 @@
 *.ori
 *.orig
 *.tmp
+
+# Automatically Created/Updated on Windows
+Thumbs.db

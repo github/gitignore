@@ -1,2 +1,5 @@
 *.patch
 *.diff
+
+# Automatically Created/Updated on Windows
+Thumbs.db

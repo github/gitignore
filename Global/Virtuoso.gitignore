@@ -16,3 +16,6 @@ drcRunDir/*
 abstract.log*
 abstract.record*
 
+
+# Automatically Created/Updated on Windows
+Thumbs.db

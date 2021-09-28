@@ -17,3 +17,6 @@ logtalk_doclet_logs/
 *.ql
 *.itf
 *.po
+
+# Automatically Created/Updated on Windows
+Thumbs.db

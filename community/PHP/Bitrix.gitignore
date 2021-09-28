@@ -21,3 +21,6 @@
 
 #Exclude default file storage directory
 /upload/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

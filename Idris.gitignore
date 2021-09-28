@@ -1,2 +1,5 @@
 *.ibc
 *.o
+
+# Automatically Created/Updated on Windows
+Thumbs.db

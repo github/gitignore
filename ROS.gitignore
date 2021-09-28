@@ -49,3 +49,6 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# Automatically Created/Updated on Windows
+Thumbs.db

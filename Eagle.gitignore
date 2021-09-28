@@ -49,3 +49,6 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+# Automatically Created/Updated on Windows
+Thumbs.db

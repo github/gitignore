@@ -43,3 +43,6 @@
 /var/package/*
 !/var/package/*.xml
 
+
+# Automatically Created/Updated on Windows
+Thumbs.db

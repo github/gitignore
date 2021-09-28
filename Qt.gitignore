@@ -52,3 +52,6 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# Automatically Created/Updated on Windows
+Thumbs.db

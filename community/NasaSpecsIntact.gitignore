@@ -38,3 +38,6 @@ JOB.OTL.OLD
 # Log files, typically tagfix or other auto generated logs that aren't useful 
 # outside of the user that made them and clutter up the index.
 *.log
+
+# Automatically Created/Updated on Windows
+Thumbs.db

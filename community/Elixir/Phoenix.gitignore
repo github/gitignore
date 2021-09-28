@@ -20,3 +20,6 @@
 /installer/tmp
 /installer/doc
 /installer/deps
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -50,3 +50,6 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+# Automatically Created/Updated on Windows
+Thumbs.db

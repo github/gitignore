@@ -27,3 +27,6 @@ qtcreator-*
 # Colcon custom files
 COLCON_IGNORE
 AMENT_IGNORE
+
+# Automatically Created/Updated on Windows
+Thumbs.db

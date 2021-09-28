@@ -54,3 +54,6 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

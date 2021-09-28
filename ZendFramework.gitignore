@@ -22,3 +22,6 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+
+# Automatically Created/Updated on Windows
+Thumbs.db

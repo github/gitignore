@@ -9,3 +9,6 @@
 *.vpwhistu
 *.vpwhist
 *.vtg
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -13,3 +13,6 @@ ExportedFiles.xml
 # Force include portal SupportFiles
 !Model/Portal/*/SupportFiles/[Bb]in/
 !Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
+
+# Automatically Created/Updated on Windows
+Thumbs.db

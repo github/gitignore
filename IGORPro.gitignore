@@ -3,3 +3,6 @@
 *.pxt
 *.uxp
 *.uxt
+
+# Automatically Created/Updated on Windows
+Thumbs.db

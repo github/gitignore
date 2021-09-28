@@ -29,3 +29,6 @@ SqueakDebug.log
 # Metacello-github cache
 /github-cache
 github-*.zip
+
+# Automatically Created/Updated on Windows
+Thumbs.db

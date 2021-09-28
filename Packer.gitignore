@@ -6,3 +6,6 @@ crash.log
 
 # For built boxes
 *.box
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -4,3 +4,6 @@ bower_components/
 
 build/
 dist/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

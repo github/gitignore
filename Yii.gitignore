@@ -4,3 +4,6 @@ protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
 themes/classic/views/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

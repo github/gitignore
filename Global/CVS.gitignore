@@ -2,3 +2,6 @@
 **/CVS/*
 .cvsignore
 */.cvsignore
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -1,2 +1,5 @@
 application/cache/*
 application/logs/*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

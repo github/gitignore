@@ -20,3 +20,6 @@
 
 #User Specific Files
 *.atsuo
+
+# Automatically Created/Updated on Windows
+Thumbs.db

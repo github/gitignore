@@ -1,2 +1,5 @@
 # Project-level settings
 /.tgitconfig
+
+# Automatically Created/Updated on Windows
+Thumbs.db

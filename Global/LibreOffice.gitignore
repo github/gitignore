@@ -1,2 +1,5 @@
 # LibreOffice locks
 .~lock.*#
+
+# Automatically Created/Updated on Windows
+Thumbs.db

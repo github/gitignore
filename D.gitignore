@@ -22,3 +22,6 @@ docs/
 
 # Code coverage
 *.lst
+
+# Automatically Created/Updated on Windows
+Thumbs.db

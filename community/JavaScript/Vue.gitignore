@@ -7,3 +7,6 @@ docs/_book
 
 # TODO: where does this rule come from?
 test/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

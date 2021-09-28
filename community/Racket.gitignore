@@ -13,3 +13,6 @@ compiled/
 
 # Dependency tracking files
 *.dep
+
+# Automatically Created/Updated on Windows
+Thumbs.db

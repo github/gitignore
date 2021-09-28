@@ -21,3 +21,6 @@
 /index.php
 # Ignore temp directory.
 /typo3temp/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

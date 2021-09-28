@@ -30,3 +30,6 @@
 
 # Ignore the Models Builder models out of date flag
 **/ood.flag
+
+# Automatically Created/Updated on Windows
+Thumbs.db

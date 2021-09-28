@@ -1,2 +1,5 @@
 .bzr/
 .bzrignore
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -9,3 +9,6 @@ Debug*/Debug*\ Libs
 *.rbuistate
 *.xojo_uistate
 *.obsolete*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

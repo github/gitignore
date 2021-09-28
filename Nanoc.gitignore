@@ -8,3 +8,6 @@ tmp/nanoc/
 
 # Crash Log
 crash.log
+
+# Automatically Created/Updated on Windows
+Thumbs.db

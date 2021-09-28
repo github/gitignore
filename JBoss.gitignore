@@ -17,3 +17,6 @@ jboss/server/minimal/work/**/*
 # deployed package files #
 
 *.DEPLOYED
+
+# Automatically Created/Updated on Windows
+Thumbs.db

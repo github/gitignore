@@ -10,3 +10,6 @@ settings.json
 # protect your mup.json settings
 mup.json
 mup.js
+
+# Automatically Created/Updated on Windows
+Thumbs.db

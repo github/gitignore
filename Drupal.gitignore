@@ -47,3 +47,6 @@
 /robots.txt
 /update.php
 /web.config
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -41,3 +41,6 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+# Automatically Created/Updated on Windows
+Thumbs.db

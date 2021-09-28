@@ -22,3 +22,6 @@
 # *.pdf
 # *.png
 # *.tif
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -14,3 +14,6 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
+
+# Automatically Created/Updated on Windows
+Thumbs.db

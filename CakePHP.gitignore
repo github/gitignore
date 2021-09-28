@@ -23,3 +23,6 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

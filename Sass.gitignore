@@ -2,3 +2,6 @@
 *.css.map
 *.sass.map
 *.scss.map
+
+# Automatically Created/Updated on Windows
+Thumbs.db

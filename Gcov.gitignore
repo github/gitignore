@@ -3,3 +3,6 @@
 *.gcno
 *.gcda
 *.gcov
+
+# Automatically Created/Updated on Windows
+Thumbs.db

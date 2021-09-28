@@ -1,3 +1,6 @@
 # Local configuration folder and symbol database
 /.anjuta/
 /.anjuta_sym_db.db
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -6,3 +6,6 @@
 *.rel
 *.rst
 *.sym
+
+# Automatically Created/Updated on Windows
+Thumbs.db

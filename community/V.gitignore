@@ -9,3 +9,6 @@
 *.lib
 *.bak
 *.out
+
+# Automatically Created/Updated on Windows
+Thumbs.db

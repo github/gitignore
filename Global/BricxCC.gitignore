@@ -2,3 +2,6 @@
 # http://bricxcc.sourceforge.net
 *.bak
 *.sym
+
+# Automatically Created/Updated on Windows
+Thumbs.db

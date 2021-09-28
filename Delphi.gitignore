@@ -67,3 +67,6 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

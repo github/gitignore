@@ -87,3 +87,6 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# Automatically Created/Updated on Windows
+Thumbs.db

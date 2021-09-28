@@ -6,3 +6,6 @@ translations/*.qm
 
 # IDE settings
 .settings/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -4,3 +4,6 @@
 # When configure fails, SCons outputs these
 config.log
 .sconf_temp
+
+# Automatically Created/Updated on Windows
+Thumbs.db

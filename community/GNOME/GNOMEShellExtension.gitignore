@@ -1,3 +1,6 @@
 # Ignored files for GNOME extension git repository
 
 *.zip
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -61,3 +61,6 @@
 # 3D Images
 *.3dm
 *.max
+
+# Automatically Created/Updated on Windows
+Thumbs.db

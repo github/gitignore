@@ -5,3 +5,6 @@
 *.scm~
 *.scm#*
 .#*.scm
+
+# Automatically Created/Updated on Windows
+Thumbs.db

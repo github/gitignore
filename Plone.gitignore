@@ -16,3 +16,6 @@ fake-eggs/
 parts/
 dist/
 var/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

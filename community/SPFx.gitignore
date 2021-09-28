@@ -31,3 +31,6 @@ obj
 
 # Styles Generated Code
 *.scss.ts
+
+# Automatically Created/Updated on Windows
+Thumbs.db

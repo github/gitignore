@@ -10,3 +10,6 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -4,3 +4,6 @@
 build/
 sdkconfig
 sdkconfig.old
+
+# Automatically Created/Updated on Windows
+Thumbs.db

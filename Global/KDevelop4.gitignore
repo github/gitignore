@@ -1,2 +1,5 @@
 *.kdev4
 .kdev4/
+
+# Automatically Created/Updated on Windows
+Thumbs.db

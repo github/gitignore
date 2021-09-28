@@ -3,3 +3,6 @@
 
 # Ignore .exercism folder which contain sensitive data
 .exercism
+
+# Automatically Created/Updated on Windows
+Thumbs.db

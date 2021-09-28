@@ -21,3 +21,6 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# Automatically Created/Updated on Windows
+Thumbs.db

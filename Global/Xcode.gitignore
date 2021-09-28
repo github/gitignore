@@ -24,3 +24,6 @@ DerivedData/
 
 ## Gcc Patch
 /*.gcno
+
+# Automatically Created/Updated on Windows
+Thumbs.db

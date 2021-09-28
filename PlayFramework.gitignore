@@ -14,3 +14,6 @@ server.pid
 *.eml
 /dist/
 .cache
+
+# Automatically Created/Updated on Windows
+Thumbs.db

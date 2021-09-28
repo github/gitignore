@@ -4,3 +4,6 @@
 # Recommended template: PHP.gitignore
 
 /wpcs/*
+
+# Automatically Created/Updated on Windows
+Thumbs.db

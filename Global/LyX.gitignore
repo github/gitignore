@@ -2,3 +2,6 @@
 # http://www.lyx.org/
 *.lyx~
 *.lyx#
+
+# Automatically Created/Updated on Windows
+Thumbs.db

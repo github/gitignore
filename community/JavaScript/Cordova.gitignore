@@ -8,3 +8,6 @@
 
 # Optional to ignore plugin Git clones
 #/plugins
+
+# Automatically Created/Updated on Windows
+Thumbs.db

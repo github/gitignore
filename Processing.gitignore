@@ -8,3 +8,6 @@ application.windows32
 application.windows64
 application.macosx
 out
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -6,3 +6,6 @@
 
 # Compiled Pre-Linked Libraries
 *.plx
+
+# Automatically Created/Updated on Windows
+Thumbs.db

@@ -171,3 +171,6 @@ themes/default-bootstrap/modules/*/mails/*
 /vendor/
 /web/bundles/
 
+
+# Automatically Created/Updated on Windows
+Thumbs.db

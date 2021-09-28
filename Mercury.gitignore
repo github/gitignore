@@ -11,3 +11,6 @@ Mercury.modules
 *.beams
 *.d
 *.c_date
+
+# Automatically Created/Updated on Windows
+Thumbs.db
