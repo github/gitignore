@@ -120,6 +120,7 @@ acs-*.bib
 
 # gregoriotex
 *.gaux
+*.glog
 *.gtex
 
 # htlatex
@@ -165,6 +166,9 @@ _minted*
 
 # morewrites
 *.mw
+
+# newpax
+*.newpax
 
 # nomencl
 *.nlg
