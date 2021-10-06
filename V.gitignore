@@ -1,0 +1,6 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
