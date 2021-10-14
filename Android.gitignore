@@ -1,5 +1,6 @@
 # Built application files
 *.apk
+# Comment next line if you have manually imported libs with .aar files.
 *.aar
 *.ap_
 *.aab
