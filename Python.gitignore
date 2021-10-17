@@ -136,3 +136,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Pickle files
+*.pickle
+
+# IntelliJ IDEA folder for project settings
+.idea/
