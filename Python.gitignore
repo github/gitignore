@@ -136,3 +136,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Pickle files
+Pickle files are created while the Python project is executed. They aren't needed for the development of the project.
