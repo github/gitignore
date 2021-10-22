@@ -1,0 +1,70 @@
+# Built application files
+*.hap
+*.har
+*.app
+
+
+# Java class files
+*.class
+
+# Generated files
+generated/
+outputs/
+
+#  Uncomment the following line in case you need and you don't have the release build type files in your app
+# release/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# Log Files
+*.log
+
+# DevEco Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+
+# DevEco Studio .gitignore file.
+.idea/caches
+.idea/modules.xml
+
+# File that stores position of elements in Navigation Editor
+.idea/navEditor.xml
+
+# Signing related files
+# Uncomment the following lines if you do not want to check your signing and keystore files
+# *.p7b 
+# *.csr
+# *.p12
+# *.cer
+
+# External native build folder generated in DevEcoStudio
+.externalNativeBuild ----> this one I need confirmation
+.cxx/
+
+# Version control
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
+
+# HarmonyOS Profiling
+*.hprof
