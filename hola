@@ -1,0 +1,10 @@
+$ touch .gitignore
+# Created by https://www.toptal.com/developers/gitignore/api/metals
+# Edit at https://www.toptal.com/developers/gitignore?templates=metals
+
+### Metals ###
+.metals/
+.bloop/
+project/**/metals.sbt
+
+# End of https://www.toptal.com/developers/gitignore/api/metals
