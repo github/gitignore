@@ -293,7 +293,7 @@ node_modules/
 *.dsw
 *.dsp
 
-# Visual Studio 6 techical files (their purpose is unknown for me)
+# Visual Studio 6 technical files 
 *.ncb
 *.aps
 
