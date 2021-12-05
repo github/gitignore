@@ -8,11 +8,12 @@
 # Crash log files
 crash.log
 
-# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
-# .tfvars files are managed as part of configuration and so should be included in
-# version control.
+# Exclude all .tfvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
+# to change depending on the environment.
 #
-# example.tfvars
+*.tfvars
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
@@ -27,3 +28,7 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc

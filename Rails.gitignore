@@ -27,7 +27,7 @@ config/master.key
 # dotenv, dotenv-rails
 # TODO Comment out these rules if environment variables can be committed
 .env
-.env.*
+.env*.local
 
 ## Environment normalization:
 /.bundle
@@ -66,3 +66,4 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+/public/uploads

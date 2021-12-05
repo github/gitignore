@@ -20,10 +20,10 @@ the following resources are a great place to start:
 
 We support a collection of templates, organized in this way:
 
-- the root folder contains templates in common use, to help people get started
+- The root folder contains templates in common use, to help people get started
   with popular programming languages and technologies. These define a meaningful
   set of rules to help get started, and ensure you are not committing
-  unimportant files into your repository
+  unimportant files into your repository.
 - [`Global`](./Global) contains templates for various editors, tools and
   operating systems that can be used in different situations. It is recommended
   that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
@@ -50,8 +50,7 @@ If you have a small set of rules, or want to support a technology that is not
 widely in use, and still believe this will be helpful to others, please read the
 section about [specialized templates](#specialized-templates) for more details.
 
-If you believe your template is important and should be highly visible, please
-add details about the impact of the technology when you open a pull request. We
+Include details when opening pull request if the template is important and visible. We
 may not accept it immediately, but we can promote it to the root at a later date
 based on interest.
 
@@ -113,7 +112,7 @@ folder that best suits where it belongs.
 
 The rules in your specialized template should be specific to the framework or
 tool, and any additional templates should be mentioned in a comment in the
-header of the template
+header of the template.
 
 For example, this template might live at `community/DotNet/InforCRM.gitignore`:
 

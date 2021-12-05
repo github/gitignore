@@ -7,3 +7,5 @@
 
 # Local History for Visual Studio Code
 .history/
+*.app
+.snapshots/*
