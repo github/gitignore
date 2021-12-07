@@ -1,4 +1,8 @@
+# Exclude local Visual Studio Code folder
 .vscode/*
+*.code-workspace
+
+# Include workspace specific files which are useful to distribute
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
