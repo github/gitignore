@@ -1,0 +1,5 @@
+# Common SEO files that would jeopardise indexing if unfinished or subject to change repo is made online for demo purposes via github pages or services like netlify
+# Delete this gitignore as the last step and in order to enable proper crawling for your finished website 
+
+robots.txt
+sitemap.xml
