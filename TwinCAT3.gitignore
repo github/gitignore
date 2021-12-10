@@ -1,0 +1,25 @@
+# gitignore template for TwinCAT3
+# website: https://www.beckhoff.com/twincat3/
+#
+# Recommended: VisualStudio.gitignore
+
+# TwinCAT files
+*.tpy
+*.tclrs
+*.compiled-library
+*.compileinfo
+# Don't include the tmc-file rule if either of the following is true:
+#   1. You've got TwinCAT C++ projects, as the information in the TMC-file is created manually for the C++ projects (in that case, only (manually) ignore the tmc-files for the PLC projects)
+#   2. You've created a standalone PLC-project and added events to it, as these are stored in the TMC-file.
+*.tmc
+*.tmcRefac
+*.library
+*.project.~u
+*.tsproj.bak
+*.xti.bak
+LineIDs.dbg
+LineIDs.dbg.bak
+_Boot/
+_CompileInfo/
+_Libraries/
+_ModuleInstall/
