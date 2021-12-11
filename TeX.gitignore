@@ -192,6 +192,9 @@ _minted*
 # scrwfile
 *.wrt
 
+# svg
+svg-inkscape/
+
 # sympy
 *.sout
 *.sympy
