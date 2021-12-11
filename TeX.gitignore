@@ -111,9 +111,16 @@ acs-*.bib
 *.glsdefs
 *.lzo
 *.lzs
+*.slg
+*.slo
+*.sls
 
 # uncomment this for glossaries-extra (will ignore makeindex's style files!)
 # *.ist
+
+# gnuplot
+*.gnuplot
+*.table
 
 # gnuplottex
 *-gnuplottex-*
@@ -189,6 +196,9 @@ _minted*
 # scrwfile
 *.wrt
 
+# svg
+svg-inkscape/
+
 # sympy
 *.sout
 *.sympy
@@ -212,6 +222,9 @@ pythontex-files-*/
 *.dpth
 *.md5
 *.auxlock
+
+# titletoc
+*.ptc
 
 # todonotes
 *.tdo
