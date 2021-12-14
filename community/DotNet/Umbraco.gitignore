@@ -34,3 +34,16 @@
 
 # Ignore the Models Builder models out of date flag
 **/ood.flag
+
+# NEW for version 9 .Net 5 (Core)
+#ignore umbraco backoffice assest from wwwroot
+**/wwwroot/umbraco/
+
+#ignore umbraco data/views/settings
+**/umbraco/
+
+#include default location for modelsbuilder output
+!**/umbraco/models
+
+#include default location for packages
+!**/umbraco/Data/packages
