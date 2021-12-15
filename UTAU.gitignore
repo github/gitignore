@@ -1,0 +1,29 @@
+#This gitignore file is created for UTAU (and other singing voice synthesizers) voicebank development
+#example repo: https://github.com/oxygen-dioxide/hitsuboku-kumi-chn/
+
+#Adobe Audition
+*.pkf
+
+#UTAU
+*.frq
+*.mrq
+*.llsm
+*.pmk
+*.vs4ufrq
+*.frc
+*.dio
+
+#Deepvocal
+*.DVModel
+*-log.txt
+SKC
+SKI
+SKC_1
+SKC_2
+SKC_3
+SKC_4
+*.sksd
+
+#VocalSharp
+*.scep
+*.vssf
