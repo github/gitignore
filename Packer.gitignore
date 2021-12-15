@@ -1,3 +1,12 @@
+## Ignore HashiCorp Packer temporary and secret files
+##
+## Get latest from https://github.com/toptal/gitignore/blob/master/templates/Packer.gitignore
+
+# Packer variable values file
+# Documentation reference: https://www.packer.io/guides/hcl/variables#from-a-file
+*.auto.pkrvars.hcl
+variables.pkrvars.hcl
+
 # Cache objects
 packer_cache/
 
