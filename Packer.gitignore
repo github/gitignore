@@ -4,6 +4,10 @@
 
 # Packer variable values file
 # Documentation reference: https://www.packer.io/guides/hcl/variables#from-a-file
+# Exclude pkrvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
+# to change depending on the environment.
 *.auto.pkrvars.hcl
 variables.pkrvars.hcl
 
