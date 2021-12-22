@@ -1,0 +1,8 @@
+#Files for the code
+
+*.ts
+*.typescript
+
+#Executables
+*.exe
+*.app
