@@ -1,0 +1,59 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+      {
+          "type": "godot-quickjs",
+          "request": "attach",
+          "name": "Attach to Godot",
+          "hostname": "localhost",
+          "port": 5556
+      },
+    {
+      "name": "Python: Pyramid Application",
+      "type": "python",
+      "request": "launch",
+      "module": "pyramid.scripts.pserve",
+      "args": ["${workspaceFolder}\\development.ini"],
+      "pyramid": true,
+      "jinja": true
+
+      
+    },
+    {
+      "name": "(gdb) Bash on Windows Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": ["-c"],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Run Windows Hermes - Experimental",
+      "request": "launch",
+      "type": "reactnativedirect",
+      "cwd": "${workspaceFolder}",
+      "enableDebug": false,
+      "platform": "windows"
+    }
+  ]
+}
