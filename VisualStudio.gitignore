@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Mac ignores
+.DS_STORE
+
+#VS CODE
+.vscode
+
+# Jet Brains
+.idea
+
 # User-specific files
 *.rsuser
 *.suo
