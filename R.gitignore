@@ -4,6 +4,7 @@
 
 # Session Data files
 .RData
+.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -43,3 +44,6 @@ docs/
 
 # translation temp files
 po/*~
+
+# RStudio Connect folder
+rsconnect/

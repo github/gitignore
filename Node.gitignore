@@ -5,6 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+.pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -53,6 +54,9 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+# Optional stylelint cache
+.stylelintcache
+
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -68,9 +72,12 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
+# dotenv environment variable files
 .env
-.env.test
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -92,6 +99,13 @@ dist
 
 # vuepress build output
 .vuepress/dist
+
+# vuepress v2.x temp and cache directory
+.temp
+.cache
+
+# Docusaurus cache and generated files
+.docusaurus
 
 # Serverless directories
 .serverless/
