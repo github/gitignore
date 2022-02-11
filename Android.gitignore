@@ -18,6 +18,9 @@ output.json
 # IntelliJ
 *.iml
 .idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
 # Keystore files
 *.jks
