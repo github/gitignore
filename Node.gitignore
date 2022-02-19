@@ -117,7 +117,7 @@ dist
 .dynamodb/
 
 # AWS SAM
-.aws-sam
+.aws-sam/
 
 # TernJS port file
 .tern-port
