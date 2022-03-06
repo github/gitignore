@@ -1,8 +1,15 @@
-# Compiled class file
+# Compiled class files:
 *.class
 
-# Log file
+# All files with .log extension + all files and directories named 'logs':
 *.log
+**/logs
+
+# 'Target' directory located directly in the project directory:
+/target
+
+# All files and directories which names start with . (dot):
+.*
 
 # BlueJ files
 *.ctxt
