@@ -1,1 +1,5 @@
 *.stl
+*.gcode
+*.photon
+*.photons
+*.pwmx
