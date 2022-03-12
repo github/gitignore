@@ -20,13 +20,13 @@ the following resources are a great place to start:
 
 We support a collection of templates, organized in this way:
 
-- the root folder contains templates in common use, to help people get started
+- The root folder contains templates in common use, to help people get started
   with popular programming languages and technologies. These define a meaningful
   set of rules to help get started, and ensure you are not committing
-  unimportant files into your repository
+  unimportant files into your repository.
 - [`Global`](./Global) contains templates for various editors, tools and
   operating systems that can be used in different situations. It is recommended
-  that you either [add these to your global template](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
+  that you either [add these to your global template](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files#configuring-ignored-files-for-all-repositories-on-your-computer)
   or merge these rules into your project-specific templates if you want to use
   them permanently.
 - [`community`](./community) contains specialized templates for other popular
@@ -141,7 +141,7 @@ Here’s how we suggest you go about proposing a change to this project:
 1. [Fork this project][fork] to your account.
 2. [Create a branch][branch] for the change you intend to make.
 3. Make your changes to your fork.
-4. [Send a pull request][pr] from your fork’s branch to our `master` branch.
+4. [Send a pull request][pr] from your fork’s branch to our `main` branch.
 
 Using the web-based interface to make changes is fine too, and will help you
 by automatically forking the project and prompting to send a pull request too.
