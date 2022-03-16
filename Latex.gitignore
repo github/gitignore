@@ -5,6 +5,10 @@
 *.log
 *.synctex.gz
 *.toc
+*.out
+*.xwm
+*.bbl
+*.blg
 
 # Build Files
 *.pdf
