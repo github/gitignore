@@ -54,12 +54,15 @@ ExportedObj/
 
 # Unity3D generated file on crash reports
 sysinfo.txt
+[Ll]ibrary/ArtifactDB
+
 
 # Builds
 *.apk
 *.aab
 *.unitypackage
 *.app
+*.bc
 
 # Crashlytics generated file
 crashlytics-build.properties
