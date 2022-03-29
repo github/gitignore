@@ -130,6 +130,8 @@ $tf/
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
+# Comment out if there is a need to save global settings
+# *.DotSettings
 *.DotSettings.user
 
 # TeamCity is a build add-in
@@ -395,4 +397,10 @@ FodyWeavers.xsd
 *.msp
 
 # JetBrains Rider
+**/*.idea
 *.sln.iml
+
+# System created files
+Thumbs.db
+Desktop.ini
+.DS_Store
