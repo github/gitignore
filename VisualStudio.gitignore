@@ -327,6 +327,20 @@ paket-files/
 __pycache__/
 *.pyc
 
+# Python virtual environments - avoids auto-commits of venvs when
+# creating Python projects with an initial git repository.
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python/Django
+local_settings.py
+db.sqlite3
+
 # Cake - Uncomment if you are using it
 # tools/**
 # !tools/packages.config
