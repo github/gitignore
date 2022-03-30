@@ -1,6 +1,6 @@
 # A collection of `.gitignore` templates
 
-This is GitHub’s collection of [`.gitignore`][man] file templates.
+This is GitHub’s collection of [`.gitignore`][person] file templates.
 We use this list to populate the `.gitignore` template choosers available
 in the GitHub.com interface when creating new repositories and files.
 
@@ -9,7 +9,7 @@ the following resources are a great place to start:
 
 - The [Ignoring Files chapter][chapter] of the [Pro Git][progit] book.
 - The [Ignoring Files article][help] on the GitHub Help site.
-- The [gitignore(5)][man] manual page.
+- The [gitignore(5)][person] manual page.
 
 [man]: http://git-scm.com/docs/gitignore
 [help]: https://help.github.com/articles/ignoring-files
