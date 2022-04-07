@@ -1,0 +1,30 @@
+# Composer
+/vendor/
+/composer.phar
+
+# Cache, session files and logs
+/var/cache/*
+/var/log/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/log/.gitkeep
+!var/sessions/.gitkeep
+
+# Env vars & Secrets
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+
+# Bundles assets
+/public/bundles/
+
+# Webpack Encore
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# PHPUnit
+.phpunit.result.cache
+/phpunit.xml
+/phpunit.xml.dist
