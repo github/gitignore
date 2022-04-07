@@ -8,7 +8,7 @@
 *.cmxs
 *.cmxa
 
-# ocamlbuild working directory
+# ocamlbuild and Dune default working directory
 _build/
 
 # ocamlbuild targets
