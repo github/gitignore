@@ -397,5 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Microsoft Test Results file
+# Microsoft Test Results XML file
 *.trx
