@@ -1,0 +1,18 @@
+node_modules
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+package-lock.json
+cypress/fixtures/
+cypress/videos/
+cypress/screenshot/
+mochawesome-report/
+cypress/reports/
+cypress/screenshots
+cypress/helpers/cms/savedData
