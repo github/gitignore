@@ -1,0 +1,5 @@
+# dbt generated files
+target/
+dbt_modules/
+dbt_packages/
+logs/
