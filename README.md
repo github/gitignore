@@ -106,7 +106,7 @@ at the root) but helps maintainers support older versions still in the wild.
 
 ## Specialized templates
 
-If you have a template that you would like to contribute, but it isn't quite
+If you have a template that you would like to contribute, but it's not quite
 mainstream, please consider adding this to the `community` directory under a
 folder that best suits where it belongs.
 
