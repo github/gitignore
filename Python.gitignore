@@ -132,6 +132,10 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# vim
+*.sw*
+*.vim
+
 # Rope project settings
 .ropeproject
 
