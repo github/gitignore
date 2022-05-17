@@ -15,3 +15,6 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+#This file records project specific settings vs. workspace preferences.
+.settings/
