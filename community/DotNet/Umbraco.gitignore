@@ -39,6 +39,9 @@
 #ignore umbraco backoffice assest from wwwroot
 **/wwwroot/umbraco/
 
+# SQLite files
+*.sqlite.db*
+
 #ignore umbraco data/views/settings
 **/umbraco/
 
