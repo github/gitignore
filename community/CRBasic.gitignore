@@ -7,13 +7,13 @@
 *.[tT][dD][fF]
 
 # Compressed source files
-*_str.cr*
+*_str.[cC][rR]*
 
 # Conditional compilation output files
-*_CC*.cr*
+*_CC*.[cC][rR]*
 
 # Binary compiled files (CR200 series)
 *.bin
 
 # Encrypted compiled files
-*_Enc.cr*
+*_Enc.[cC][rR]*
