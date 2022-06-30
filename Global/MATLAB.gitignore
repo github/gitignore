@@ -4,6 +4,9 @@
 # OSX / *nix default autosave extension
 *.m~
 
+# Derived Content-Obscured files
+*.p
+
 # Compiled MEX binaries (all platforms)
 *.mex*
 
