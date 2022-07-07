@@ -72,7 +72,7 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
+# dotenv local environment variable files for safeguarding tokens, keys and passwords (important!)
 .env
 .env.development.local
 .env.test.local
