@@ -1,13 +1,14 @@
-# Windows default autosave extension
+# Autosave files
 *.asv
-
-# OSX / *nix default autosave extension
 *.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
 
-# Derived Content-Obscured files
+# Derived content-obscured files
 *.p
 
-# Compiled MEX binaries (all platforms)
+# Compiled MEX files
 *.mex*
 
 # Packaged app and toolbox files
@@ -17,18 +18,13 @@
 # Generated helpsearch folders
 helpsearch*/
 
-# Simulink code generation folders
+# Code generation folders
 slprj/
 sccprj/
-
-# Matlab code generation folders
 codegen/
 
-# Simulink autosave extension
-*.autosave
-
-# Simulink cache files
+# Cache files
 *.slxc
 
-# Octave session info
-octave-workspace
+# Dotfile from cloud based storage
+.MATLABDriveTag
