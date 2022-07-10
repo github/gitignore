@@ -14,7 +14,8 @@ captures/
 .cxx/
 *.apk
 output.json
-
+# mac genration
+.DS_Store
 # IntelliJ
 *.iml
 .idea/
