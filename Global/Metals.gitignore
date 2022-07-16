@@ -1,5 +1,0 @@
- # Generated Metals (Scala Language Server) files
- # Reference: https://scalameta.org/metals/
-.metals/
-.bloop/
-project/metals.sbt
