@@ -2,6 +2,9 @@
 **/build/
 !src/**/build/
 
+# XX:+HeapDumpOnOutOfMemoryError
+java_{pid}.hprofесли
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
