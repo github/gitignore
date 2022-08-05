@@ -108,7 +108,7 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# yarn v2
+# Yarn modern
 # Comment for zero-install
 .pnp.*
 .yarn/*
