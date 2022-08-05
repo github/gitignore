@@ -109,9 +109,11 @@ dist
 .vscode-test
 
 # yarn v2
-.pnp.* # Comment for zero-install
+# Comment for zero-install
+.pnp.*
 .yarn/*
-# !.yarn/cache # Uncomment for zero-install
+# Uncomment for zero-install
+# !.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
