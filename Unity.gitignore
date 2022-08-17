@@ -61,6 +61,9 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+# Import auto-generated files
+*.unitypackage.meta
+
 # Crashlytics generated file
 crashlytics-build.properties
 
