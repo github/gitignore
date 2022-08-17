@@ -50,3 +50,6 @@
 
 #include default location for packages
 !**/umbraco/Data/packages
+
+# Temp folder containing Examine indexes, NuCache, MediaCache, etc.
+**/umbraco/Data/TEMP/
