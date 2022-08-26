@@ -1,0 +1,8 @@
+# gitignore template for Jolie programming language
+# website: https://www.jolie-lang.org/
+
+# Java dependency directory
+lib/
+
+# Jolie dependency directory
+packages/
