@@ -1,0 +1,30 @@
+dist/
+tmp/
+/out-tsc
+
+# dependencies
+node_modules/
+bower_components/
+
+# IDEs and editors
+.idea/
+jsconfig.json
+.vscode/
+
+# misc
+/.angular
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+
+#System Files
+**/.DS_Store
+.DS_Store
+Thumbs.db
