@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Visual Studio 2022 directory
+/src/Visual Studio 2022/Visualizers/attribcache140.bin
