@@ -1,0 +1,9 @@
+# gitignore template for competitive programming (ICPC, IOI, Codeforces Round, etc.)
+
+# input/output files
+*.in
+*.out
+*.ans
+
+# executable files
+*.exe
