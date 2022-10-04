@@ -1,0 +1,17 @@
+# LaTex auxilary files
+*.aux
+
+# LaTex Log files
+*.log
+
+# LaTex tables
+*.lot
+*.lof
+*.toc
+
+# Synctex archives
+*.synctex.gz
+
+
+# Pdf Documents
+*.pdf
