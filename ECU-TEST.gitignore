@@ -1,4 +1,4 @@
-# gitignore template for ECU-TEST workspaces
+# gitignore template for ECU-TEST workspaces - by TraceTronic https://tracetronic.com
 # website: https://www.ecu-test.com
 #   * all directories are related to the default directories, please adapt the .gitignore if you use customized
 #     directories
