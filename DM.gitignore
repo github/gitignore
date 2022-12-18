@@ -1,5 +1,7 @@
+backup/*.dmm
 *.dmb
 *.rsc
 *.int
 *.lk
+*.sav
 *.zip
