@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Backup files created when files are modified outside of Visual Studio
+# It is named "<filename> - Backup.csproj"
+* - Backup.csproj
