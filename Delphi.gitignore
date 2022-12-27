@@ -67,3 +67,7 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+# Mac Finder and Windows explorer files
+.DS_Store
+Thumbs.db
