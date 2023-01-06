@@ -3,8 +3,11 @@
 .AppleDouble
 .LSOverride
 
+# Decorators files
+.localized
+
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
