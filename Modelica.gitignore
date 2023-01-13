@@ -2,10 +2,11 @@
 # https://modelica.org/
 # Ignore temporary files, build results, simulation files
 
-## Modelica backup files
+## Modelica-specific files
 *~
 *.bak
 *.bak-mo
+*.mof
 
 ## Build artefacts
 *.exe
