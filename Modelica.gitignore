@@ -1,0 +1,37 @@
+# Modelica - an object-oriented language for modeling of cyber-physical systems
+# https://modelica.org/
+# Ignore temporary files, build results, simulation files
+
+## Modelica backup files
+*~
+*.bak
+*.bak-mo
+
+## Build artefacts
+*.exe
+*.exp
+*.o
+*.pyc
+
+## Simulation files
+*.mat
+
+## Package files
+*.gz
+*.rar
+*.tar
+*.zip
+
+## Dymola-specific files
+buildlog.txt
+dsfinal.txt
+dsin.txt
+dslog.txt
+dsmodel*
+dsres.txt
+dymosim*
+request
+stat
+status
+stop
+success
