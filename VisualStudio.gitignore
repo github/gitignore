@@ -43,6 +43,7 @@ Generated\ Files/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+*.trx
 
 # NUnit
 *.VisualState.xml
@@ -396,6 +397,3 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-
-# Microsoft Test Results XML file
-*.trx
