@@ -3,7 +3,7 @@
 *.dll
 *.so
 *.dylib
-# *.lrs
+*.lrs
 *.res
 *.compiled
 *.dbg
@@ -22,9 +22,18 @@
 
 # Lazarus backups and unit output folders.
 # These can be changed by user in Lazarus/project options.
+bin/
 backup/
-*.bak
+bak/
 lib/
+log/
+logs/
+tmp/
+temp/
+superado/
+_superado/
+modules/
+*.bak
 
 # Application bundle for Mac OS
 *.app/
