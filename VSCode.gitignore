@@ -1,0 +1,35 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# TypeScript
+*.js
+*.map
+
+# Compiled files
+dist/
+out/
+lib/
+*.min.js
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Other
+.DS_Store
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
