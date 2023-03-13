@@ -69,6 +69,7 @@ crashlytics-build.properties
 
 # Addressables link build file
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/[Ll]ink.xml
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/[Ll]ink.xml.meta
 
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
