@@ -26,6 +26,12 @@
 # Visual Studio cache directory
 .vs/
 
+# Rider
+.idea/
+
+# Visual Studio Code settings directory
+.vscode/
+
 # Gradle cache directory
 .gradle/
 
