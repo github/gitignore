@@ -32,3 +32,5 @@ fp-info-cache
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
+
+\#auto_saved_files\#
