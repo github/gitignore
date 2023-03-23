@@ -4,6 +4,10 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# created and used by https://github.com/jupyter-lsp/jupyterlab-lsp/
+.virtual_documents/
+*/.virtual_documents/
+
 # IPython
 profile_default/
 ipython_config.py
