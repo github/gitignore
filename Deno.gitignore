@@ -3,29 +3,13 @@
 *.swp
 .env
 
-/.cargo_home/
-/.idea/
-/.vscode/
 gclient_config.py_entries
-/gh-pages/
 /target/
 /std/hash/_wasm/target
 /tools/wpt/manifest.json
-
-# Files that help ensure VSCode can work but we don't want checked into the
-# repo
-/node_modules
-/tsconfig.json
-
-# compiled wasm files
-std/wasi/testdata/snapshot_preview1/
-
-# generated v8 coverage files
-cli/tests/.test_coverage/
-
-# MacOS generated files
-.DS_Store
-.DS_Store?
+/test_napi/node_modules
+/test_napi/build
+/test_napi/third_party_tests/node_modules
 
 # Flamegraphs
 /flamebench*.svg
