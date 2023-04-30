@@ -1,10 +1,3 @@
-
-
-### ===================================================================================================
-###               Python
-### ==========================================
-## https://github.com/github/gitignore/blob/main/Python.gitignore
-# -----------------------------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -165,64 +158,3 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-
-
-
-
-### ===================================================================================================
-###               VS Code
-### ==========================================
-## https://www.gitignore.io/?templates=visualstudiocode | https://www.gitignore.io/api/visualstudiocode
-# -----------------------------------------------------------------------------------------------------
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-# -----------------------------------------------------------------------------------------------------
-
-
-### ===================================================================================================
-###             JetBrains IDEs
-### ==========================================
-## https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-# -----------------------------------------------------------------------------------------------------
-## File-based project format
-*.iws
-## IntelliJ
-out/
-atlassian-ide-plugin.xml
-## User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
-.idea/**/aws.xml
-.idea/**/contentModel.xml
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
-.idea/**/gradle.xml
-.idea/**/libraries
-cmake-build-*/
-.idea/**/mongoSettings.xml
-.idea_modules/
-.idea/replstate.xml
-.idea/sonarlint/
-.idea/httpRequests
-.idea/caches/build_file_checksums.ser
-
-## Gradle and Maven with auto-import
-## When using Gradle or Maven with auto-import, you should exclude module files,since they will be recreated
-# auto-import.            # .idea/artifacts               # .idea/compiler.xml      # .idea/jarRepositories.xml
-# .idea/modules.xml       # .idea/*.iml                   # .idea/modules           # *.iml     # *.ipr
-# -----------------------------------------------------------------------------------------------------
-#
-
-### ===================================================================================================
-
