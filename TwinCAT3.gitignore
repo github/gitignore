@@ -21,5 +21,6 @@ LineIDs.dbg
 LineIDs.dbg.bak
 _Boot/
 _CompileInfo/
+_CompileInfo_Upload/
 _Libraries/
 _ModuleInstall/
