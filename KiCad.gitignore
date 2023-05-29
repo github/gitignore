@@ -27,3 +27,38 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Gerbers
+*.gbr
+*.gbrjob
+
+# Gerbers Protel filename extensions
+*.gtp
+*.gts
+*.gtp
+*.gtl
+*.g1
+*.g2
+*.gp1
+*.gp2
+*.gbl
+*.gpb
+*.gbs
+*.gbo
+*.gd1
+*.gg1
+*.gko
+*.gm1
+*.gm3
+
+# Drill files
+*.drl
+
+# Component Placement
+*.pos
+
+# Footprint Report
+*.rpt
+
+# IPC-D-365 Netlist File
+*.d365
