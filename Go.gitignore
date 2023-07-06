@@ -19,3 +19,6 @@
 
 # Go workspace file
 go.work
+
+# Delve debugger binary
+__debug_bin*
