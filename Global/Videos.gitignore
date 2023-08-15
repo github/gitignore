@@ -2,7 +2,7 @@
 ## because GitHub recommends repository sizes under 5GB.
 
 # Quicktime Video Files
-*.mov
+*.[Mm][Oo][Vv]
 
 # MPEG-4 Video Files
 *.m4v
