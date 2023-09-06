@@ -1,6 +1,10 @@
 # gitginore template for creating Debian packages
 # website: https://wiki.debian.org/HowToPackageForDebian
 
-debian/.debhelper
+debian/autoreconf.*
 debian/debhelper-build-stamp
+debian/files
+debian/tmp/
+debian/*.debhelper
+debian/*.log
 debian/*.substvars
