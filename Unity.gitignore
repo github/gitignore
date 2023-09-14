@@ -5,10 +5,13 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
+/[Bb]in/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Aa]rtifacts/
+/[Ll]ocal[Cc]ache/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -46,6 +49,11 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.opensdf
+*.sdf
+*.ipch
+*.log
+*.idb
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -70,3 +78,37 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore UnityVS so that users can use different versions
+/[Aa]ssets/UnityVS/*
+/[Aa]ssets/UnityVS.meta
+
+# Platform-specific build directories
+/WebBuild/
+/WindowsBuild/
+
+# Windows Store App folders
+/WindowsStoreApp/
+/WSA/
+
+# Automatically generated Unity-related folders
+/UnityGenerated/
+/UnityPackageManager/
+
+# Generated Unity UWP files and folders
+/UWP/
+/project.json
+/project.lock.json
+
+# Folder for generated UWP App to export to HoloLens
+/[Aa]pp/
+
+# Debug output
+/DebugOutput/
+/DebugOutput.meta
+
+# Certificates
+*.cert
+*.privkey
+*.pfx
+*.pfx.meta
