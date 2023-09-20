@@ -1,0 +1,6 @@
+# Object files
+*.o
+
+# Build artifacts and cache
+zig-cache/
+zig-out/
