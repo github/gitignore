@@ -1,0 +1,3 @@
+# Build artifacts and cache
+zig-cache/
+zig-out/
