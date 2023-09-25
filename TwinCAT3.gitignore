@@ -29,6 +29,7 @@ LineIDs.dbg.bak
 *.xti.orig
 *.xtv
 *.xtv.bak
+*.xtv.b?k
 
 # Multiuser specific
 **/.TcGit/
