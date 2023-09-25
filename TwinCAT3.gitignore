@@ -24,12 +24,9 @@ LineIDs.dbg.bak
 *.tsproj.bak
 *.tsproj.b?k
 *.tsproj.orig
-*.xti.bak
-*.xti.bk?
-*.xti.orig
-*.xtv
-*.xtv.bak
-*.xtv.bk?
+*.xt?.bak
+*.xt?.bk?
+*.xt?.orig
 
 # Multiuser specific
 **/.TcGit/
