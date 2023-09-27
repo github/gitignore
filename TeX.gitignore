@@ -110,7 +110,7 @@ acs-*.bib
 *.glo
 *.glo-abr
 *.gls
-*.glo-abr
+*.gls-abr
 *.glsdefs
 *.lzo
 *.lzs
