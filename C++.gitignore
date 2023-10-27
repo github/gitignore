@@ -30,3 +30,50 @@
 *.exe
 *.out
 *.app
+
+# CMake build directory
+build/
+
+# Visual Studio Code directory
+.vscode/
+
+# Sublime Text workspace files
+*.sublime-workspace
+
+# Eclipse directory
+.settings/
+
+# Code::Blocks directory
+bin/
+
+# Xcode directory
+*.xcodeproj/
+*.xcworkspace/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+
+# VSCode directories and files
+.vscode/
+settings.json
+tasks.json
+launch.json
+c_cpp_properties.json
+
+# Qt project files
+*.pro.user
+*.pro.user.*
+
+# Qt Creator directory
+*.user
+*.user.*
+
+# Boost build directory
+bin.v2/
+
+# CLion directory
+.idea/
+*.iml
