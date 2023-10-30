@@ -56,13 +56,6 @@ CMakeCache.txt
 CMakeScripts/
 Testing/
 
-# VSCode directories and files
-.vscode/
-settings.json
-tasks.json
-launch.json
-c_cpp_properties.json
-
 # Qt project files
 *.pro.user
 *.pro.user.*
