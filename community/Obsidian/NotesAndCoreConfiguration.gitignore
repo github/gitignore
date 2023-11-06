@@ -1,0 +1,16 @@
+# Excludes Obsidian workspace cache and plugins. All notes and core obsidian
+# configuration files are tracked by Git.
+
+# The current application UI state (DOM layout, recently-opened files, etc.) is
+# stored in these files (separate for desktop and mobile) so you can resume
+# your session seamlessly after a restart. If you want to track UI state, use
+# the Workspaces core plugin instead of relying on these files.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugins are stored under .obsidian/plugins/$plugin_name. They
+# contain metadata (manifest.json), application code (main.js), stylesheets
+# (styles.css), and user-configuration data (data.json).
+# We want to exclude all plugin-related files, so we can exclude everything
+# under this directory.
+.obsidian/plugins/**/*
