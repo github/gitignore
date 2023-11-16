@@ -1,0 +1,5 @@
+# Nix derivation output
+**/result/**
+
+# Nix shell file system overlay (like chroot but per repo)
+.devenv/**
