@@ -1,0 +1,38 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/.nyc_output
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/tsconfig.tsbuildinfo
+/testem.log
+/testem.js
+/typings
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# misc
+.DS_Store
+Thumbs.db
