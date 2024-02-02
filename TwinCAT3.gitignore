@@ -16,6 +16,7 @@
 *.library
 *.project.~u
 *.tsproj.bak
+*.tspproj.bak
 *.xti.bak
 LineIDs.dbg
 LineIDs.dbg.bak
