@@ -6,4 +6,4 @@ Generate `.gitignore` file online:
 
 #  Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](script/screenshot.png)
