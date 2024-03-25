@@ -1,0 +1,146 @@
+# Build products
+*.py[co]
+build
+AUTHORS.TXT
+
+# Emacs backup and autosave files
+*~
+.#*
+# RPM stuff
+MANIFEST
+dist
+rpm-build
+
+# Eclipse/PyDev stuff
+.project
+.pydevproject
+
+# PyCharm stuff
+.idea
+
+# IntelliJ IDEA stuff
+*.iml
+
+# VSCode stuff
+.vscode
+
+# Mac OS X stuff
+.DS_Store
+
+# Manpage build stuff
+docs/man/man1/ansible*.1
+docs/man/man1/ansible*.1.asciidoc.in
+docs/man/man3/*
+
+# Sublime stuff
+*.sublime-project
+*.sublime-workspace
+
+# Docsite stuff
+docs/docsite/_build
+docs/docsite/*.html
+docs/docsite/htmlout
+docs/docsite/rst/conf.py
+docs/docsite/rst/index.rst
+docs/docsite/rst/cli/ansible-*.rst
+docs/docsite/rst/cli/ansible.rst
+docs/docsite/rst/dev_guide/collections_galaxy_meta.rst
+docs/docsite/rst/dev_guide/testing/sanity/index.rst.new
+docs/docsite/rst/dev_guide/index.rst
+docs/docsite/rst/modules/*.rst
+docs/docsite/rst/collections/*.rst
+!docs/docsite/rst/collections/all_plugins.rst
+docs/docsite/rst/collections/*/*.rst
+docs/docsite/rst/playbooks_directives.rst
+docs/docsite/rst/plugins_by_category.rst
+docs/docsite/rst/plugins/*/*.rst
+docs/docsite/rst/reference_appendices/config.rst
+docs/docsite/rst/reference_appendices/playbooks_keywords.rst
+docs/docsite/rst_warnings
+docs/docsite/searchindex.js
+docs/docsite/_static/*.gif
+docs/docsite/_static/*.png
+docs/docsite/_static/websupport.js
+
+# Vim swap files
+*.swp
+*.swo
+[._]*.un~
+credentials.yml
+
+# Test output
+*.retry
+*.out
+.pytest_cache/
+.tox
+.cache
+.pytest_cache
+results.xml
+coverage.xml
+/test/units/cover-html
+/test/integration/inventory
+/test/integration/targets/*/backup/
+/test/cache/
+
+# Development
+/test/develop
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+venv
+Vagrantfile
+.vagrant
+
+# Backwards compatibility with `stable-2.9` and earlier branches
+/lib/ansible.egg-info/
+
+# First used in the `devel` branch during Ansible 2.10 development
+/lib/ansible_base.egg-info/
+
+# First used in the `devel` branch during Ansible 2.11 development
+/lib/ansible_core.egg-info/
+
+# Vendored lib dir
+lib/ansible/_vendor/*
+!lib/ansible/_vendor/__init__.py
+
+# Test stuff
+/test/integration/cloud-config-*.*
+!/test/integration/cloud-config-*.*.template
+.python-version
+
+# Release directory
+packaging/release/ansible_release/
+.cache/
+/test/results/
+/test/integration/cloud-config-aws.yml
+/test/integration/inventory.networking
+/test/integration/inventory.winrm
+/test/integration/cloud-config-aws.yml
+/test/integration/cloud-config-cs.ini
+
+# Python 'rope' stuff
+.ropeproject
+
+# Local 'ack' config files
+.ackrc
+
+# Default 'coverage html' results
+htmlcov/
+
+# Default 'coverage' tool data
+.coverage
+
+# Ansible-test coverage results
+test/units/.coverage.*
+
+# Additional entries for specific Ansible collections
+# roles/my_role/files/my_script.sh shellcheck:SC2154
+# plugins/modules/my_module.py validate-modules:missing-gplv3-license
+# plugins/modules/my_module.py import-3.8 (needs update to support collections.abc on Python 3.8+)
