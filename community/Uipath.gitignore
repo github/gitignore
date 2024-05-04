@@ -1,0 +1,13 @@
+## Gitignore Template for UIPath Projects
+
+## Ignore Folders That Are Auto-Generated with UIPath Studio IDE
+
+# Local Data
+**.local
+
+# These folders are usually not needed to be stored; uncomment if using default values or not using that feature.
+# **.entities
+# **.project
+# **.templates
+# **.tmh
+# **.objects
