@@ -1,0 +1,11 @@
+# gitignore template for RPA development using UiPath Studio 
+# website: Advanced Automation Software, RPA Tools - Studio | UiPath
+#
+# Recommended: n/a
+
+# Ignore folders that could cause issues if accidentally tracked
+**/.local/**
+**/.settings/**
+**/.objects/**
+**/.tmh/**
+**/*.log
