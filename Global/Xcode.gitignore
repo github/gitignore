@@ -1,5 +1,6 @@
 ## User settings
 xcuserdata/
+*.xcbkptlist
 
 ## Xcode 8 and earlier
 *.xcscmblueprint
