@@ -20,7 +20,6 @@ ignored/
 # AS File types
 *.bak
 *.isopen
-*.DS_Store
 *.orig
 *.log
 *.asar
@@ -30,7 +29,3 @@ ignored/
 
 # RevInfo variables
 *RevInfo.var
-
-# Misc
-**/MPLogs/*
-**/DLFiles/*
