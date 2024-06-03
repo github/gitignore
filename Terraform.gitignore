@@ -39,5 +39,6 @@ terraform.rc
 # Ignore hcl file
 .terraform.lock.hcl
 
+
 # Ignore graph file
 *.dot
