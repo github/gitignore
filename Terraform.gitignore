@@ -39,6 +39,17 @@ terraform.rc
 # Ignore hcl file
 .terraform.lock.hcl
 
-
-# Ignore graph file
+# Ignore graph files
 *.dot
+
+# Ignore lock.hcl
+*.terraform.*
+
+# to skip MacOS file found after creating .bicep
+.DS_Store
+
+# plan files (optional). To save plan before destroy
+planout
+
+# Ignore tfplan files, saved during terraform plan execution
+*.out
