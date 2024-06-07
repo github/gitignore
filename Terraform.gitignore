@@ -36,19 +36,17 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Ignore hcl file
+# Ignore hcl files
 .terraform.lock.hcl
+*.terraform.*
 
 # Ignore graph files
 *.dot
 
-# Ignore lock.hcl
-*.terraform.*
-
-# to skip MacOS file found after creating .bicep
+# to skip MacOS custom attributes. It appears when creating a .bicep file.
 .DS_Store
 
-# plan files (optional). To save plan before destroy
+# Ignore plan files (optional) as some might save plan before destroy the terraform configuration
 planout
 
 # Ignore tfplan files, saved during terraform plan execution
