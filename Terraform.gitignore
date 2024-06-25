@@ -51,3 +51,6 @@ planout
 
 # Ignore tfplan files, saved during terraform plan execution
 *.out
+
+# Ignore Visual Studio Code customized settings (this folder holds .json file)
+.vscode
