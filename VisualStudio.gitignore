@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 # Verify test results
 *.received.*
+*.received/
