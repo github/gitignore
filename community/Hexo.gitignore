@@ -1,24 +1,18 @@
 # gitignore template for Hexo sites
+# website: https://hexo.io/
+# Recommended: Node.gitignore
+
 # Ignore generated files and directories
-.DS_Store
 .tmp*
 dist/
 public/
 coverage/
 
-# Ignore dependencies and lock files
-node_modules/
+# Ignore temp files and lock files
 tmp/
 yarn.lock
 package-lock.json
 pnpm-lock.yaml
-
-# Ignore IDE specific files and directories
-.idea/
-.vscode
-
-# Ignore code coverage output
-.nyc_output/
 
 # Add any additional patterns here
 db.json
