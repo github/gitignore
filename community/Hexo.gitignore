@@ -1,0 +1,22 @@
+# gitignore template for Hexo sites
+# Ignore generated files and directories
+.DS_Store
+.tmp*
+dist/
+coverage/
+
+# Ignore dependencies and lock files
+node_modules/
+tmp/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore IDE specific files and directories
+.idea/
+.vscode
+
+# Ignore code coverage output
+.nyc_output/
+
+# Add any additional patterns here
