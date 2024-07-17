@@ -3,6 +3,7 @@
 .DS_Store
 .tmp*
 dist/
+public/
 coverage/
 
 # Ignore dependencies and lock files
@@ -20,3 +21,5 @@ pnpm-lock.yaml
 .nyc_output/
 
 # Add any additional patterns here
+db.json
+.deploy_git/
