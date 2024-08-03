@@ -1,0 +1,69 @@
+Enter file contents hereimport tkinter as tk
+from tkinter import filedialog
+from PIL import Image, ImageTk
+
+def calculate_pension(current_age, monthly_salary, risk_rate, contribution_rate):
+    years_to_retirement = 67 - current_age
+    monthly_contribution = monthly_salary * contribution_rate
+    total_contribution = monthly_contribution * 12 * years_to_retirement
+    
+    future_value = total_contribution * ((1 + risk_rate) ** years_to_retirement)
+    return round(future_value, 2)
+
+def calculate_and_display():
+    try:
+        current_age = int(age_entry.get())
+        monthly_salary = float(salary_entry.get())
+        
+        result_text.delete(1.0, tk.END)
+        result_text.insert(tk.END, "תחזית חיסכון פנסיוני לגיל 67:\n\n")
+        
+        risk_rates = [0.03, 0.04, 0.08]
+        contribution_rates = [0.2083, 0.2183]
+        risk_levels = ["נמוכה", "בינונית", "גבוהה"]
+        
+        for i, risk_rate in enumerate(risk_rates):
+            for j, contribution_rate in enumerate(contribution_rates):
+                pension = calculate_pension(current_age, monthly_salary, risk_rate, contribution_rate)
+                result_text.insert(tk.END, f"רמת סיכון {risk_levels[i]} ({risk_rate*100}%), הפרשה {contribution_rate*100}%: {pension:,.2f} ₪\n")
+            result_text.insert(tk.END, "\n")
+    except ValueError:
+        result_text.delete(1.0, tk.END)
+        result_text.insert(tk.END, "נא הכנס ערכים תקינים")
+
+def load_logo():
+    file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.png *.jpg *.jpeg *.gif *.bmp")])
+    if file_path:
+        logo_image = Image.open(file_path)
+        logo_image = logo_image.resize((100, 100))  # Resize the logo
+        logo_photo = ImageTk.PhotoImage(logo_image)
+        logo_label.config(image=logo_photo)
+        logo_label.image = logo_photo
+
+# Create the main window
+root = tk.Tk()
+root.title("מחשבון פנסיה")
+root.geometry("500x600")
+
+# Create and place widgets
+tk.Label(root, text="גיל נוכחי:").pack()
+age_entry = tk.Entry(root)
+age_entry.pack()
+
+tk.Label(root, text="שכר חודשי:").pack()
+salary_entry = tk.Entry(root)
+salary_entry.pack()
+
+calculate_button = tk.Button(root, text="חשב", command=calculate_and_display)
+calculate_button.pack()
+
+result_text = tk.Text(root, height=20, width=50)
+result_text.pack()
+
+logo_button = tk.Button(root, text="טען לוגו", command=load_logo)
+logo_button.pack()
+
+logo_label = tk.Label(root)
+logo_label.pack()
+
+root.mainloop()
