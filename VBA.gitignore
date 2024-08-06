@@ -1,9 +1,9 @@
 # Office temporary files
 ~$*
 
-# Access database lock files
-*.laccdb
-*.ldb
+# Access database lock files (laccdb, ldb)
+*.[lL][aA][cC][cC][dD][bB]
+*.[lL][dD][bB]
 
 # The following sections constitute a list of Office file extensions that support VBA.
 # If you want to exclude Office files from your repo, uncomment the corresponding file extensions.
