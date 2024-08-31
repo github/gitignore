@@ -2,16 +2,13 @@
 # website: https://hexo.io/
 # Recommended: Node.gitignore
 
-# Ignore generated files and directories
-.tmp*
+# Ignore generated directory
 public/
 
-# Ignore temp files and lock files
+# Ignore temp files
 tmp/
-yarn.lock
-package-lock.json
-pnpm-lock.yaml
+.tmp*
 
-# Add any additional patterns here
+# additional files
 db.json
 .deploy*/
