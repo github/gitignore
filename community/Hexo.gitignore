@@ -4,9 +4,7 @@
 
 # Ignore generated files and directories
 .tmp*
-dist/
 public/
-coverage/
 
 # Ignore temp files and lock files
 tmp/
@@ -16,4 +14,4 @@ pnpm-lock.yaml
 
 # Add any additional patterns here
 db.json
-.deploy_git/
+.deploy*/
