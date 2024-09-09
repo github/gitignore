@@ -1,4 +1,2 @@
-# This file is for zig-specific build artifacts.
-
-zig-cache/
+.zig-cache/
 zig-out/
