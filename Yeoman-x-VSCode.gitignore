@@ -1,0 +1,10 @@
+# this assumes you are using TypeScript in your project
+/node
+node_modules
+*.code-workspace
+*.js
+*.map
+out/**
+*.vscode
+test/**
+suite/**
