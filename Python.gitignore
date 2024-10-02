@@ -80,7 +80,8 @@ target/
 
 # marimo notebook
 #   marimo maintains a cache of binary data in __marimo__/cache/
-__marimo__/cache/
+#   in directories containing notebooks.
+**/__marimo__/cache/
 
 # IPython
 profile_default/
