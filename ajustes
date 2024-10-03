@@ -1,0 +1,24 @@
+# Archivos de datos de ejemplo
+*.txt
+*.csv
+*.json
+
+# Archivos de configuración local
+config.local
+*.ini
+
+# Archivos generados
+output/
+resultados/
+
+# Dependencias
+venv/
+__pycache__/
+
+# IDE/Editor files
+.idea/
+.vscode/
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
