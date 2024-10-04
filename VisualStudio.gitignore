@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Swap file created by Vi text editor or its variants (such as Vim)
+*.swp
