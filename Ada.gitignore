@@ -1,5 +1,30 @@
-# Object file
+# Object files and libraries
 *.o
-
-# Ada Library Information
 *.ali
+
+# Executable files
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Directories created by IDEs or build tools
+obj/
+bin/
+build/
+dist/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Dependency files
+*.d
