@@ -1,0 +1,14 @@
+# Logos
+#
+
+# theos temporary folder
+.theos
+
+# theos build folder
+packages
+
+# common macOS files
+.DS_Store
+
+# Add this line if you want to avoid checking in the theos folder
+# theos
