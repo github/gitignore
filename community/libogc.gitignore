@@ -1,0 +1,40 @@
+# Ignore build directories and files
+build/
+*.dol
+*.elf
+
+# Ignore Wii-specific metadata files
+meta.xml
+icon.png
+
+# Ignore temporary files created by compilers
+*.o
+*.bin
+*.map
+
+# Ignore editor or IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore backup or temporary files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore libraries and dependencies
+lib/
+deps/
+obj/
+  
+# Ignore operating system-specific files
+$RECYCLE.BIN/
+.Trash-1000/
+.Spotlight-V100/
+.fseventsd/
+.DS_Store
