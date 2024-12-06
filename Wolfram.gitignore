@@ -1,0 +1,5 @@
+# Paclet archive file
+*.paclet
+
+# Serialized package
+*.mx
