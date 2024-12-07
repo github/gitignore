@@ -174,7 +174,7 @@ acs-*.bib
 
 # minted
 _minted*
-*.pyg
+*.pyg*
 
 # morewrites
 *.mw
