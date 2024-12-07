@@ -1,0 +1,31 @@
+# gitignore template for B&R Automation Studio (AS) 4
+# website: https://www.br-automation.com/en-us/products/software/automation-software/automation-studio/
+
+# AS temporary directories
+Binaries/
+Diagnosis/
+Temp/
+TempObjects/
+
+# AS transfer files
+*artransfer.br
+*arTrsfmode.nv
+
+# 'ignored' directory
+ignored/
+
+# ARNC0ext
+*arnc0ext.br
+
+# AS File types
+*.bak
+*.isopen
+*.orig
+*.log
+*.asar
+*.csvlog*
+*.set
+!**/Physical/**/*.set
+
+# RevInfo variables
+*RevInfo.var
