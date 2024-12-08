@@ -13,8 +13,11 @@
 # Used by dotenv library to load environment variables.
 # .env
 
-# Ignore Byebug command history file.
-.byebug_history
+# Ignore command history files.
+.byebug_history  # Byebug
+.rdbg_history    # debug.rb
+.irb_history     # IRB
+.pry_history     # Pry
 
 ## Specific to RubyMotion:
 .dat*
