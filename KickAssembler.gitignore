@@ -1,0 +1,21 @@
+# gitignore template for KickAssembler project inside Visual Studio Code
+# website: http://theweb.dk/KickAssembler/Main.html
+#
+# Generated from build
+build
+*.prg
+*.sym
+*.dbg
+
+# typical lib folder
+.ra
+
+# gradle
+.gradle
+
+# other unused files
+.asminfo.txt
+.source.txt
+*.vs
+.idea
+.vscode
