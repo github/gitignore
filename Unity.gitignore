@@ -62,6 +62,9 @@ sysinfo.txt
 *.unitypackage.meta
 *.app
 
+# Proguard mapping files
+*_mapping.txt
+
 # Crashlytics generated file
 crashlytics-build.properties
 
