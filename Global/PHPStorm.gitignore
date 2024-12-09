@@ -1,4 +1,7 @@
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Based on https://www.toptal.com/developers/gitignore/api/phpstorm
+
+### PhpStorm ###
+# Covers JetBrains IDEs: PhpStorm and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
@@ -8,9 +11,6 @@
 **/.idea/dictionaries
 **/.idea/httpRequests/
 **/.idea/**/usage.statistics.xml
-
-# AWS User-specific
-.idea/**/aws.xml
 
 # Generated files
 .idea/**/contentModel.xml
@@ -63,9 +63,6 @@ atlassian-ide-plugin.xml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
-# SonarLint plugin
-.idea/sonarlint/
-
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
@@ -78,20 +75,39 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+### PhpStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# **/.idea/**/*.iml
+# **/.idea/**/modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/**/sonarlint/
+
+# SonarQube Plugin
+.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
+
+# End of https://www.toptal.com/developers/gitignore/api/phpstorm
+
 # From https://github.com/JetBrains/resharper-rider-samples/blob/master/.gitignore
 Thumbs.db
 Desktop.ini
 .DS_Store
-*.suo
-*.user
-.vs/
-[Bb]in/
-[Oo]bj/
-_UpgradeReport_Files/
-[Pp]ackages/
 
-# Rider auto-generated files from https://github.com/JetBrains/resharper-rider-samples/blob/master/.gitignore
-**/.idea/**/*.iml
-**/.idea/**/contentModel.xml
-# Rider auto-generated files from https://rider-support.jetbrains.com/hc/en-us/articles/207097529
-**/.idea/**/modules.xml
+# SuiteCloud IDE for WebStorm plugin
+**/.idea/suiteapp/metadata/*
+**/.idea/netsuite.pkey
+**/.idea/netsuite.sign
+**/.idea/netsuite.xml
+SuiteScript\.settings\.jsdtscope
