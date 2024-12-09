@@ -167,6 +167,9 @@ acs-*.bib
 *.maf
 *.mlf
 *.mlt
+*.mtc
+*.mlf[0-9]*
+*.mlt[0-9]*
 *.mtc[0-9]*
 *.slf[0-9]*
 *.slt[0-9]*
