@@ -2,7 +2,7 @@
 
 This is GitHub’s collection of [`.gitignore`][man] file templates.
 We use this list to populate the `.gitignore` template choosers available
-in the GitHub.com interface when creating new repositories and files.
+in the GitHub.com interface when creafgfgfgting new repositories and files.
 
 For more information about how `.gitignore` files work, and how to use them,
 the following resources are a great place to start:
