@@ -18,10 +18,11 @@
 !/.gitignore
 !/*.xml
 
-# Ignore all files in jobs subdirectories except for folders.
+# Ignore all files in jobs subdirectories except for folders and job config.
 # Note: git doesn't track folders, only file content.
 jobs/**
 !jobs/**/
+!jobs/**/config.xml
 
 # Uncomment the following line to save next build numbers with config.
 
