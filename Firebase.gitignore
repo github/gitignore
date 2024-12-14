@@ -9,7 +9,6 @@
 hosting/.cache
 
 # Firebase Functions
-/node_modules/
 /functions/node_modules/
 /functions/.env
 /functions/package-lock.json
@@ -25,20 +24,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.idea/
-.vscode/
-*.sublime*
-
 # Environment files (local configs)
-.env
-.env.*
-.env.local
-.env.development
-.env.production
-.env.test
-.env.staging
+/.env.*
