@@ -4,11 +4,12 @@
 #  http://jenkins-ci.org/
 #  https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
 #
-# Note: secret.key is purposefully not tracked by git. This should be backed up
-# separately because configs may contain secrets which were encrypted using the
-# secret.key.  To back up secrets use 'tar -czf /tmp/secrets.tgz secret*' and
-# save the file separate from your repository.  If you want secrets backed up
-# with configuration, then see the bottom of this file for an example.
+# Note: secret.key and credentials.xml are purposefully not tracked by git. 
+# They should be backed up separately because configs may contain secrets which
+# were encrypted using the secret.key.  To back up secrets use 
+# 'tar -czf /tmp/secrets.tgz secret*' and save the files separate from your
+# repository.  If you want secrets backed up with configuration, then see the
+# bottom of this file for an example.
 
 # Ignore all JENKINS_HOME except jobs directory, root xml config, and
 # .gitignore file.
@@ -17,10 +18,11 @@
 !/.gitignore
 !/*.xml
 
-# Ignore all files in jobs subdirectories except for folders.
+# Ignore all files in jobs subdirectories except for folders and job config.
 # Note: git doesn't track folders, only file content.
 jobs/**
 !jobs/**/
+!jobs/**/config.xml
 
 # Uncomment the following line to save next build numbers with config.
 
@@ -40,7 +42,12 @@ jobs/**/*workspace
 
 # Security warning: If secrets are included with your configuration, then an
 # adversary will be able to decrypt all encrypted secrets within Jenkins
-# config.  Including secrets is a bad practice, but the example is included in
+# config.
+
+# Ignore credentials.xml, as it can contain encrypted secrets.
+**/credentials.xml
+
+# Including secrets is a bad practice, but the example is included in
 # case someone still wants it for convenience.  Uncomment the following line to
 # include secrets for decryption with repository configuration in Git.
 
