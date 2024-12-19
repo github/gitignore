@@ -1,0 +1,19 @@
+# gitignore template for Bern University of Applied Sciences (BFH) workflows
+# website: https://www.ti.bfh.ch
+
+# Additions to LaTeX build flow
+_output/
+
+# Additions used in embedded build flows
+_build/
+build/
+
+# Additions used in STM32 based workflows
+STM32Make.make
+STM32-for-VSCode.config.yaml
+
+# Additions in general purpose flows
+[Au][Uu][Tt]??[_/]*
+[Ss][Pp][Rr]??[_/]*
+_sandbox/
+[aefimswx]?[abcdefghimop]_*
