@@ -122,6 +122,33 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# IDEs and editors
+# .vscode/
+# .history/
+# .idea/
+# *.iml
+# .project
+# .classpath
+# .settings/
+# nbproject/
+# *.xcworkspace
+# *.xcuserstate
+# *.xccheckout
+# *.xcodeproj
+# .gradle/
+# local.properties
+# *.sublime-project
+# *.sublime-workspace
+# *.swp
+# *.swo
+# .atom/
+# *.sln.iml
+# *.pidb
+# *.userprefs
+# cmake-build-*/
+# .DS_Store
+# Thumbs.db
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
