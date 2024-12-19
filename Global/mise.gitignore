@@ -1,0 +1,13 @@
+# https://mise.jdx.dev/profiles.html#profiles
+/.config/mise/config.local.toml
+/.config/mise/config.*.local.toml
+/.mise.local.toml
+/.mise.*.local.toml
+/.mise/config.local.toml
+/.mise/config.*.local.toml
+/mise.local.toml
+/mise/config.local.toml
+/mise/config.*.local.toml
+
+# https://mise.jdx.dev/configuration.html#tool-versions
+#/.tool-versions
