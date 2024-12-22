@@ -267,6 +267,9 @@ TSWLatexianTemp*
 *.bak
 *.sav
 
+# latexindent.pl
+*.bak[0-9]*
+
 # Texpad
 .texpadtmp
 
