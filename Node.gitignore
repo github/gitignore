@@ -100,15 +100,14 @@ dist
 # vuepress build output
 .vuepress/dist
 
-# vitepress build output
-**/.vitepress/dist
-
 # vuepress v2.x temp and cache directory
 .temp
 .cache
 
-# vitepress temp and cache directory
-**/.vitepress/temp
+# vitepress build output
+**/.vitepress/dist
+
+# vitepress cache directory
 **/.vitepress/cache
 
 # Docusaurus cache and generated files
