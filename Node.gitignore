@@ -104,6 +104,12 @@ dist
 .temp
 .cache
 
+# vitepress build output
+**/.vitepress/dist
+
+# vitepress cache directory
+**/.vitepress/cache
+
 # Docusaurus cache and generated files
 .docusaurus
 
