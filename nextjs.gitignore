@@ -1,0 +1,49 @@
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+
+# Build output
+.next/
+out/
+
+# Static files
+.cache/
+
+# Testing
+coverage/
+*.lcov
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js specific
+.next/cache/
+.next/static/
+
+# Storybook
+storybook-static/
+
+# Miscellaneous
+*.tmp
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
