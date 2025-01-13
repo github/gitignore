@@ -1,0 +1,18 @@
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+
+# Ignore build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore IDE-specific files
+*.vcxproj*
+*.user
+
+# Ignore temporary files
+*.tmp
+*.swp
