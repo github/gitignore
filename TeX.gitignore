@@ -204,6 +204,7 @@ _minted*
 
 # spelling
 *.spell.bad
+*.spell.txt
 
 # svg
 svg-inkscape/
