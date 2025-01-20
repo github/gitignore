@@ -203,7 +203,7 @@ _minted*
 *.wrt
 
 # spelling
-*.bad
+*.spell.bad
 
 # svg
 svg-inkscape/
