@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مملكة الغزلان</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Amiri', serif;
+            background: linear-gradient(to bottom, #fefefe, #f9f5f0);
+            color: #333;
+        }
+
+        header {
+            background-color: #d4af37;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .golden-gate img {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #d4af37;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b1902c;
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #d4af37;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+
+        footer p a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مملكة الغزلان</h1>
+        <p>انضم إلى عالمنا الخاص وابدأ مغامرتك!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="golden-gate">
+            <img src="https://via.placeholder.com/200x300/FFD700/FFFFFF?text=بوابة+ذهبية" alt="صورة بوابة ذهبية">
+        </div>
+        <a href="#" class="btn">دخول المملكة</a>
+    </div>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة - مملكة الغزلان</p>
+        <p>
+            <a href="#">فيسبوك</a> |
+            <a href="#">تويتر</a> |
+            <a href="#">إنستغرام</a>
+        </p>
+    </footer>
+</body>
+</html>
