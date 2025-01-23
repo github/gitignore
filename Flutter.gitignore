@@ -11,11 +11,6 @@
 .svn/
 
 
-# Visual Studio Code related
-.classpath
-.project
-.settings/
-.vscode/*
 
 # Flutter repo-specific
 /bin/cache/
