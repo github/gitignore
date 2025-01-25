@@ -1,0 +1,6 @@
+var monad = require('./monad');
+
+var maybe = monad.maybe(1); // Results in a Just(1) instance.
+var value = maybe.map(function(v) {
+  return v + 3;
+}).getOr(0); // Get the contained value, or 0 if this were a Nothing.
