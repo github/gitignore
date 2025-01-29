@@ -1,0 +1,40 @@
+# Katalon Test Suite
+# Compiled class file
+*.class
+*.swp
+output
+!output/.gitkeep
+build
+
+Libs/TempTestCase*
+Libs/TempTestSuite*
+bin/lib/TempTestCase*
+Reports/
+\.classpath
+\.project
+\.settings/
+bin/lib/
+Libs/
+.svn/
+.gradle
+
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
