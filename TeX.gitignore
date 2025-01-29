@@ -202,6 +202,10 @@ _minted*
 # scrwfile
 *.wrt
 
+# spelling
+*.spell.bad
+*.spell.txt
+
 # svg
 svg-inkscape/
 
