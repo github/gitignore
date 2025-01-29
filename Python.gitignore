@@ -107,6 +107,15 @@ ipython_config.py
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
 #poetry.lock
 
+# Rye - Python packaging and dependency management tool
+# .python-version - Contains the Python version for the project
+# .rye/ - Contains virtual environments, tooling and cached packages
+# requirements.lock - Lock file containing exact versions of all dependencies
+.python-version
+.rye/
+requirements.lock
+requirements-dev.lock
+
 # pdm
 #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
 #pdm.lock
