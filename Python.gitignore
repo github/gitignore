@@ -86,7 +86,7 @@ ipython_config.py
 #   Similar to Pipfile.lock and poetry.lock, it is recommended to include `.uv.lock` in version control.
 #   This ensures reproducibility, especially for binary packages. However, for libraries or packages that run in multiple environments,
 #   you might prefer to ignore this file and check it in only if necessary.
-# .uv.lock
+# uv.lock
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
