@@ -28,3 +28,6 @@ lib/
 
 # Application bundle for Mac OS
 *.app/
+
+# FPCUnit local settings
+*.fpcunit.ini
