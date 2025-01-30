@@ -1,0 +1,24 @@
+## Blacklist all files
+*
+
+## Whitelist TLA+ files
+!*.tla
+
+## Whitelist TLC model config and results
+!*.cfg
+!*.out  ## Usually .out files are small
+
+## Whitelist Toolbox model metadata
+!*.launch
+
+## Whitelist Toolbox spec metadata
+!.project
+!*.prefs
+
+## Whitelist all folders
+!*/
+
+## Blacklist TLAPS cache folder
+## See https://github.com/tlaplus/tlapm/issues/16
+__tlacache__
+.tlacache
