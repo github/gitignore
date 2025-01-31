@@ -211,6 +211,7 @@ svg-inkscape/
 sympy-plots-for-*.tex/
 
 # pdfcomment
+*.lpc
 *.upa
 *.upb
 
