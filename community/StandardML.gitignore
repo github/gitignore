@@ -1,0 +1,5 @@
+# gitignore template for the Standard ML language
+# website: https://smlfamily.github.io/
+
+# SML/NJ Compilation Manager build directories
+.cm/
