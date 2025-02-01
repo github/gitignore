@@ -1,6 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# JetBrains user specific files
+.idea/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -40,6 +43,7 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+CMakeLists.txt
 
 # Precompiled Assets
 SourceArt/**/*.png
