@@ -153,6 +153,9 @@ coverage*.info
 *.coverage
 *.coveragexml
 
+# Visual Studio live testing config
+*.lutconfig
+
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
