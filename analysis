@@ -1,0 +1,274 @@
+"""
+====================================================
+Employee Training & Development Analysis System
+Designed by Tareq Mageed/ Dhiqar Oil Co./Ministry of Oil
+====================================================
+"""
+
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+from datetime import datetime
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+
+# ====================================================
+# Custom CSS for a Very Light Blue Background and Styling
+# ====================================================
+st.markdown(
+    """
+    <style>
+    /* خلفية التطبيق والشريط الجانبي بلون أزرق فاتح جدًا */
+    [data-testid="stAppViewContainer"] {
+       background-color: #add8e6;
+    }
+    [data-testid="stSidebar"] {
+       background-color: #add8e6;
+    }
+    /* تنسيق العناوين الرئيسية */
+    h1, h2, h3, h4, h5, h6 {
+       color: black;
+    }
+    </style>
+    """, unsafe_allow_html=True
+)
+
+# ====================================================
+# App Title and Introduction
+# ====================================================
+st.title("Employee Training & Development Analysis System")
+st.markdown("**Analyze training data and view interactive charts**")
+
+# ====================================================
+# Data Input: Upload Training Data or Use Sample Data
+# ====================================================
+st.markdown("### Upload Training Data (Excel)")
+uploaded_file = st.file_uploader("Select an Excel file", type=["xlsx", "xls", "XLSX", "XLS"])
+
+if uploaded_file is not None:
+    try:
+        # قراءة الملف
+        df = pd.read_excel(uploaded_file)
+        st.success("File uploaded successfully!")
+        # إزالة عمود Employee_ID إن وُجد
+        df = df.drop(columns=["Employee_ID"], errors="ignore")
+        st.dataframe(df.head())
+    except Exception as e:
+        st.error(f"Error reading the file: {e}")
+else:
+    st.info("No file uploaded. Using sample data.")
+    np.random.seed(42)
+    sample_data = {
+        "Department": np.random.choice(["HR", "IT", "Finance", "Sales"], size=50),
+        "Training_Hours": np.random.randint(5, 40, size=50),
+        "Performance": np.random.randint(60, 100, size=50),
+        "Pre_Incidents": np.random.randint(0, 10, size=50),
+        "Post_Incidents": np.random.randint(0, 5, size=50),
+        "Training_Date": pd.date_range(start="2023-01-01", periods=50, freq="W")
+    }
+    df = pd.DataFrame(sample_data)
+    st.dataframe(df.head())
+
+# ====================================================
+# Sidebar Filters (if applicable)
+# ====================================================
+if "Department" in df.columns:
+    dept_options = ["All"] + sorted(df["Department"].unique().tolist())
+    selected_dept = st.sidebar.selectbox("Select Department", dept_options)
+    if selected_dept != "All":
+        df = df[df["Department"] == selected_dept]
+
+if "Training_Date" in df.columns:
+    # التأكد من تحويل Training_Date إلى تاريخ
+    df["Training_Date"] = pd.to_datetime(df["Training_Date"])
+    min_date = df["Training_Date"].min()
+    max_date = df["Training_Date"].max()
+    selected_date_range = st.sidebar.date_input("Select Training Date Range", [min_date, max_date])
+    if isinstance(selected_date_range, list) and len(selected_date_range) == 2:
+        start_date, end_date = selected_date_range
+        df = df[(df["Training_Date"] >= pd.to_datetime(start_date)) & (df["Training_Date"] <= pd.to_datetime(end_date))]
+
+# ====================================================
+# Basic Data Analysis
+# ====================================================
+st.markdown("## Basic Data Analysis")
+
+# Chart 1: Bar Chart of Training Hours vs Performance
+if "Training_Hours" in df.columns and "Performance" in df.columns:
+    st.markdown("#### Bar Chart: Training Hours vs Performance")
+    df_bar = df.sort_values("Training_Hours")
+    fig_bar_tp = px.bar(
+        df_bar,
+        x="Training_Hours",
+        y="Performance",
+        color="Department" if "Department" in df.columns else None,
+        title="Training Hours vs Performance"
+    )
+    st.plotly_chart(fig_bar_tp)
+else:
+    st.error("The data must contain 'Training_Hours' and 'Performance' columns.")
+
+# Chart 2: Bar Chart Comparing Pre- and Post-Training Incidents by Department
+if all(col in df.columns for col in ["Department", "Pre_Incidents", "Post_Incidents"]):
+    st.markdown("#### Bar Chart: Incidents Before vs After Training (by Department)")
+    df_melted = df.melt(
+        id_vars=["Department"],
+        value_vars=["Pre_Incidents", "Post_Incidents"],
+        var_name="Incident_Type",
+        value_name="Number_of_Incidents"
+    )
+    fig_bar_incidents = px.bar(
+        df_melted,
+        x="Department",
+        y="Number_of_Incidents",
+        color="Incident_Type",
+        barmode="group",
+        title="Incidents Before vs After Training (by Department)"
+    )
+    st.plotly_chart(fig_bar_incidents)
+else:
+    st.error("The data must contain 'Department', 'Pre_Incidents', and 'Post_Incidents' columns.")
+
+# Chart 3: Average Performance by Department
+if "Department" in df.columns and "Performance" in df.columns:
+    st.markdown("#### Bar Chart: Average Performance by Department")
+    df_avg = df.groupby("Department")["Performance"].mean().reset_index()
+    fig_avg = px.bar(
+        df_avg,
+        x="Department",
+        y="Performance",
+        title="Average Performance by Department",
+        text_auto=True
+    )
+    st.plotly_chart(fig_avg)
+else:
+    st.error("The data must contain 'Department' and 'Performance' columns.")
+
+# Chart 4: Box Plot of Training Hours by Department
+if "Department" in df.columns and "Training_Hours" in df.columns:
+    st.markdown("#### Box Plot: Distribution of Training Hours by Department")
+    fig_box = px.box(
+        df,
+        x="Department",
+        y="Training_Hours",
+        title="Training Hours Distribution by Department"
+    )
+    st.plotly_chart(fig_box)
+else:
+    st.info("Columns 'Department' and 'Training_Hours' not found.")
+
+# Chart 5: Number of Employees by Department
+if "Department" in df.columns:
+    st.markdown("#### Bar Chart: Number of Employees by Department")
+    dept_count = df["Department"].value_counts().reset_index()
+    dept_count.columns = ["Department", "Number_of_Employees"]
+    fig_count = px.bar(
+        dept_count,
+        x="Department",
+        y="Number_of_Employees",
+        title="Employee Count by Department",
+        text="Number_of_Employees"
+    )
+    st.plotly_chart(fig_count)
+else:
+    st.info("Column 'Department' not found.")
+
+# ====================================================
+# Comprehensive Training Analysis
+# ====================================================
+st.markdown("## Comprehensive Training Analysis")
+
+# 1. Qualitative Analysis
+with st.expander("Qualitative Analysis (Trainee Satisfaction & Content Quality)"):
+    st.markdown("Provide ratings for trainee satisfaction and training content quality.")
+    satisfaction = st.slider("Trainee Satisfaction", 0, 100, 75)
+    content_quality = st.slider("Training Content Quality", 0, 100, 80)
+    st.write("Average Trainee Satisfaction:", satisfaction)
+    st.write("Average Training Content Quality:", content_quality)
+    st.write("Additional comments on the training:")
+    qualitative_notes = st.text_area("Enter your comments here")
+    if qualitative_notes:
+        st.info("Notes saved.")
+
+# 2. ROI Analysis: Cost vs. Benefit
+with st.expander("ROI Analysis (Training Cost & Benefit)"):
+    st.markdown("Enter approximate training cost and estimated benefits.")
+    training_cost = st.number_input("Training Cost (Local Currency)", min_value=0.0, value=1000.0, step=100.0)
+    estimated_benefit = st.number_input("Estimated Benefit from Training (Local Currency)", min_value=0.0, value=1500.0, step=100.0)
+    if training_cost > 0:
+        roi = ((estimated_benefit - training_cost) / training_cost) * 100
+        st.metric("Return on Investment (ROI)", f"{roi:.2f}%")
+    else:
+        st.warning("Training cost must be greater than zero.")
+
+# 3. Long-term Impact Analysis (Quarterly)
+with st.expander("Long-term Impact Analysis (Quarterly)"):
+    st.markdown("If available, a 'Training_Date' column can be used to analyze performance trends aggregated quarterly (every three months).")
+    if "Training_Date" in df.columns and "Performance" in df.columns:
+        try:
+            df["Training_Date"] = pd.to_datetime(df["Training_Date"])
+            df["Quarter"] = df["Training_Date"].dt.to_period("Q")
+            df_quarterly = df.groupby("Quarter")["Performance"].mean().reset_index()
+            df_quarterly["Quarter"] = df_quarterly["Quarter"].astype(str)
+            fig_quarterly = px.line(
+                df_quarterly,
+                x="Quarter",
+                y="Performance",
+                title="Average Employee Performance (Quarterly)"
+            )
+            st.plotly_chart(fig_quarterly)
+        except Exception as e:
+            st.error(f"Error processing date/time data: {e}")
+    else:
+        st.info("Column 'Training_Date' not found.")
+
+# ====================================================
+# Machine Learning Prediction and Recommendations
+# ====================================================
+if "Training_Hours" in df.columns and "Performance" in df.columns:
+    st.markdown("## Machine Learning Prediction and Recommendations")
+    # اختيار نموذج التعلم الآلي
+    model_choice = st.selectbox("Select ML Model", ["Linear Regression", "Decision Tree Regression"])
+    
+    # تحديد الميزات (features)؛ إذا توفرت "Pre_Incidents" نستخدمها مع "Training_Hours"
+    if "Pre_Incidents" in df.columns:
+        features = ["Training_Hours", "Pre_Incidents"]
+    else:
+        features = ["Training_Hours"]
+        
+    X = df[features]
+    y = df["Performance"]
+    
+    if model_choice == "Linear Regression":
+        model = LinearRegression()
+    else:
+        model = DecisionTreeRegressor(random_state=42)
+    
+    model.fit(X, y)
+    df["Predicted_Performance"] = model.predict(X)
+    
+    # عرض مخطط للمقارنة بين الأداء الفعلي والمتنبأ به
+    fig_ml = px.scatter(df, x="Training_Hours", y="Performance", color="Department", title="Actual vs Predicted Performance")
+    # إضافة خط للمستوى المتنبأ به (بعد ترتيب البيانات)
+    sorted_df = df.sort_values("Training_Hours")
+    fig_ml.add_traces(px.line(sorted_df, x="Training_Hours", y="Predicted_Performance", color_discrete_sequence=["red"]).data)
+    st.plotly_chart(fig_ml)
+    
+    avg_pred = df["Predicted_Performance"].mean()
+    st.write("Average Predicted Performance:", round(avg_pred, 2))
+    if avg_pred < 80:
+        st.warning("Recommendation: Increase training hours or improve training content to boost performance.")
+    else:
+        st.success("Recommendation: Current training strategy appears effective.")
+else:
+    st.info("Machine learning analysis requires 'Training_Hours' and 'Performance' columns.")
+
+# ====================================================
+# Footer Message with Designer Credit
+# ====================================================
+st.markdown("---")
+st.markdown(
+    "<p style='text-align: center;'>Designed by Tareq Mageed/ Dhiqar Oil Co./Ministry of Oil</p>",
+    unsafe_allow_html=True
+)
