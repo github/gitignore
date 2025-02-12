@@ -15,7 +15,9 @@
 *.tmcRefac
 *.library
 *.project.~u
+*.sln.~u
 *.tsproj.bak
+*.tspproj.bak
 *.xti.bak
 LineIDs.dbg
 LineIDs.dbg.bak
@@ -23,3 +25,4 @@ _Boot/
 _CompileInfo/
 _Libraries/
 _ModuleInstall/
+.vs/
