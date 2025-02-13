@@ -132,7 +132,6 @@ $tf/
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
-*.DotSettings.user
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -272,7 +271,6 @@ ServiceFabricBackup/
 *.rdl.data
 *.bim.layout
 *.bim_*.settings
-*.rptproj.rsuser
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
