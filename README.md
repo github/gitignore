@@ -18,7 +18,7 @@ the following resources are a great place to start:
 
 ## Folder structure
 
-We support a collection of templates, organized in this way:
+We support a collection of templates, organized as follows:
 
 - The root folder contains templates in common use, to help people get started
   with popular programming languages and technologies. These define a meaningful
@@ -62,23 +62,23 @@ include your language, tool, or project, it’s not because it’s not awesome.
 ## Contributing guidelines
 
 We’d love for you to help us improve this project. To help us keep this collection
-high quality, we request that contributions adhere to the following guidelines.
+high quality, we request that contributions adhere to the following guidelines:
 
 - **Provide a link to the application or project’s homepage**. Unless it’s
   extremely popular, there’s a chance the maintainers don’t know about or use
   the language, framework, editor, app, or project your change applies to.
 
 - **Provide links to documentation** supporting the change you’re making.
-  Current, canonical documentation mentioning the files being ignored is best.
-  If documentation isn’t available to support your change, do the best you can
-  to explain what the files being ignored are for.
+  Cite current, canonical documentation that mentions the ignored files.
+  If documentation isn’t available to support your change, do your best
+  to explain why the files should be ignored.
 
 - **Explain why you’re making a change**. Even if it seems self-evident, please
-  take a sentence or two to tell us why your change or addition should happen.
+  add a sentence or two to tell us why your change or addition should happen.
   It’s especially helpful to articulate why this change applies to _everyone_
   who works with the applicable technology, rather than just you or your team.
 
-- **Please consider the scope of your change**. If your change is specific to a
+- **Scope your change properly**. If your change is specific to a
   certain language or framework, then make sure the change is made to the
   template for that language or framework, rather than to the template for an
   editor, tool, or operating system.
@@ -94,15 +94,15 @@ the more likely we’ll be to accept your contribution quickly.
 Some templates can change greatly between versions, and if you wish to contribute
 to this repository we need to follow this specific flow:
 
-- the template at the root should be the current supported version
-- the template at the root should not have a version in the filename (i.e.
+- The template at the root should be the current supported version
+- The template at the root should not have a version in the filename (i.e.
   "evergreen")
-- previous versions of templates should live under `community/`
-- previous versions of the template should embed the version in the filename,
+- Previous versions of templates should live under `community/`
+- Previous versions of the template should embed the version in the filename
   for readability
 
 This helps ensure users get the latest version (because they'll use whatever is
-at the root) but helps maintainers support older versions still in the wild.
+at the root) while helping maintainers support older versions still in the wild.
 
 ## Specialized templates
 
