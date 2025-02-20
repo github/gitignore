@@ -86,6 +86,10 @@ web_modules/
 # Next.js build output
 .next
 out
+build
+
+# turbo (https://turbo.build/rep)
+.turbo
 
 # Nuxt.js build / generate output
 .nuxt
