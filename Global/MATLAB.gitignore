@@ -29,3 +29,6 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+# MATLAB Drive tag file
+.MATLABDriveTag
