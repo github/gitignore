@@ -19,5 +19,5 @@ Link to application or project’s homepage: TODO
 
 ### Merge and Approval Steps
 - [ ] Confirm that you've read the [contribution guidelines](https://github.com/github/gitignore/tree/main?tab=readme-ov-file#contributing-guidelines) and ensured your PR aligns
-- [ ] Esnure CI is passing
+- [ ] Ensure CI is passing
 - [ ] Get a review and Approval from one of the maintainers
