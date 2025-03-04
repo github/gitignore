@@ -1,0 +1,9 @@
+# Code coverage
+coverage.out
+
+# Profiling
+profile.out
+profile.svg
+
+# Time trace
+trace.json
