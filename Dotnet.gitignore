@@ -25,6 +25,7 @@ bld/
 
 # VS and VS Code files for those working on multiple tools
 .vscode/*
+
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -32,6 +33,9 @@ bld/
 *.code-workspace
 
 .vs/*
+
+# Still usesd in VS for HTTP files and publish profiles
+.user
 
 # OS Specifc
 .DS_Store/*
@@ -58,16 +62,10 @@ ScaffoldingReadMe.txt
 *.nuget.props
 *.nuget.targets
 
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
 # Others
 ~$*
 *~
+CodeCoverage/
 
 # MSBuild Binary and Structured Log
 *.binlog
@@ -80,3 +78,6 @@ ScaffoldingReadMe.txt
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# JetBrains Rider
+.idea/*
