@@ -30,9 +30,7 @@
 # contain metadata (manifest.json), application code (main.js), stylesheets
 # (styles.css), and user-configuration data (data.json).
 # We only want to track data.json, so we:
-# 1. exclude everything under the plugins directory recursively,
-# 2. unignore the plugin directories themselves, which then allows us to
-# 3. unignore the data.json files
-.obsidian/plugins/**/*
-!.obsidian/plugins/*/
+# 1. exclude everything that the plugin folders contain,
+# 2. unignore data.json in the plugin folders
+.obsidian/plugins/*/**
 !.obsidian/plugins/*/data.json
