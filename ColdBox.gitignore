@@ -1,0 +1,24 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+
+# Engines + Database + CBFS + Secrets
+.env
+.engine/**
+.cbfs/**
+build/.db/**
+
+# logs + tests
+logs/**
+tests/results/**
+
+# npm
+**/node_modules/*
+npm-debug.log
+yarn-error.log
+
+## Ignored Dependencies
+/coldbox/**
+/testbox/**
+/modules/**
