@@ -7,13 +7,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -30,17 +23,18 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+# VS and VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
-# NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
+.vs/*
 
-# Benchmark Results
-BenchmarkDotNet.Artifacts/
+# OS Specifc
+.DS_Store/*
 
 # .NET Core
 project.lock.json
@@ -64,98 +58,25 @@ ScaffoldingReadMe.txt
 *.nuget.props
 *.nuget.targets
 
-# Web workbench (sass)
-.sass-cache/
-
-# Publish Web Output
-*.[Pp]ublish.xml
-*.azurePubxml
-# Note: Comment the next line if you want to checkin your web deploy settings,
-# but database connection strings (with potential passwords) will be unencrypted
-*.pubxml
-*.publishproj
-
-# Microsoft Azure Web App publish settings. Comment the next line if you want to
-# checkin your Azure Web App publish settings, but sensitive information contained
-# in these scripts will be unencrypted
-PublishScripts/
-
-# Microsoft Azure Build Output
-csx/
-*.build.csdef
-
-# Microsoft Azure Emulator
-ecf/
-rcf/
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Others
-ClientBin/
 ~$*
 *~
-*.dbmdl
-*.dbproj.schemaview
-*.jfm
-*.pfx
-*.publishsettings
-orleans.codegen.cs
-
-# Including strong name files can present a security risk
-# (https://github.com/github/gitignore/pull/2483#issue-259490424)
-#*.snk
-
-# Since there are multiple workflows, uncomment next line to ignore bower_components
-# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
-#bower_components/
-
-# SQL Server files
-*.mdf
-*.ldf
-*.ndf
-
-# Microsoft Fakes
-FakesAssemblies/
 
 # MSBuild Binary and Structured Log
 *.binlog
 
-# Fody - auto-generated XML schema
-FodyWeavers.xsd
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
-# VS and VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-.vs/*
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.meta
-*.obj
-*.iobj
-*.pch
-*.pdb
-*.ipdb
-*.pgc
-*.pgd
-*.rsp
-# but not Directory.Build.rsp, as it configures directory-level build defaults
-!Directory.Build.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*.log
-*.tlog
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
