@@ -32,6 +32,9 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 
+# node-config configuration (https://www.npmjs.com/package/config)
+config/local*
+
 # node-waf configuration
 .lock-wscript
 
