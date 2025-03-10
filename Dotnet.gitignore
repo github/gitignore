@@ -23,23 +23,6 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-# VS and VS Code files for those working on multiple tools
-.vscode/*
-
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-.vs/*
-
-# Still usesd in VS for HTTP files and publish profiles
-.user
-
-# OS Specifc
-.DS_Store/*
-
 # .NET Core
 project.lock.json
 project.fragment.lock.json
@@ -69,6 +52,3 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-
-# JetBrains Rider
-.idea/*
