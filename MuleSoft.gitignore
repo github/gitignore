@@ -1,0 +1,10 @@
+/target/
+.classpath
+*.pom
+.project
+
+.mule/project.json
+
+.tooling-project
+/.settings
+/.vscode
