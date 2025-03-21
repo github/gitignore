@@ -1,11 +1,11 @@
-# gitignore template for ECU-TEST workspaces - by TraceTronic https://tracetronic.com
+# gitignore template for ecu.test workspaces - by tracetronic https://tracetronic.com
 # website: https://www.ecu-test.com
-#   * all directories are related to the default directories, please adapt the .gitignore if you use customized
-#     directories
+#   * all directories are related to the default directories, please adapt the .gitignore if you use customized directories
 
 # Dynamic workspace settings
-#   * We don't recommend to ignore the .workspace directory, because of important project specific settings
-# local user settings
+#   * We don't recommend to ignore the .workspace directory, because of important 
+#     * project specific settings
+#     * local user settings
 .workspace/ETdrive.xml
 .workspace/favorites.xml
 .workspace/filters.xml
@@ -19,13 +19,15 @@
 .workspace/tooladapter.xml
 .workspace/view.xml
 # optional, if your process depends on this file remove exclusion
+.workspace/attributeLists.xml
 .workspace/interactiveexecution.xml
+.workspace/protocol.xml
 .workspace/pythonlibrary.xml
 # deprecated, support for older versions
 .workspace/traceexplorer.xml
 
 # Custom file formats and test dependencies
-#  * you can manage your artifacts also with TEST-GUIDE (https://www.test-guide.info) and reference them via Playbooks
+#  * you can manage your artifacts also with test.guide (https://www.test-guide.info) and reference them via Playbooks
 *.arxml
 *.a2l
 *.dbc
@@ -36,16 +38,18 @@
 
 # Test results and test execution related content
 #   * Git is not intended to store and provide test results for all iterations
-#   * We recommend to use TEST-GUIDE (https://www.test-guide.info) for the test report management
+#   * We recommend to use test.guide (https://www.test-guide.info) for the test report management
 TestReports
 
 # Report generators and templates
-#  * if you want to provide (f.e.) your own report generators exclude the directory here and ignore only the
-#    unnecessary subdirectories
+#   * if you want to provide (f.e.) your own report generators exclude the directory here and ignore only the unnecessary subdirectories
 Templates
 
+# optional, default for external Python libraries
+PyLibs
+
 # Exclude large binary artifacts
-#  * you can manage your artifacts also with TEST-GUIDE (https://www.test-guide.info) and reference them via Playbooks
+#  * you can manage your artifacts also with test.guide (https://www.test-guide.info) and reference them via Playbooks
 Offline-FIUs
 Offline-Models
 Offline-SGBDs
