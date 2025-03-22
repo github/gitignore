@@ -8,6 +8,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+/[Ww]eb[Gg][Ll] [Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
@@ -26,6 +27,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -53,8 +55,10 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 
-# Unity3D generated file on crash reports
+# Crash-related files
 sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
 
 # Builds
 *.apk
@@ -62,9 +66,8 @@ sysinfo.txt
 *.unitypackage
 *.unitypackage.meta
 *.app
-
-# Crashlytics generated file
-crashlytics-build.properties
+connectwebgl.zip
+webgl_sharing
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
