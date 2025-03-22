@@ -1,0 +1,12 @@
+# https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md#config-file
+/.lefthook-local.json
+/.lefthook-local.toml
+/.lefthook-local.yaml
+/.lefthook-local.yml
+/lefthook-local.json
+/lefthook-local.toml
+/lefthook-local.yaml
+/lefthook-local.yml
+
+# https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md#source_dir_local
+/.lefthook-local/
