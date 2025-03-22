@@ -1,0 +1,43 @@
+-- Service to handle players
+local Players = game:GetService("Players")
+
+-- Function to add money to aplayer
+local function addMoney(player, amount)
+    -- Check if the player has a leaderstats folder
+    local leaderstats = player:FindFirstChild("leaderstats")
+    if leaderstats then
+        local money = leaderstats:FindFirstChild("Money")
+        if money then
+            money.Value = money.Value + amount
+        end
+    end
+end
+
+-- Create a leaderstats folder when a player joins
+Players.PlayerAdded:Connect(function(player)
+    -- Create leaderstats folder
+    local leaderstats = Instance.new("Folder")
+    leaderstats.Name = "leaderstats"
+    leaderstats.Parent = player
+
+    -- Create a Money value
+    local money = Instance.new("IntValue")
+    money.Name = "Money"
+    money.Value = 0 -- Initial money
+    money.Parent = leaderstats
+end)
+
+-- Example: Adding a button to give money
+local button = Instance.new("TextButton")
+button.Text = "Add Money"
+button.Size = UDim2.new(0, 200, 0, 50)
+button.Position = UDim2.new(0.5, -100, 0.5, -25)
+button.Parent = game.StarterGui.ScreenGui
+
+-- Add money when the button is clicked
+button.MouseButton1Click:Connect(function()
+    local player = Players.LocalPlayer
+    if player then
+        addMoney(player, 100) -- Add 100 money
+    end
+end)
