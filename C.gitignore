@@ -1,3 +1,14 @@
+# IDE and Editor Files
+.vs/
+.vscode/
+.idea/
+.project
+.cproject
+.settings/
+*.xcuserstate
+*.xcodeproj/
+*.xcworkspace/
+
 # Prerequisites
 *.d
 
