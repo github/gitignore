@@ -26,6 +26,8 @@
 
 # Visual Studio cache directory
 .vs/
+# Sometimes .vsconfig is located outside the .vs/ directory and won't be picked up by the ignore pattern above.
+.vsconfig
 
 # Gradle cache directory
 .gradle/
