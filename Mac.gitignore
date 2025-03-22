@@ -1,0 +1,8 @@
+# Ignore .DS_Store files created by macOS
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
