@@ -43,7 +43,7 @@
 *.sqlite.db*
 
 #ignore umbraco data/views/settings
-**/umbraco/
+**/umbraco/*
 
 #include default location for modelsbuilder output
 !**/umbraco/models
