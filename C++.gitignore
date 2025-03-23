@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Code runner
+*.bin
+
+# Config
+.vscode
+
+# CPH
+.cph
