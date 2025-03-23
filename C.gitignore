@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Code runner
+*.bin
+
+# Config
+.vscode
+
+# CPH
+.cph
