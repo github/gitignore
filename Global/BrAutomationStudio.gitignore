@@ -1,0 +1,10 @@
+# Binaries folder (Optional, can be integrated in git)
+Binaries
+# Temporary folder
+Temp
+# Diagnosis data
+Diagnosis
+# User local settings
+*.set
+# Project is open by the editor
+*.isopen
