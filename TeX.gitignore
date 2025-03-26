@@ -59,6 +59,9 @@ acs-*.bib
 # amsthm
 *.thm
 
+# attachfile2
+*.atfi
+
 # beamer
 *.nav
 *.pre
