@@ -22,3 +22,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# When copying a downloaded file from Windows >= 10 to WSL, a `<FILE-NAME>:Zone.Identifier` file is generated on certain configurations.
+# See this issue for details: https://github.com/microsoft/WSL/issues/7456
+*.Identifier
