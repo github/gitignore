@@ -1,5 +1,11 @@
 # Godot 4+ specific ignores
-.godot/
+.godot/*
+
+# allow those folders and files as they are required for remote-building e.g. using github actions 
+# They do not get recreated properly when you use PCK files inside of your project in Version 4.1.13
+!.godot/exported/
+!.godot/imported/
+!.godot/global_script_class_cache.cfg
 
 # Godot-specific ignores
 .import/
