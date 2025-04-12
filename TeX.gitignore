@@ -67,6 +67,7 @@ acs-*.bib
 
 # changes
 *.soc
+*.loc
 
 # comment
 *.cut
