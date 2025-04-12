@@ -1,0 +1,10 @@
+# Ignore logs and .nextflow directory
+.nextflow*
+# Ignore default work directory
+work/
+# Ignore default nf-test directory
+.nf-test*
+
+# nf-core
+# Ignore results directory
+results/
