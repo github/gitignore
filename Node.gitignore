@@ -119,6 +119,9 @@ dist
 # FuseBox cache
 .fusebox/
 
+# Turbo repo and pack cache
+.turbo
+
 # DynamoDB Local files
 .dynamodb/
 
