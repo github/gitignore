@@ -25,17 +25,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
-      - name: Run Python script
+      - name: Run Python Script
         run:
           python3 script/build.py
-      - name: Setup Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v3
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
   # Deployment job
   deploy:
     environment:
@@ -44,5 +44,5 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
