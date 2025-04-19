@@ -1,0 +1,27 @@
+# gitignore template for libnx projects 
+# repository: https://github.com/switchbrew/libnx
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.o
+
+# Linker output
+*.map
+*.lst
+
+# Executables
+*.elf
+*.kip
+*.nro
+*.nso
+
+# Metadata
+*.nacp
+*.npdm
+
+# Containers
+*.pfs0
+*.nsp
+*.bz2
