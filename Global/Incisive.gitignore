@@ -1,0 +1,20 @@
+################################################################
+# Gitignore for Cadence Incisive
+################################################################
+
+# log / command history
+irun.key
+irun.log
+irun.history
+
+# auto-generated intermediate libraries
+INCA_libs
+
+# generated simulation database
+waves.shm
+
+# generated diagnosis file
+simvision*.diag
+
+# simvision file
+.simvision
