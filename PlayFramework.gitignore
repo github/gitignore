@@ -14,3 +14,7 @@ server.pid
 *.eml
 /dist/
 .cache
+.g8
+/.idea
+/.idea_modules
+/.settings
