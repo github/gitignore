@@ -4,3 +4,6 @@
 
 # Dynamic plugins .dll
 bin/
+
+# VL cache
+.vl/
