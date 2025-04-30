@@ -1,0 +1,6 @@
+# gitignore template for LangChain products, e.g., LangGraph, LangSmith
+# website: https://www.langchain.com/
+# website: https://www.langchain.com/langgraph
+
+# LangGraph
+.langgraph_api/
