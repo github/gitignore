@@ -1,0 +1,45 @@
+# .gitignore para Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Arquivos de ambiente
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos gerados pelo Jupyter
+.ipynb_checkpoints
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.pytest_cache/
