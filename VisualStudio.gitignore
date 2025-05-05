@@ -355,6 +355,9 @@ ASALocalRun/
 # MSBuild Binary and Structured Log
 *.binlog
 
+# AWS SAM Build and Temporary Artifacts folder
+.aws-sam
+
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
