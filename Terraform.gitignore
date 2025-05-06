@@ -35,3 +35,22 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore hcl files
+.terraform.lock.hcl
+*.terraform.*
+
+# Ignore graph files
+*.dot
+
+# to skip MacOS custom attributes. It appears when creating a .bicep file.
+.DS_Store
+
+# Ignore plan files (optional) as some might save plan before destroy the terraform configuration
+planout
+
+# Ignore tfplan files, saved during terraform plan execution
+*.out
+
+# Ignore Visual Studio Code customized settings (this folder holds .json file)
+.vscode
