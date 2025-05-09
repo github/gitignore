@@ -1,0 +1,2 @@
+# Ignore all minified files in your project (https://stackoverflow.com/questions/25987084/git-ignoring-all-minified-suffixed-files)
+*.min.*
