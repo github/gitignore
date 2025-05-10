@@ -1,0 +1,31 @@
+# Exclude temporary Altium Designer files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.htm
+*.$$$
+
+# Exclude logs
+*.LOG
+*.log
+*.err
+
+# Exclude build directories
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
+
+# Exclude History directory
+History
+
+
+# Exclude libraries autosaves
+*.PvLib.Zip
+*.Schlib.Zip
+*.DbLib.Zip
+*.PcbLib.Zip
