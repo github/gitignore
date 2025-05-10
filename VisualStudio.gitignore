@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Human-generated .rsp files
+![Dd]irectory.[Bb]uild.rsp
