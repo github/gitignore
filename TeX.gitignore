@@ -59,6 +59,9 @@ acs-*.bib
 # amsthm
 *.thm
 
+# attachfile2
+*.atfi
+
 # beamer
 *.nav
 *.pre
@@ -67,6 +70,7 @@ acs-*.bib
 
 # changes
 *.soc
+*.loc
 
 # comment
 *.cut
@@ -176,6 +180,7 @@ acs-*.bib
 
 # minted
 _minted*
+*.data.minted
 *.pyg
 
 # morewrites
