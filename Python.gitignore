@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Cursor
+#  Cursor is a code editor integrated with LLM. `.cursorrules` is its project-level configuration file, 
+#  refer to https://docs.cursor.com/context/rules, which is used to customize the code generation rules of AI
+.cursorrules
+.cursor/rules
