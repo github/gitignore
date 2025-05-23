@@ -29,4 +29,3 @@ jobs:
           exempt-pr-labels: 'keep'
           close-issue-reason: not_planned
           ascending: true # Sort PRs by last updated date in ascending order
-          debug-only: true # Set to true to test the action without actually closing any PRs
