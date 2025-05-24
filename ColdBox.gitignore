@@ -1,0 +1,27 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+
+# Localized Servers
+.engine/**
+WEB-INF
+
+# Environment File
+.env
+
+# Logs
+logs/**
+
+# Code Coverage and Test Results
+tests/results/**
+
+# NPM Modules
+**/node_modules/*
+npm-debug.log
+yarn-error.log
+
+## ColdBox Dependencies and Modules
+coldbox/*
+testbox/*
+modules/*
+modules/**/apidocs/**
