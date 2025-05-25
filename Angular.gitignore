@@ -1,94 +1,28 @@
-# Angular
-# Build output
+# Angular specific
 /dist/
 /out-tsc/
 /tmp/
 /coverage/
 /e2e/test-output/
 /.angular/
+.angular/
 
-# Node modules
+# Node modules and dependency files
 /node_modules/
-
-# Dependency directories
-/.npm/
-/.yarn/
-
-# Package lock and yarn lock files
 /package-lock.json
 /yarn.lock
 
 # Environment files
 /.env
 
-# TypeScript cache files
+# Angular CLI and build artefacts
+/.angular-cli.json
+/.ng/
+
+# TypeScript cache
 *.tsbuildinfo
 
-# Debug log files
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# IDE directories and files
-/.idea/
-/.vscode/
-/project-folder/.idea/
-/project-folder/.vscode/
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.bak
-*.swp
-*~
-
-# Build artifacts from Angular CLI
-/.angular-cli.json
-.angular/
-
-# Angular CLI cache
-/.ng/
-
-# VS Code settings
-.vscode/settings.json
-
-# System files
-*.sublime-workspace
-*.sublime-project
-
-# Logs
-/logs
-/debug.log
-*.log
-
-# Temporary files from editor or operating system
-*~.nfs*
-
-# JetBrains IDE (e.g., WebStorm) files
-/.idea/
-
-# End-to-end testing
-/cypress/
-
-# Firebase hosting files
-firebase.json
-
-# Jest snapshot files
-*.snap
-
-# Webpack config
-webpack.config.js
-webpack.prod.js
-webpack.dev.js
-
-# Coverage output directory
-/coverage/
-
-# Test files
-*.spec.ts
-*.test.ts
-
-# Miscellaneous
-/.angular/
