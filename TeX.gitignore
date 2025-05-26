@@ -59,6 +59,9 @@ acs-*.bib
 # amsthm
 *.thm
 
+# attachfile2
+*.atfi
+
 # beamer
 *.nav
 *.pre
@@ -67,6 +70,7 @@ acs-*.bib
 
 # changes
 *.soc
+*.loc
 
 # comment
 *.cut
@@ -176,6 +180,7 @@ acs-*.bib
 
 # minted
 _minted*
+*.data.minted
 *.pyg
 
 # morewrites
@@ -202,6 +207,10 @@ _minted*
 
 # scrwfile
 *.wrt
+
+# spelling
+*.spell.bad
+*.spell.txt
 
 # svg
 svg-inkscape/
@@ -267,6 +276,9 @@ TSWLatexianTemp*
 # WinEdt
 *.bak
 *.sav
+
+# latexindent.pl
+*.bak[0-9]*
 
 # Texpad
 .texpadtmp
