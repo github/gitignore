@@ -1,8 +1,3 @@
-# System files
-# ------------
-Icon
-.DS_Store
-
 # Temporary files
 # ---------------
 /media/*
