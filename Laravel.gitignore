@@ -1,30 +1,73 @@
-/vendor/
-node_modules/
+# Dependency directories
+/vendor
+/node_modules
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Build and public directories
+/public/build
+/public/hot
+/public/storage
+
+# Storage files
+/storage/*.key
+/storage/pail
+
+# Environment files
+.env
+.env.*
+!.env.example
+.env.backup
+.env.production
+.env.local
+.env.staging
+.env.testing
+
+# Cache, logs, and debugging files
 npm-debug.log
 yarn-error.log
+/auth.json
+/phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+error_log
+storage/debugbar
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
+# Homestead & Vagrant
 Homestead.yaml
 Homestead.json
 /.vagrant
-.phpunit.result.cache
 
-/public/build
-/storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
+# IDE & Editor specific
+/.phpstorm.meta.php
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Composer files
+composer.phar
+/composer.lock
+
+# Miscellaneous
+/coverage/
+.php_cs.cache
+.php_cs
+/phpunit.xml
+.php-version
+.DS_Store
+Thumbs.db
+*.log
+*.key
+*.tmp
+*.swp
+*.bak
+*.orig
+*.save
+
+# Deployment files
+deployment/
+deploy/
+build/
