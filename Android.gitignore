@@ -13,11 +13,14 @@ captures/
 .externalNativeBuild/
 .cxx/
 *.apk
-output.json
+output-metadata.json
 
 # IntelliJ
 *.iml
 .idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
 # Keystore files
 *.jks
