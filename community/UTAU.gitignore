@@ -1,7 +1,7 @@
 # Adobe Audition
 *.pkf
 
-#UTAU Engines
+# UTAU Engines
 *.ctspec
 *.d4c
 *.dio
@@ -20,16 +20,16 @@
 *.uspec
 *.vs4ufrq
 
-#UTAU related tools
+# UTAU related tools
 $read
 *.setParam-Scache
 *.lbp
 *.lbp.caches/*
 
-#OpenUtau
+# OpenUtau
 errors.txt
 
-#Deepvocal
+# Deepvocal
 *.DVModel
 *-log.txt
 SKC
@@ -38,13 +38,13 @@ SKC_1
 SKC_2
 *.sksd
 
-#VocalSharp
+# VocalSharp
 *.scep
 *.vssf
 *.vsdx
 *.vsdxindex
 
-#Binary Archive
+# Binary Archive
 *.7z
 *.zip
 *.rar
