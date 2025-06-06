@@ -29,3 +29,4 @@ jobs:
           exempt-pr-labels: 'keep'
           close-issue-reason: not_planned
           ascending: true # Sort PRs by last updated date in ascending order
+          operations-per-run: 300
