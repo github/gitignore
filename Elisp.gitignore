@@ -2,7 +2,13 @@
 *.elc
 
 # Packaging
-.cask
+.cask/
+.eask/
+.eldev/
+.keg/
+
+# Built distribution
+dist/
 
 # Backup files
 *~
