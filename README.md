@@ -116,7 +116,7 @@ header of the template.
 
 For example, this template might live at `community/DotNet/InforCRM.gitignore`:
 
-```
+```gitignore
 # gitignore template for InforCRM (formerly SalesLogix)
 # website: https://www.infor.com/product-summary/cx/infor-crm/
 #
