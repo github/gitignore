@@ -1,27 +1,25 @@
-# General Ignores + IDE
-.DS_Store
-settings.xml
-
-# Localized Servers
-.engine/**
+# Servelet Ignores
 WEB-INF
 
-# Environment File
+# Engines + Database + CBFS + Secrets
+.tmp/**
 .env
+.engine/**
+.cbfs/**
+docker/.db/**
 
-# Logs
+# logs + tests
 logs/**
-
-# Code Coverage and Test Results
 tests/results/**
 
-# NPM Modules
+# npm
 **/node_modules/*
 npm-debug.log
 yarn-error.log
 
-## ColdBox Dependencies and Modules
-coldbox/*
-testbox/*
-modules/*
-modules/**/apidocs/**
+## Ignored Dependencies
+effective-pom.xml
+/coldbox/**
+/testbox/**
+/modules/**
+/lib/java/**
