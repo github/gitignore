@@ -21,9 +21,6 @@ node_modules/
 *.tmp              # temp files created during bundling
 *.log              # build or Metro logs
 
-# macOS system files
-.DS_Store
-
 # Environment variables
 .env
 .env.local
