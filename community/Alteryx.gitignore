@@ -1,0 +1,44 @@
+# gitignore template for Alteryx Designer
+# website: https://www.alteryx.com/
+# website: https://help.alteryx.com/current/designer/alteryx-file-types
+
+# Alteryx Data Files
+*.yxdb
+*.cydb
+*.cyidx
+*.rptx
+*.vvf
+*.aws
+
+# Alteryx Special Files
+*.yxwv
+*.yxft
+*.yxbe
+*.bak
+*.pcxml
+*.log
+*.bin
+*.yxlang
+CASS.ini
+
+# Alteryx License Files
+*.yxlc
+*.slc
+*.cylc
+*.alc
+*.gzlc
+
+## gitignore reference sites
+# https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files/
+
+## Useful knowledge from stackoverflow
+# Even if you haven't tracked the files so far, git seems to be able to "know" about them even after you add them to .gitignore.
+# WARNING: First commit your current changes, or you will lose them.
+# Then run the following commands from the top folder of your git repo:
+# git rm -r --cached .
+# git add .
+# git commit -m "fixed untracked files"
+
+# author: Kacper Ksieski
