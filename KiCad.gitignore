@@ -11,6 +11,7 @@
 *.kicad_prl
 *.sch-bak
 *~
+~*.kicad*.lck
 _autosave-*
 *.tmp
 *-save.pro
