@@ -1,8 +1,29 @@
+/**
+ * cspell.json
+ * 
+ * This file configures the settings for the Code Spell Checker (cspell) extension.
+ * 
+ * - version: Specifies the configuration schema version.
+ * - ignorePaths: List of file paths or glob patterns to exclude from spell checking.
+ * - dictionaryDefinitions: Custom dictionary definitions, including file paths and options.
+ * - dictionaries: List of dictionaries to use for spell checking.
+ * - words: List of additional words to always consider correct.
+ * - ignoreWords: List of words to ignore during spell checking.
+ * - import: List of external configuration files to import.
+ */
 {
     "version": "0.2",
     "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
+    "dictionaryDefinitions": [
+        {
+            "name": "custom-dictionary",
+            "path": "./.cspell/custom-dictionary.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": [
+        "custom-dictionary"
+    ],
     "words": [],
     "ignoreWords": [],
     "import": []

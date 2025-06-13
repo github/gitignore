@@ -1,0 +1,10 @@
+{
+    "inlineChat.enableV2": true,
+    "inlineChat.finishOnType": true,
+    "inlineChat.hideOnRequest": true,
+    "inlineChat.lineEmptyHint": true,
+    "vscode-edge-devtools.browserFlavor": "Default",
+    "vscode-edge-devtools.showWorkers": true,
+    "vscode-edge-devtools.useHttps": true,
+    "vscode-edge-devtools.webhintInstallNotification": true
+}
