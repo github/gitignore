@@ -72,6 +72,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -98,6 +99,9 @@ dist
 .temp
 .cache
 
+# Sveltekit cache directory
+.svelte-kit
+
 # vitepress build output
 **/.vitepress/dist
 
@@ -116,6 +120,9 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+# Firebase cache directory
+.firebase
+
 # TernJS port file
 .tern-port
 
@@ -128,3 +135,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Vite logs files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
