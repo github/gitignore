@@ -343,8 +343,8 @@ paket-files/
 *.pyc
 
 # Cake - Uncomment if you are using it
-# tools/**
-# !tools/packages.config
+#tools/**
+#!tools/packages.config
 
 # Tabs Studio
 *.tss
