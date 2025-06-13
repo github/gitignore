@@ -1,0 +1,15 @@
+# gitignore template for creating Debian packages
+# website: https://wiki.debian.org/HowToPackageForDebian
+
+# It's also strongly recommended to include project specific names in this
+# gitignore file, as the Debian packaging scripts will create directories for
+# the packages' content. Just uncomment and modify the line below:
+#debian/<package_name>/
+
+debian/autoreconf.*
+debian/debhelper-build-stamp
+debian/files
+debian/tmp/
+debian/*.debhelper
+debian/*.log
+debian/*.substvars
