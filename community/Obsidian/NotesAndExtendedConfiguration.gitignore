@@ -1,0 +1,36 @@
+# Excludes Obsidian workspace cache and plugin code, but retains plugin
+# configuration. All notes and user-controlled configuration files are tracked
+# by Git.
+#
+# 				!!! WARNING !!!
+#
+# Community plugins may store sensitive secrets in their data.json files. By
+# including these files, those secrets may be tracked in your Git repository.
+#
+# To ignore configurations for specific plugins, add a line like this after the
+# contents of this file (order is important):
+#     .obsidian/plugins/{{plugin_name}}/data.json
+#
+# Alternatively, ensure that you are treating your entire Git repository as
+# sensitive data, since it may contain secrets, or may have contained them in
+# past commits.  Understand your threat profile, and make the decision
+# appropriate for yourself. If in doubt, err on the side of not including
+# plugin configuration. Use one of the alternative gitignore files instead:
+# * NotesOnly.gitignore
+# * NotesAndCoreConfiguration.gitignore
+
+# The current application UI state (DOM layout, recently-opened files, etc.) is
+# stored in these files (separate for desktop and mobile) so you can resume
+# your session seamlessly after a restart. If you want to track UI state, use
+# the Workspaces core plugin instead of relying on these files.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugins are stored under .obsidian/plugins/$plugin_name. They
+# contain metadata (manifest.json), application code (main.js), stylesheets
+# (styles.css), and user-configuration data (data.json).
+# We only want to track data.json, so we:
+# 1. exclude everything that the plugin folders contain,
+# 2. unignore data.json in the plugin folders
+.obsidian/plugins/*/**
+!.obsidian/plugins/*/data.json
