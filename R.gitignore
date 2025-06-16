@@ -47,3 +47,19 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# renv dependency management
+renv/
+.renvignore
+!renv/activate.R
+
+# Quarto 
+.quarto/
+/_site/
+/_book/
+/_output/
+*_files/
+/_extensions/
+/_*.local
+
+/_freeze/
