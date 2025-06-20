@@ -12,6 +12,8 @@
 *.sch-bak
 *~
 _autosave-*
+\#auto_saved_files\#
+~*.lck
 *.tmp
 *-save.pro
 *-save.kicad_pcb
