@@ -1,1 +1,209 @@
-C++.gitignore
+# Compiled object files
+*.o
+*.mod
+*.smod
+
+# Precompiled modules
+*.mod0
+
+# Compiled executable files
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+
+# Fortran module files
+*.mod
+*.smod
+
+# Optimization data
+*.optrpt
+
+# Object files
+*.obj
+
+# Precompiled header files
+*.gch
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dylib
+*.dll
+
+# Backup files
+*~
+*.bak
+
+# Other files to ignore
+*.log
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.loa
+*.nav
+*.nlo
+*.nls
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.vrb
+*.xdy
+*.tdo
+*.fls
+*.fdb_latexmk
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Fortran-specific ignore
+# Compiled Fortran module files produced by gfortran
+*.mod
+*.smod
+
+# Compiled Fortran module files produced by Intel Fortran Compiler
+*.ipo
+*.ilk
+*.pdb
+
+# Compiled Fortran module files produced by PGI Fortran
+*.pbd
+
+# Compiled Fortran module files produced by Cray Fortran
+*.fppdefs
+
+# Compiled Fortran module files produced by NAG Fortran
+*.unused
+
+# Binary and archive files (e.g., compiled executables)
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.dat
+*.s
+*.a
+*.lib
+
+# Temporary files created by the linker
+*.ilk
+
+# Precompiled header files
+*.gch
+*.pch
+
+# Object files
+*.obj
+*.o
+*.ifc
+
+# Profile data files
+*.gcda
+*.gcno
+*.gcov
+
+# Coverage files
+*.cov
+*.ncb
+*.optrpt
+
+# Diagnostic files
+*.diag
+*.tds
+
+# Optimization listing files
+*.lst
+
+# Preprocessor output files
+*.i
+*.ii
+
+# Fortran module interface files
+*.mi
+*.mii
+
+# Compiled shader files
+*.spv
+*.vsp
+*.psp
+*.cpp
+*.fpp
+
+# Executable and object files from other languages
+*.pyc
+*.pyo
+*.pyd
+*.pl
+*.class
+*.sln
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.dat
+*.s
+*.a
+*.lib
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Others
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.svg
+*.tar.gz
+*.zip
+*.code-workspace
+.vscode/
