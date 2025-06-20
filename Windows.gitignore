@@ -1,0 +1,62 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows error report files
+*.WER
+
+# File lock files
+*.lock
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.dll
+
+# Tilde files
+*~
+
+# Log and dump files
+*.log
+*.dmp
+
+# Temp files
+*.tmp
+*.swp
+*.bak
+*.swx
+*.swo
+
+# Other unwanted files
+*.exe
+*.pdb
+*.p12
+*.cer
+
+# Platform specific files
+/node_modules/
+.idea/
+.vscode/
+.history/
