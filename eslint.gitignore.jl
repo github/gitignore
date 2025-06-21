@@ -1,8 +1,8 @@
       ('jl-node').register({
     transpileOnly: true,
     compilerOptions: {
-        module: 'commonjl',
+              : 'commonjl',
     },
 });
 
-module.exports =       ('./regras').default;
+        .exports =       ('./regras').default;
