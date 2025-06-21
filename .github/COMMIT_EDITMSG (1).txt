@@ -1,8 +1,0 @@
-
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# HEAD detached at e0c3a02
-# Changes to be committed:
-#	new file:   .vscode/launch.json
-#
