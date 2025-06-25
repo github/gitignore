@@ -11,10 +11,10 @@ the following resources are a great place to start:
 - The [Ignoring Files article][help] on the GitHub Help site.
 - The [gitignore(5)][man] manual page.
 
-[man]: http://git-scm.com/docs/gitignore
+[man]: https://git-scm.com/docs/gitignore
 [help]: https://help.github.com/articles/ignoring-files
 [chapter]: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
-[progit]: http://git-scm.com/book
+[progit]: https://git-scm.com/book
 
 ## Folder structure
 
@@ -116,7 +116,7 @@ header of the template.
 
 For example, this template might live at `community/DotNet/InforCRM.gitignore`:
 
-```
+```gitignore
 # gitignore template for InforCRM (formerly SalesLogix)
 # website: https://www.infor.com/product-summary/cx/infor-crm/
 #
