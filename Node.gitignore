@@ -120,7 +120,7 @@ dist
 .dynamodb/
 
 # Firebase cache directory
-.firebase
+.firebase/
 
 # TernJS port file
 .tern-port
