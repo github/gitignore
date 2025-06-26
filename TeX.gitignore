@@ -114,8 +114,11 @@ acs-*.bib
 *.acn
 *.acr
 *.glg
+*.glg-abr
 *.glo
+*.glo-abr
 *.gls
+*.gls-abr
 *.glsdefs
 *.lzo
 *.lzs
@@ -157,6 +160,9 @@ acs-*.bib
 # TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
 # *.tikz
 *-tikzDictionary
+
+# latexindent will create succesive backup files by default
+#*.bak*
 
 # listings
 *.lol
