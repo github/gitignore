@@ -95,6 +95,9 @@ dist
 .temp
 .cache
 
+# Sveltekit cache directory
+.svelte-kit/
+
 # vitepress build output
 **/.vitepress/dist
 
@@ -113,6 +116,9 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+# Firebase cache directory
+.firebase/
+
 # TernJS port file
 .tern-port
 
@@ -127,3 +133,7 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Vite logs files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
