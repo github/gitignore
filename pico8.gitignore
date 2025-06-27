@@ -1,0 +1,10 @@
+# exported file types
+*.p8.png
+*.png
+*.wav
+*.js
+*.html
+*.bin
+
+# demos folder
+demos/
