@@ -1,0 +1,21 @@
+# gitignore template for Madcap Flare projects
+# website: https://www.madcapsoftware.com/products/flare/
+#
+# Recommended: madcapflare.gitignore
+######################################################################################
+# Placing a # in front of any of the items listed below (e.g., # /Project/Users) will 
+# allow these items to be pushed to your Git repository. Keep in mind the more files 
+# you push to your repository, the more your performance may be affected. 
+######################################################################################
+
+# Ignore auto-generated MadCap folders for output and analysis
+/Output
+/Analyzer
+/FileSync
+
+# Ignore auto-generated MadCap files for users
+/Project/Users
+
+# Ignore any residual svn folder
+/.svn
+**/Thumbs.db
