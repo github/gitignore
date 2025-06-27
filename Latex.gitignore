@@ -1,0 +1,57 @@
+# LaTeX auxiliary and output files
+build/
+Build/
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.fls
+*.log
+*.fdb_latexmk
+*.snm
+*.synctex
+*.synctex.gz
+*.run.xml
+*.bcf
+*.dvi
+*.ps
+*.pdf
+
+# Archive files
+*.tar.gz
+*.zip
+*.rar
+archive/
+
+# Temporary and backup files
+*~
+*.bak
+*.swp
+*.tmp
+
+# VS Code and editor-specific files
+.vscode/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Keep source files
+!*.tex
+!*.bib
+!*.clsーリ
+
+# Keep assets
+!assets/*
