@@ -24,7 +24,12 @@ LineIDs.dbg.bak
 *.tsproj.bak
 *.tsproj.b?k
 *.tsproj.orig
-*.xt?.bak
+*.tspproj.bak
+*.xti.bak
+*.xti.bk?
+*.xti.orig
+*.xtv
+*.xtv.bk?
 *.xt?.bk?
 *.xt?.orig
 
@@ -39,8 +44,13 @@ LineIDs.dbg.bak
 **/_Deployment/
 **/_Repository/
 
-# VS Shell project specific files
+
+# To include a specific library directory (i.e. third party/custom libs), 
+# use pattern `!/**/_Libraries/<directory name>/` i.e. `!/**/_Libraries/www.tcunit.org/`
+# 
+
+# VS Shell project specific files and folders
+**/.vs/
 *.~u
 *.project.~u
 *.suo
-.vs/

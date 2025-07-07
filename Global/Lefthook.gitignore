@@ -1,0 +1,16 @@
+# https://lefthook.dev/configuration/#config-file-name
+/.lefthook-local.json
+/.lefthook-local.toml
+/.lefthook-local.yaml
+/.lefthook-local.yml
+/lefthook-local.json
+/lefthook-local.toml
+/lefthook-local.yaml
+/lefthook-local.yml
+/.config/lefthook-local.json
+/.config/lefthook-local.toml
+/.config/lefthook-local.yaml
+/.config/lefthook-local.yml
+
+# https://lefthook.dev/configuration/source_dir_local.html
+/.lefthook-local/
