@@ -33,3 +33,9 @@ inc/
 /MANIFEST.bak
 /pm_to_blib
 /*.zip
+
+# Carton/Carmel
+/local/
+/.carmel/
+# cpanfile.snapshot should generally be ignored for library code, otherwise included
+# cpanfile.snapshot 
