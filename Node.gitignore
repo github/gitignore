@@ -95,8 +95,10 @@ dist
 .temp
 .cache
 
-# Sveltekit cache directory
+# Sveltekit cache and build directories
 .svelte-kit/
+build/
+dist/
 
 # vitepress build output
 **/.vitepress/dist
