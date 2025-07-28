@@ -1,0 +1,14 @@
+# gitignore template for Hexo sites
+# website: https://hexo.io/
+# Recommended: Node.gitignore
+
+# Ignore generated directory
+public/
+
+# Ignore temp files
+tmp/
+.tmp*
+
+# additional files
+db.json
+.deploy*/

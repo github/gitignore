@@ -1,0 +1,135 @@
+############################
+# OS X
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+
+############################
+# Linux
+############################
+
+*~
+
+
+############################
+# Windows
+############################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+############################
+# Packages
+############################
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+
+############################
+# Logs and databases
+############################
+
+.tmp
+*.log
+*.sql
+*.sqlite
+
+
+############################
+# Misc.
+############################
+
+*#
+.idea
+nbproject
+.vscode/
+
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+build
+node_modules
+.node_history
+package-lock.json
+**/package-lock.json
+!docs/package-lock.json
+*.heapsnapshot
+
+
+############################
+# Tests
+############################
+
+testApp
+coverage
+cypress/screenshots
+cypress/videos
+
+
+############################
+# Documentation
+############################
+
+dist
+
+############################
+# Builds
+############################
+
+packages/strapi-generate-new/files/public/
+
+############################
+# Example app
+############################
+
+.dev
+# *.cache
+
+############################
+# Visual Studio Code
+############################
+
+front-workspace.code-workspace

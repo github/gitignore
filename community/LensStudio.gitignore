@@ -1,0 +1,16 @@
+# gitignore template for LensStudio
+# website: https://lensstudio.snapchat.com/
+
+# macOS/IDE #
+.DS_Store
+.idea
+
+# js #
+node_modules
+yarn.lock
+
+# Python #
+__pycache__/
+*.py[cod]
+*$py.class
+[Bb]ackup*

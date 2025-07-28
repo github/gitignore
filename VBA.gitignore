@@ -1,0 +1,40 @@
+
+# Office temporary files
+~$*
+
+# Access database lock files (laccdb, ldb)
+*.[lL][aA][cC][cC][dD][bB]
+*.[lL][dD][bB]
+
+# The following sections constitute a list of Office file extensions that support VBA.
+# If you want to exclude Office files from your repo, uncomment the corresponding file extensions.
+
+# Excel (xls, xlsb, xlsm, xlt, xltm, xla, xlam)
+#*.[xX][lL][sS]
+#*.[xX][lL][sS][bB]
+#*.[xX][lL][sS][mM]
+#*.[xX][lL][tT]
+#*.[xX][lL][tT][mM]
+#*.[xX][lL][aA]
+#*.[xX][lL][aA][mM]
+
+# Word (doc, docm, dot, dotm)
+#*.[dD][oO][cC]
+#*.[dD][oO][cC][mM]
+#*.[dD][oO][tT]
+#*.[dD][oO][tT][mM]
+
+# Access (accda, accdb, accde, mdb, mde)
+#*.[aA][cC][cC][dD][aA]
+#*.[aA][cC][cC][dD][bB]
+#*.[aA][cC][cC][dD][eE]
+#*.[mM][dD][bB]
+#*.[mM][dD][eE]
+
+# PowerPoint (ppt, pptm, pot, potm, pps, ppsm)
+#*.[pP][pP][tT]
+#*.[pP][pP][tT][mM]
+#*.[pP][oO][tT]
+#*.[pP][oO][tT][mM]
+#*.[pP][pP][sS]
+#*.[pP][pP][sS][mM]

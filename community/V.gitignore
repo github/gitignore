@@ -1,0 +1,11 @@
+*.exe
+*.o
+*.so
+*.tmp.c
+*.exp
+*.ilk
+*.pdb
+*.dll
+*.lib
+*.bak
+*.out

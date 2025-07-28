@@ -1,0 +1,16 @@
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Jupyter lab virtual documents
+# https://jupyterlab-lsp.readthedocs.io/en/2.x/Configuring.html#virtual_documents_dir
+.virtual_documents/
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
