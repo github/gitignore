@@ -6,20 +6,20 @@ WEB-INF
 .env
 .engine/**
 .cbfs/**
-docker/.db/**
 
-# logs + tests
+# Logs + Test Results
 logs/**
 tests/results/**
 
-# npm
-**/node_modules/*
-npm-debug.log
-yarn-error.log
-
 ## Ignored Dependencies
+/boxlang_modules/*
 effective-pom.xml
 /coldbox/**
 /testbox/**
 /modules/**
 /lib/java/**
+
+# NPM JS Assets (If applicable)
+**/node_modules/*
+npm-debug.log
+yarn-error.log
