@@ -1,4 +1,0 @@
-# Ignore LyX backup and autosave files
-# http://www.lyx.org/
-*.lyx~
-*.lyx#
