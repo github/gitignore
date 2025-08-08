@@ -65,6 +65,11 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+# Redis 
+*.rdb
+*.aof
+*.pid
+
 # Scrapy stuff:
 .scrapy
 
