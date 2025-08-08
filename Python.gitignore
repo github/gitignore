@@ -131,6 +131,19 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+# Redis 
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
 # SageMath parsed files
 *.sage.py
 
