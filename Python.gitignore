@@ -65,11 +65,6 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
-# Redis 
-*.rdb
-*.aof
-*.pid
-
 # Scrapy stuff:
 .scrapy
 
@@ -135,6 +130,19 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+
+# Redis 
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
 
 # SageMath parsed files
 *.sage.py
