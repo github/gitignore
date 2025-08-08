@@ -1,0 +1,24 @@
+# Servelet Ignores
+WEB-INF
+
+# Engines + Database + CBFS + Secrets
+.tmp/**
+.env
+.engine/**
+.cbfs/**
+
+# Logs + Test Results
+logs/**
+tests/results/**
+
+## Ignored Dependencies
+effective-pom.xml
+/coldbox/**
+/testbox/**
+/modules/**
+/lib/java/**
+
+# NPM JS Assets (If applicable)
+**/node_modules/*
+npm-debug.log
+yarn-error.log
