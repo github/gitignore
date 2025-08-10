@@ -22,14 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Dependency directories
-node_modules/
-
 # Eslint cache
 .eslintcache
-
-# MacOS system files
-.DS_Store
 
 # Windows system files
 Thumbs.db
