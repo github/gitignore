@@ -126,6 +126,9 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
+#VisualStudio 2022 custom editor settings
+.editorconfig
+
 # Chutzpah Test files
 _Chutzpah*
 
