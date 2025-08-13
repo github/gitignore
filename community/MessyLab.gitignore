@@ -1,0 +1,41 @@
+# gitignore template for the MessyLab IDE used to develop the picoComputer assembly language
+# picoComputer is a computer architecture to aid teaching of assembly languages
+# (used in classes of first year students at the University of Belgrade)
+#
+# The website of the IDE:
+# http://messylab.com/
+#
+# The documentation of the picoComputer assembly language can be found here:
+# http://messylab.com/pico/
+#
+# The files with the following extensions should not be ignored:
+# mlp - messylab project file
+# pca - picoComputer source file
+#
+
+
+# Contain information about the breakpoints
+# and the watches in the source files
+# (Breakpoints.xml and Watch.xml)
+*.xml
+
+# Contains the program of the picoComputer in the form
+# of encoded instructions of the language
+# (<project_name>.hex)
+*.hex
+
+# XML file containing the information regarding debugging the picoComputer
+# program in MessyLab - file line numbers, whether a line is executable, names, etc.
+# (<project_name>.bin.mldbg)
+*.mldbg
+
+# Contains the source code shifted to the right of the file (tabulated),
+# machine translated label lines and hex values of the encoded
+# instructions to the left of the file. The source code appears
+# next to the machine translated code
+# (<project_name>.txt)
+*.txt
+
+# Contains machine translated program of the picoComputer
+# (<project_name>.bin)
+*.bin
