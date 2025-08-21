@@ -8,5 +8,7 @@
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
-.venv
+.venv/
+venv/
+.python-version
 pip-selfcheck.json
