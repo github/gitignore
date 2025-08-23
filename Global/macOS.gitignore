@@ -23,3 +23,8 @@ Icon[]
 Network Trash Folder
 Temporary Items
 .apdisk
+# iCloud placeholders
+*.icloud
+
+# Finder metadata on network shares
+.apdisk
