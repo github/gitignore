@@ -1,0 +1,24 @@
+# Python backend for club management
+__pycache__/
+*.py[cod]      # Python compiled files
+*$py.class
+*.so
+.Python
+env/
+.env           # Where database passwords are stored
+venv/          # Virtual environment for testing
+.venv
+
+# Teacher IDE settings
+.vscode/       # Ms. Rodriguez uses VS Code
+.idea/         # Mr. Chen uses PyCharm
+
+# Local development & testing
+instance/
+.pytest_cache/
+.coverage      # Test coverage reports
+htmlcov/
+
+# Staff computer files
+.DS_Store      # For teachers with Macs
+Thumbs.db      # For teachers with Windows
