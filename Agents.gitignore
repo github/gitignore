@@ -1,0 +1,46 @@
+# AI Agents / Assistants
+AGENTS.md
+GEMINI.md
+WARP.md
+CRUSH.md
+.warp/
+.crush/
+.codeium/
+.deepseek/
+.amazon-codewhisperer/
+
+# Cursor AI (VS Code fork)
+.cursorrules
+.cursor/
+.cursor.json
+.cursor-settings.yaml
+
+# Tabnine AI - per official docs
+.tabnineignore
+.tabnine/
+
+# Continue.dev (Open source AI assistant)
+.continue/
+.continuerc.json
+
+# Aider AI (Terminal-based)
+.aiderignore
+
+# Qwen Code CLI
+QWEN.md
+
+# Cline AI Assistant (trending, user configs similar to Cursor/Continue)
+.cline/
+.clinerules
+cline.json
+
+# GitHub Copilot - does not create repo-local files by default
+# .github/copilot-instructions.md
+
+# Windsurf Editor (Agentic IDE) - usually intentional project configs
+# .windsurfrules
+# .windsurf/
+
+# Replit AI Development - usually intentional project configs
+# .replit
+# replit.nix
