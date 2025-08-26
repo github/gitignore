@@ -3,7 +3,7 @@
 #   * all directories are related to the default directories, please adapt the .gitignore if you use customized directories
 
 # Dynamic workspace settings
-#   * We don't recommend to ignore the .workspace directory, because of important 
+#   * We don't recommend to ignore the .workspace directory, because of important
 #     * project specific settings
 #     * local user settings
 .workspace/ETdrive.xml
