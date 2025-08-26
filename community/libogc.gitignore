@@ -25,7 +25,7 @@ icon.png
 lib/
 deps/
 obj/
-  
+
 # Ignore operating system-specific files
 $RECYCLE.BIN/
 .Trash-1000/
