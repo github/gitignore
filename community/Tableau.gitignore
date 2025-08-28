@@ -1,0 +1,26 @@
+# gitignore template for Tableau Desktop
+# website: https://www.tableau.com/
+# website: https://help.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm
+
+# Workbooks
+*.twbx
+*.twbr
+
+# Data Files
+*.tde
+*.hyper
+
+## gitignore reference sites
+# https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files/
+
+## Useful knowledge from stackoverflow
+# Even if you haven't tracked the files so far, git seems to be able to "know" about them even after you add them to .gitignore.
+# WARNING: First commit your current changes, or you will lose them.
+# Then run the following commands from the top folder of your git repo:
+# git rm -r --cached .
+# git add .
+# git commit -m "fixed untracked files"
+
+# author: Kacper Ksieski
