@@ -1,0 +1,28 @@
+# gitignore template for CRBasic
+# website: https://help.campbellsci.com/crbasic/landing/
+#
+# Recommended: CRBasic.gitignore
+
+# Auto-generated table definitions files
+*.[tT][dD][fF]
+
+# Compressed source files
+*_str.[cC][rR][123589B]
+*_str.[cC]9[xX]
+*_str.[cC][rR]1[xX]
+*_str.[cC][rR]300
+
+# Conditional compilation output files
+*_CC*.[cC][rR][123589B]
+*_CC*.[cC]9[xX]
+*_CC*.[cC][rR]1[xX]
+*_CC*.[cC][rR]300
+
+# Binary compiled files (CR200 series)
+*.bin
+
+# Encrypted compiled files
+*_Enc.[cC][rR][123589B]
+*_Enc.[cC]9[xX]
+*_Enc.[cC][rR]1[xX]
+*_Enc.[cC][rR]300
