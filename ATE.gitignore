@@ -1,0 +1,60 @@
+
+### For C++ language related files
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+### For D10/DX Platform
+
+*.pat
+*/**/*rto/*
+*/**/*rtol/*
+*.make
+*.properties
+*.vpj
+*.vpw
+*.scan
+*.patl
+*.bakvpj
+*.bakvpw
+*.vpwhistu
+*.vtg
+*.pvs
+
+
+### For Project Management Related files
+.bak*
+*.xml
+*.zip
+*.tar
+*.gz
