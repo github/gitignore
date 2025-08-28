@@ -1,0 +1,8 @@
+## Ignore video files which could have large file sizes
+## because GitHub recommends repository sizes under 5GB.
+
+# Quicktime Video Files
+*.[Mm][Oo][Vv]
+
+# MPEG-4 Video Files
+*.m4v
