@@ -1,6 +1,6 @@
 ## Ignore Umbraco files/folders generated for each instance
 ##
-## Get latest from https://github.com/github/gitignore/blob/main/Umbraco.gitignore
+## Get latest from https://github.com/github/gitignore/blob/main/community/DotNet/Umbraco.gitignore
 
 # Note: VisualStudio gitignore rules may also be relevant
 
@@ -50,3 +50,6 @@
 
 #include default location for packages
 !**/umbraco/Data/packages
+
+# Temp folder containing Examine indexes, NuCache, MediaCache, etc.
+**/umbraco/Data/TEMP/
