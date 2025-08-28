@@ -1,0 +1,9 @@
+# Ignore Folders
+AS/
+Binaries/
+Diagnosis/
+Temp/
+
+# Ignore .set and .isopen files
+*.set
+*.isopen
