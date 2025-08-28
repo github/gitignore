@@ -17,6 +17,9 @@
 /wp-*.php
 /xmlrpc.php
 
+# Migration subfolder
+/Migration
+
 # Configuration
 wp-config.php
 
@@ -24,7 +27,7 @@ wp-config.php
 /wp-content/themes/twenty*/
 
 # Example plugin
-/wp-content/plugins/hello.php
+#/wp-content/plugins/hello.php
 
 # Uploads
 /wp-content/uploads/
