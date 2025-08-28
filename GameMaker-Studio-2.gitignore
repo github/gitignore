@@ -1,0 +1,26 @@
+# Force include core files
+!*.yy
+!*.gml
+!/*.yyp
+
+# Builds for Desktop
+*.exe
+*.zip
+*.app
+*.pkg
+
+# Builds for Mobile
+*.apk
+*.ipa
+*.xarchive
+
+# Builds for UWP
+*.appx
+*.appxupload
+
+# Builds for HTML5
+# index.html
+
+# Miscellaneous
+*.dll
+*.log
