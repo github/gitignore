@@ -1,0 +1,18 @@
+# gitignore template for the Node-RED framework
+# website: https://nodered.org/
+#
+# Recommended template: Node.gitignore
+
+# Node-RED
+
+# Current configuration - list of all of the modules and node types that are being loaded with their versions.
+.config.json
+
+# Backup versions of config files
+*.json.backup
+
+# Session information
+.sessions.json
+
+# Credentials stored in flows
+flows*_cred.json
