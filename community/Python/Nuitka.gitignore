@@ -1,0 +1,15 @@
+# Nuitka
+# website: nuitka.net
+
+# build folders
+*.build/
+*.onefile-build/
+
+# uncomment for onefile
+# *.dist/
+
+# Python bytecode cache
+__pycache__/
+
+# Pycharm
+.idea/
