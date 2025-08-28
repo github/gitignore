@@ -28,6 +28,9 @@ tramp
 # AUCTeX auto folder
 /auto/
 
+# AUCTeX region cache
+_region_.tex
+
 # cask packages
 .cask/
 dist/
