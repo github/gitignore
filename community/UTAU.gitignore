@@ -21,7 +21,7 @@
 *.vs4ufrq
 
 # UTAU related tools
-$read
+\$read
 *.setParam-Scache
 *.lbp
 *.lbp.caches/*
