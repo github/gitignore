@@ -18,11 +18,6 @@
 # These are not necessary for version control.
 *.log
 
-# Ignore VSCode configuration files.
-# Useful if some team members use VSCode for development.
-# If you want to share VSCode settings, comment out the following line.
-.vscode/
-
 # Build files
 
 # Ignore build output directories.
