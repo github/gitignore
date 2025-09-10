@@ -46,9 +46,9 @@ LineIDs.dbg.bak
 **/_Repository/
 
 
-# To include a specific library directory (i.e. third party/custom libs), 
+# To include a specific library directory (i.e. third party/custom libs),
 # use pattern `!/**/_Libraries/<directory name>/` i.e. `!/**/_Libraries/www.tcunit.org/`
-# 
+#
 
 # VS Shell project specific files and folders
 **/.vs/
