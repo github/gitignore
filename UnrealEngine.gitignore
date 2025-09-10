@@ -1,6 +1,14 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# JetBrain Rider (and other common IDEs) Generated Cache
+.idea
+
+# Common IDE Local User files
+*.csproj
+*.sln.DotSettings
+*.sln.DotSettings.user
+
 # Compiled Object files
 *.slo
 *.lo
