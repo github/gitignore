@@ -100,7 +100,7 @@ dist
 # vuepress build output
 .vuepress/dist
 
-# vuepress v2.x temp and cache directory
+# vuepress v2.x temp directory
 .temp
 
 # Docusaurus cache and generated files
