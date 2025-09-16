@@ -7,3 +7,6 @@ docs/_book
 
 # TODO: where does this rule come from?
 test/
+
+#if the yarn error ,an error file is generated
+yarn-error.log
