@@ -1,0 +1,41 @@
+### Altium Designer ###
+
+# Preview folders
+__Previews/
+**/__Previews/
+
+# Project history
+History/
+**/History/
+
+# Project logs
+Project Logs*/
+*.log
+
+# Auto-generated outputs
+Project Outputs*/
+Simulation Outputs*/
+Generated/
+*/Generated/
+
+# Auto-conversion notices
+*.PcbDoc.htm
+*.SchDocPreview
+
+# Access lock files (for DBLib sources)
+*.ldb
+
+# Archives and temporary files
+*.zip
+*.rar
+*.7z
+*.bak
+*.tmp
+
+# Excel reports (BOM, etc.)
+*.xlsx
+*.xls
+
+# System temporary files
+.DS_Store
+Thumbs.db
