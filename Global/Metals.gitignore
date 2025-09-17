@@ -1,5 +1,6 @@
- # Generated Metals (Scala Language Server) files
- # Reference: https://scalameta.org/metals/
+# Metals (Scala Language Server)
+# Reference: https://scalameta.org/metals/docs/editors/vscode#files-and-directories-to-include-in-your-gitignore
 .metals/
 .bloop/
-project/metals.sbt
+.ammonite/
+metals.sbt

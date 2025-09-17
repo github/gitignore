@@ -1,9 +1,8 @@
 # General
 .DS_Store
+__MACOSX/
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon[\r]
 
 # Thumbnails
