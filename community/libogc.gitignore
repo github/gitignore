@@ -1,0 +1,91 @@
+# Ignore build directories
+build/
+
+# Ignore Wii-specific metadata files
+meta.xml
+icon.png
+
+
+# Ignore editor or IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore backup or temporary files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore libraries and dependencies
+lib/
+deps/
+obj/
+
+# Ignore operating system-specific files
+$RECYCLE.BIN/
+.Trash-1000/
+.Spotlight-V100/
+.fseventsd/
+.DS_Store
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.o
+*.bin
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.dol
+*.elf
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf

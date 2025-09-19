@@ -1,0 +1,47 @@
+# Compiled binaries
+*.o
+*.bin
+*.elf
+*.hex
+*.map
+*.out
+*.obj
+
+# Trash
+*.bak
+thumbs.db
+*.~*
+
+# IAR Settings
+**/settings/*.crun
+**/settings/*.dbgdt
+**/settings/*.cspy
+**/settings/*.cspy.*
+**/settings/*.xcl
+**/settings/*.dni
+**/settings/*.wsdt
+**/settings/*.wspos
+
+# IAR Debug Exe
+**/Exe/*.sim
+
+# IAR Debug Obj
+**/Obj/*.pbd
+**/Obj/*.pbd.*
+**/Obj/*.pbi
+**/Obj/*.pbi.*
+
+# IAR project "Debug" directory
+Debug/
+
+# IAR project "Release" directory
+Release/
+
+# IAR project settings directory
+settings/
+
+# IAR backup files
+Backup*
+
+# IAR .dep files
+*.dep

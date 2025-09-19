@@ -8,6 +8,7 @@
 *.smcl
 *.stpr
 *.stsem
+~*.stswp
 
 # Graphic export files from Stata
 # Stata command graph export: http://www.stata.com/manuals14/g-2graphexport.pdf

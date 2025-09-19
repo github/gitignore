@@ -1,0 +1,4 @@
+# Excludes all Obsidian-related configuration. All notes are tracked by Git.
+
+# All Obsidian configuration and runtime state is stored here
+.obsidian/**/*
