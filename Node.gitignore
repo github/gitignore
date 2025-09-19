@@ -62,9 +62,6 @@ web_modules/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variable files
 .env
 .env.*
@@ -128,6 +125,12 @@ dist
 
 # yarn v3
 .pnp.*
+
+# Snyk cache files
+.dccache
+
+# Yarn files
+.yarn-integrity
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -139,3 +142,4 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
