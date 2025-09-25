@@ -14,6 +14,9 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
+# Kotlin compilation data
+.kotlin
+
 # Eclipse Gradle plugin generated files
 # Eclipse Core
 .project
