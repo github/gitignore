@@ -100,6 +100,10 @@ crashlytics-build.properties
 /[Aa]ssets/GeneratedLocalRepo/
 /[Aa]ssets/GeneratedLocalRepo.meta
 
+# Android Gradle generated files
+/[Aa]ssets/Plugins/Android/**/*.gradle.backup*
+/[Aa]ssets/Plugins/Android/**/local.properties
+
 # Test Framework generated files
 /[Aa]ssets/Resources/PerformanceTestRunInfo.json
 /[Aa]ssets/Resources/PerformanceTestRunInfo.json.meta
