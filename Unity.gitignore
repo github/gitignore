@@ -82,6 +82,10 @@ crashlytics-build.properties
 /[Aa]ssets/**/*.blend1
 /[Aa]ssets/**/*.blend1.meta
 
+# TouchDesigner generated cache files
+/[Aa]ssets/**/TDImportCache/
+/[Aa]ssets/**/TDImportCache.meta
+
 # Addressables default ignores, before user customizations
 # By default, Addressables content builds will generate addressables_content_state.bin
 # files in platform-specific subfolders, for example:
