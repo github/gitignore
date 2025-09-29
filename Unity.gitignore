@@ -86,6 +86,10 @@ crashlytics-build.properties
 /[Aa]ssets/**/TDImportCache/
 /[Aa]ssets/**/TDImportCache.meta
 
+# Unity Crash Recovery generated files
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
 # Addressables default ignores, before user customizations
 # By default, Addressables content builds will generate addressables_content_state.bin
 # files in platform-specific subfolders, for example:
