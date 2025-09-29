@@ -16,9 +16,10 @@
 *.blend1
 *.blend1.meta
 
-# MemoryCaptures can get excessive in size.
+# Memory Profiler generated files
+# MemoryCaptures can get excessive in size
 # They also could contain extremely sensitive data
-/[Mm]emoryCaptures/
+/[Mm]emory[Cc]aptures/
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
