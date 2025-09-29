@@ -12,10 +12,6 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
-# By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
-*.blend1
-*.blend1.meta
-
 # Memory Profiler generated files
 # MemoryCaptures can get excessive in size
 # They also could contain extremely sensitive data
@@ -81,6 +77,10 @@ tmpinst-dir.stamp
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Blender generated backup files
+/[Aa]ssets/**/*.blend1
+/[Aa]ssets/**/*.blend1.meta
 
 # Addressables default ignores, before user customizations
 # By default, Addressables content builds will generate addressables_content_state.bin
