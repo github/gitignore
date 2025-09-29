@@ -68,8 +68,11 @@ sysinfo.txt
 mono_crash.*
 
 # Builds
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
 *.apk
 *.aab
+*.obb
 *.unitypackage
 *.unitypackage.meta
 *.app
