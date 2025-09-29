@@ -65,7 +65,9 @@ ExportedObj/
 sysinfo.txt
 
 # Mono auto generated files
+.dirstamp
 mono_crash.*
+tmpinst-dir.stamp
 
 # Builds
 /*_BackUpThisFolder_ButDontShipItWithYourGame/
