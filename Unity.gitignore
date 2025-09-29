@@ -96,6 +96,10 @@ crashlytics-build.properties
 /[Aa]ssets/StreamingAssets/aa.meta
 /ServerData/
 
+# EDM4U generated files
+/[Aa]ssets/GeneratedLocalRepo/
+/[Aa]ssets/GeneratedLocalRepo.meta
+
 # Test Framework generated files
 /[Aa]ssets/Resources/PerformanceTestRunInfo.json
 /[Aa]ssets/Resources/PerformanceTestRunInfo.json.meta
