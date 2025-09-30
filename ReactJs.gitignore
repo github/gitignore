@@ -25,7 +25,6 @@ out/
 
 # Editor directories and files
 .vscode/
-../github-gitignore/.idea/
 *.suo
 *.ntvs*
 *.njsproj
