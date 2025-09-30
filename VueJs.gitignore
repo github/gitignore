@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build output (Vue CLI / Vite)
+dist/
+build/
+www/
+*.local
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Vue CLI UI config
+.vue-cli-ui.json
+
+# Editor directories and files
+.vscode/
+../github-gitignore/.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Caches
+.cache/
+.temp/
+*.tmp
+*.temp
+
+# Optional: lock files (if you prefer not to commit them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# System files
+.DS_Store
+Thumbs.db
