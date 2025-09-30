@@ -1,0 +1,20 @@
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+#ignores node modules
+node_modules/
+
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
