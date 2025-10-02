@@ -1,0 +1,14 @@
+/bitrix
+/upload
+
+/.htsecure
+
+*.txt
+*.tmp
+*.log
+*.xml
+*.sql
+*.zip
+*.rar
+*.tar
+*.gz
