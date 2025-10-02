@@ -37,12 +37,12 @@ wp-config.php
 
 # All plugins
 #
-# Note: If you wish to whitelist plugins,
+# Note: If you wish to allowlist plugins,
 # uncomment the next line
 #/wp-content/plugins
 
 # All themes
 #
-# Note: If you wish to whitelist themes,
+# Note: If you wish to allowlist themes,
 # uncomment the next line
 #/wp-content/themes
