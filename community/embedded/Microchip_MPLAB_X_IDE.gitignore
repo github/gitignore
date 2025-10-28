@@ -1,0 +1,27 @@
+#=============================================================================
+# Microchip MPLAB X IDE .gitignore file.
+#
+# MPLABX: https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide
+#
+# MPLABX Version Control:-
+# https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ides/x/version-control/working-with-version-control/
+#-----------------------------------------------------------------------------
+
+# MPLAB X (NetBeans) Project files
+**/*.X/nbproject/private/
+**/*.X/nbproject/Makefile-*
+**/*.X/nbproject/Package-*
+!**/*.X/nbproject/*.xml
+
+# MPLAB X Generated Files and Build Output
+**/*.X/.generated_files/
+**/*.X/build/
+**/*.X/dist/
+**/*.X/debug/
+
+# MPLAB Code Configurator (MCC)
+**/*.X/mcc_generated_files/
+**/*.X/mcc-manifest-*.yml
+
+#-----------------------------------------------------------------------------
+
