@@ -1,0 +1,3 @@
+git clone https://github.com/gokapso/whatsapp-cloud-inbox.git
+cd whatsapp-cloud-inbox
+npm install
