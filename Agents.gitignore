@@ -29,6 +29,12 @@ CRUSH.md
 # Qwen Code CLI
 QWEN.md
 
+# Claude code
+.claude/
+
+# (purely optional) Gemini settings folder
+.gemini/
+
 # Cline AI Assistant (trending, user configs similar to Cursor/Continue)
 .cline/
 .clinerules
