@@ -176,13 +176,13 @@ acs-*.bib
 *.ind
 
 # minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
+*.maf*([0-9])
+*.mlf*([0-9])
+*.mlt*([0-9])
+*.mtc*([0-9])
+*.slf*([0-9])
+*.slt*([0-9])
+*.stc*([0-9])
 
 # minted
 _minted*
