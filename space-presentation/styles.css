@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+/* Animated Star Background */
+#stars-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    z-index: -1;
+}
+
+#stars-container::before,
+#stars-container::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 
+        100px 200px #fff, 300px 100px #fff, 500px 300px #fff,
+        700px 150px #fff, 200px 400px #fff, 600px 500px #fff,
+        150px 50px #fff, 450px 250px #fff, 800px 400px #fff,
+        250px 150px #fff, 550px 450px #fff, 350px 350px #fff,
+        650px 200px #fff, 750px 50px #fff, 50px 300px #fff,
+        400px 500px #fff, 900px 250px #fff, 100px 450px #fff,
+        850px 350px #fff, 950px 150px #fff, 200px 250px #fff,
+        500px 100px #fff, 300px 450px #fff, 700px 300px #fff,
+        150px 350px #fff, 450px 150px #fff, 600px 400px #fff,
+        800px 200px #fff, 250px 500px #fff, 550px 50px #fff,
+        350px 200px #fff, 650px 450px #fff, 750px 500px #fff,
+        50px 150px #fff, 400px 350px #fff, 900px 100px #fff;
+    animation: twinkle 3s infinite;
+}
+
+#stars-container::after {
+    animation-delay: 1.5s;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* Navigation Controls */
+.nav-controls {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nav-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.slide-counter {
+    color: #00ffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+/* Slides */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    transform: scale(0.8) rotateY(90deg);
+}
+
+.slide.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) rotateY(0deg);
+}
+
+.slide-content {
+    max-width: 1200px;
+    width: 90%;
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* 3D Title Effects */
+.title-3d {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 
+        0 0 10px rgba(0, 255, 255, 0.5),
+        0 0 20px rgba(255, 0, 255, 0.5),
+        0 0 30px rgba(255, 255, 0, 0.5);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+.glow-text {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 
+            0 0 10px #00ffff,
+            0 0 20px #00ffff,
+            0 0 30px #00ffff,
+            0 0 40px #00ffff;
+    }
+    to {
+        text-shadow: 
+            0 0 20px #ff00ff,
+            0 0 30px #ff00ff,
+            0 0 40px #ff00ff,
+            0 0 50px #ff00ff;
+    }
+}
+
+.subtitle {
+    font-size: 1.8em;
+    color: #00ffff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.spaceship-icon {
+    font-size: 8em;
+    animation: rocket-launch 2s ease-in-out infinite;
+}
+
+@keyframes rocket-launch {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-30px) rotate(10deg); }
+}
+
+/* Riddle Slide */
+.riddle-box {
+    background: rgba(138, 43, 226, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #8a2be2;
+    box-shadow: 0 0 30px rgba(138, 43, 226, 0.5);
+}
+
+.riddle-text {
+    font-size: 1.5em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+.reveal-btn {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(240, 147, 251, 0.4);
+}
+
+.reveal-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 30px rgba(240, 147, 251, 0.6);
+}
+
+.answer {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #ffff00;
+    text-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+    animation: fadeIn 0.5s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Vocabulary Slides */
+.vocab-slide .slide-content {
+    max-width: 1400px;
+    text-align: left;
+}
+
+.vocab-title {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+
+.vocab-card {
+    background: rgba(30, 30, 60, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+.vocab-card p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.definition {
+    color: #00ffff;
+    font-size: 1.5em !important;
+}
+
+.synonyms {
+    color: #90ee90;
+}
+
+.antonyms {
+    color: #ff6b6b;
+}
+
+.examples {
+    color: #ffd700;
+}
+
+.examples ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.examples li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Quiz Slide */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.question-box {
+    background: rgba(50, 50, 100, 0.6);
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #00ffff;
+    text-align: left;
+}
+
+.question {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #00ffff;
+}
+
+.answer-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+.answer-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Game Slides */
+.scary-title {
+    color: #ff0000 !important;
+    animation: scary-pulse 1s ease-in-out infinite;
+}
+
+@keyframes scary-pulse {
+    0%, 100% { text-shadow: 0 0 20px #ff0000; }
+    50% { text-shadow: 0 0 40px #ff0000, 0 0 60px #ff0000; }
+}
+
+.game-instructions {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.asking-pattern {
+    color: #ffd700;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.game-btn {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(240, 147, 251, 0.4);
+}
+
+.game-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 30px rgba(240, 147, 251, 0.6);
+}
+
+.timer {
+    font-size: 2em;
+    color: #ff0000;
+    margin: 20px 0;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+}
+
+.player-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.player-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #00ffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.player-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(102, 126, 234, 0.6);
+}
+
+.player-box.revealed {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.player-box.spy {
+    background: linear-gradient(135deg, #ff0000 0%, #8b0000 100%);
+    animation: spy-pulse 1s ease-in-out infinite;
+}
+
+@keyframes spy-pulse {
+    0%, 100% { box-shadow: 0 0 20px #ff0000; }
+    50% { box-shadow: 0 0 40px #ff0000; }
+}
+
+.player-number {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.player-word {
+    font-size: 1em;
+    color: #ffff00;
+}
+
+/* Voting Slide */
+.voting-instructions {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+#currentVoter {
+    color: #00ffff;
+    font-weight: bold;
+}
+
+.voting-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.vote-box {
+    background: rgba(50, 50, 100, 0.6);
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #00ffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.vote-box:hover {
+    background: rgba(100, 100, 150, 0.8);
+    transform: scale(1.05);
+}
+
+.vote-box.selected {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-color: #ff00ff;
+}
+
+.vote-percentage {
+    font-size: 1.5em;
+    color: #ffd700;
+    margin-top: 10px;
+}
+
+/* Reveal Slide */
+.reveal-box {
+    background: rgba(138, 43, 226, 0.3);
+    padding: 60px;
+    border-radius: 20px;
+    border: 3px solid #8a2be2;
+    box-shadow: 0 0 50px rgba(138, 43, 226, 0.6);
+}
+
+.spy-reveal {
+    font-size: 3em;
+    color: #ff0000;
+    margin-bottom: 30px;
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+    animation: reveal-pulse 1s ease-in-out infinite;
+}
+
+@keyframes reveal-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.congrats {
+    font-size: 2em;
+    color: #ffd700;
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
+/* Goodbye Slide */
+.rocket-launch {
+    font-size: 10em;
+    animation: launch 3s ease-in-out infinite;
+}
+
+@keyframes launch {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-50px) rotate(20deg); }
+    100% { transform: translateY(-100vh) rotate(45deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title-3d {
+        font-size: 2.5em;
+    }
+    
+    .subtitle {
+        font-size: 1.2em;
+    }
+    
+    .player-grid,
+    .voting-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .vocab-card p {
+        font-size: 1em;
+    }
+    
+    .slide-content {
+        padding: 20px;
+    }
+}
