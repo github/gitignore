@@ -12,8 +12,9 @@ local.properties
 captures/
 .externalNativeBuild/
 .cxx/
+*.aab
 *.apk
-output.json
+output-metadata.json
 
 # IntelliJ
 *.iml

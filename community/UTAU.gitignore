@@ -1,0 +1,52 @@
+# Adobe Audition
+*.pkf
+
+# UTAU Engines
+*.ctspec
+*.d4c
+*.dio
+*.frc
+*.frt
+*.frq
+*.harvest
+*.lessaudio
+*.llsm
+*.mrq
+*.pitchtier
+*.platinum
+*.pmk
+*.sc.npz
+*.star
+*.uspec
+*.vs4ufrq
+
+# UTAU related tools
+$read
+*.setParam-Scache
+*.lbp
+*.lbp.caches/*
+
+# OpenUtau
+errors.txt
+
+# Deepvocal
+*.DVModel
+*-log.txt
+SKC
+SKI
+SKC_1
+SKC_2
+*.sksd
+
+# VocalSharp
+*.scep
+*.vssf
+*.vsdx
+*.vsdxindex
+
+# Binary Archive
+*.7z
+*.zip
+*.rar
+*.exe
+
