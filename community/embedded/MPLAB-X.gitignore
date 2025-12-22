@@ -1,0 +1,48 @@
+# gitignore for Microchip MPLAB X projects
+# to be placed in the root directory (*.X) of the project
+#
+# based on https://microchipdeveloper.com/faq:72
+# and https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ides/x/version-control/working-with-version-control
+
+# binary output directories
+/build/
+/debug/
+/dist/
+
+# project cache
+/.generated_files/
+/nbproject/private/
+/nbproject/Makefile-*
+/nbproject/Package-*
+
+# keep project settings and configuration
+!/nbproject/*.xml
+
+# if older versions of MPLAB X are used (including this file does not interfere
+# with recent versions)
+!/nbproject/project.properties
+
+# code configurator
+/mcc_generated_files/
+mcc-manifest-*.yml
+
+# log files
+/defmplabxtrace.log*
+/queuelogs/
+
+# intermediate and output file types (as a fallback)
+*.a
+*.bin
+*.d
+*.elf
+*.hex
+*.lst
+*.map
+*.o
+*.obj
+*.obj.dmp
+*.p1
+*.pre
+*.sdb
+*.so
+*.sym
