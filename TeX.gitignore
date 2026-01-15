@@ -44,6 +44,13 @@
 *.rubbercache
 rubber.cache
 
+## Overleaf (online LaTeX editor)
+.overleaf/
+*.synctex.gz.tmp
+*.lock
+*.partial
+*.upload
+
 ## Build tool directories for auxiliary files
 # latexrun
 latex.out/
