@@ -1,12 +1,23 @@
-**Reasons for making this change:**
-<!-- Include your relationship to the project and what you expect to get from this change. -->
+### Reasons for making this change
+
+_TODO_
+<!---
+Please provide some background for this change.
+--->
+
+### Links to documentation supporting these rule changes
 
 _TODO_
 
-**Links to documentation supporting these rule changes:**
+<!---
+Link to the project docs, any existing .gitignore files that project may have in it's own repo, etc
+--->
 
-_TODO_
+### If this is a new template
 
-If this is a new template:
+Link to application or project’s homepage: TODO
 
- - **Link to application or project’s homepage**: _TODO_
+### Merge and Approval Steps
+- [ ] Confirm that you've read the [contribution guidelines](https://github.com/github/gitignore/tree/main?tab=readme-ov-file#contributing-guidelines) and ensured your PR aligns
+- [ ] Ensure CI is passing
+- [ ] Get a review and Approval from one of the maintainers

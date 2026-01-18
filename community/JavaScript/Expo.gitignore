@@ -1,0 +1,32 @@
+# .gitignore template for Expo
+# website: https://expo.dev/
+# docs: https://docs.expo.dev/workflow/expo-cli/
+#
+# Rationale:
+# node_modules/ is always ignored
+# .expo/, .expo-shared/ are Expo’s local state and project-settings cache (see docs)
+#  Metro caches/logs are *.expo, *.tunnel, *.cache, *.tmp, *.log
+
+# Node modules
+node_modules/
+
+# Expo local state and caches
+.expo/             # runtime state (Metro bundler, dev-client data, tunnels)
+.expo-shared/      # shared project settings (app.json edits, etc.)
+
+# Metro bundler caches/logs
+*.expo             # generic Expo temp files
+*.tunnel           # Expo DevTools tunnels
+*.cache            # Metro cache folder
+*.tmp              # temp files created during bundling
+*.log              # build or Metro logs
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

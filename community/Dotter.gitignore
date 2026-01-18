@@ -1,0 +1,6 @@
+# local files are for host-specific overrides
+.dotter/local.toml
+
+# ignore caches
+.dotter/cache.toml
+.dotter/cache
