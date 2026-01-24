@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "jupyter.allowUnauthorizedRemoteConnection": false,
+    "jupyter.exportWithOutputEnabled": false
+}
