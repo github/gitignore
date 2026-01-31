@@ -104,7 +104,7 @@ to this repository we need to follow this specific flow:
 This helps ensure users get the latest version (because they'll use whatever is
 at the root) but helps maintainers support older versions still in the wild.
 
-## Specialized templates
+## Specialized templates.
 
 If you have a template that you would like to contribute, but it isn't quite
 mainstream, please consider adding this to the `community` directory under a
