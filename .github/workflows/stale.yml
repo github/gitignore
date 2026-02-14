@@ -21,10 +21,10 @@ jobs:
     steps:
       - uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639 # v9.1.0
         with:
-          stale-pr-message: 'This PR is stale because there have been no updates in 90 days. It will close after 180 days of inactivity. Leave a comment if you want to keep it open :smile:'
-          close-pr-message: 'This PR has been closed because it was inactive for 180 days. If you want to continue working on it, please open a new PR.'
+          stale-pr-message: 'This PR is stale because there have been no updates in 90 days. It will close after 365 days of inactivity. Leave a comment if you want to keep it open.'
+          close-pr-message: 'This PR has been closed because it was inactive for 365 days. If you want to continue working on it, please open a new PR.'
           days-before-stale: 90
-          days-before-close: 180
+          days-before-close: 365
           stale-pr-label: 'stale'
           exempt-pr-labels: 'keep'
           close-issue-reason: not_planned
