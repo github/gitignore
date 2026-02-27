@@ -1,0 +1,26 @@
+# PHP .gitignore by penne-not-pasta (github)
+
+# FOLDERS/DIRECTORIES
+
+/vendor
+# /node_modules (if also using node.JS)
+/.vscode
+/.zed
+/.idea
+/dist
+/env
+
+# FILES
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pfx
+*.p12
+*.log
+# package-lock.json (if also using node.JS)
+composer.phar
+composer.lock
+*.sql
