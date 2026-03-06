@@ -1,0 +1,30 @@
+### AI ###
+
+# Agentic CLI config files/directories
+.aider*
+.ai*
+.claude*
+.cline*
+.cursor*
+.gemini*
+.instructions.md
+.llm*
+.opencode*
+.windsurf*
+copilot*
+
+# Generated docs/context
+AGENTS*.md
+CLAUDE*.md
+JULES*.md
+*.mdc
+data/
+tmp/
+tmp/*
+*.log
+*.tmp
+*.cache
+
+# Chat/session history
+*.chat
+*.session
