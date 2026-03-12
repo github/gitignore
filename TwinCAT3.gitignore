@@ -55,3 +55,6 @@ LineIDs.dbg.bak
 *.~u
 *.project.~u
 *.suo
+
+# TwinCAT Measurement
+*.vsm
