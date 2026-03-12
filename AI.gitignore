@@ -10,6 +10,7 @@
 .instructions.md
 .llm*
 .opencode*
+.pi*
 .windsurf*
 copilot*
 
@@ -17,6 +18,8 @@ copilot*
 AGENTS*.md
 CLAUDE*.md
 JULES*.md
+SKILL*.md
+SYSTEM*.md
 *.mdc
 data/
 tmp/
