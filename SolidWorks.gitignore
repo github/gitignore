@@ -1,0 +1,16 @@
+# gitignore file for a SolidWorks project
+
+# SolidWorks temporary files
+~$*
+
+# Redundant entries for SolidWorks temporary files
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+
+# SolidWorks backups e auto-recovery
+*.bak
+*.swbak
+
+# Cache of simulation results
+/simulation_results/
