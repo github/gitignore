@@ -1,14 +1,18 @@
 # gitignore file for a SolidWorks project
 
 # SolidWorks temporary files
-~$*
-
-# Redundant entries for SolidWorks temporary files
 ~$*.sldprt
 ~$*.sldasm
 ~$*.slddrw
+~$*.sld
 
-# SolidWorks backups e auto-recovery
+# For systems with case-sensitive (SolidWorks uses both)
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+~$*.SLD
+
+# SolidWorks backups and auto-recovery
 *.bak
 *.swbak
 
