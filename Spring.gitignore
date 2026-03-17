@@ -1,26 +1,21 @@
-# Compiled class files
+# Compiled
 *.class
 
-# Log files
+# Logs
 *.log
+logs/
 
-# BlueJ files
-*.ctxt
+# Build
+target/
+build/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files
+# Packages
 *.jar
 *.war
 *.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
 # Maven
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -29,27 +24,19 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# Avoid ignoring the wrapper jar so others can build the project
 !.mvn/wrapper/maven-wrapper.jar
 
 # Gradle
 .gradle/
-build/
 !gradle/wrapper/gradle-wrapper.jar
 
-# IntelliJ IDEA
+# IDEs
 .idea/
 *.iml
-*.iws
-*.ipr
 out/
-/cmake-build-*/
-
-# Visual Studio Code
 .vscode/
 
 # Eclipse
-.apt_generated
 .classpath
 .project
 .settings/
@@ -61,16 +48,20 @@ out/
 /nbdist/
 /.nb-gradle/
 
-# OS & System Files
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# VM Crash logs
+# JVM crashes
 hs_err_pid*
 replay_pid*
 
-# Local Configuration & Secrets
+# Temp
+*.tmp
+*.temp
+
+# Env / secrets
 .env
 .env.local
 .env.*.local
