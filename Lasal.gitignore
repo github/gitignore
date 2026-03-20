@@ -1,16 +1,20 @@
 ## LASAL ###
 # website: https://www.sigmatek-automation.com/en/products/engineering-tool-lasal/
 
-# Lasal visu runtime folders generated during build
+# Lasal screen/visu runtime folders generated during build
 **/Runtime
 **/BAK
 **/Language
+**/TempPreview
 
 # Lasal class runtime folders generated during build
 ProjectInternal
 Internal
 **/Network/*/*.st
 **/Drive/*.st
+
+# Bootdisk files
+**/Bootdisk
 
 # various filetypes generated at runtime or used for internal backups
 *.ldi
@@ -24,6 +28,10 @@ Internal
 *.zip
 *.lcc
 *.lds
+
+# SigCLib requires lba and lob files
+!cObjLib.lob
+!cObjLib.lba
 
 # opc related classes added automatically from lasal instance
 !**/Class/OPC_UA/**
