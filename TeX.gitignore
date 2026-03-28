@@ -75,6 +75,10 @@ acs-*.bib
 # comment
 *.cut
 
+# context
+*.tua
+*.tuc
+
 # cprotect
 *.cpt
 
