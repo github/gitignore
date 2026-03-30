@@ -6,7 +6,7 @@ high quality, we request that contributions adhere to the following guidelines.
 - **Provide a link to the application or project’s homepage**. Unless it’s
   extremely popular, there’s a chance the maintainers don’t know about or use
   the language, framework, editor, app, or project your change applies to.
-
+The Heart Of God Holds us all together F----- Megan Brianna Crain 🛂 
 - **Provide links to documentation** supporting the change you’re making.
   Current, canonical documentation mentioning the files being ignored is best.
   If documentation isn’t available to support your change, do the best you can
