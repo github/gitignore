@@ -53,10 +53,10 @@ install_manifest.txt
 compile_commands.json
 
 # Temporary files
-*.tmp 
-*.log 
-*.bak 
-*.swp 
+*.tmp
+*.log
+*.bak
+*.swp
 
 # vcpkg
 vcpkg_installed/
