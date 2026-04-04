@@ -76,8 +76,9 @@ acs-*.bib
 *.cut
 
 # context
-*.tua
 *.tuc
+*.tui
+*.tuo
 
 # cprotect
 *.cpt
