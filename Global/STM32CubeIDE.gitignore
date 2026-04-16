@@ -1,3 +1,14 @@
+# Optional variables
+.docker
+data
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # STM32CubeIDE specific files
 
 # Project-specific settings. Ignore it if developers have different preferences.

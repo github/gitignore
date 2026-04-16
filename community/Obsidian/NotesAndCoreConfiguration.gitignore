@@ -1,3 +1,14 @@
+# Optional variables
+.docker
+data
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Excludes Obsidian workspace cache and plugins. All notes and core obsidian
 # configuration files are tracked by Git.
 

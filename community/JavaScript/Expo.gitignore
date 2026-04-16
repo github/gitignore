@@ -1,3 +1,7 @@
+# Optional variables
+.docker
+data
+
 # .gitignore template for Expo
 # website: https://expo.dev/
 # docs: https://docs.expo.dev/workflow/expo-cli/

@@ -1,3 +1,14 @@
+# Optional variables
+.docker
+data
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # .gitignore for Grails 1.2 and 1.3
 # Although this should work for most versions of grails, it is
 # suggested that you use the "grails integrate-with --git" command

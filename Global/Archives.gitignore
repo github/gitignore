@@ -1,3 +1,14 @@
+# Optional variables
+.docker
+data
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # It's better to unpack these files and commit the raw source because
 # git has its own built in compression methods.
 *.7z

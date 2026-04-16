@@ -1,3 +1,14 @@
+# Optional variables
+.docker
+data
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # git ignore file for Keil µVision Project
 
 # µVision 5 and µVision 4 Project screen layout file
