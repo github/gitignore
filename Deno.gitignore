@@ -1,0 +1,11 @@
+# Deno
+# https://deno.com/
+
+# Cache directory (when using project-local DENO_DIR)
+# https://docs.deno.com/runtime/fundamentals/setup/#deno_dir
+.deno/
+
+# Coverage reports
+# https://docs.deno.com/runtime/reference/cli/coverage/
+coverage/
+*.lcov
