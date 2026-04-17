@@ -37,7 +37,7 @@ We support a collection of templates, organized in this way:
 ## What makes a good template?
 
 First and foremost, a template contribution must adhere to our
-[Contribution Guidelines](CONTRIBUTING.md).
+[Contributing Guidelines](CONTRIBUTING.md).
 
 A template should contain a set of rules to help Git repositories work with a
 specific programming language, framework, tool or environment.

@@ -2,7 +2,7 @@
 
 We’d love you to help us improve this project. To help us keep this collection
 high quality, we request that contributions adhere to the following guidelines.
-Any contributions that don't meet any of these guidelines will be closed.
+Any contributions that don't meet these guidelines will be closed.
 
 - **Provide a link to the application or project’s homepage**. Unless it’s
   extremely popular, there’s a chance the maintainers don’t know about or use
@@ -28,8 +28,9 @@ Any contributions that don't meet any of these guidelines will be closed.
 - **Only modify *one template* per pull request**. This helps keep pull
   requests and feedback focused on a specific project or technology.
 
-- **Add new rules to the best section**. Please ensure your contribution does
-  not create duplicate sections or add rules in places unrelated.
+- **Add new rules to the most appropriate existing section**. Please ensure
+  your contribution does not create duplicate sections or add rules in
+  unrelated sections.
 
 - **No duplicate rules**. It's easy to do, but it creates confusion and
   introduces the risk of one or the other being missed in an update.
