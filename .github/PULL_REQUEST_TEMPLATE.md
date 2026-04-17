@@ -29,7 +29,6 @@ Link to application or project’s homepage: TODO
 Please ensure you accomplish these tasks in order to get your contribution accepted
 --->
 - [ ] I have read the [contribution guidelines](https://github.com/github/gitignore/tree/main?tab=readme-ov-file#contributing-guidelines) and understand my PR will be closed if it doesn't meet these guidelines
-- [ ] I have ensured CI is passing
 
 <!---
 Once done, please wait for a GitHub maintainer to review your PR and if necessary,
