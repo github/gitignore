@@ -19,10 +19,6 @@ _TODO_
 Link to the project docs, any existing .gitignore files that project may have in its own repo, etc
 --->
 
-### If this is a new template
-
-Link to application or project’s homepage: TODO
-
 ### Merge and Approval Steps
 
 <!---
