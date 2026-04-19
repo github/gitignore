@@ -27,4 +27,3 @@ node_modules/      # Node.js dependencies used in JS target workflows.
 *.out              # Default executable output name on Unix-like systems.
 *.exe              # Native executable output on Windows.
 *.dSYM/            # macOS debug symbol bundles.
-bin/               # Common custom directory for final native binaries.
