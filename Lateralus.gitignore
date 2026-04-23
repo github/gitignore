@@ -1,0 +1,25 @@
+# Lateralus — https://github.com/bad-antics/lateralus-lang
+
+# Compiled source / bytecode
+*.ltlc
+*.ltbc
+
+# Compiler and LSP caches
+.ltl-cache/
+.lateralus-cache/
+
+# Default build and distribution directories used by the Lateralus
+# toolchain (`ltl build` / `ltl publish`).
+build/
+dist/
+
+# Package manager dependency tree (`ltl add <pkg>`)
+.ltl-deps/
+
+# Benchmark output produced by `ltl bench`
+benchmark_results.json
+*.prof
+
+# Editor scratch files produced by the Lateralus LSP
+*.ltl.swp
+*.ltl.bak
