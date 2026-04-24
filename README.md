@@ -30,7 +30,7 @@ We support a collection of templates, organized in this way:
   or merge these rules into your project-specific templates if you want to use
   them permanently.
 - [`community`](./community) contains specialized templates for other popular
-  languages, tools and project, which don't currently belong in the mainstream
+  languages, tools, and projects that don't currently belong in the mainstream
   templates. These should be added to your project-specific templates when you
   decide to adopt the framework or tool.
 
@@ -53,7 +53,7 @@ If you have a small set of rules, or want to support a technology that is not
 widely in use, and still believe this will be helpful to others, please read the
 section about [specialized templates](#specialized-templates) for more details.
 
-Include details when opening pull request if the template is important and visible. We
+Include details when opening a pull request if the template is important and visible. We
 may not accept it immediately, but we can promote it to the root at a later date
 based on interest.
 
