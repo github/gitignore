@@ -1,5 +1,5 @@
 ## Ignore Visual Studio SSDT sqlproj specific temporary files, build results, etc
-## 
+##
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/SSDT-sqlproj.gitignore
 # Build output
