@@ -428,4 +428,4 @@ FodyWeavers.xsd
 *.msp
 
 # VS Code C# Dev Kit
-*.lscache
+#*.lscache
