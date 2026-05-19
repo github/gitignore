@@ -57,7 +57,7 @@ Include details when opening a pull request if the template is important and vis
 may not accept it immediately, but we can promote it to the root at a later date
 based on interest.
 
-Please also understand that we can’t list every tool that ever existed.
+Please also understand that we can’t list every tool that has ever existed.
 Our aim is to curate a collection of the _most common and helpful_ templates,
 not to make sure we cover every project possible. If we choose not to
 include your language, tool, or project, it’s not because it’s not awesome.
