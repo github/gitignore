@@ -1,0 +1,45 @@
+# Daml.gitignore
+# Recommended .gitignore template for Daml (Digital Asset Modelling Language) projects.
+# Website: https://www.digitalasset.com/developers
+# Documentation: https://docs.daml.com
+
+# === Daml build artefacts ===
+.daml/
+.daml/dist/
+.daml/state/
+.daml/package-database/
+.daml/ledger/
+.daml/dependencies/
+.daml/deploy/
+
+# === Sandbox / JSON API logs & state ===
+sandbox.log
+json-api.log
+navigator.log
+sandbox-state/
+ledger-state/
+
+# === IDE / Editor junk ===
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
+
+# === Environment & credentials ===
+.env
+*.jwt
+*.pem
+*.key
+*.crt
+
+# === Temporary files ===
+tmp/
+logs/
+*.log
+*.bak
+*.tmp
