@@ -11,15 +11,22 @@
 node_modules/
 
 # Expo local state and caches
-.expo/             # runtime state (Metro bundler, dev-client data, tunnels)
-.expo-shared/      # shared project settings (app.json edits, etc.)
+# runtime state (Metro bundler, dev-client data, tunnels)
+.expo/
+# shared project settings (app.json edits, etc.)
+.expo-shared/
 
 # Metro bundler caches/logs
-*.expo             # generic Expo temp files
-*.tunnel           # Expo DevTools tunnels
-*.cache            # Metro cache folder
-*.tmp              # temp files created during bundling
-*.log              # build or Metro logs
+# generic Expo temp files
+*.expo
+# Expo DevTools tunnels
+*.tunnel
+# Metro cache folder
+*.cache
+# temp files created during bundling
+*.tmp
+# build or Metro logs
+*.log
 
 # Environment variables
 .env

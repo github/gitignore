@@ -1,0 +1,11 @@
+*Script
+
+# Holmake generated files
+*Theory.sig
+*Theory.sml
+*.uo
+*.ui
+
+# Holmake auxiliary files
+.hollogs
+.HOLMK

@@ -1,0 +1,12 @@
+# Tauri
+# https://tauri.app/
+#
+# Recommended: Rust.gitignore
+
+# Rust compilation output
+# https://doc.rust-lang.org/cargo/guide/build-cache.html
+target/
+
+# WiX Toolset cache (Windows MSI installer builds)
+# https://v2.tauri.app/distribute/windows-installer/
+WixTools/

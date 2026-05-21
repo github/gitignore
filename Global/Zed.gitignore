@@ -1,0 +1,10 @@
+# Zed
+# https://zed.dev/docs/configuring-zed#settings-files
+#
+# Zed stores project settings in a .zed/ directory, similar to .vscode/.
+# By default, ignore the directory but allow commonly shared config files.
+
+.zed/*
+!.zed/settings.json
+!.zed/tasks.json
+!.zed/debug.json
