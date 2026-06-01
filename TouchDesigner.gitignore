@@ -1,24 +1,19 @@
 # Backups
-Backup/
-*/Backup/
+**/Backup/
 
 # Autosaves
-CrashAutoSave.*
-*/CrashAutoSave.*
+**/CrashAutoSave.*
 *.dmp
 
 # TouchDesigner import cache
-TDImportCache/
-*/TDImportCache/
+**/TDImportCache/
 
 # Logs
 *.log
-logs/
-*/logs/
+**/logs/
 
 # Increment files on save
-*.*.toe
-*/*.*.toe
+**/*.*.toe
 *Autosave*.toe
 
 # Python / build artifacts
@@ -32,7 +27,7 @@ __pycache__/
 # IDE / editor settings
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
