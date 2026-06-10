@@ -16,6 +16,17 @@ the following resources are a great place to start:
 [chapter]: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: https://git-scm.com/book
 
+
+## Table of Contents
+
+- [Folder structure](#folder-structure)
+- [What makes a good template?](#what-makes-a-good-template)
+- [Contributing guidelines](#contributing-guidelines)
+- [Versioned templates](#versioned-templates)
+- [Specialized templates](#specialized-templates)
+- [Contributing workflow](#contributing-workflow)
+- [License](#license)
+
 ## Folder structure
 
 We support a collection of templates, organized in this way:
