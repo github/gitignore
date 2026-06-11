@@ -37,8 +37,12 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Generated documents / data exports
-*.pdf
-*.csv
+reports/*.pdf
+reports/*.csv
+output/*.pdf
+output/*.csv
+data/*.pdf
+data/*.csv
 
 # Microsoft Office temporary files
 ~$*
