@@ -27,7 +27,7 @@ jobs:
               echo "# === $file ===" >> "$OUTPUT_PATH"
               cat "$file" >> "$OUTPUT_PATH"
               echo >> "$OUTPUT_PATH"
-          done < <(find "$GITHUB_WORKSPACE" -name "*.gitignore" ! -path "$OUTPUT_PATH" -print0 | sort -z)
+          done < <(find "$GITHUB_WORKSPACE/Global" -name "*.gitignore" ! -print0 | sort -z)
 
       - name: Create GitHub release
         env:
