@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    branches: [ main, release ]
+    branches: [ main ]
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          OUTPUT="$GITHUB_SHA:.gitignore_global"
+          OUTPUT=".gitignore_global"
           OUTPUT_PATH="$GITHUB_WORKSPACE/$OUTPUT"
 
           > "$OUTPUT_PATH"
@@ -33,7 +33,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: >-
-          gh release create "$GITHUB_REF_NAME" "$GITHUB_WORKSPACE/$GITHUB_SHA:.gitignore_global"
+          gh release create "$GITHUB_REF_NAME" "$GITHUB_WORKSPACE/.gitignore_global"
           --repo "$GITHUB_REPOSITORY"
           --title "$GITHUB_REF_NAME"
           --generate-notes
