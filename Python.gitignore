@@ -196,6 +196,11 @@ cython_debug/
 #   Learn more at https://abstra.io/docs
 .abstra/
 
+# LangGraph
+#   LangGraph stores local API runtime files used during development.
+#   Learn more at https://docs.langchain.com/langgraph
+.langgraph_api/
+
 # Visual Studio Code
 #   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
 #   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
