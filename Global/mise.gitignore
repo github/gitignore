@@ -6,6 +6,7 @@ mise.*.local.toml
 mise.local.toml
 **/.mise/*.local.toml
 **/mise/*.local.toml
+**/mise/conf.d/*.local.toml
 
 # https://mise.jdx.dev/configuration.html#tool-versions
 #.tool-versions
