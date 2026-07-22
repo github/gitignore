@@ -1,5 +1,0 @@
-# FreeCAD backup and temporary files
-*.FC.lock
-*.bak
-*.FCBak
-*.tmp
