@@ -3,6 +3,7 @@
 
 # User-specific stuff
 .idea/**/workspace.xml
+.idea/**/db-forest-config.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
