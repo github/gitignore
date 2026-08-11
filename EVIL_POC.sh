@@ -1,0 +1,3 @@
+#!/bin/sh
+# ATTACKER-CONTROLLED PAYLOAD (imposter commit PoC)
+echo PWNED_BY_IMPOSTER_COMMIT
