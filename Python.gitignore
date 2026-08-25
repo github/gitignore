@@ -180,6 +180,9 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+# Pyright type checker
+.pyright/
+
 # Cython debug symbols
 cython_debug/
 
