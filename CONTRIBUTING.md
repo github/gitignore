@@ -22,7 +22,7 @@ Any contributions that don't meet these guidelines will be closed.
 - **Keep scope as limited as possible**. Changes should be as small as possible
   and apply to the most specific gitignore template available for the target
   application. For example: OS-specific ignore rules like `.DS_Store` are not
-  accepted anywhere but their specific gitignore, `Global/macOS.gitignore` in
+  accepted anywhere but their specific gitignore, `templates/operating-systems/macOS.gitignore` in
   this case.
 
 - **Only modify *one template* per pull request**. This helps keep pull

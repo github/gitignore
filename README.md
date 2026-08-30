@@ -1,133 +1,63 @@
-# A collection of `.gitignore` templates
+# Gitignore Guide
 
-This is GitHub’s collection of [`.gitignore`][man] file templates.
-We use this list to populate the `.gitignore` template choosers available
-in the GitHub.com interface when creating new repositories and files.
+A comprehensive, organized, and categorized collection of `.gitignore` templates for your projects.
 
-For more information about how `.gitignore` files work, and how to use them,
-the following resources are a great place to start:
+## Why this repository?
 
-- The [Ignoring Files chapter][chapter] of the [Pro Git][progit] book.
-- The [Ignoring Files article][help] on the GitHub Help site.
-- The [gitignore(5)][man] manual page.
+`.gitignore` files tell Git which files and directories to ignore in a project. A good `.gitignore` prevents secrets, generated code, and local environment files from being pushed to your repository.
 
-[man]: https://git-scm.com/docs/gitignore
-[help]: https://help.github.com/articles/ignoring-files
-[chapter]: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
-[progit]: https://git-scm.com/book
+This project organizes templates by category to make it easy for developers to find what they need.
 
-## Folder structure
+## Folder Structure
 
-We support a collection of templates, organized in this way:
+The repository is structured logically to help you find templates quickly:
 
-- The root folder contains templates in common use, to help people get started
-  with popular programming languages and technologies. These define a meaningful
-  set of rules to help get started, and ensure you are not committing
-  unimportant files into your repository.
-- [`Global`](./Global) contains templates for various editors, tools and
-  operating systems that can be used in different situations. It is recommended
-  that you either [add these to your global template](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files#configuring-ignored-files-for-all-repositories-on-your-computer)
-  or merge these rules into your project-specific templates if you want to use
-  them permanently.
-- [`community`](./community) contains specialized templates for other popular
-  languages, tools, and projects that don't currently belong in the mainstream
-  templates. These should be added to your project-specific templates when you
-  decide to adopt the framework or tool.
-
-## What makes a good template?
-
-First and foremost, a template contribution must adhere to our
-[Contributing Guidelines](CONTRIBUTING.md).
-
-A template should contain a set of rules to help Git repositories work with a
-specific programming language, framework, tool or environment.
-
-If it's not possible to curate a small set of useful rules for this situation,
-then the template is not a good fit for this collection.
-
-If a template is mostly a list of files installed by a particular version of
-some software (e.g. a PHP framework), it could live under the `community`
-directory. See [versioned templates](#versioned-templates) for more details.
-
-If you have a small set of rules, or want to support a technology that is not
-widely in use, and still believe this will be helpful to others, please read the
-section about [specialized templates](#specialized-templates) for more details.
-
-Include details when opening a pull request if the template is important and visible. We
-may not accept it immediately, but we can promote it to the root at a later date
-based on interest.
-
-Please also understand that we can’t list every tool that ever existed.
-Our aim is to curate a collection of the _most common and helpful_ templates,
-not to make sure we cover every project possible. If we choose not to
-include your language, tool, or project, it’s not because it’s not awesome.
-
-## Contributing guidelines
-
-Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
-## Versioned templates
-
-Some templates can change greatly between versions, and if you wish to contribute
-to this repository we need to follow this specific flow:
-
-- the template at the root should be the current supported version
-- the template at the root should not have a version in the filename (i.e.
-  "evergreen")
-- previous versions of templates should live under `community/`
-- previous versions of the template should embed the version in the filename,
-  for readability
-
-This helps ensure users get the latest version (because they'll use whatever is
-at the root) but helps maintainers support older versions still in the wild.
-
-## Specialized templates
-
-If you have a template that you would like to contribute, but it isn't quite
-mainstream, please consider adding this to the `community` directory under a
-folder that best suits where it belongs.
-
-The rules in your specialized template should be specific to the framework or
-tool, and any additional templates should be mentioned in a comment in the
-header of the template.
-
-For example, this template might live at `community/DotNet/InforCRM.gitignore`:
-
-```gitignore
-# gitignore template for InforCRM (formerly SalesLogix)
-# website: https://www.infor.com/product-summary/cx/infor-crm/
-#
-# Recommended: VisualStudio.gitignore
-
-# Ignore model files that are auto-generated
-ModelIndex.xml
-ExportedFiles.xml
-
-# Ignore deployment files
-[Mm]odel/[Dd]eployment
-
-# Force include portal SupportFiles
-!Model/Portal/*/SupportFiles/[Bb]in/
-!Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
+```text
+Gitignore-Guide/
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── templates/
+    ├── build-tools/
+    ├── cloud/
+    ├── community/
+    ├── databases/
+    ├── design-and-cad/
+    ├── devops/
+    ├── editors-and-ides/
+    ├── frameworks/
+    ├── game-development/
+    ├── hardware/
+    ├── languages/
+    ├── misc/
+    ├── mobile/
+    ├── operating-systems/
+    ├── testing/
+    ├── text-processing/
+    ├── tools-and-misc/
+    └── version-control/
 ```
 
-## Contributing workflow
+- **`templates/<category>`**: Mainstream templates sorted by their primary domain (e.g., `languages/Python.gitignore`, `frameworks/Rails.gitignore`, `operating-systems/macOS.gitignore`).
+- **`templates/community/`**: Specialized templates for niche tools or older versions that don't belong in the mainstream templates.
 
-Here’s how we suggest you go about proposing a change to this project:
+## How to Use
 
-1. [Fork this project][fork] to your account.
-2. [Create a branch][branch] for the change you intend to make.
-3. Make your changes to your fork.
-4. [Send a pull request][pr] from your fork’s branch to our `main` branch.
+1. Find the template(s) you need in the `templates/` directory.
+2. Copy the contents into your project's `.gitignore` file.
+3. If you use multiple technologies (e.g., Python + VSCode + macOS), you should combine the contents of `templates/languages/Python.gitignore`, `templates/editors-and-ides/VisualStudioCode.gitignore`, and `templates/operating-systems/macOS.gitignore`.
 
-Using the web-based interface to make changes is fine too, and will help you
-by automatically forking the project and prompting to send a pull request too.
+## Contributing
 
-[fork]: https://help.github.com/articles/fork-a-repo/
-[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
-[pr]: https://help.github.com/articles/using-pull-requests/
+We welcome contributions! If you'd like to add a missing template, fix a bug, or improve documentation, please read our [Contributing Guidelines](CONTRIBUTING.md).
+
+Here is the general workflow:
+
+1. Fork the repository.
+2. Create a branch for your feature.
+3. Place your template in the appropriate `templates/<category>/` directory. (If it's niche or highly specific, place it in `templates/community/`).
+4. Submit a pull request.
 
 ## License
 
-[CC0-1.0](./LICENSE).
-
+This project is licensed under [CC0-1.0](./LICENSE).
