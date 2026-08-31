@@ -1,0 +1,19 @@
+{
+  "name": "gitignore",
+  "version": "1.0.0",
+  "description": "A collection of .gitignore templates",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build needed for static site'",
+    "dev": "npx serve public",
+    "lint": "echo 'No linting configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanayimmee/gitignore"
+  },
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.15"
+  }
+}
