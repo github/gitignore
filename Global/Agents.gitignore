@@ -5,7 +5,7 @@
 # shared with a team, so only uncomment them if they are local-only in your
 # project.
 
-# GEMINI.md
+# PLAN.md
 # WARP.md
 # CRUSH.md
 # QWEN.md
@@ -28,9 +28,15 @@ CLAUDE.local.md
 # .claude/
 
 # Gemini CLI
+# GEMINI.md
 gemini-debug.log
 .gemini-clipboard/
 # .gemini/
+
+# Mistral Vibe
+# .vibe/
+# .vibe/config.toml
+# .vibe/hooks.toml
 
 # Cursor AI
 # .cursorrules
