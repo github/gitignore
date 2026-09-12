@@ -18,6 +18,7 @@
 **/*.X/build/
 **/*.X/dist/
 **/*.X/debug/
+**/*.X/.ca/
 
 # MPLAB Code Configurator (MCC)
 **/*.X/mcc_generated_files/
