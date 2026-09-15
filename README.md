@@ -131,3 +131,7 @@ by automatically forking the project and prompting to send a pull request too.
 
 [CC0-1.0](./LICENSE).
 
+## Git Practice
+
+This fork is being used to practice Git and GitHub collaboration workflows,
+including branching, commits, pull requests, merging, and open-source contribution.
