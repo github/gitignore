@@ -113,6 +113,9 @@ dist
 # FuseBox cache
 .fusebox/
 
+# Turborepo cache and logs (https://turborepo.dev/docs/getting-started/add-to-existing-repository#edit-gitignore)
+.turbo
+
 # DynamoDB Local files
 .dynamodb/
 
