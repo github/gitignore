@@ -141,3 +141,8 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Nx cache and workspace data (https://nx.dev/docs/kb/manual-migration)
+.nx/cache
+.nx/workspace-data
+.nx/migrate-runs
