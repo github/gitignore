@@ -7,5 +7,10 @@ mise.local.toml
 .mise/*.local.toml
 mise/*.local.toml
 
+# https://mise.jdx.dev/dev-tools/mise-lock.html#local-lockfiles
+# https://mise.jdx.dev/dev-tools/mise-lock.html#environment-specific-lockfiles
+mise.local.lock
+mise.*.local.lock
+
 # https://mise.jdx.dev/configuration.html#tool-versions
 #.tool-versions

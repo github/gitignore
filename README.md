@@ -95,7 +95,7 @@ For example, this template might live at `community/DotNet/InforCRM.gitignore`:
 
 ```gitignore
 # gitignore template for InforCRM (formerly SalesLogix)
-# website: https://www.infor.com/product-summary/cx/infor-crm/
+# website: https://www.infor.com/products/customer-experience-suite/crm
 #
 # Recommended: VisualStudio.gitignore
 
