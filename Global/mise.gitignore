@@ -4,8 +4,9 @@
 .mise.local.toml
 mise.*.local.toml
 mise.local.toml
-.mise/*.local.toml
-mise/*.local.toml
+**/.mise/*.local.toml
+**/mise/*.local.toml
+**/mise/conf.d/*.local.toml
 
 # https://mise.jdx.dev/dev-tools/mise-lock.html#local-lockfiles
 # https://mise.jdx.dev/dev-tools/mise-lock.html#environment-specific-lockfiles
