@@ -1,0 +1,27 @@
+# Zephyr RTOS build artifacts
+/build/
+/twister-out*/
+
+# Generated configuration files
+*.config
+*.config.old
+/zephyr/.config
+
+# Device tree generated files
+*.dts.pre.tmp
+*.dts_compiled
+
+# Kconfig generated
+autoconf.h
+
+# West workspace
+/.west/
+
+# Python virtual environment
+/.venv/
+/venv/
+
+# IDE
+.vscode/launch.json
+.vscode/tasks.json
+*.jlink
