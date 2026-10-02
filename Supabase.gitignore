@@ -1,0 +1,12 @@
+# Referred to https://github.com/supabase/supabase/blob/8547b6f2335c5b8d534eaa223fdffdd7cd041714/.gitignore
+
+# Ignore config directories for local 
+**/supabase/.branches
+**/supabase/.temp
+
+# Ignore signing key file for JWT
+**/signing_key.json
+
+# Include template .env file for docker-compose
+!docker/supabase/.env
+!docker/supabase-traefik/.env
