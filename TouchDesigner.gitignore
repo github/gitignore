@@ -1,0 +1,42 @@
+# Backups
+**/Backup/
+
+# Autosaves
+**/CrashAutoSave.*
+*.dmp
+
+# TouchDesigner import cache
+**/TDImportCache/
+
+# Logs
+*.log
+**/logs/
+
+# Increment files on save
+**/*.*.toe
+*Autosave*.toe
+
+# Python / build artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Visual Studio cache directory
+.vs/
+
+# IDE / editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
