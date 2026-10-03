@@ -25,11 +25,13 @@
 .claude/*.local.json
 .claude/**/*.log
 CLAUDE.local.md
+tmpclaude-*
 # .claude/
 
 # Gemini CLI
 gemini-debug.log
 .gemini-clipboard/
+.gemini/scratch/
 # .gemini/
 
 # Cursor AI
