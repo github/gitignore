@@ -36,6 +36,17 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Generated documents / data exports
+reports/*.pdf
+reports/*.csv
+output/*.pdf
+output/*.csv
+data/*.pdf
+data/*.csv
+
+# Microsoft Office temporary files
+~$*
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
