@@ -24,6 +24,7 @@
 # Claude Code
 .claude/*.local.json
 .claude/**/*.log
+.claude/worktrees/
 CLAUDE.local.md
 # .claude/
 
