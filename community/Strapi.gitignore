@@ -10,13 +10,11 @@ Icon
 .Trashes
 ._*
 
-
 ############################
 # Linux
 ############################
 
 *~
-
 
 ############################
 # Windows
@@ -30,7 +28,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
 
 ############################
 # Packages
@@ -60,7 +57,6 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
-
 ############################
 # Logs and databases
 ############################
@@ -70,7 +66,6 @@ $RECYCLE.BIN/
 *.sql
 *.sqlite
 
-
 ############################
 # Misc.
 ############################
@@ -79,7 +74,6 @@ $RECYCLE.BIN/
 .idea
 nbproject
 .vscode/
-
 
 ############################
 # Node.js
@@ -98,7 +92,6 @@ package-lock.json
 !docs/package-lock.json
 *.heapsnapshot
 
-
 ############################
 # Tests
 ############################
@@ -107,7 +100,6 @@ testApp
 coverage
 cypress/screenshots
 cypress/videos
-
 
 ############################
 # Documentation
