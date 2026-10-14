@@ -7,8 +7,6 @@
 .buildlog/
 .history
 
-
-
 # Flutter repo-specific
 /bin/cache/
 /bin/internal/bootstrap.bat
@@ -45,6 +43,9 @@ flutter_*.png
 linked_*.ds
 unlinked.ds
 unlinked_spec.ds
+
+# Widget Preview related
+.widget_preview/
 
 # FVM Version Cache
 .fvm/
