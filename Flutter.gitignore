@@ -46,6 +46,9 @@ linked_*.ds
 unlinked.ds
 unlinked_spec.ds
 
+# Widget Preview related
+.widget_preview/
+
 # Android related
 **/android/**/gradle-wrapper.jar
 .gradle/
