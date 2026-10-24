@@ -3,7 +3,7 @@
 /pub/sitemap
 /pub/sitemap.xml
 /app/config_sandbox
-/app/etc/config.php
+# Keep shared app/etc/config.php in version control; ignore environment-specific settings.
 /app/etc/env.php
 /app/code/Magento/TestModule*
 /lib/internal/flex/uploader/.actionScriptProperties
