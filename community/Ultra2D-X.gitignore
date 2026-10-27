@@ -1,0 +1,19 @@
+# Target folders
+[Bb]uild/
+[Oo]utput/
+[Tt]arget/
+[Dd]ist/
+
+# VSCode folder
+.vscode/
+
+# Executable files
+*.exe
+*.app
+*.out
+
+# Library files (static/dynamic)
+*.o
+*.a
+*.dll
+*.lib
