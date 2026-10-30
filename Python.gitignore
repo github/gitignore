@@ -160,7 +160,6 @@ venv.bak/
 # Conda environments
 conda-meta/
 
-
 # Spyder project settings
 .spyderproject
 .spyproject
