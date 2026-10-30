@@ -1,0 +1,185 @@
+# Assembly .gitignore template
+# For Assembly language projects using various assemblers and toolchains
+#
+# Recommended: Add your OS-specific and editor-specific gitignore templates
+# (e.g., Linux.gitignore, macOS.gitignore, Windows.gitignore, VisualStudio.gitignore, Vim.gitignore)
+
+# Object files
+*.o
+*.obj
+*.OBJ
+*.ko
+*.elf
+
+# Executables and binary files
+*.exe
+*.out
+*.bin
+*.BIN
+*.hex
+*.HEX
+*.app
+*.axf
+*.elf
+*.i*86
+*.x86_64
+
+# Linker output
+*.map
+*.MAP
+*.ilk
+*.exp
+
+# Library files
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Assembly listing files
+*.lst
+*.LST
+*.lis
+*.LIS
+
+# Symbol files
+*.sym
+*.SYM
+
+# NASM specific
+*.nasm.tmp
+
+# MASM/TASM specific
+*.cod
+*.COD
+
+# Debug files
+*.dbg
+*.pdb
+*.idb
+*.dSYM/
+*.su
+*.idb
+*.ipdb
+*.iobj
+
+# Preprocessor output
+*.i
+*.ii
+*.s.preprocessed
+
+# Dependency files
+*.d
+*.dep
+
+# Intel HEX and other output formats
+*.s19
+*.s28
+*.s37
+*.srec
+*.ihex
+
+# Motorola S-record files
+*.mot
+*.mhx
+
+# Bootloader files
+*.boot
+
+# Disassembly files
+*.disasm
+*.dis
+
+# Core dumps
+core
+core.*
+*.core
+
+# Backup files (common in assembly editors)
+*~
+*.bak
+*.BAK
+*.old
+*.orig
+*.swp
+*.swo
+
+# Build directories
+build/
+Build/
+BUILD/
+bin/
+Bin/
+BIN/
+obj/
+Obj/
+OBJ/
+out/
+output/
+Output/
+dist/
+release/
+debug/
+Debug/
+Release/
+
+# IDE and assembler-specific project files
+*.workspace
+*.uvproj*
+*.uvopt*
+*.uvgui*
+*.cproj
+*.atsln
+*.atsuo
+
+# Keil uVision
+*.uvopt
+*.uvproj
+*.uvgui.*
+*.uvproj.*
+*.plg
+*.tra
+*.Administrator.*
+*.bak.*
+
+# IAR Embedded Workbench
+*.eww
+*.dep
+*.wsdt
+*.dni
+*.wspos
+*.dbgdt
+
+# Atmel Studio
+*.atsln
+*.atsuo
+*.cproj
+
+# Make generated files
+*.mk
+Makefile.bak
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Tags and indexing
+tags
+TAGS
+.tags
+.tags_sorted_by_file
+cscope.out
+cscope.files
+cscope.in.out
+cscope.po.out
+
+# Testing artifacts
+test_results/
+*.test
+
+*.testlog
