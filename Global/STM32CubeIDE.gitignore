@@ -1,7 +1,7 @@
 # STM32CubeIDE specific files
 
 # Project-specific settings. Ignore it if developers have different preferences.
-# However, if you want all team members to use the same code formatting and settings, 
+# However, if you want all team members to use the same code formatting and settings,
 # consider including the .settings folder in the repository.
 
 # /.settings/

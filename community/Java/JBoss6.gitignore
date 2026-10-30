@@ -30,4 +30,3 @@
 /server/default/deploy/*.xml.dodeploy
 /server/default/deploy/*.war.failed
 /server/default/deploy/*.war.dodeploy
-
