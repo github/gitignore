@@ -1,0 +1,15 @@
+# gitignore template for Cloudflare Wrangler projects
+# website: https://developers.cloudflare.com/workers/wrangler
+
+# Wrangler local state
+.wrangler/
+
+# Local development secrets
+.dev.vars*
+!.dev.vars.example
+
+# Wrangler configuration
+wrangler.jsonc
+wrangler.toml
+!wrangler.jsonc.example
+!wrangler.toml.example
