@@ -39,9 +39,9 @@
 *.app
 
 # Build directories
-build/
-Build/
-build-*/
+[Bb]uild/
+[Bb]uild-*/
+cmake-build-*/
 
 # CMake generated files
 CMakeFiles/
