@@ -1,0 +1,14 @@
+.save
+persistent
+
+errors.txt
+log.txt
+progressive_download.txt
+traceback.txt
+*.bak
+*.1.bak
+*.rpyc
+.vscode/
+.idea/
+cache/
+game/saves/navigation.json
