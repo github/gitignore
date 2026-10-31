@@ -13,6 +13,10 @@
 # OpenAI Codex
 # AGENTS.md
 # .codex/
+.codex/sessions/
+.codex/history*
+.codex/log/
+.codex/logs/
 
 # Aider
 .aider.input.history
@@ -22,8 +26,15 @@
 # .aiderignore
 
 # Claude Code
+.claude.json
 .claude/*.local.json
 .claude/**/*.log
+.claude/history*
+.claude/session*.json
+.claude/todos/
+.claude/projects/
+.claude/statsig/
+.claude/shell-snapshots/
 CLAUDE.local.md
 # .claude/
 
@@ -33,12 +44,16 @@ gemini-debug.log
 # .gemini/
 
 # Cursor AI
+.cursor/chats/
+.cursor/logs/
+.cursor/session*
 # .cursorrules
 # .cursor/
 # .cursor.json
 # .cursor-settings.yaml
 
 # Continue
+.continue/sessions/
 # .continue/
 # .continuerc.json
 
@@ -55,6 +70,14 @@ gemini-debug.log
 # .amazon-codewhisperer/
 # .tabnineignore
 # .tabnine/
+
+# Other agent session and state directories
+.agent/
+.copilot/
+.playwright-mcp/
+.remember/
+.specstory/
+.superpowers/
 
 # GitHub Copilot
 # .github/copilot-instructions.md
