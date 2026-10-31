@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tagged revision
+        uses: actions/checkout@v6
+
+      - name: Package
+        run: |
+          set -euo pipefail
+
+          OUTPUT=".gitignore_global"
+          OUTPUT_PATH="$GITHUB_WORKSPACE/$OUTPUT"
+
+          > "$OUTPUT_PATH"
+
+          while IFS= read -r -d '' file; do
+              echo "# === $file ===" >> "$OUTPUT_PATH"
+              cat "$file" >> "$OUTPUT_PATH"
+              echo >> "$OUTPUT_PATH"
+          done < <(find "$GITHUB_WORKSPACE/Global" -name "*.gitignore" ! -print0 | sort -z)
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "$GITHUB_REF_NAME" "$GITHUB_WORKSPACE/.gitignore_global"
+          --repo "$GITHUB_REPOSITORY"
+          --title "$GITHUB_REF_NAME"
+          --generate-notes
