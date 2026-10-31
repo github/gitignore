@@ -1,0 +1,40 @@
+# Claude Code (Anthropic's official CLI)
+# Reference: https://code.claude.com/docs/en/claude-directory
+#
+# Only the local, machine-specific files that Claude Code writes into a
+# project's .claude/ directory are ignored below. Everything else it creates
+# there (settings.json, rules/, skills/, commands/, agents/, workflows/,
+# output-styles/, agent-memory/, ...) is meant to be committed and shared
+# with the team.
+
+# Personal settings overrides. Take precedence over settings.json and are not
+# shared. Claude Code auto-adds this to ~/.config/git/ignore; listing it here
+# shares the ignore rule with your team.
+.claude/settings.local.json
+
+# Local project instructions. Personal per-project preferences (sandbox URLs,
+# test data, ...). Loaded alongside CLAUDE.md but meant to stay private.
+CLAUDE.local.md
+
+# Local subagent memory. Subagents with `memory: local` write their MEMORY.md
+# here to keep it out of version control. Project-shared subagent memory lives
+# in .claude/agent-memory/ instead, which is meant to be committed.
+.claude/agent-memory-local/
+
+# Git worktrees for parallel sessions. Claude Code checks out `--worktree` and
+# isolated-subagent worktrees here; ignoring the directory keeps their contents
+# from showing up as untracked files in your main checkout.
+.claude/worktrees/
+.worktrees/
+
+# The files below are committed on purpose. Uncomment a line only if you want
+# to keep it local to your machine instead of sharing it with the team.
+
+# Shared project settings
+# .claude/settings.json
+
+# Project instructions
+# CLAUDE.md
+
+# The entire Claude Code directory
+# .claude/
