@@ -245,6 +245,9 @@ pythontex-files-*/
 # thmtools
 *.loe
 
+# thumbs
+*.tmb
+
 # TikZ & PGF
 *.dpth
 *.md5
