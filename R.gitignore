@@ -48,3 +48,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# compiled code 
+src/*.o
+src/*.so
+src/*.dll
