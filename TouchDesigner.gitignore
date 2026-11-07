@@ -21,20 +21,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Visual Studio cache directory
-.vs/
-
-# IDE / editor settings
-.vscode/*
-!.vscode/extensions.json
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-*.code-workspace
-
 # Executables
 *.exe
 *.out
