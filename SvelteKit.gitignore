@@ -1,0 +1,29 @@
+# SvelteKit
+# https://svelte.dev/docs/kit
+
+# SvelteKit
+/.svelte-kit/
+/build/
+/.output/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Deployment
+.vercel/
+.netlify/
+.wrangler/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.test
+
+# OS
+.DS_Store
+Thumbs.db
