@@ -148,7 +148,7 @@ vite.config.ts.timestamp-*
 # Astro generated types
 .astro/
 
-# Turbo Repo
+# Turbo Repo (https://turborepo.dev/)
 .turbo
 
 # Nx (https://nx.dev/)
