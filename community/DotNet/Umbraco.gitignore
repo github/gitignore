@@ -49,4 +49,7 @@
 !**/umbraco/models
 
 #include default location for packages
+!**/umbraco/Data/
+**/umbraco/Data/*
 !**/umbraco/Data/packages
+!**/umbraco/Data/packages/*

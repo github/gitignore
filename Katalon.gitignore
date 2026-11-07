@@ -2,7 +2,7 @@
 # Compiled class file
 *.class
 *.swp
-output
+output/*
 !output/.gitkeep
 build
 
@@ -17,7 +17,6 @@ bin/lib/
 Libs/
 .svn/
 .gradle
-
 
 # Log file
 *.log

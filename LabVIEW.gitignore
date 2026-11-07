@@ -14,5 +14,6 @@
 # Metadata
 *.aliases
 *.lvlps
+*.lvprojstate
 .cache/
 *.UserState

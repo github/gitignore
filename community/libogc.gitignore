@@ -5,7 +5,6 @@ build/
 meta.xml
 icon.png
 
-
 # Ignore editor or IDE-specific files
 .vscode/
 .idea/

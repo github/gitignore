@@ -245,6 +245,9 @@ pythontex-files-*/
 # thmtools
 *.loe
 
+# thumbs
+*.tmb
+
 # TikZ & PGF
 *.dpth
 *.md5
@@ -310,7 +313,7 @@ TSWLatexianTemp*
 *.tps
 
 # auto folder when using emacs and auctex
-./auto/*
+auto/*
 *.el
 
 # expex forward references with \gathertags

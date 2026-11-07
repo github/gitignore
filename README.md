@@ -12,7 +12,7 @@ the following resources are a great place to start:
 - The [gitignore(5)][man] manual page.
 
 [man]: https://git-scm.com/docs/gitignore
-[help]: https://help.github.com/articles/ignoring-files
+[help]: https://docs.github.com/en/get-started/git-basics/ignoring-files
 [chapter]: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: https://git-scm.com/book
 
@@ -123,9 +123,9 @@ Here’s how we suggest you go about proposing a change to this project:
 Using the web-based interface to make changes is fine too, and will help you
 by automatically forking the project and prompting to send a pull request too.
 
-[fork]: https://help.github.com/articles/fork-a-repo/
-[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
-[pr]: https://help.github.com/articles/using-pull-requests/
+[fork]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+[branch]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+[pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 
 ## License
 

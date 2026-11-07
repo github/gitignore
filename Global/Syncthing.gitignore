@@ -1,2 +1,6 @@
 # Syncthing caches
 .stversions
+
+# Temporary files created during synchronization
+.syncthing.*.tmp
+~syncthing~*.tmp
