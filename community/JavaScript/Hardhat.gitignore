@@ -16,4 +16,5 @@
 /typechain-types
 
 # Hardhat Ignition deployment output
-/ignition/deployments
+# Uncomment if you don't wish to track your deployments in version control
+# /ignition/deployments
