@@ -192,6 +192,7 @@ acs-*.bib
 # minted
 _minted*
 *.data.minted
+*.errlog.minted
 *.pyg
 
 # morewrites
