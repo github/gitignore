@@ -1,0 +1,20 @@
+# Hardhat
+# https://hardhat.org/
+#
+# Recommended: Node.gitignore
+
+# Compilation artifacts
+/artifacts
+
+# Compilation cache
+/cache
+
+# TypeChain-generated types
+# Default for @nomicfoundation/hardhat-typechain (Hardhat 3)
+/types
+# Default for @typechain/hardhat (Hardhat 2)
+/typechain-types
+
+# Hardhat Ignition deployment output
+# Uncomment if you don't wish to track your deployments in version control
+# /ignition/deployments
