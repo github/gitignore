@@ -20,9 +20,3 @@
 __pycache__/
 *.pyc
 *.pyo
-
-# Executables
-*.exe
-*.out
-*.app
-*.ipa
