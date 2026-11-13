@@ -23,4 +23,10 @@
 **/*.X/mcc_generated_files/
 **/*.X/mcc-manifest-*.yml
 
+# MPLAB for VS Code specific
+**/*.X/_build/
+**/*.X/cmake/
+**/*.X/out/
+**/*.X/*.log*
+
 #-----------------------------------------------------------------------------
