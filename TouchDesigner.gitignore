@@ -1,0 +1,22 @@
+# Backups
+**/Backup/
+
+# Autosaves
+**/CrashAutoSave.*
+*.dmp
+
+# TouchDesigner import cache
+**/TDImportCache/
+
+# Logs
+*.log
+**/logs/
+
+# Increment files on save
+**/*.*.toe
+*Autosave*.toe
+
+# Python / build artifacts
+__pycache__/
+*.pyc
+*.pyo
