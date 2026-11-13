@@ -40,7 +40,6 @@ $RECYCLE.BIN/
 *.ko
 *.obj
 *.elf
-*.o
 *.bin
 
 # Linker output
@@ -72,7 +71,6 @@ $RECYCLE.BIN/
 *.x86_64
 *.hex
 *.dol
-*.elf
 
 # Debug files
 *.dSYM/
