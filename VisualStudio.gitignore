@@ -418,6 +418,7 @@ FodyWeavers.xsd
 *.cab
 *.msi
 *.msix
+*.msixbundle
 *.msm
 *.msp
 
