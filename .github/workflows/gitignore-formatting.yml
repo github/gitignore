@@ -1,0 +1,53 @@
+name: Gitignore formatting
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  formatting:
+    name: Check gitignore formatting
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.15.2"
+
+      - name: Install formatting tools
+        run: python -m pip install pre-commit-hooks==6.0.0
+
+      - name: Check all gitignore files recursively
+        shell: bash
+        run: |
+          git ls-files -z -- ':(top,glob)**/*.gitignore' > "$RUNNER_TEMP/gitignore-files"
+          mapfile -d '' -t files < "$RUNNER_TEMP/gitignore-files"
+
+          if (( ${#files[@]} == 0 )); then
+            echo "::error::No gitignore files found."
+            exit 1
+          fi
+
+          echo "Checking ${#files[@]} gitignore files."
+
+          status=0
+          mixed-line-ending --fix=lf -- "${files[@]}" || status=1
+          trailing-whitespace-fixer -- "${files[@]}" || status=1
+          end-of-file-fixer -- "${files[@]}" || status=1
+
+          if (( status != 0 )); then
+            echo "::error::Formatting checks failed. See tool output and diff below."
+            git --no-pager diff --no-ext-diff -- "${files[@]}"
+          fi
+
+          exit "$status"
