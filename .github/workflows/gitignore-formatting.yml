@@ -46,7 +46,10 @@ jobs:
           echo "Checking ${#files[@]} gitignore files."
 
           status=0
-          dos2unix --keep-bom -- "${files[@]}" || status=1
+          if ! dos2unix --keep-bom -- "${files[@]}" > "$RUNNER_TEMP/dos2unix.log" 2>&1; then
+            cat "$RUNNER_TEMP/dos2unix.log" >&2
+            status=1
+          fi
           trailing-whitespace-fixer -- "${files[@]}" || status=1
           end-of-file-fixer -- "${files[@]}" || status=1
 
