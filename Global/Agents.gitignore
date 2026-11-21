@@ -26,12 +26,14 @@
 .claude/**/*.log
 .claude/worktrees/
 CLAUDE.local.md
+tmpclaude-*
 # .claude/
 
 # Gemini CLI
 # GEMINI.md
 gemini-debug.log
 .gemini-clipboard/
+.gemini/scratch/
 # .gemini/
 
 # Mistral Vibe
